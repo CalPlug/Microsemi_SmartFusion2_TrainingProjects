@@ -1,0 +1,18 @@
+#### START OF AREA REPORT #####[
+
+Part:			M2S010TQ144STD (Microsemi)
+
+------------------------------------------------------------------------
+########   Utilization report for  Top level view:   debounce   ########
+========================================================================
+
+IO PADS
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+IO       1                  100 %                
+=================================================
+Total IO PADS in the block debounce:	1 (33.33 % Utilization)
+
+
+##### END OF AREA REPORT #####]
+

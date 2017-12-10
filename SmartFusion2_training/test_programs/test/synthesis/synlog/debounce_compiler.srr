@@ -1,0 +1,42 @@
+Synopsys HDL Compiler, version comp201503sp1p1, Build 240R, built Dec  1 2015
+@N|Running in 64-bit mode
+Copyright (C) 1994-2015 Synopsys, Inc. This software and the associated documentation are proprietary to Synopsys, Inc. This software may only be used in accordance with the terms and conditions of a written license agreement with Synopsys, Inc.  All other use, reproduction, or distribution of this software is strictly prohibited.
+
+Synopsys VHDL Compiler, version comp201503sp1p1, Build 240R, built Dec  1 2015
+@N|Running in 64-bit mode
+Copyright (C) 1994-2015 Synopsys, Inc. This software and the associated documentation are proprietary to Synopsys, Inc. This software may only be used in accordance with the terms and conditions of a written license agreement with Synopsys, Inc.  All other use, reproduction, or distribution of this software is strictly prohibited.
+
+@N: CD720 :"C:\Microsemi\Libero_SoC_v11.7\Synplify\lib\vhd\std.vhd":123:18:123:21|Setting time resolution to ns
+@N:"C:\Users\Hiperwall\Desktop\test\test\hdl\debounce.vhd":23:7:23:14|Top entity is set to debounce.
+VHDL syntax check successful!
+@N: CD630 :"C:\Users\Hiperwall\Desktop\test\test\hdl\debounce.vhd":23:7:23:14|Synthesizing work.debounce.architecture_debounce 
+@N: CD364 :"C:\Users\Hiperwall\Desktop\test\test\hdl\debounce.vhd":40:13:40:21|Removed redundant assignment
+Post processing for work.debounce.architecture_debounce
+@W: CL240 :"C:\Users\Hiperwall\Desktop\test\test\hdl\debounce.vhd":28:4:28:6|led is not assigned a value (floating) -- simulation mismatch possible. 
+@W: CL169 :"C:\Users\Hiperwall\Desktop\test\test\hdl\debounce.vhd":37:8:37:9|Pruning register button_on_2  
+@W: CL159 :"C:\Users\Hiperwall\Desktop\test\test\hdl\debounce.vhd":26:1:26:3|Input clk is unused
+@W: CL159 :"C:\Users\Hiperwall\Desktop\test\test\hdl\debounce.vhd":27:4:27:9|Input button is unused
+
+At c_vhdl Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 68MB peak: 69MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+# Thu Apr 14 13:39:21 2016
+
+###########################################################]
+Synopsys Netlist Linker, version comp201503sp1p1, Build 240R, built Dec  1 2015
+@N|Running in 64-bit mode
+
+At syn_nfilter Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 67MB peak: 68MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+# Thu Apr 14 13:39:21 2016
+
+###########################################################]
+@END
+
+At c_hdl Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 3MB peak: 4MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+# Thu Apr 14 13:39:21 2016
+
+###########################################################]

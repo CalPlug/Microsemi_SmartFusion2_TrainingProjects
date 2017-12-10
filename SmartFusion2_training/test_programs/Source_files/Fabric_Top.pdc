@@ -1,0 +1,85 @@
+#------------------------------------------------------------------
+# Company: Microsemi SoC Products Group
+#
+# File: Fabric_Top.pdc
+# File history:
+#	Rev 1.0	February 1, 2013	Written
+#	Rev 1.1	February 8, 2013	Correct mistake in PCD syntax
+#	Rev 1.2 June 22, 2013		Updated for Libero SoC v11.1 - VHDL designs have [ ] in names
+#	Rev 1.3 August 18, 2013		Included PDC commands for VHDL designs implemented with Libero v11.0
+#   Rev 1.4 September 12, 2014  Added pin assignments for: 
+#                               SF2-484-STARTER-KIT with M2S010-FGG484 device
+#						        SF2-STARTER-KIT with M2S050-FGG484 device
+#                               M2S-EVAL-KIT with M2S025T-1FGG484 device
+#                               SF2-DEV-KIT Rev B with M2S050T_ES-1FGG896
+#						        SF2-DEV-KIT-PP, SF2-DEV-KIT-PP-1 and
+#						        SF2-DEV-KIT with M2S050T-1FGG896
+#                               M2S150-ADV-DEV-KIT-ES with M2S150T-1FCG1152ES
+#                               M2GL-EVAL-KIT with M2S010T-1FGG484 device
+# Description:
+# PDC constraint file which sets the I/O bank voltage settings and 
+# I/O pin assignments for the Microsemi SmartFusion2 Fabric tutorial
+#
+# Author: Tim McCarthy
+#
+#-------------------------------------------------------------------
+
+#-------------------------------------------------------------------
+# Pin assignments for SF2-STARTER-KIT-ES-2 with M2S050_ES FGG896
+# Banks not listed use default setting of 2.5V
+#set_iobank Bank0 -vcci 1.80 -fixed yes
+#set_iobank Bank1 -vcci 3.30 -fixed yes
+#set_iobank Bank2 -vcci 3.30 -fixed yes
+#set_iobank Bank3 -vcci 3.30 -fixed yes
+#set_iobank Bank4 -vcci 3.30 -fixed yes
+#set_iobank Bank8 -vcci 3.30 -fixed yes
+#
+#set_io {LED[0]} -pinname G30 -fixed yes -iostd LVCMOS33
+#set_io {LED[1]} -pinname AC1 -fixed yes -iostd LVCMOS25
+#set_io PB_SW    -pinname F30 -fixed yes -iostd LVCMOS33 -res_pull up
+
+#-------------------------------------------------------------------
+# Pin assignments for SF2-484-STARTER-KIT with M2S010-FGG484 device OR
+# SF2-STARTER-KIT with M2S050-FGG484 device
+# Banks not listed use default setting of 2.5V
+#set_iobank Bank0 -vcci 1.80 -fixed yes
+#set_iobank Bank1 -vcci 3.30 -fixed yes
+#set_iobank Bank2 -vcci 3.30 -fixed yes
+#set_iobank Bank3 -vcci 3.30 -fixed yes
+#set_iobank Bank7 -vcci 3.30 -fixed yes
+#
+#set_io {LED[0]} -pinname AB18 -fixed yes -iostd LVCMOS25
+#set_io {LED[1]} -pinname P1 -fixed yes -iostd LVCMOS25
+#set_io PB_SW -pinname U19 -fixed yes -iostd LVCMOS33 -res_pull up
+
+#------------------------------------------------------------------
+# Pin assignments for M2S-EVAL-KIT with M2S025T-1FGG484 device OR
+# M2S090S-EVAL-KIT with M2S090TS-FGG484 OR M2GL-EVAL-KIT with M2GL010T-1FGG484
+# Banks not listed use default setting of 2.5V
+#set_iobank Bank7 -vcci 3.30 -fixed yes
+#
+#set_io {LED[0]} -pinname E1 -fixed yes -iostd LVCMOS33
+#set_io {LED[1]} -pinname F4 -fixed yes -iostd LVCMOS33
+#set_io PB_SW -pinname L20 -fixed yes -iostd LVCMOS33
+
+#------------------------------------------------------------------
+# Pin assigments for SF2-DEV-KIT-PP OR SF2-DEV-KIT-PP-1 OR SF2-DEV-KIT with M2S050T-1FGG896
+# Banks not listed use default setting of 2.5V
+#set_iobank Bank0 -vcci 1.50 -fixed yes
+#set_iobank Bank1 -vcci 3.30 -fixed yes
+#set_iobank Bank2 -vcci 3.30 -fixed yes
+#set_iobank Bank3 -vcci 3.30 -fixed yes
+#set_iobank Bank4 -vcci 3.30 -fixed yes
+#set_iobank Bank7 -vcci 1.80 -fixed yes
+#set_iobank Bank8 -vcci 3.30 -fixed yes
+#
+#set_io {LED[0]} -pinname A18 -fixed yes -iostd LVCMOS15
+#set_io {LED[1]} -pinname B18 -fixed yes -iostd LVCMOS15
+#set_io PB_SW    -pinname W6 -fixed yes -iostd LVCMOS18
+
+#------------------------------------------------------------------
+# Pin assignments for M2S150-ADV-DEV-KIT-ES with M2S150T-1FCG1152ES
+#set_io {LED[0]} -pinname D26 -fixed yes -iostd LVCMOS25
+#set_io {LED[1]} -pinname F26 -fixed yes -iostd LVCMOS25
+#set_io PB_SW    -pinname J25 -fixed yes -iostd LVCMOS25
+

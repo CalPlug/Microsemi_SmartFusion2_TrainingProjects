@@ -1,0 +1,30 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/Hiperwall/Desktop/test/test/simulation
+Edebounce
+w1460666227
+DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+DPx4 ieee 14 std_logic_1164 0 22 eNV`TJ_GofJTzYa?f<@Oe1
+R0
+8C:/Users/Hiperwall/Desktop/test/test/hdl/debounce.vhd
+FC:/Users/Hiperwall/Desktop/test/test/hdl/debounce.vhd
+l0
+L23
+Vj7VDbk>OGlT79Ik2ja4T@2
+!s100 YWWQfZTC`aj`0KgDnooMX2
+OW;C;10.4c;61
+31
+!s110 1460666242
+!i10b 1
+!s108 1460666242.000000
+!s90 -reportprogress|300|-93|-explicit|-work|presynth|C:/Users/Hiperwall/Desktop/test/test/hdl/debounce.vhd|
+!s107 C:/Users/Hiperwall/Desktop/test/test/hdl/debounce.vhd|
+!i113 1
+o-93 -explicit -work presynth -O0

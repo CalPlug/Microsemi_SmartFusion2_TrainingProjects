@@ -1,0 +1,68 @@
+Info: No timing constraint has been associated to the 'Place and Route' tool. 'Place and Route' will be run in non Timing Driven mode.
+***** Place and Route Configurations *****
+Timing-driven            : OFF
+Power-driven             : OFF
+High-effort              : OFF
+Repair min-delay         : ON
+Incremental              : OFF
+
+
+Running the I/O Bank and Globals Assigner.
+Info:  I/O Bank and Globals Assigner identified 0 fixed I/O macros, 1 unfixed I/O macros
+
+I/O Bank and Globals Assigner completed successfully.
+Total time spent in I/O Bank and Globals Assigner: 0 seconds
+
+Placer V4.0 - 11.7.0 
+Design: debounce                        Started: Thu Apr 14 13:40:04 2016
+
+Initializing Standard Placement ...
+Placing design...
+End of placement.
+Pre-Placement Runtime        : 0 seconds
+Placement Runtime            : 0 seconds
+
+Placer completed successfully.
+
+Design: debounce                        
+Finished: Thu Apr 14 13:40:08 2016
+Total CPU Time:     00:00:03            Total Elapsed Time: 00:00:04
+Total Memory Usage: 130.6 Mbytes
+                        o - o - o - o - o - o
+
+
+Router 
+Design: C:\Users\Hiperwall\Desktop\test\test\designer\debounce\debounceStarted: Thu Apr 14 13:40:11 2016
+
+
+Router completed successfully.
+
+Design: C:\Users\Hiperwall\Desktop\test\test\designer\debounce\debounce
+Finished: Thu Apr 14 13:40:15 2016
+Total CPU Time:     00:00:04            Total Elapsed Time: 00:00:04
+Total Memory Usage: 483.7 Mbytes
+                        o - o - o - o - o - o
+
+
+Router 
+Design: C:\Users\Hiperwall\Desktop\test\test\designer\debounce\debounceStarted: Thu Apr 14 13:40:16 2016
+
+
+Router completed successfully.
+
+Design: C:\Users\Hiperwall\Desktop\test\test\designer\debounce\debounce
+Finished: Thu Apr 14 13:40:21 2016
+Total CPU Time:     00:00:04            Total Elapsed Time: 00:00:05
+Total Memory Usage: 483.6 Mbytes
+                        o - o - o - o - o - o
+
+Resource Usage
++---------------+------+-------+------------+
+| Type          | Used | Total | Percentage |
++---------------+------+-------+------------+
+| 4LUT          | 0    | 12084 | 0.00       |
+| DFF           | 0    | 12084 | 0.00       |
+| I/O Register  | 0    | 246   | 0.00       |
+| Logic Element | 0    | 12084 | 0.00       |
++---------------+------+-------+------------+
+

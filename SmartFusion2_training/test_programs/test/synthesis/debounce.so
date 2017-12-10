@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<SynplifyOutput>
+	<result>Success</result>
+	<design>debounce</design>
+	<target_edif>C:\Users\Hiperwall\Desktop\test\test\synthesis\debounce.edn</target_edif>
+</SynplifyOutput>

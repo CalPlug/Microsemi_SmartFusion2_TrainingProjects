@@ -1,0 +1,79 @@
+(edif debounce
+  (edifVersion 2 0 0)
+  (edifLevel 0)
+  (keywordMap (keywordLevel 0))
+  (status
+    (written
+      (timeStamp 2016 4 14 13 39 25)
+      (author "Synopsys, Inc.")
+      (program "Synplify Pro" (version "J-2015.03M-SP1-2, mapper mapact, Build 1659R"))
+     )
+   )
+  (library ACG4
+    (edifLevel 0)
+    (technology (numberDefinition ))
+    (cell GND (cellType GENERIC)
+       (view PRIM (viewType NETLIST)
+         (interface
+           (port Y (direction OUTPUT))
+         )
+        (property is_pwr (integer 1))
+       )
+    )
+    (cell VCC (cellType GENERIC)
+       (view PRIM (viewType NETLIST)
+         (interface
+           (port Y (direction OUTPUT))
+         )
+        (property is_pwr (integer 1))
+       )
+    )
+    (cell OUTBUF (cellType GENERIC)
+       (view PRIM (viewType NETLIST)
+         (interface
+           (port PAD (direction OUTPUT))
+           (port D (direction INPUT))
+         )
+       )
+    )
+  )
+  (library work
+    (edifLevel 0)
+    (technology (numberDefinition ))
+    (cell debounce (cellType GENERIC)
+       (view architecture_debounce (viewType NETLIST)
+         (interface
+           (port clk (direction INPUT))
+           (port button (direction INPUT))
+           (port led (direction OUTPUT))
+         )
+         (contents
+          (instance led_obuf (viewRef PRIM (cellRef OUTBUF (libraryRef ACG4)))
+          )
+          (instance GND (viewRef PRIM (cellRef GND (libraryRef ACG4)))          )
+          (instance VCC (viewRef PRIM (cellRef VCC (libraryRef ACG4)))          )
+          (net (rename GNDZ0 "GND") (joined
+           (portRef Y (instanceRef GND))
+           (portRef D (instanceRef led_obuf))
+          ))
+          (net (rename VCCZ0 "VCC") (joined
+           (portRef Y (instanceRef VCC))
+          ))
+          (net clk (joined
+           (portRef clk)
+          ))
+          (net button (joined
+           (portRef button)
+          ))
+          (net led (joined
+           (portRef PAD (instanceRef led_obuf))
+           (portRef led)
+          ))
+         )
+        (property orig_inst_of (string "debounce"))
+       )
+    )
+  )
+  (design debounce (cellRef debounce (libraryRef work))
+	(property PART (string "m2s010tq144std") (owner "Microsemi")))
+)

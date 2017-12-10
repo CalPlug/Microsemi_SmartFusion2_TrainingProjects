@@ -1,0 +1,22 @@
+data DESIGN debounce
+data HPATH 'C:/Users/Hiperwall/Desktop/test/test/designer/debounce'
+data CPATH 'C:/Users/Hiperwall/Desktop/test/test/constraint/fp'
+data CDIR 'C:/Users/Hiperwall/Desktop/test/test/constraint'
+data ETYPE CP
+data FAM SmartFusion2
+data DIE PA4M1000_N
+data PACKAGE tq144
+data HYDRA_EXPORT_DATA 1
+data HYDRA_PRESERVE_DATA_FILES 1
+data VCCI_1.2_VOLTR COM
+data VCCI_1.5_VOLTR COM
+data VCCI_1.8_VOLTR COM
+data VCCI_2.5_VOLTR COM
+data VCCI_3.3_VOLTR COM
+data FLOW_TYPE OLD
+data AFL 'C:/Users/Hiperwall/Desktop/test/test/designer/debounce/debounce.afl'
+data ADL 'C:/Users/Hiperwall/Desktop/test/test/designer/debounce/debounce.adl'
+data LOC 'C:/Users/Hiperwall/Desktop/test/test/designer/debounce/debounce.loc'
+data SEG 'C:/Users/Hiperwall/Desktop/test/test/designer/debounce/debounce.seg'
+data GDEV_SKIP_UNASSIGN_CMP_CHECK    1 
+

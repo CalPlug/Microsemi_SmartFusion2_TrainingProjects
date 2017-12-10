@@ -1,0 +1,7 @@
+C:\Microsemi\Libero_SoC_v11.7\Synplify\bin64\syn_nfilter.exe  -link  -top  work.debounce  -multisrs  C:\Users\Hiperwall\Desktop\test\test\synthesis\synwork\debounce_comp.srs  -osyn  C:\Users\Hiperwall\Desktop\test\test\synthesis\synwork\debounce_mult.srs  -log  C:\Users\Hiperwall\Desktop\test\test\synthesis\synlog\debounce_multi_srs_gen.srr 
+rc:0 success:1
+C:\Users\Hiperwall\Desktop\test\test\synthesis\synwork\debounce_comp.srs|i|1460666361|1472
+C:\Users\Hiperwall\Desktop\test\test\synthesis\synwork\debounce_mult.srs|o|1460666362|1596
+C:\Users\Hiperwall\Desktop\test\test\synthesis\synlog\debounce_multi_srs_gen.srr|o|1460666362|377
+C:\Microsemi\Libero_SoC_v11.7\Synplify\bin\syn_nfilter.exe|i|1449254124|3007488
+C:\Microsemi\Libero_SoC_v11.7\Synplify\bin64\syn_nfilter.exe|i|1449254126|3974144

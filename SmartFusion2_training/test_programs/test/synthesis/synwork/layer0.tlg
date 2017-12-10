@@ -1,0 +1,7 @@
+@N: CD630 :"C:\Users\Hiperwall\Desktop\test\test\hdl\debounce.vhd":23:7:23:14|Synthesizing work.debounce.architecture_debounce 
+@N: CD364 :"C:\Users\Hiperwall\Desktop\test\test\hdl\debounce.vhd":40:13:40:21|Removed redundant assignment
+Post processing for work.debounce.architecture_debounce
+@W: CL240 :"C:\Users\Hiperwall\Desktop\test\test\hdl\debounce.vhd":28:4:28:6|led is not assigned a value (floating) -- simulation mismatch possible. 
+@W: CL169 :"C:\Users\Hiperwall\Desktop\test\test\hdl\debounce.vhd":37:8:37:9|Pruning register button_on_2  
+@W: CL159 :"C:\Users\Hiperwall\Desktop\test\test\hdl\debounce.vhd":26:1:26:3|Input clk is unused
+@W: CL159 :"C:\Users\Hiperwall\Desktop\test\test\hdl\debounce.vhd":27:4:27:9|Input button is unused

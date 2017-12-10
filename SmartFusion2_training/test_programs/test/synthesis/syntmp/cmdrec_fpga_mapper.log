@@ -1,0 +1,15 @@
+C:\Microsemi\Libero_SoC_v11.7\Synplify\bin64\m_generic.exe  -prodtype  synplify_pro   -encrypt  -pro  -rundir  C:\Users\Hiperwall\Desktop\test\test\synthesis   -part M2S010  -package TQ144  -grade STD    -maxfan 10000 -clock_globalthreshold 2 -async_globalthreshold 12 -globalthreshold 5000 -low_power_ram_decomp 0 -opcond COMTC -report_path 4000 -RWCheckOnRam 0 -summaryfile C:\Users\Hiperwall\Desktop\test\test\synthesis\synlog\report\debounce_fpga_mapper.xml  -top_level_module  work.debounce  -licensetype  synplifypro_actel  -flow mapping  -mp  1  -prjfile  C:\Users\Hiperwall\Desktop\test\test\synthesis\scratchproject.prs  -implementation  synthesis  -multisrs  -oedif  C:\Users\Hiperwall\Desktop\test\test\synthesis\debounce.edn   -freq 100.000   C:\Users\Hiperwall\Desktop\test\test\synthesis\synwork\debounce_prem.srd  -sap  C:\Users\Hiperwall\Desktop\test\test\synthesis\debounce.sap  -otap  C:\Users\Hiperwall\Desktop\test\test\synthesis\debounce.tap  -omap  C:\Users\Hiperwall\Desktop\test\test\synthesis\debounce.map  -devicelib  C:\Microsemi\Libero_SoC_v11.7\Synplify\lib\generic\smartfusion2.v  -sap  C:\Users\Hiperwall\Desktop\test\test\synthesis\debounce.sap  -ologparam  C:\Users\Hiperwall\Desktop\test\test\synthesis\syntmp\debounce.plg  -osyn  C:\Users\Hiperwall\Desktop\test\test\synthesis\debounce.srm  -prjdir  C:\Users\Hiperwall\Desktop\test\test\synthesis\  -prjname  debounce_syn  -log  C:\Users\Hiperwall\Desktop\test\test\synthesis\synlog\debounce_fpga_mapper.srr 
+rc:0 success:1
+C:\Users\Hiperwall\Desktop\test\test\synthesis\scratchproject.prs|o|1460666251|1653
+C:\Users\Hiperwall\Desktop\test\test\synthesis\debounce.edn|o|1460666365|2302
+C:\Users\Hiperwall\Desktop\test\test\synthesis\synwork\debounce_prem.srd|i|1460666363|1469
+C:\Users\Hiperwall\Desktop\test\test\synthesis\debounce.sap|o|1460666364|104
+C:\Users\Hiperwall\Desktop\test\test\synthesis\debounce.tap|o|0|0
+C:\Users\Hiperwall\Desktop\test\test\synthesis\debounce.map|o|1460666365|28
+C:\Microsemi\Libero_SoC_v11.7\Synplify\lib\generic\smartfusion2.v|i|1449254130|16359
+C:\Users\Hiperwall\Desktop\test\test\synthesis\debounce.sap|o|1460666364|104
+C:\Users\Hiperwall\Desktop\test\test\synthesis\syntmp\debounce.plg|o|1460666365|221
+C:\Users\Hiperwall\Desktop\test\test\synthesis\debounce.srm|o|1460666365|3085
+C:\Users\Hiperwall\Desktop\test\test\synthesis\synlog\debounce_fpga_mapper.srr|o|1460666365|7089
+C:\Microsemi\Libero_SoC_v11.7\Synplify\bin\m_generic.exe|i|1449771544|15814144
+C:\Microsemi\Libero_SoC_v11.7\Synplify\bin64\m_generic.exe|i|1449773156|27632640

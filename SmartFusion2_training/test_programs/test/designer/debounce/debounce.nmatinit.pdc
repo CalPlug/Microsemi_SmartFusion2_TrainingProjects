@@ -1,0 +1,25 @@
+# Microsemi Physical design constraints file
+
+# Version: v11.7 11.7.0.119
+
+# Design Name: debounce 
+
+# Input Netlist Format: EDIF 
+
+# Family: SmartFusion2 , Die: M2S010 , Package: 144 TQ , Speed grade: STD 
+
+# Date generated: Thu Apr 14 13:40:08 2016 
+
+
+#
+# I/O constraints
+#
+
+set_io led -DIRECTION OUTPUT -pinname 61 -fixed no
+
+#
+# Core cell constraints
+#
+
+set_location ip_interface_inst -fixed no 191 0
+set_location flash_freeze_inst/INST_FLASH_FREEZE_IP -fixed no 396 8

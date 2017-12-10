@@ -1,0 +1,29 @@
+#Build: Synplify Pro J-2015.03M-SP1-2, Build 266R, Dec 14 2015
+#install: C:\Microsemi\Libero_SoC_v11.7\Synplify
+#OS: Windows 7 6.1
+#Hostname: MSPC1
+
+#Implementation: synthesis
+
+Synopsys HDL Compiler, version comp201503sp1p1, Build 240R, built Dec  1 2015
+@N|Running in 64-bit mode
+Copyright (C) 1994-2015 Synopsys, Inc. This software and the associated documentation are proprietary to Synopsys, Inc. This software may only be used in accordance with the terms and conditions of a written license agreement with Synopsys, Inc.  All other use, reproduction, or distribution of this software is strictly prohibited.
+
+Synopsys VHDL Compiler, version comp201503sp1p1, Build 240R, built Dec  1 2015
+@N|Running in 64-bit mode
+Copyright (C) 1994-2015 Synopsys, Inc. This software and the associated documentation are proprietary to Synopsys, Inc. This software may only be used in accordance with the terms and conditions of a written license agreement with Synopsys, Inc.  All other use, reproduction, or distribution of this software is strictly prohibited.
+
+@N: CD720 :"C:\Microsemi\Libero_SoC_v11.7\Synplify\lib\vhd\std.vhd":123:18:123:21|Setting time resolution to ns
+@N:"C:\Users\Hiperwall\Desktop\test\test\hdl\debounce.vhd":23:7:23:14|Top entity is set to debounce.
+@E: CD169 :"C:\Users\Hiperwall\Desktop\test\test\hdl\debounce.vhd":33:4:33:12|Illegal declaration
+1 error parsing file C:\Users\Hiperwall\Desktop\test\test\hdl\debounce.vhd
+@E|Parse errors encountered - exiting
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+# Thu Apr 14 13:37:31 2016
+
+###########################################################]
+@END
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+# Thu Apr 14 13:37:31 2016
+
+###########################################################]

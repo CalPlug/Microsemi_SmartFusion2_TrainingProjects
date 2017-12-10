@@ -1,0 +1,8 @@
+@N|Running in 64-bit mode
+@N|Running in 64-bit mode
+@N: CD720 :"C:\Microsemi\Libero_SoC_v11.7\Synplify\lib\vhd\std.vhd":123:18:123:21|Setting time resolution to ns
+@N:"C:\Users\Hiperwall\Desktop\test\test\hdl\debounce.vhd":23:7:23:14|Top entity is set to debounce.
+@N: CD630 :"C:\Users\Hiperwall\Desktop\test\test\hdl\debounce.vhd":23:7:23:14|Synthesizing work.debounce.architecture_debounce 
+@N: CD364 :"C:\Users\Hiperwall\Desktop\test\test\hdl\debounce.vhd":40:13:40:21|Removed redundant assignment
+@N|Running in 64-bit mode
+

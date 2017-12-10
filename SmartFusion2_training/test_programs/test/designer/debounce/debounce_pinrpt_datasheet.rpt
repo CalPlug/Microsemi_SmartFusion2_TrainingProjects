@@ -1,0 +1,14 @@
+*****************************************************************
+Pin Report - Date: Thu Apr 14 13:40:22 2016 Pinchecksum: NOT-AVAILABLE
+Product: Designer
+Release: v11.7
+Version: 11.7.0.119
+Design Name: debounce
+Family: SmartFusion2
+Die: M2S010
+Package: 144 TQ
+*****************************************************************
+
+Port |Pin |Fixed |Function   |Bank     |I/O Std   |Direction                      |I/O state in Flash*Freeze mode |Resistor Pull                      |I/O available in Flash*Freeze mode |Schmitt Trigger |Odt_Static    |Odt Imp (Ohm)  |Low Power Exit |Input Delay |Slew         |Pre-Emphasis      |Output Drive (mA) |Output Load (pF) |
+-----|----|------|-----------|---------|----------|-------------------------------|-------------------------------|-----------------------------------|-----------------------------------|----------------|--------------|---------------|---------------|------------|-------------|------------------|------------------|-----------------|
+led   61   No     MSIO109NB4  Bank4     LVCMOS25   Output                          TRISTATE                        None                                No                                  ---              ---            ---             ---             ---          SLOW          ---                4                  5                 

@@ -1,0 +1,86 @@
+#------------------------------------------------------------------
+# Company: Microsemi SoC Products Group
+#
+# File: SF2_Simple_MSS_IO.pdc
+# File history:
+#	Rev 1.0	October 23, 2014    Created to match project in v11.1 SP3
+#	Rev 1.1	October  2, 2014    Added support for the following boards:
+#                               SF2-STARTER-KIT-ES-2 withM2S050_ES FGG896
+#                               SF2-484-STARTER-KIT with M2S010-FGG484
+#                               SF2-STARTER-KIT with M2S050-FGG484
+#                               M2S-EVAL-KIT with M2S025T-1FGG484
+#                               SF2-DEV-KIT Rev B with M2S050T_ES-1FGG896
+#                               SF2-DEV-KIT-PP, SF2-DEV-KIT-PP-1 and
+#                               SF2-DEV-KIT with M2S050T-1FGG896
+#                               M2S150-ADV-DEV-KIT-ES with M2S150T-1FCG1152ES
+#  Rev 1.3 November 12, 2014    Added M2S090S-EVAL-KIT with M2S090TS-1FGG484 
+#  Rev 1.4 June 10, 2015        Corrected comment section for SF2-STARTER-KIT                        
+#
+# Description:
+# PDC constraint file which sets the I/O bank voltage settings and 
+# I/O pin assignments for the SmartFusion2 Coretex-M3 tutorial
+#
+# Author: Tim McCarthy
+#
+#-------------------------------------------------------------------
+#
+# Pin assignments for SF2-STARTER-KIT-ES-2 with M2S050_ES FGG896
+# Banks not listed use default setting of 2.5V
+#set_iobank Bank0 -vcci 1.80 -fixed yes
+#set_iobank Bank1 -vcci 3.30 -fixed yes
+#set_iobank Bank2 -vcci 3.30 -fixed yes
+#set_iobank Bank3 -vcci 3.30 -fixed yes
+#set_iobank Bank4 -vcci 3.30 -fixed yes
+#set_iobank Bank8 -vcci 3.30 -fixed yes
+#
+#set_io GPIO_0_M2F -pinname G30 -fixed yes -iostd LVCMOS33
+#set_io GPIO_1_M2F -pinname AC1 -fixed yes -iostd LVCMOS25
+#set_io GPIO_8_F2M -pinname F30 -fixed yes -iostd LVCMOS33 -res_pull up
+
+#-------------------------------------------------------------------
+# Pin assignments for SF2-STARTER-KIT with M2S050-FGG484 device OR
+# SF2-484-STARTER-KIT with M2S010-FGG484 device
+# Banks not listed use default setting of 2.5V
+#set_iobank Bank0 -vcci 1.80 -fixed yes
+#set_iobank Bank1 -vcci 3.30 -fixed yes
+#set_iobank Bank2 -vcci 3.30 -fixed yes
+#set_iobank Bank3 -vcci 3.30 -fixed yes
+#set_iobank Bank7 -vcci 3.30 -fixed yes
+#
+#set_io GPIO_0_M2F -pinname AB18 -fixed yes -iostd LVCMOS25
+#set_io GPIO_1_M2F -pinname P1 -fixed yes -iostd LVCMOS25
+#set_io GPIO_8_F2M -pinname U19 -fixed yes -iostd LVCMOS33 -res_pull up
+
+#------------------------------------------------------------------
+# Pin assignments for M2S-EVAL-KIT with M2S025T-1FGG484 device  OR
+# M2S090S-EVAL-KIT with M2S090TS-1FGG484
+# Banks not listed use default setting of 2.5V
+#set_iobank Bank7 -vcci 3.30 -fixed yes
+#
+#set_io GPIO_0_M2F -pinname E1 -fixed yes -iostd LVCMOS33
+#set_io GPIO_1_M2F -pinname F4 -fixed yes -iostd LVCMOS33
+#set_io GPIO_8_F2M -pinname L20 -fixed yes -iostd LVCMOS33
+#
+#------------------------------------------------------------------
+# Pin assigments for SF2-DEV-KIT-PP OR SF2-DEV-KIT-PP-1 OR SF2-DEV-KIT with M2S050T-1FGG896
+# Banks not listed use default setting of 2.5V
+#set_iobank Bank0 -vcci 1.50 -fixed yes
+#set_iobank Bank1 -vcci 3.30 -fixed yes
+#set_iobank Bank2 -vcci 3.30 -fixed yes
+#set_iobank Bank3 -vcci 3.30 -fixed yes
+#set_iobank Bank4 -vcci 3.30 -fixed yes
+#set_iobank Bank7 -vcci 1.80 -fixed yes
+#set_iobank Bank8 -vcci 3.30 -fixed yes
+#
+#set_io GPIO_0_M2F -pinname A18 -fixed yes -iostd LVCMOS15
+#set_io GPIO_1_M2F -pinname B18 -fixed yes -iostd LVCMOS15
+#set_io GPIO_8_F2M -pinname W6 -fixed yes -iostd LVCMOS18
+#set_io MMUART_0_RXD_F2M -pinname R29 -fixed yes -iostd LVCMOS33
+#set_io MMUART_0_TXD_M2F -pinname R24 -fixed yes -iostd LVCMOS33
+
+#------------------------------------------------------------------
+# Pin assignments for M2S150-ADV-DEV-KIT-ES with M2S150T-1FCG1152ES
+#set_io GPIO_0_M2F -pinname D26 -fixed yes -iostd LVCMOS25
+#set_io GPIO_1_M2F -pinname F26 -fixed yes -iostd LVCMOS25
+#set_io GPIO_8_F2M -pinname J25 -fixed yes -iostd LVCMOS25
+

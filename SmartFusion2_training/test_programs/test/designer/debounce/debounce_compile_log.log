@@ -1,0 +1,18 @@
+Warning: CMPG4-007: Top level port clk is not connected to any IO pad
+Warning: CMPG4-007: Top level port button is not connected to any IO pad
+
+===============================================================================.
+
+Info: Global design data: 
+      Total globals:                       0 
+      Globals that cannot be demoted:      0 
+      Globals considered for demotion:     0 
+
+
+Info: Demotion information: 
+Info: CMPG4-302: Added 0 row global instances.
+Info: CMPG4-303: Deleted 0 global instances.
+
+===============================================================================.
+
+INFO: No User PDC file(s) was specified.

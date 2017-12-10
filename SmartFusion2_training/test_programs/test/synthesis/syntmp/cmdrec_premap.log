@@ -1,0 +1,14 @@
+C:\Microsemi\Libero_SoC_v11.7\Synplify\bin64\m_generic.exe  -mp  1  -prjfile  C:\Users\Hiperwall\Desktop\test\test\synthesis\scratchproject.prs  -implementation  synthesis  -prodtype  synplify_pro   -encrypt  -pro  -rundir  C:\Users\Hiperwall\Desktop\test\test\synthesis   -part M2S010  -package TQ144  -grade STD    -maxfan 10000 -clock_globalthreshold 2 -async_globalthreshold 12 -globalthreshold 5000 -low_power_ram_decomp 0 -opcond COMTC -report_path 4000 -RWCheckOnRam 0 -summaryfile C:\Users\Hiperwall\Desktop\test\test\synthesis\synlog\report\debounce_premap.xml  -top_level_module  work.debounce  -oedif  C:\Users\Hiperwall\Desktop\test\test\synthesis\debounce.edn  -conchk_prepass  C:\Users\Hiperwall\Desktop\test\test\synthesis\debounce_cck_prepass.rpt   -freq 100.000   C:\Users\Hiperwall\Desktop\test\test\synthesis\synwork\debounce_mult.srs  -flow prepass  -gcc_prepass  -osrd  C:\Users\Hiperwall\Desktop\test\test\synthesis\synwork\debounce_prem.srd  -qsap  C:\Users\Hiperwall\Desktop\test\test\synthesis\debounce.sap  -devicelib  C:\Microsemi\Libero_SoC_v11.7\Synplify\lib\generic\smartfusion2.v  -ologparam  C:\Users\Hiperwall\Desktop\test\test\synthesis\syntmp\debounce.plg  -osyn  C:\Users\Hiperwall\Desktop\test\test\synthesis\synwork\debounce_prem.srd  -prjdir  C:\Users\Hiperwall\Desktop\test\test\synthesis\  -prjname  debounce_syn  -log  C:\Users\Hiperwall\Desktop\test\test\synthesis\synlog\debounce_premap.srr 
+rc:0 success:1
+C:\Users\Hiperwall\Desktop\test\test\synthesis\scratchproject.prs|o|1460666251|1653
+C:\Users\Hiperwall\Desktop\test\test\synthesis\debounce.edn|o|0|0
+C:\Users\Hiperwall\Desktop\test\test\synthesis\debounce_cck_prepass.rpt|o|0|0
+C:\Users\Hiperwall\Desktop\test\test\synthesis\synwork\debounce_mult.srs|i|1460666362|1596
+C:\Users\Hiperwall\Desktop\test\test\synthesis\synwork\debounce_prem.srd|o|1460666363|1469
+C:\Users\Hiperwall\Desktop\test\test\synthesis\debounce.sap|o|1460666364|104
+C:\Microsemi\Libero_SoC_v11.7\Synplify\lib\generic\smartfusion2.v|i|1449254130|16359
+C:\Users\Hiperwall\Desktop\test\test\synthesis\syntmp\debounce.plg|o|1460666363|0
+C:\Users\Hiperwall\Desktop\test\test\synthesis\synwork\debounce_prem.srd|o|1460666363|1469
+C:\Users\Hiperwall\Desktop\test\test\synthesis\synlog\debounce_premap.srr|o|1460666363|2284
+C:\Microsemi\Libero_SoC_v11.7\Synplify\bin\m_generic.exe|i|1449771544|15814144
+C:\Microsemi\Libero_SoC_v11.7\Synplify\bin64\m_generic.exe|i|1449773156|27632640

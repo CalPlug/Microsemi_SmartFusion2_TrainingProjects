@@ -1,0 +1,64 @@
+# Microsemi I/O Physical Design Constraints file
+# Auto Generated User I/O Constraints file
+
+# Version: v11.7 11.7.0.119
+# Family: SmartFusion2 , Die: M2S090TS , Package: 484 FBGA
+# Date generated: Thu Feb 02 01:02:33 2017 
+
+
+# 
+# User Locked I/O Bank Settings
+# 
+
+
+# 
+# Unlocked I/O Bank Settings
+# The I/O Bank Settings can be locked by directly editing this file
+# or by making changes in the I/O Attribute Editor
+# 
+
+
+# 
+# User Locked I/O settings
+# 
+
+set_io GPIO_0_M2F      \
+    -pinname E1        \
+    -fixed yes         \
+    -iostd LVCMOS33    \
+    -DIRECTION OUTPUT
+
+
+set_io GPIO_1_M2F      \
+    -pinname F4        \
+    -fixed yes         \
+    -iostd LVCMOS33    \
+    -DIRECTION OUTPUT
+
+
+set_io GPIO_2_M2F      \
+    -pinname F3        \
+    -fixed yes         \
+    -iostd LVCMOS33    \
+    -DIRECTION OUTPUT
+
+
+set_io GPIO_3_M2F      \
+    -pinname G7        \
+    -fixed yes         \
+    -iostd LVCMOS33    \
+    -DIRECTION OUTPUT
+
+
+
+# 
+# Dedicated Peripheral I/O Settings
+# 
+
+
+# 
+# Unlocked I/O settings
+# The I/Os in this section are unplaced or placed but are not locked
+# the other listed attributes have been applied
+# 
+

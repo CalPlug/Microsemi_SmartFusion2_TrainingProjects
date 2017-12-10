@@ -1,0 +1,16 @@
+Project Name: tofupurefpga
+Location: C:\Users\Hiperwall\Desktop\microsemilab\tofupurefpga
+Description: 
+Preferred HDL Type: Verilog
+
+#-----------------------------------------------------
+                  Device Details
+#-----------------------------------------------------
+
+Part Number    : M2S010-TQ144
+Family         : SmartFusion2
+Die            : M2S010
+Package        : 144 TQ
+Speed          : STD
+Core Voltage   : 1.2
+Range          : COM

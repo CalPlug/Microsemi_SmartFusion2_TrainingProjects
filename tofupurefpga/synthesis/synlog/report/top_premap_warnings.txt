@@ -1,0 +1,3 @@
+@W: BN137 :"c:\users\hiperwall\desktop\microsemilab\tofupurefpga\hdl\top.v":13:4:13:5|Found combinational loop during mapping at net led1
+@W: MO162 :"c:\users\hiperwall\desktop\microsemilab\tofupurefpga\hdl\top.v":1:7:1:9|Net led1 (in view: work.top(verilog)) resulted in a combinational loop around inverter led1_1[0] (in view: work.top(verilog)) 
+@W: MO162 :"c:\users\hiperwall\desktop\microsemilab\tofupurefpga\hdl\top.v":1:7:1:9|Net led1 (in view: work.top(verilog)) resulted in a combinational loop around inverter led1_1[0] (in view: work.top(verilog)) 

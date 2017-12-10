@@ -1,0 +1,63 @@
+********************************************************************
+I/O Bank Report - Date: Thu Feb 02 01:04:53 2017
+Product: Designer
+Release: v11.7
+Version: 11.7.0.119
+Design Name: M2S_MSS
+Family: SmartFusion2
+Die: M2S090TS
+Package: 484 FBGA
+********************************************************************
+
+
+I/O Function:
+
+    Type                                  | w/o register  | w/ register  | w/ DDR register
+    --------------------------------------|---------------|--------------|----------------
+    Input I/O                             | 16            | 0            | 0
+    Output I/O                            | 40            | 0            | 0
+    Bidirectional I/O                     | 17            | 0            | 0
+    Differential Input I/O Pairs          | 1             | 0            | 0
+    Differential Output I/O Pairs         | 1             | 0            | 0
+    Differential Bidirectional I/O Pairs  | 1             | 0            | 0
+
+I/O Technology:
+
+                                    |   Voltages    |             I/Os              
+    --------------------------------|-------|-------|-------|--------|--------------
+    I/O Standard(s)                 | Vddi  | Vref  | Input | Output | Bidirectional
+    --------------------------------|-------|-------|-------|--------|--------------
+    LVCMOS33                        | 3.30v | N/A   | 0     | 4      | 0            
+    LVCMOS25                        | 2.50v | N/A   | 15    | 9      | 8            
+    SSTL18I (Input/Bidirectional)   | 1.80v | 1.00v | 1     | 0      | 11           
+    SSTL18I (Output)                | 1.80v | N/A   | 0     | 29     | 0            
+    LVDS                            | 2.50v | N/A   | 2     | 0      | 0            
+
+I/O Bank Resource Usage:
+
+          |   Voltages    | Single I/Os  | Diff I/O Pairs |        Vref I/Os        |  Type   
+          |-------|-------|------|-------|-------|--------|------|-------|----------|---------
+          | Vddi  | Vref  | Used | Total | Used  | Total  | Used | Total | Vref Pins|         
+    ------|-------|-------|------|-------|-------|--------|------|-------|----------|---------
+    Bank0 | N/A   | N/A   | 0    | 0     | 0     | 0      | N/A  | N/A   | N/A      | MSIO    
+    Bank1 | 1.80v | 1.00v | 0    | 70    | 2     | 35     | 37   | 70    | 0        | DDRIO   
+    Bank2 | 2.50v | N/A   | 11   | 21    | 0     | 10     | N/A  | N/A   | N/A      | MSIO    
+    Bank3 | 2.50v | N/A   | 19   | 44    | 0     | 22     | N/A  | N/A   | N/A      | MSIO    
+    Bank4 | N/A   | N/A   | 0    | 0     | 0     | 0      | N/A  | N/A   | N/A      | JTAG    
+    Bank5 | N/A   | N/A   | 0    | 52    | 0     | 26     | N/A  | N/A   | N/A      | MSIO    
+    Bank6 | 2.50v | N/A   | 2    | 4     | 1     | 2      | N/A  | N/A   | N/A      | MSIOD   
+    Bank7 | N/A   | N/A   | 0    | 36    | 0     | 18     | N/A  | N/A   | N/A      | MSIOD   
+    Bank8 | 3.30v | N/A   | 4    | 40    | 0     | 20     | N/A  | N/A   | N/A      | MSIO    
+
+
+I/O Voltage Usage:
+
+       Voltages    |     I/Os     
+    -------|-------|------|-------
+     Vddi  | Vref  | Used | Total 
+    -------|-------|------|-------
+     1.80v | N/A   | 41   | 70    
+     2.50v | N/A   | 34   | 69    
+     3.30v | N/A   | 4    | 40    
+     1.80v | 1.00v | 10   | 70    
+

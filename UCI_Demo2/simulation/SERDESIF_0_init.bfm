@@ -1,0 +1,23 @@
+# ===========================================================
+# Created by Microsemi SmartDesign Thu Feb 02 00:50:54 2017
+# 
+# Warning: Do not modify this file, it may lead to unexpected 
+#          simulation failures in your design.
+#
+# ===========================================================
+
+#------------------------------------------------------------
+# SERDESIF_0  Initialization procedure
+#------------------------------------------------------------
+
+
+procedure SERDESIF_0_init;
+write w SERDESIF_0 0x2028 0x11C; // SYSTEM_CONFIG_PHY_MODE_1
+write w SERDESIF_0 0x1008 0xF8; // LANE0_RXIDLE_MAX_ERRCNT_THR
+write w SERDESIF_0 0x2028 0xF1C; // SYSTEM_CONFIG_PHY_MODE_1
+return
+
+#ifndef USE_SERDESIF
+#define USE_SERDESIF
+#endif
+

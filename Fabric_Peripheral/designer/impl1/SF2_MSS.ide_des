@@ -1,0 +1,8 @@
+KEY IDE_DES_TOOL "Ide"
+KEY IDE_DES_ADB_PATH "C:\Users\Hiperwall\Desktop\microsemilab\Fabric_Peripheral\designer\impl1\SF2_MSS.adb"
+LIST SOURCE_FILES
+ENDLIST
+LIST OPTIONAL_FILES
+ENDLIST
+LIST VCD_FILES
+ENDLIST

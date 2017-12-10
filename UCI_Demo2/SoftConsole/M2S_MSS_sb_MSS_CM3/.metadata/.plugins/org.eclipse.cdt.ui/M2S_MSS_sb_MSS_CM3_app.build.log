@@ -1,0 +1,9 @@
+16:36:47 **** Clean-only build of configuration Debug for project M2S_MSS_sb_MSS_CM3_app ****
+make clean 
+Cannot run program "make": Launching failed
+
+Error: Program "make" not found in PATH
+PATH=[C:/Microsemi/SoftConsole_v4.0/jre/bin/client;C:/Microsemi/SoftConsole_v4.0/jre/bin;C:/Microsemi/SoftConsole_v4.0/jre/lib/i386;C:\ProgramData\Oracle\Java\javapath;C:\Microsemi\Libero_v11.5\Model\win32acoem;C:\Microsemi\Libero_v11.5\Designer\bin;C:\Program Files\Common Files\Microsoft Shared\Windows Live;C:\Program Files (x86)\Common Files\Microsoft Shared\Windows Live;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;c:\Program Files (x86)\ATI Technologies\ATI.ACE\Core-Static;C:\Program Files (x86)\Intel\Services\IPT\;C:\Program Files (x86)\Windows Live\Shared;C:\Program Files (x86)\QuickTime\QTSystem\;C:\Python26;C:\Program Files\WIDCOMM\Bluetooth Software\;C:\Program Files\WIDCOMM\Bluetooth Software\syswow64;;C:\Program Files (x86)\ATI Technologies\ATI.ACE\Core-Static;C:\Program Files\Agilent\IO Libraries Suite\bin;C:\Program Files\IVI Foundation\VISA\Win64\agvisa;C:\Program Files\IVI Foundation\VISA\Win64\bin;C:\Program Files (x86)\Agilent\IO Libraries Suite\bin;C:\Program Files (x86)\IVI Foundation\VISA\WinNT\agvisa;C:\Program Files (x86)\IVI Foundation\VISA\WinNT\bin;C:\Program Files (x86)\IVI Foundation\IVI\bin;C:\Program Files\IVI Foundation\IVI\bin;C:\Program Files (x86)\IVI Foundation\VISA\WinNT\Bin\;C:\Program Files\IVI Foundation\VISA\Win64\Bin\;C:\Users\Hiperwall\AppData\Local\Microsoft\WindowsApps;;C:\Microsemi\SoftConsole_v4.0\eclipse;]
+
+16:36:47 Build Finished (took 39ms)
+

@@ -1,0 +1,98 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/Hiperwall/Desktop/microsemilab/demo1/simulation
+vtestbench
+Z1 !s110 1485943036
+!i10b 1
+!s100 e>0iD<RiPR9aMjMV90l@21
+IBH6JYBdFelCH[@]g=;IbM0
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1485943020
+8C:/Users/Hiperwall/Desktop/microsemilab/demo1/stimulus/user_testbench.v
+FC:/Users/Hiperwall/Desktop/microsemilab/demo1/stimulus/user_testbench.v
+L0 20
+Z3 OW;L;10.4c;61
+r1
+!s85 0
+31
+Z4 !s108 1485943036.000000
+!s107 C:/Users/Hiperwall/Desktop/microsemilab/demo1/stimulus/user_testbench.v|
+!s90 +incdir+C:/Users/Hiperwall/Desktop/microsemilab/demo1/stimulus|-work|presynth|C:/Users/Hiperwall/Desktop/microsemilab/demo1/stimulus/user_testbench.v|
+!s101 -O0
+!i113 1
+Z5 o-work presynth -O0
+!s92 +incdir+C:/Users/Hiperwall/Desktop/microsemilab/demo1/stimulus -work presynth -O0
+vTop
+R1
+!i10b 1
+!s100 JK:CzY]kQA4SMJGn[9=zb2
+IlK6::N8]0_H`i7=^gPDXB1
+R2
+R0
+w1485942485
+8C:/Users/Hiperwall/Desktop/microsemilab/demo1/component/work/Top/Top.v
+FC:/Users/Hiperwall/Desktop/microsemilab/demo1/component/work/Top/Top.v
+L0 9
+R3
+r1
+!s85 0
+31
+R4
+!s107 C:/Users/Hiperwall/Desktop/microsemilab/demo1/component/work/Top/Top.v|
+!s90 -work|presynth|C:/Users/Hiperwall/Desktop/microsemilab/demo1/component/work/Top/Top.v|
+!s101 -O0
+!i113 1
+R5
+n@top
+vTop_FCCC_0_FCCC
+R1
+!i10b 1
+!s100 TbQ:jQ44ESZzBO]FKQaXC2
+I82=>Ma_6lWdgR6Y75G1Y^1
+R2
+R0
+w1485942482
+8C:/Users/Hiperwall/Desktop/microsemilab/demo1/component/work/Top/FCCC_0/Top_FCCC_0_FCCC.v
+FC:/Users/Hiperwall/Desktop/microsemilab/demo1/component/work/Top/FCCC_0/Top_FCCC_0_FCCC.v
+L0 5
+R3
+r1
+!s85 0
+31
+!s108 1485943035.000000
+!s107 C:/Users/Hiperwall/Desktop/microsemilab/demo1/component/work/Top/FCCC_0/Top_FCCC_0_FCCC.v|
+!s90 -work|presynth|C:/Users/Hiperwall/Desktop/microsemilab/demo1/component/work/Top/FCCC_0/Top_FCCC_0_FCCC.v|
+!s101 -O0
+!i113 1
+R5
+n@top_@f@c@c@c_0_@f@c@c@c
+vTop_OSC_0_OSC
+R1
+!i10b 1
+!s100 a?4@N`l^Ao6f_RdN36>g?3
+IdA>JmBR7kMXOY9A^j9X5T2
+R2
+R0
+w1485942484
+8C:/Users/Hiperwall/Desktop/microsemilab/demo1/component/work/Top/OSC_0/Top_OSC_0_OSC.v
+FC:/Users/Hiperwall/Desktop/microsemilab/demo1/component/work/Top/OSC_0/Top_OSC_0_OSC.v
+L0 5
+R3
+r1
+!s85 0
+31
+R4
+!s107 C:/Users/Hiperwall/Desktop/microsemilab/demo1/component/work/Top/OSC_0/Top_OSC_0_OSC.v|
+!s90 -work|presynth|C:/Users/Hiperwall/Desktop/microsemilab/demo1/component/work/Top/OSC_0/Top_OSC_0_OSC.v|
+!s101 -O0
+!i113 1
+R5
+n@top_@o@s@c_0_@o@s@c

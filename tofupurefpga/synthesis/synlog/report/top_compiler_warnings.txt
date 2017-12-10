@@ -1,0 +1,5 @@
+@W: CG296 :"C:\Users\Hiperwall\Desktop\microsemilab\tofupurefpga\hdl\top.v":12:9:12:27|Incomplete sensitivity list; assuming completeness. Make sure all referenced variables in message CG290 are included in the sensitivity list.
+@W: CG290 :"C:\Users\Hiperwall\Desktop\microsemilab\tofupurefpga\hdl\top.v":13:8:13:11|Referenced variable led1 is not in sensitivity list.
+@W: CL169 :"C:\Users\Hiperwall\Desktop\microsemilab\tofupurefpga\hdl\top.v":8:0:8:5|Pruning unused register counter[31:0]. Make sure that there are no unused intermediate registers.
+@W: CL179 :"C:\Users\Hiperwall\Desktop\microsemilab\tofupurefpga\hdl\top.v":13:4:13:5|Found combinational loop at led1[0]
+

@@ -1,0 +1,75 @@
+#OPTIONS:"|-layerid|0|-orig_srs|C:\\Users\\Hiperwall\\Desktop\\microsemilab\\UCI_Demo2\\synthesis\\synwork\\M2S_MSS_comp.srs|-top|M2S_MSS|-prodtype|synplify_pro|-infer_seqShift|-primux|-dspmac|-pqdpadd|-fixsmult|-sdff_counter|-divnmod|-nram|-I|C:\\Users\\Hiperwall\\Desktop\\microsemilab\\UCI_Demo2\\synthesis\\|-I|C:\\Microsemi\\Libero_SoC_v11.7\\Synplify\\lib|-v2001|-devicelib|C:\\Microsemi\\Libero_SoC_v11.7\\Synplify\\lib\\generic\\smartfusion2.v|-encrypt|-pro|-ui|-fid2|-ram|-sharing|on|-ll|2000|-autosm|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work"
+#CUR:"C:\\Microsemi\\Libero_SoC_v11.7\\Synplify\\bin64\\c_ver.exe":1449250526
+#CUR:"C:\\Microsemi\\Libero_SoC_v11.7\\Synplify\\lib\\generic\\smartfusion2.v":1449250530
+#CUR:"C:\\Microsemi\\Libero_SoC_v11.7\\Synplify\\lib\\vlog\\hypermods.v":1449250534
+#CUR:"C:\\Microsemi\\Libero_SoC_v11.7\\Synplify\\lib\\vlog\\umr_capim.v":1449250534
+#CUR:"C:\\Microsemi\\Libero_SoC_v11.7\\Synplify\\lib\\vlog\\scemi_objects.v":1449250534
+#CUR:"C:\\Microsemi\\Libero_SoC_v11.7\\Synplify\\lib\\vlog\\scemi_pipes.svh":1449250534
+#CUR:"C:\\Users\\Hiperwall\\Desktop\\microsemilab\\UCI_Demo2\\component\\work\\M2S_MSS\\SERDES_IF2_0\\M2S_MSS_SERDES_IF2_0_SERDES_IF2_syn.v":1486025453
+#CUR:"C:\\Users\\Hiperwall\\Desktop\\microsemilab\\UCI_Demo2\\component\\work\\M2S_MSS\\SERDES_IF2_0\\M2S_MSS_SERDES_IF2_0_SERDES_IF2.v":1486025447
+#CUR:"C:\\Users\\Hiperwall\\Desktop\\microsemilab\\UCI_Demo2\\component\\Actel\\DirectCore\\CoreConfigP\\7.0.105\\rtl\\vlog\\core\\coreconfigp.v":1486023884
+#CUR:"C:\\Users\\Hiperwall\\Desktop\\microsemilab\\UCI_Demo2\\component\\Actel\\DirectCore\\CoreResetP\\7.0.104\\rtl\\vlog\\core\\coreresetp_pcie_hotreset.v":1455920982
+#CUR:"C:\\Users\\Hiperwall\\Desktop\\microsemilab\\UCI_Demo2\\component\\Actel\\DirectCore\\CoreResetP\\7.0.104\\rtl\\vlog\\core\\coreresetp.v":1455920982
+#CUR:"C:\\Users\\Hiperwall\\Desktop\\microsemilab\\UCI_Demo2\\component\\work\\M2S_MSS_sb\\CCC_0\\M2S_MSS_sb_CCC_0_FCCC.v":1486023884
+#CUR:"C:\\Users\\Hiperwall\\Desktop\\microsemilab\\UCI_Demo2\\component\\Actel\\SgCore\\OSC\\2.0.101\\osc_comps.v":1455744545
+#CUR:"C:\\Users\\Hiperwall\\Desktop\\microsemilab\\UCI_Demo2\\component\\work\\M2S_MSS_sb\\FABOSC_0\\M2S_MSS_sb_FABOSC_0_OSC.v":1486023886
+#CUR:"C:\\Users\\Hiperwall\\Desktop\\microsemilab\\UCI_Demo2\\component\\work\\M2S_MSS_sb_MSS\\M2S_MSS_sb_MSS_syn.v":1486023877
+#CUR:"C:\\Users\\Hiperwall\\Desktop\\microsemilab\\UCI_Demo2\\component\\work\\M2S_MSS_sb_MSS\\M2S_MSS_sb_MSS.v":1486023879
+#CUR:"C:\\Users\\Hiperwall\\Desktop\\microsemilab\\UCI_Demo2\\component\\work\\M2S_MSS_sb\\M2S_MSS_sb.v":1486023886
+#CUR:"C:\\Users\\Hiperwall\\Desktop\\microsemilab\\UCI_Demo2\\component\\work\\M2S_MSS\\M2S_MSS.v":1486025455
+0			"C:\Users\Hiperwall\Desktop\microsemilab\UCI_Demo2\component\work\M2S_MSS\SERDES_IF2_0\M2S_MSS_SERDES_IF2_0_SERDES_IF2_syn.v" verilog
+1			"C:\Users\Hiperwall\Desktop\microsemilab\UCI_Demo2\component\work\M2S_MSS\SERDES_IF2_0\M2S_MSS_SERDES_IF2_0_SERDES_IF2.v" verilog
+2			"C:\Users\Hiperwall\Desktop\microsemilab\UCI_Demo2\component\Actel\DirectCore\CoreConfigP\7.0.105\rtl\vlog\core\coreconfigp.v" verilog
+3			"C:\Users\Hiperwall\Desktop\microsemilab\UCI_Demo2\component\Actel\DirectCore\CoreResetP\7.0.104\rtl\vlog\core\coreresetp_pcie_hotreset.v" verilog
+4			"C:\Users\Hiperwall\Desktop\microsemilab\UCI_Demo2\component\Actel\DirectCore\CoreResetP\7.0.104\rtl\vlog\core\coreresetp.v" verilog
+5			"C:\Users\Hiperwall\Desktop\microsemilab\UCI_Demo2\component\work\M2S_MSS_sb\CCC_0\M2S_MSS_sb_CCC_0_FCCC.v" verilog
+6			"C:\Users\Hiperwall\Desktop\microsemilab\UCI_Demo2\component\Actel\SgCore\OSC\2.0.101\osc_comps.v" verilog
+7			"C:\Users\Hiperwall\Desktop\microsemilab\UCI_Demo2\component\work\M2S_MSS_sb\FABOSC_0\M2S_MSS_sb_FABOSC_0_OSC.v" verilog
+8			"C:\Users\Hiperwall\Desktop\microsemilab\UCI_Demo2\component\work\M2S_MSS_sb_MSS\M2S_MSS_sb_MSS_syn.v" verilog
+9			"C:\Users\Hiperwall\Desktop\microsemilab\UCI_Demo2\component\work\M2S_MSS_sb_MSS\M2S_MSS_sb_MSS.v" verilog
+10			"C:\Users\Hiperwall\Desktop\microsemilab\UCI_Demo2\component\work\M2S_MSS_sb\M2S_MSS_sb.v" verilog
+11			"C:\Users\Hiperwall\Desktop\microsemilab\UCI_Demo2\component\work\M2S_MSS\M2S_MSS.v" verilog
+#Dependency Lists(Uses List)
+0 -1
+1 0
+2 -1
+3 -1
+4 3
+5 -1
+6 -1
+7 6
+8 -1
+9 8
+10 9 7 4 2 5
+11 1 10
+#Dependency Lists(Users Of)
+0 1
+1 11
+2 10
+3 4
+4 10
+5 10
+6 7
+7 10
+8 9
+9 10
+10 11
+11 -1
+#Design Unit to File Association
+module work M2S_MSS 11
+module work M2S_MSS_sb 10
+module work M2S_MSS_sb_MSS 9
+module work MSS_075 8
+module work M2S_MSS_sb_FABOSC_0_OSC 7
+module work XTLOSC_FAB 6
+module work RCOSC_25_50MHZ_FAB 6
+module work RCOSC_1MHZ_FAB 6
+module work XTLOSC 6
+module work RCOSC_25_50MHZ 6
+module work RCOSC_1MHZ 6
+module work M2S_MSS_sb_CCC_0_FCCC 5
+module work CoreResetP 4
+module work coreresetp_pcie_hotreset 3
+module work CoreConfigP 2
+module work M2S_MSS_SERDES_IF2_0_SERDES_IF2 1
+module work SERDESIF_075 0

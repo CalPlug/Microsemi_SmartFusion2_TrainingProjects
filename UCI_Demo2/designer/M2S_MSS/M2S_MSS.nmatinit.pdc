@@ -1,0 +1,452 @@
+# Microsemi Physical design constraints file
+
+# Version: v11.7 11.7.0.119
+
+# Design Name: M2S_MSS 
+
+# Input Netlist Format: EDIF 
+
+# Family: SmartFusion2 , Die: M2S090TS , Package: 484 FBGA , Speed grade: -1 
+
+# Date generated: Thu Feb 02 01:03:46 2017 
+
+
+#
+# I/O constraints
+#
+
+set_io APB_S_PCLK -DIRECTION INPUT -pinname V21 -fixed no
+set_io APB_S_PRESET_N -DIRECTION INPUT -pinname T19 -fixed no
+set_io CLK_BASE -DIRECTION INPUT -pinname U3 -fixed no
+set_io FAB_CCC_GL0 -DIRECTION OUTPUT -pinname L19 -fixed no
+set_io FAB_CCC_LOCK -DIRECTION OUTPUT -pinname B22 -fixed no
+set_io GPIO_0_M2F -DIRECTION OUTPUT -pinname E1 -fixed no
+set_io GPIO_1_M2F -DIRECTION OUTPUT -pinname F4 -fixed no
+set_io GPIO_2_M2F -DIRECTION OUTPUT -pinname F3 -fixed no
+set_io GPIO_3_M2F -DIRECTION OUTPUT -pinname G7 -fixed no
+set_io I2C_0_SCL -DIRECTION INOUT -pinname G16 -fixed no
+set_io I2C_0_SDA -DIRECTION INOUT -pinname G17 -fixed no
+set_io I2C_1_SCL -DIRECTION INOUT -pinname R22 -fixed no
+set_io I2C_1_SDA -DIRECTION INOUT -pinname P22 -fixed no
+set_io MDDR_ADDR\[0\] -DIRECTION OUTPUT -pinname B17 -fixed no
+set_io MDDR_ADDR\[1\] -DIRECTION OUTPUT -pinname D16 -fixed no
+set_io MDDR_ADDR\[2\] -DIRECTION OUTPUT -pinname E16 -fixed no
+set_io MDDR_ADDR\[3\] -DIRECTION OUTPUT -pinname C17 -fixed no
+set_io MDDR_ADDR\[4\] -DIRECTION OUTPUT -pinname C18 -fixed no
+set_io MDDR_ADDR\[5\] -DIRECTION OUTPUT -pinname B19 -fixed no
+set_io MDDR_ADDR\[6\] -DIRECTION OUTPUT -pinname A20 -fixed no
+set_io MDDR_ADDR\[7\] -DIRECTION OUTPUT -pinname C19 -fixed no
+set_io MDDR_ADDR\[8\] -DIRECTION OUTPUT -pinname E17 -fixed no
+set_io MDDR_ADDR\[9\] -DIRECTION OUTPUT -pinname F17 -fixed no
+set_io MDDR_ADDR\[10\] -DIRECTION OUTPUT -pinname A21 -fixed no
+set_io MDDR_ADDR\[11\] -DIRECTION OUTPUT -pinname B21 -fixed no
+set_io MDDR_ADDR\[12\] -DIRECTION OUTPUT -pinname E19 -fixed no
+set_io MDDR_ADDR\[13\] -DIRECTION OUTPUT -pinname D20 -fixed no
+set_io MDDR_ADDR\[14\] -DIRECTION OUTPUT -pinname D18 -fixed no
+set_io MDDR_ADDR\[15\] -DIRECTION OUTPUT -pinname E18 -fixed no
+set_io MDDR_BA\[0\] -DIRECTION OUTPUT -pinname A18 -fixed no
+set_io MDDR_BA\[1\] -DIRECTION OUTPUT -pinname A19 -fixed no
+set_io MDDR_BA\[2\] -DIRECTION OUTPUT -pinname C16 -fixed no
+set_io MDDR_CAS_N -DIRECTION OUTPUT -pinname F15 -fixed no
+set_io MDDR_CKE -DIRECTION OUTPUT -pinname B15 -fixed no
+set_io MDDR_CLK -DIRECTION OUTPUT -pinname A16 -fixed no
+set_io MDDR_CLK_N -DIRECTION OUTPUT -pinname A17 -fixed no
+set_io MDDR_CS_N -DIRECTION OUTPUT -pinname C15 -fixed no
+set_io MDDR_DM_RDQS\[0\] -DIRECTION INOUT -pinname A10 -fixed no
+set_io MDDR_DQS\[0\] -DIRECTION INOUT -pinname B11 -fixed no
+set_io MDDR_DQS_N\[0\] -DIRECTION INOUT -pinname C11 -fixed no
+set_io MDDR_DQS_TMATCH_0_IN -DIRECTION INPUT -pinname G12 -fixed no
+set_io MDDR_DQS_TMATCH_0_OUT -DIRECTION OUTPUT -pinname F12 -fixed no
+set_io MDDR_DQ\[0\] -DIRECTION INOUT -pinname B9 -fixed no
+set_io MDDR_DQ\[1\] -DIRECTION INOUT -pinname A9 -fixed no
+set_io MDDR_DQ\[2\] -DIRECTION INOUT -pinname F10 -fixed no
+set_io MDDR_DQ\[3\] -DIRECTION INOUT -pinname E10 -fixed no
+set_io MDDR_DQ\[4\] -DIRECTION INOUT -pinname A11 -fixed no
+set_io MDDR_DQ\[5\] -DIRECTION INOUT -pinname D10 -fixed no
+set_io MDDR_DQ\[6\] -DIRECTION INOUT -pinname D11 -fixed no
+set_io MDDR_DQ\[7\] -DIRECTION INOUT -pinname E12 -fixed no
+set_io MDDR_ODT -DIRECTION OUTPUT -pinname C20 -fixed no
+set_io MDDR_RAS_N -DIRECTION OUTPUT -pinname F14 -fixed no
+set_io MDDR_RESET_N -DIRECTION OUTPUT -pinname E15 -fixed no
+set_io MDDR_WE_N -DIRECTION OUTPUT -pinname G14 -fixed no
+set_io MMUART_0_RXD -DIRECTION INPUT -pinname C22 -fixed no
+set_io MMUART_0_TXD -DIRECTION OUTPUT -pinname D21 -fixed no
+set_io MMUART_1_RXD -DIRECTION INPUT -pinname G18 -fixed no
+set_io MMUART_1_TXD -DIRECTION OUTPUT -pinname H19 -fixed no
+set_io PCIE_0_CORE_RESET_N -DIRECTION INPUT -pinname U4 -fixed no
+set_io PCIE_0_INTERRUPT\[0\] -DIRECTION INPUT -pinname V19 -fixed no
+set_io PCIE_0_INTERRUPT\[1\] -DIRECTION INPUT -pinname R17 -fixed no
+set_io PCIE_0_INTERRUPT\[2\] -DIRECTION INPUT -pinname R18 -fixed no
+set_io PCIE_0_INTERRUPT\[3\] -DIRECTION INPUT -pinname T18 -fixed no
+set_io PCIE_0_PERST_N -DIRECTION INPUT -pinname U22 -fixed no
+set_io PHY_RESET_N -DIRECTION INPUT -pinname U19 -fixed no
+set_io REFCLK0_N -DIRECTION INPUT -pinname T1 -fixed no
+set_io REFCLK0_P -DIRECTION INPUT -pinname U1 -fixed no
+set_io SDIF0_0_CORE_RESET_N -DIRECTION OUTPUT -pinname F18 -fixed no
+set_io SDIF0_1_CORE_RESET_N -DIRECTION OUTPUT -pinname F19 -fixed no
+set_io SDIF0_PHY_RESET_N -DIRECTION OUTPUT -pinname E21 -fixed no
+set_io SDIF0_SPLL_LOCK -DIRECTION INPUT -pinname G19 -fixed no
+set_io SPI_0_CLK -DIRECTION INOUT -pinname N19 -fixed no
+set_io SPI_0_DI -DIRECTION INPUT -pinname N20 -fixed no
+set_io SPI_0_DO -DIRECTION OUTPUT -pinname N21 -fixed no
+set_io SPI_0_SS0 -DIRECTION INOUT -pinname N22 -fixed no
+set_io SPI_1_CLK -DIRECTION INOUT -pinname M21 -fixed no
+set_io SPI_1_DI -DIRECTION INPUT -pinname M22 -fixed no
+set_io SPI_1_DO -DIRECTION OUTPUT -pinname L21 -fixed no
+set_io SPI_1_SS0 -DIRECTION INOUT -pinname L20 -fixed no
+
+#
+# Core cell constraints
+#
+
+set_location M2S_MSS_sb_0/CORERESETP_0/sm0_state\[5\] -fixed no 822 175
+set_location M2S_MSS_sb_0/CORERESETP_0/count_ddr\[8\] -fixed no 800 175
+set_location M2S_MSS_sb_0/CORECONFIGP_0/paddr_RNIVFTE\[15\] -fixed no 923 228
+set_location M2S_MSS_sb_0/CORECONFIGP_0/prdata_0_iv_0_0\[6\] -fixed no 924 228
+set_location M2S_MSS_sb_0/CORECONFIGP_0/prdata_0_iv_0\[11\] -fixed no 931 231
+set_location M2S_MSS_sb_0/CORECONFIGP_0/pwdata\[27\] -fixed no 932 229
+set_location M2S_MSS_sb_0/CORECONFIGP_0/soft_reset_reg_RNI59JD\[1\] -fixed no 931 225
+set_location M2S_MSS_sb_0/CORECONFIGP_0/prdata_0_iv_0_a3_s_0\[2\] -fixed no 917 222
+set_location M2S_MSS_sb_0/CORECONFIGP_0/prdata_0_iv_0_0\[8\] -fixed no 927 231
+set_location M2S_MSS_sb_0/CORERESETP_0/release_sdif0_core_q1 -fixed no 818 175
+set_location M2S_MSS_sb_0/CORERESETP_0/CONFIG1_DONE_q1 -fixed no 825 181
+set_location M2S_MSS_sb_0/CORECONFIGP_0/soft_reset_reg\[4\] -fixed no 939 232
+set_location M2S_MSS_sb_0/CORERESETP_0/count_ddr\[13\] -fixed no 805 175
+set_location M2S_MSS_sb_0/CORECONFIGP_0/prdata_0_iv_0_0\[12\] -fixed no 925 228
+set_location M2S_MSS_sb_0/CORERESETP_0/sdif3_spll_lock_q1 -fixed no 822 181
+set_location M2S_MSS_sb_0/CORECONFIGP_0/pwdata\[18\] -fixed no 923 229
+set_location M2S_MSS_sb_0/CORECONFIGP_0/state\[0\] -fixed no 918 229
+set_location M2S_MSS_sb_0/CORECONFIGP_0/prdata_0_iv_0_a2_1_0\[1\] -fixed no 920 222
+set_location M2S_MSS_sb_0/CORECONFIGP_0/prdata_0_iv_0_0\[11\] -fixed no 925 231
+set_location M2S_MSS_sb_0/CORECONFIGP_0/prdata_0_iv_0\[10\] -fixed no 924 231
+set_location M2S_MSS_sb_0/CORECONFIGP_0/FIC_2_APB_M_PRDATA\[14\] -fixed no 929 232
+set_location M2S_MSS_sb_0/CORERESETP_0/count_ddr\[2\] -fixed no 794 175
+set_location M2S_MSS_sb_0/CORECONFIGP_0/soft_reset_reg\[16\] -fixed no 922 226
+set_location M2S_MSS_sb_0/CORERESETP_0/release_sdif1_core_clk_base -fixed no 823 175
+set_location M2S_MSS_sb_0/CORECONFIGP_0/FIC_2_APB_M_PRDATA_RNO\[30\] -fixed no 947 225
+set_location M2S_MSS_sb_0/CORERESETP_0/POWER_ON_RESET_N_clk_base -fixed no 869 178
+set_location M2S_MSS_sb_0/CORECONFIGP_0/FIC_2_APB_M_PRDATA\[10\] -fixed no 924 232
+set_location M2S_MSS_sb_0/CORECONFIGP_0/prdata_0_iv_0_tz\[0\] -fixed no 917 225
+set_location M2S_MSS_sb_0/CORECONFIGP_0/FIC_2_APB_M_PRDATA_RNO\[23\] -fixed no 946 225
+set_location M2S_MSS_sb_0/CORECONFIGP_0/prdata_0_iv_0\[13\] -fixed no 927 228
+set_location M2S_MSS_sb_0/CORERESETP_0/sm0_state\[2\] -fixed no 827 181
+set_location M2S_MSS_sb_0/CORECONFIGP_0/pwdata\[28\] -fixed no 917 229
+set_location M2S_MSS_sb_0/CORECONFIGP_0/psel -fixed no 915 229
+set_location M2S_MSS_sb_0/CORERESETP_0/release_sdif1_core_q1 -fixed no 817 181
+set_location M2S_MSS_sb_0/CORECONFIGP_0/prdata_0_iv_0_0\[1\] -fixed no 929 225
+set_location M2S_MSS_sb_0/CORERESETP_0/sm0_state\[3\] -fixed no 821 181
+set_location M2S_MSS_sb_0/CORECONFIGP_0/prdata_0_iv_0_0\[14\] -fixed no 930 231
+set_location M2S_MSS_sb_0/CORERESETP_0/sdif0_spll_lock_q1 -fixed no 826 181
+set_location M2S_MSS_sb_0/CORECONFIGP_0/FIC_2_APB_M_PRDATA\[22\] -fixed no 938 226
+set_location M2S_MSS_sb_0/FABOSC_0/I_RCOSC_25_50MHZ_FAB_CLKINT -fixed no 513 132
+set_location M2S_MSS_sb_0/CORECONFIGP_0/MDDR_PENABLE_2_0_a2 -fixed no 916 228
+set_location M2S_MSS_sb_0/CORERESETP_0/count_sdif0\[0\] -fixed no 832 178
+set_location M2S_MSS_sb_0/CORERESETP_0/ddr_settled4_8 -fixed no 808 174
+set_location M2S_MSS_sb_0/CORERESETP_0/count_sdif0\[9\] -fixed no 825 178
+set_location M2S_MSS_sb_0/CORERESETP_0/count_ddr\[5\] -fixed no 797 175
+set_location M2S_MSS_sb_0/CORERESETP_0/MSS_HPMS_READY_int_RNITK3D -fixed no 904 144
+set_location M2S_MSS_sb_0/CORECONFIGP_0/soft_reset_reg\[8\] -fixed no 935 232
+set_location M2S_MSS_sb_0/CORECONFIGP_0/pwdata\[13\] -fixed no 930 259
+set_location M2S_MSS_sb_0/CORECONFIGP_0/FIC_2_APB_M_PRDATA\[23\] -fixed no 946 226
+set_location M2S_MSS_sb_0/CORERESETP_0/next_sdif0_core_reset_n_0_sqmuxa_i_i_a2 -fixed no 824 174
+set_location M2S_MSS_sb_0/CORECONFIGP_0/pwdata\[15\] -fixed no 930 223
+set_location M2S_MSS_sb_0/CORERESETP_0/count_ddr\[4\] -fixed no 796 175
+set_location M2S_MSS_sb_0/CORECONFIGP_0/FIC_2_APB_M_PRDATA\[16\] -fixed no 913 226
+set_location M2S_MSS_sb_0/CORECONFIGP_0/soft_reset_reg\[9\] -fixed no 936 232
+set_location M2S_MSS_sb_0/CORECONFIGP_0/FIC_2_APB_M_PRDATA_RNO\[19\] -fixed no 945 225
+set_location M2S_MSS_sb_0/CORECONFIGP_0/prdata_0_iv_0_a3_0\[0\] -fixed no 920 225
+set_location M2S_MSS_sb_0/CORECONFIGP_0/FIC_2_APB_M_PRDATA\[3\] -fixed no 942 232
+set_location M2S_MSS_sb_0/CORECONFIGP_0/FIC_2_APB_M_PRDATA\[4\] -fixed no 937 232
+set_location M2S_MSS_sb_0/CORECONFIGP_0/prdata_0_iv_0_0\[2\] -fixed no 940 231
+set_location M2S_MSS_sb_0/CORECONFIGP_0/pwdata\[23\] -fixed no 944 223
+set_location M2S_MSS_sb_0/M2S_MSS_sb_MSS_0/MSS_ADLIB_INST_RNI7K43 -fixed no 509 132
+set_location M2S_MSS_sb_0/CORECONFIGP_0/prdata_0_iv_0_0\[13\] -fixed no 926 228
+set_location M2S_MSS_sb_0/CORECONFIGP_0/prdata_0_iv_0\[12\] -fixed no 929 228
+set_location M2S_MSS_sb_0/CORERESETP_0/sm0_state\[0\] -fixed no 819 181
+set_location M2S_MSS_sb_0/CORECONFIGP_0/pwdata\[25\] -fixed no 935 223
+set_location M2S_MSS_sb_0/CORECONFIGP_0/prdata_0_iv_0\[6\] -fixed no 931 228
+set_location M2S_MSS_sb_0/CORERESETP_0/count_sdif0\[12\] -fixed no 834 178
+set_location M2S_MSS_sb_0/CORERESETP_0/count_ddr\[1\] -fixed no 793 175
+set_location M2S_MSS_sb_0/CORECONFIGP_0/FIC_2_APB_M_PRDATA\[0\] -fixed no 930 226
+set_location M2S_MSS_sb_0/CORECONFIGP_0/prdata_0_iv_0_a2_0_0\[16\] -fixed no 922 225
+set_location M2S_MSS_sb_0/CORECONFIGP_0/pwdata\[30\] -fixed no 919 226
+set_location M2S_MSS_sb_0/CORECONFIGP_0/paddr\[12\] -fixed no 913 229
+set_location M2S_MSS_sb_0/CORECONFIGP_0/prdata_0_iv_0\[1\] -fixed no 933 225
+set_location M2S_MSS_sb_0/CORECONFIGP_0/soft_reset_reg\[1\] -fixed no 931 226
+set_location M2S_MSS_sb_0/CORERESETP_0/sdif0_state_ns_1_0_.N_4_i -fixed no 826 174
+set_location M2S_MSS_sb_0/CORECONFIGP_0/FIC_2_APB_M_PRDATA\[17\] -fixed no 915 226
+set_location M2S_MSS_sb_0/CORECONFIGP_0/pwdata\[8\] -fixed no 933 232
+set_location M2S_MSS_sb_0/CORERESETP_0/sdif0_areset_n_clk_base_RNI7MR6/U0_RGB1 -fixed no 770 183
+set_location M2S_MSS_sb_0/CORECONFIGP_0/MDDR_PSEL_0_a4 -fixed no 913 228
+set_location M2S_MSS_sb_0/CORECONFIGP_0/SDIF_RELEASED_q1 -fixed no 917 223
+set_location M2S_MSS_sb_0/CORECONFIGP_0/FIC_2_APB_M_PRDATA_RNO\[26\] -fixed no 944 225
+set_location M2S_MSS_sb_0/CORERESETP_0/ddr_settled -fixed no 812 175
+set_location M2S_MSS_sb_0/CORERESETP_0/release_sdif0_core -fixed no 829 178
+set_location M2S_MSS_sb_0/CORECONFIGP_0/prdata_0_iv_0_a2_1_0\[5\] -fixed no 919 225
+set_location M2S_MSS_sb_0/M2S_MSS_sb_MSS_0/FIC_2_APB_M_PCLK_inferred_clock_RNIVUHA -fixed no 512 132
+set_location M2S_MSS_sb_0/CORERESETP_0/ddr_settled4_9 -fixed no 807 174
+set_location M2S_MSS_sb_0/CORECONFIGP_0/prdata_0_iv_0_0\[7\] -fixed no 927 225
+set_location M2S_MSS_sb_0/CORECONFIGP_0/FIC_2_APB_M_PRDATA\[18\] -fixed no 918 226
+set_location M2S_MSS_sb_0/CORECONFIGP_0/prdata_0_iv_0_0\[10\] -fixed no 928 231
+set_location M2S_MSS_sb_0/CORECONFIGP_0/prdata_0_iv_0_0\[15\] -fixed no 924 225
+set_location CFG0_GND_INST -fixed no 819 180
+set_location M2S_MSS_sb_0/CORERESETP_0/release_sdif0_core4_7 -fixed no 832 177
+set_location M2S_MSS_sb_0/CORECONFIGP_0/state_RNIOPSK\[0\] -fixed no 912 228
+set_location M2S_MSS_sb_0/CORERESETP_0/sm0_state_ns_0_o2\[3\] -fixed no 823 180
+set_location M2S_MSS_sb_0/CORECONFIGP_0/pwdata\[4\] -fixed no 946 232
+set_location M2S_MSS_sb_0/CORECONFIGP_0/pwdata\[31\] -fixed no 939 229
+set_location M2S_MSS_sb_0/CORECONFIGP_0/pwdata\[16\] -fixed no 920 226
+set_location M2S_MSS_sb_0/CORECONFIGP_0/FIC_2_APB_M_PRDATA\[25\] -fixed no 940 226
+set_location M2S_MSS_sb_0/CORECONFIGP_0/prdata_0_iv_0_a2_2\[5\] -fixed no 976 225
+set_location M2S_MSS_sb_0/CCC_0/GL0_INST -fixed no 508 132
+set_location M2S_MSS_sb_0/CORERESETP_0/count_ddr\[0\] -fixed no 809 175
+set_location M2S_MSS_sb_0/CORECONFIGP_0/prdata_0_iv_0\[3\] -fixed no 942 231
+set_location M2S_MSS_sb_0/CORERESETP_0/count_sdif0_enable_q1 -fixed no 833 178
+set_location M2S_MSS_sb_0/CORERESETP_0/FIC_2_APB_M_PRESET_N_clk_base -fixed no 924 223
+set_location M2S_MSS_sb_0/CORERESETP_0/count_ddr\[3\] -fixed no 795 175
+set_location M2S_MSS_sb_0/CORECONFIGP_0/FIC_2_APB_M_PRDATA\[9\] -fixed no 941 232
+set_location M2S_MSS_sb_0/CORECONFIGP_0/FIC_2_APB_M_PRDATA\[11\] -fixed no 931 232
+set_location M2S_MSS_sb_0/FABOSC_0/I_RCOSC_25_50MHZ_FAB -fixed no 25 254
+set_location M2S_MSS_sb_0/CORECONFIGP_0/state_s0_0_a2_0_a2_i -fixed no 915 228
+set_location M2S_MSS_sb_0/CORECONFIGP_0/prdata_0_iv_0_0\[3\] -fixed no 938 231
+set_location M2S_MSS_sb_0/CORECONFIGP_0/FIC_2_APB_M_PRDATA_RNO\[27\] -fixed no 943 225
+set_location M2S_MSS_sb_0/CORERESETP_0/un1_next_sdif0_core_reset_n_0_sqmuxa_i_i -fixed no 825 174
+set_location M2S_MSS_sb_0/CORECONFIGP_0/soft_reset_reg\[7\] -fixed no 927 226
+set_location M2S_MSS_sb_0/CORECONFIGP_0/soft_reset_reg6_0_a2_0 -fixed no 923 222
+set_location M2S_MSS_sb_0/CORECONFIGP_0/pwdata\[26\] -fixed no 933 223
+set_location M2S_MSS_sb_0/CORERESETP_0/count_ddr\[9\] -fixed no 801 175
+set_location M2S_MSS_sb_0/CORECONFIGP_0/FIC_2_APB_M_PRDATA_RNO\[20\] -fixed no 930 228
+set_location M2S_MSS_sb_0/CORECONFIGP_0/pwdata\[9\] -fixed no 944 232
+set_location M2S_MSS_sb_0/CORERESETP_0/ddr_settled_clk_base -fixed no 824 175
+set_location M2S_MSS_sb_0/CORECONFIGP_0/prdata_0_iv_0_0\[4\] -fixed no 939 231
+set_location M2S_MSS_sb_0/CORECONFIGP_0/paddr\[5\] -fixed no 929 262
+set_location M2S_MSS_sb_0/CORECONFIGP_0/soft_reset_reg_RNI6AJD\[2\] -fixed no 944 231
+set_location M2S_MSS_sb_0/CORECONFIGP_0/prdata_0_iv_0_a2_1\[0\] -fixed no 913 222
+set_location M2S_MSS_sb_0/CORECONFIGP_0/control_reg_15_0_a2_4 -fixed no 918 222
+set_location M2S_MSS_sb_0/CORERESETP_0/release_sdif0_core4_1 -fixed no 830 177
+set_location M2S_MSS_sb_0/CORECONFIGP_0/FIC_2_APB_M_PRDATA\[30\] -fixed no 947 226
+set_location M2S_MSS_sb_0/CORECONFIGP_0/pwdata\[0\] -fixed no 933 259
+set_location M2S_MSS_sb_0/CORERESETP_0/count_sdif0\[11\] -fixed no 827 178
+set_location M2S_MSS_sb_0/CORECONFIGP_0/prdata_0_iv_0_0\[5\] -fixed no 934 225
+set_location M2S_MSS_sb_0/CORECONFIGP_0/prdata_0_iv_0_a2_0_0\[17\] -fixed no 914 225
+set_location M2S_MSS_sb_0/CORECONFIGP_0/prdata_0_iv_0\[8\] -fixed no 926 231
+set_location M2S_MSS_sb_0/CORECONFIGP_0/soft_reset_reg\[0\] -fixed no 917 226
+set_location M2S_MSS_sb_0/CORERESETP_0/count_ddr_enable -fixed no 820 181
+set_location M2S_MSS_sb_0/CORERESETP_0/count_sdif0\[3\] -fixed no 819 178
+set_location M2S_MSS_sb_0/CORECONFIGP_0/FIC_2_APB_M_PRDATA_RNO\[24\] -fixed no 942 225
+set_location M2S_MSS_sb_0/CORERESETP_0/sm0_areset_n_q1 -fixed no 506 136
+set_location M2S_MSS_sb_0/CORECONFIGP_0/prdata_0_iv_0_m4\[1\] -fixed no 914 222
+set_location M2S_MSS_sb_0/CORECONFIGP_0/control_reg_1\[0\] -fixed no 912 226
+set_location M2S_MSS_sb_0/CORERESETP_0/SDIF0_0_CORE_RESET_N_0_a2 -fixed no 929 222
+set_location M2S_MSS_sb_0/CORERESETP_0/SDIF0_PHY_RESET_N_int -fixed no 835 175
+set_location M2S_MSS_sb_0/CORECONFIGP_0/FIC_2_APB_M_PRDATA\[19\] -fixed no 945 226
+set_location M2S_MSS_sb_0/CORERESETP_0/sdif0_areset_n_rcosc_RNIDB37 -fixed no 511 132
+set_location M2S_MSS_sb_0/CORERESETP_0/ddr_settled4_7 -fixed no 806 174
+set_location M2S_MSS_sb_0/CORERESETP_0/sdif0_state\[0\] -fixed no 827 175
+set_location M2S_MSS_sb_0/CORECONFIGP_0/paddr\[8\] -fixed no 934 229
+set_location M2S_MSS_sb_0/CORECONFIGP_0/FIC_2_APB_M_PRDATA_RNO\[29\] -fixed no 941 225
+set_location M2S_MSS_sb_0/CORERESETP_0/mss_ready_select -fixed no 926 223
+set_location M2S_MSS_sb_0/CORECONFIGP_0/prdata_0_iv_0\[2\] -fixed no 943 231
+set_location M2S_MSS_sb_0/CORECONFIGP_0/pslverr_0_iv_0_0 -fixed no 928 228
+set_location M2S_MSS_sb_0/CORECONFIGP_0/state_ns_0_0\[1\] -fixed no 921 228
+set_location M2S_MSS_sb_0/CORECONFIGP_0/paddr\[7\] -fixed no 928 262
+set_location M2S_MSS_sb_0/CORECONFIGP_0/paddr\[3\] -fixed no 923 226
+set_location M2S_MSS_sb_0/CORERESETP_0/release_sdif0_core_clk_base -fixed no 817 175
+set_location M2S_MSS_sb_0/CORECONFIGP_0/paddr\[10\] -fixed no 931 259
+set_location M2S_MSS_sb_0/CORECONFIGP_0/FIC_2_APB_M_PRDATA_RNO\[25\] -fixed no 940 225
+set_location M2S_MSS_sb_0/CORERESETP_0/CONFIG2_DONE_q1 -fixed no 833 175
+set_location M2S_MSS_sb_0/CORERESETP_0/sm0_state_ns_0\[3\] -fixed no 821 180
+set_location M2S_MSS_sb_0/CORERESETP_0/sm0_state_ns_0\[4\] -fixed no 816 174
+set_location M2S_MSS_sb_0/CORECONFIGP_0/MDDR_PENABLE -fixed no 916 229
+set_location M2S_MSS_sb_0/CCC_0/GL0_INST/U0_RGB1 -fixed no 770 264
+set_location M2S_MSS_sb_0/CORERESETP_0/count_sdif0\[2\] -fixed no 818 178
+set_location M2S_MSS_sb_0/CORERESETP_0/sdif0_state\[1\] -fixed no 821 175
+set_location M2S_MSS_sb_0/CORECONFIGP_0/control_reg_15_0_a2 -fixed no 912 222
+set_location M2S_MSS_sb_0/CORECONFIGP_0/prdata_0_iv_0_a2_1_s\[0\] -fixed no 912 225
+set_location M2S_MSS_sb_0/CORERESETP_0/un1_next_sdif0_core_reset_n_0_sqmuxa_i_i_a2 -fixed no 821 174
+set_location M2S_MSS_sb_0/CORERESETP_0/sdif0_areset_n_clk_base_RNI7MR6 -fixed no 507 132
+set_location M2S_MSS_sb_0/CORECONFIGP_0/paddr\[4\] -fixed no 920 223
+set_location M2S_MSS_sb_0/CORECONFIGP_0/soft_reset_reg\[11\] -fixed no 925 232
+set_location M2S_MSS_sb_0/CORERESETP_0/count_ddr\[6\] -fixed no 798 175
+set_location M2S_MSS_sb_0/CORERESETP_0/SDIF0_CORE_RESET_N_0 -fixed no 816 184
+set_location M2S_MSS_sb_0/CORERESETP_0/count_ddr_enable_rcosc -fixed no 815 175
+set_location M2S_MSS_sb_0/CORECONFIGP_0/state\[1\] -fixed no 921 229
+set_location M2S_MSS_sb_0/CORERESETP_0/sdif0_areset_n_rcosc -fixed no 508 136
+set_location M2S_MSS_sb_0/CORECONFIGP_0/paddr\[11\] -fixed no 928 223
+set_location M2S_MSS_sb_0/CORERESETP_0/count_ddr_enable_q1 -fixed no 816 178
+set_location M2S_MSS_sb_0/CORECONFIGP_0/pwdata\[5\] -fixed no 946 229
+set_location M2S_MSS_sb_0/CORECONFIGP_0/pwdata\[6\] -fixed no 933 229
+set_location M2S_MSS_sb_0/CORECONFIGP_0/paddr\[9\] -fixed no 926 262
+set_location M2S_MSS_sb_0/CORECONFIGP_0/FIC_2_APB_M_PRDATA\[24\] -fixed no 942 226
+set_location M2S_MSS_sb_0/CORERESETP_0/count_sdif0_enable_rcosc -fixed no 828 178
+set_location M2S_MSS_sb_0/CORERESETP_0/count_ddr\[10\] -fixed no 802 175
+set_location M2S_MSS_sb_0/CORECONFIGP_0/FIC_2_APB_M_PRDATA\[20\] -fixed no 930 229
+set_location M2S_MSS_sb_0/CORECONFIGP_0/pwdata\[14\] -fixed no 932 232
+set_location M2S_MSS_sb_0/CORECONFIGP_0/FIC_2_APB_M_PRDATA\[12\] -fixed no 929 229
+set_location M2S_MSS_sb_0/CORECONFIGP_0/FIC_2_APB_M_PRDATA\[6\] -fixed no 931 229
+set_location M2S_MSS_sb_0/CORECONFIGP_0/soft_reset_reg\[15\] -fixed no 924 226
+set_location M2S_MSS_sb_0/CORECONFIGP_0/FIC_2_APB_M_PRDATA_RNO\[31\] -fixed no 939 225
+set_location M2S_MSS_sb_0/CORERESETP_0/count_ddr\[11\] -fixed no 803 175
+set_location M2S_MSS_sb_0/CORECONFIGP_0/soft_reset_reg\[13\] -fixed no 926 229
+set_location M2S_MSS_sb_0/M2S_MSS_sb_MSS_0/FIC_2_APB_M_PCLK_inferred_clock_RNIVUHA/U0_RGB1 -fixed no 771 264
+set_location M2S_MSS_sb_0/CORECONFIGP_0/soft_reset_reg\[5\] -fixed no 926 226
+set_location M2S_MSS_sb_0/CORECONFIGP_0/pwdata\[10\] -fixed no 945 229
+set_location M2S_MSS_sb_0/CORERESETP_0/INIT_DONE_int -fixed no 819 184
+set_location M2S_MSS_sb_0/CORERESETP_0/count_ddr\[12\] -fixed no 804 175
+set_location M2S_MSS_sb_0/CORECONFIGP_0/FIC_2_APB_M_PRDATA\[13\] -fixed no 927 229
+set_location M2S_MSS_sb_0/CORERESETP_0/sm0_state_RNO\[6\] -fixed no 820 174
+set_location M2S_MSS_sb_0/CORERESETP_0/count_ddr\[7\] -fixed no 799 175
+set_location M2S_MSS_sb_0/CORECONFIGP_0/SDIF0_PENABLE -fixed no 922 229
+set_location M2S_MSS_sb_0/CORERESETP_0/count_sdif0_enable -fixed no 819 175
+set_location M2S_MSS_sb_0/CORECONFIGP_0/pwdata\[24\] -fixed no 943 223
+set_location M2S_MSS_sb_0/CORERESETP_0/MSS_HPMS_READY_int -fixed no 927 223
+set_location M2S_MSS_sb_0/CORECONFIGP_0/INIT_DONE_q2 -fixed no 913 223
+set_location M2S_MSS_sb_0/CORERESETP_0/mss_ready_state -fixed no 925 223
+set_location M2S_MSS_sb_0/CORERESETP_0/sm0_state\[4\] -fixed no 816 175
+set_location M2S_MSS_sb_0/CORERESETP_0/release_sdif1_core -fixed no 813 175
+set_location M2S_MSS_sb_0/CORERESETP_0/ddr_settled4 -fixed no 810 174
+set_location M2S_MSS_sb_0/CORECONFIGP_0/pwrite -fixed no 929 223
+set_location M2S_MSS_sb_0/CORECONFIGP_0/prdata_0_iv_0\[16\] -fixed no 913 225
+set_location M2S_MSS_sb_0/CORECONFIGP_0/pwdata\[20\] -fixed no 936 223
+set_location M2S_MSS_sb_0/CORECONFIGP_0/FIC_2_APB_M_PRDATA\[26\] -fixed no 944 226
+set_location M2S_MSS_sb_0/CORECONFIGP_0/paddr\[15\] -fixed no 921 226
+set_location M2S_MSS_sb_0/M2S_MSS_sb_MSS_0/MSS_ADLIB_INST_RNI7K43/U0_RGB1 -fixed no 772 264
+set_location M2S_MSS_sb_0/CORERESETP_0/MSS_HPMS_READY_int_4 -fixed no 924 222
+set_location M2S_MSS_sb_0/CORECONFIGP_0/soft_reset_reg\[6\] -fixed no 924 229
+set_location M2S_MSS_sb_0/CORECONFIGP_0/prdata_0_iv_0\[15\] -fixed no 935 225
+set_location M2S_MSS_sb_0/CORECONFIGP_0/soft_reset_reg\[3\] -fixed no 938 232
+set_location M2S_MSS_sb_0/CORERESETP_0/sdif0_areset_n_clk_base -fixed no 514 130
+set_location M2S_MSS_sb_0/CORERESETP_0/sm0_state\[1\] -fixed no 816 181
+set_location M2S_MSS_sb_0/CORECONFIGP_0/soft_reset_reg\[12\] -fixed no 925 229
+set_location M2S_MSS_sb_0/CORECONFIGP_0/FIC_2_APB_M_PRDATA\[31\] -fixed no 939 226
+set_location M2S_MSS_sb_0/CORERESETP_0/count_sdif0\[4\] -fixed no 820 178
+set_location M2S_MSS_sb_0/CORECONFIGP_0/pwdata\[11\] -fixed no 934 232
+set_location M2S_MSS_sb_0/CORECONFIGP_0/prdata_0_iv_0_0\[0\] -fixed no 932 225
+set_location M2S_MSS_sb_0/CORECONFIGP_0/control_reg_15_0_a2_0 -fixed no 919 222
+set_location M2S_MSS_sb_0/CORECONFIGP_0/FIC_2_APB_M_PRDATA_RNO\[22\] -fixed no 938 225
+set_location M2S_MSS_sb_0/CORECONFIGP_0/FIC_2_APB_M_PRDATA\[5\] -fixed no 925 226
+set_location M2S_MSS_sb_0/CORERESETP_0/sm0_state\[6\] -fixed no 824 184
+set_location M2S_MSS_sb_0/CORERESETP_0/count_sdif0\[5\] -fixed no 821 178
+set_location M2S_MSS_sb_0/CORECONFIGP_0/paddr\[6\] -fixed no 928 259
+set_location M2S_MSS_sb_0/CORERESETP_0/count_sdif0\[8\] -fixed no 824 178
+set_location M2S_MSS_sb_0/CORECONFIGP_0/prdata_0_iv\[0\] -fixed no 930 225
+set_location M2S_MSS_sb_0/CORERESETP_0/SDIF_RELEASED_int -fixed no 825 184
+set_location M2S_MSS_sb_0/CORECONFIGP_0/R_SDIF0_PSEL_1_i_o2 -fixed no 916 225
+set_location M2S_MSS_sb_0/CORECONFIGP_0/FIC_2_APB_M_PRDATA\[1\] -fixed no 933 226
+set_location M2S_MSS_sb_0/CORECONFIGP_0/prdata_0_iv_0\[7\] -fixed no 928 225
+set_location M2S_MSS_sb_0/CORERESETP_0/mss_ready_select4 -fixed no 926 222
+set_location M2S_MSS_sb_0/CORECONFIGP_0/FIC_2_APB_M_PRDATA\[27\] -fixed no 943 226
+set_location M2S_MSS_sb_0/CORERESETP_0/sm0_state_ns_0_o2\[4\] -fixed no 817 174
+set_location M2S_MSS_sb_0/CORECONFIGP_0/prdata_0_iv_0\[9\] -fixed no 941 231
+set_location M2S_MSS_sb_0/CORECONFIGP_0/soft_reset_reg\[2\] -fixed no 940 232
+set_location M2S_MSS_sb_0/CORECONFIGP_0/FIC_2_APB_M_PREADY_RNO -fixed no 919 228
+set_location M2S_MSS_sb_0/CORERESETP_0/SDIF0_1_CORE_RESET_N_0_a2 -fixed no 934 222
+set_location M2S_MSS_sb_0/CORECONFIGP_0/pwdata\[21\] -fixed no 939 223
+set_location M2S_MSS_sb_0/CORECONFIGP_0/prdata_0_iv_0\[17\] -fixed no 915 225
+set_location M2S_MSS_sb_0/CORERESETP_0/RESET_N_M2F_clk_base -fixed no 934 262
+set_location M2S_MSS_sb_0/CORERESETP_0/ddr_settled_q1 -fixed no 826 175
+set_location M2S_MSS_sb_0/CORECONFIGP_0/INIT_DONE_q1 -fixed no 919 223
+set_location M2S_MSS_sb_0/CORECONFIGP_0/prdata_0_iv_0_a2_0\[1\] -fixed no 926 225
+set_location M2S_MSS_sb_0/CORERESETP_0/sdif0_state_ns_1_0_.m2_i -fixed no 827 174
+set_location M2S_MSS_sb_0/CORECONFIGP_0/pwdata\[3\] -fixed no 947 232
+set_location M2S_MSS_sb_0/CORECONFIGP_0/FIC_2_APB_M_PREADY -fixed no 912 229
+set_location M2S_MSS_sb_0/CORECONFIGP_0/prdata_0_iv_0\[5\] -fixed no 925 225
+set_location M2S_MSS_sb_0/CORECONFIGP_0/psel_RNIPEDQ -fixed no 920 228
+set_location M2S_MSS_sb_0/CORECONFIGP_0/prdata_0_iv_0_o4\[0\] -fixed no 923 225
+set_location M2S_MSS_sb_0/CORECONFIGP_0/prdata_0_iv_0_a3\[2\] -fixed no 921 225
+set_location M2S_MSS_sb_0/CORECONFIGP_0/FIC_2_APB_M_PRDATA\[28\] -fixed no 936 226
+set_location M2S_MSS_sb_0/CORERESETP_0/count_sdif0\[1\] -fixed no 817 178
+set_location M2S_MSS_sb_0/CORECONFIGP_0/paddr\[2\] -fixed no 931 223
+set_location M2S_MSS_sb_0/CORECONFIGP_0/FIC_2_APB_M_PRDATA\[15\] -fixed no 935 226
+set_location M2S_MSS_sb_0/CORERESETP_0/count_sdif0\[10\] -fixed no 826 178
+set_location M2S_MSS_sb_0/CORERESETP_0/sdif0_areset_n_rcosc_RNIDB37/U0_RGB1 -fixed no 771 177
+set_location M2S_MSS_sb_0/CORERESETP_0/count_sdif0\[6\] -fixed no 822 178
+set_location M2S_MSS_sb_0/CORERESETP_0/RESET_N_M2F_q1 -fixed no 935 262
+set_location M2S_MSS_sb_0/CORECONFIGP_0/FIC_2_APB_M_PRDATA\[8\] -fixed no 926 232
+set_location M2S_MSS_sb_0/CORERESETP_0/count_sdif0_RNO\[0\] -fixed no 833 177
+set_location M2S_MSS_sb_0/CORECONFIGP_0/state_s0_0_a2_0_a2 -fixed no 914 228
+set_location M2S_MSS_sb_0/CORECONFIGP_0/pwdata\[12\] -fixed no 935 229
+set_location M2S_MSS_sb_0/CORECONFIGP_0/pwdata\[19\] -fixed no 946 223
+set_location M2S_MSS_sb_0/CORECONFIGP_0/SDIF0_PENABLE_RNO -fixed no 922 228
+set_location M2S_MSS_sb_0/CORECONFIGP_0/control_reg_1\[1\] -fixed no 914 226
+set_location M2S_MSS_sb_0/CORECONFIGP_0/un1_next_FIC_2_APB_M_PREADY_0_sqmuxa_0_a3_0_a2 -fixed no 918 228
+set_location M2S_MSS_sb_0/CORERESETP_0/CONFIG2_DONE_clk_base -fixed no 825 175
+set_location M2S_MSS_sb_0/CORECONFIGP_0/FIC_2_APB_M_PRDATA\[21\] -fixed no 937 226
+set_location M2S_MSS_sb_0/CORECONFIGP_0/paddr\[14\] -fixed no 937 223
+set_location M2S_MSS_sb_0/CORECONFIGP_0/pwdata\[7\] -fixed no 938 229
+set_location M2S_MSS_sb_0/CORERESETP_0/sm0_state_ns_0\[5\] -fixed no 822 174
+set_location M2S_MSS_sb_0/SYSRESET_POR -fixed no 1020 8
+set_location M2S_MSS_sb_0/CORERESETP_0/release_sdif0_core4_8 -fixed no 834 177
+set_location M2S_MSS_sb_0/CORECONFIGP_0/FIC_2_APB_M_PSLVERR -fixed no 928 229
+set_location M2S_MSS_sb_0/CORECONFIGP_0/pwdata\[2\] -fixed no 945 232
+set_location M2S_MSS_sb_0/CORERESETP_0/ddr_settled4_6 -fixed no 811 174
+set_location M2S_MSS_sb_0/CORERESETP_0/sdif3_spll_lock_q2 -fixed no 824 181
+set_location M2S_MSS_sb_0/CORERESETP_0/SDIF0_PHY_RESET_N -fixed no 935 204
+set_location M2S_MSS_sb_0/CORECONFIGP_0/soft_reset_reg6_0_a2 -fixed no 921 222
+set_location M2S_MSS_sb_0/CORERESETP_0/un1_next_ddr_ready_0_sqmuxa_0_a2_0 -fixed no 818 180
+set_location M2S_MSS_sb_0/CORECONFIGP_0/prdata_0_iv_0_0\[9\] -fixed no 936 231
+set_location M2S_MSS_sb_0/CORECONFIGP_0/FIC_2_APB_M_PRDATA\[7\] -fixed no 928 226
+set_location M2S_MSS_sb_0/CORECONFIGP_0/pwdata\[22\] -fixed no 932 223
+set_location M2S_MSS_sb_0/CORERESETP_0/POWER_ON_RESET_N_q1 -fixed no 865 178
+set_location M2S_MSS_sb_0/CORECONFIGP_0/pwdata\[29\] -fixed no 945 223
+set_location M2S_MSS_sb_0/CORECONFIGP_0/pwdata\[1\] -fixed no 916 226
+set_location M2S_MSS_sb_0/CORERESETP_0/FIC_2_APB_M_PRESET_N_q1 -fixed no 934 223
+set_location M2S_MSS_sb_0/CORERESETP_0/release_sdif0_core4 -fixed no 831 177
+set_location M2S_MSS_sb_0/CORECONFIGP_0/prdata_0_iv_0\[14\] -fixed no 929 231
+set_location M2S_MSS_sb_0/CORECONFIGP_0/FIC_2_APB_M_PRDATA_RNO\[21\] -fixed no 937 225
+set_location M2S_MSS_sb_0/FABOSC_0/I_RCOSC_25_50MHZ -fixed no 24 254
+set_location M2S_MSS_sb_0/CORERESETP_0/count_sdif0_enable_RNO -fixed no 819 174
+set_location M2S_MSS_sb_0/CORERESETP_0/sm0_areset_n_rcosc_q1 -fixed no 507 136
+set_location M2S_MSS_sb_0/CORECONFIGP_0/FIC_2_APB_M_PRDATA\[2\] -fixed no 943 232
+set_location M2S_MSS_sb_0/CORECONFIGP_0/soft_reset_reg\[14\] -fixed no 930 232
+set_location M2S_MSS_sb_0/CORERESETP_0/un1_next_ddr_ready_0_sqmuxa_0 -fixed no 824 180
+set_location M2S_MSS_sb_0/CORECONFIGP_0/prdata_0_iv_0\[4\] -fixed no 937 231
+set_location M2S_MSS_sb_0/CORECONFIGP_0/FIC_2_APB_M_PRDATA_RNO\[28\] -fixed no 936 225
+set_location M2S_MSS_sb_0/CORERESETP_0/sm0_state_ns\[2\] -fixed no 827 180
+set_location M2S_MSS_sb_0/CORECONFIGP_0/soft_reset_reg\[10\] -fixed no 928 232
+set_location M2S_MSS_sb_0/CORERESETP_0/sdif0_spll_lock_q2 -fixed no 823 181
+set_location M2S_MSS_sb_0/CORECONFIGP_0/prdata_0_iv_0\[18\] -fixed no 918 225
+set_location M2S_MSS_sb_0/CORERESETP_0/sm0_state_ns_0_a2_0\[5\] -fixed no 823 174
+set_location M2S_MSS_sb_0/CORECONFIGP_0/pwdata\[17\] -fixed no 942 223
+set_location M2S_MSS_sb_0/CORERESETP_0/count_ddr_RNO\[0\] -fixed no 809 174
+set_location M2S_MSS_sb_0/FABOSC_0/I_RCOSC_25_50MHZ_FAB_CLKINT/U0_RGB1 -fixed no 772 177
+set_location M2S_MSS_sb_0/CORERESETP_0/count_sdif0\[7\] -fixed no 823 178
+set_location M2S_MSS_sb_0/CORECONFIGP_0/SDIF_RELEASED_q2 -fixed no 914 223
+set_location M2S_MSS_sb_0/CORECONFIGP_0/FIC_2_APB_M_PRDATA\[29\] -fixed no 941 226
+set_location M2S_MSS_sb_0/CORECONFIGP_0/paddr\[13\] -fixed no 918 223
+set_location M2S_MSS_sb_0/CORERESETP_0/CONFIG1_DONE_clk_base -fixed no 818 181
+set_location M2S_MSS_sb_0/CCC_0/CCC_INST -fixed no 18 254
+set_location SERDES_IF2_0/SERDESIF_INST -fixed no 12 2
+set_location M2S_MSS_sb_0/M2S_MSS_sb_MSS_0/MSS_ADLIB_INST -fixed no 924 266
+set_location M2S_MSS_sb_0/CORERESETP_0/count_sdif0_s_142 -fixed no 816 177
+set_location M2S_MSS_sb_0/CORERESETP_0/count_ddr_s_143 -fixed no 792 174
+set_location M2S_MSS_sb_0/CCC_0/GL0_INST/U0_RGB1_RGB0 -fixed no 770 261
+set_location M2S_MSS_sb_0/CCC_0/GL0_INST/U0_RGB1_RGB1 -fixed no 770 222
+set_location M2S_MSS_sb_0/CCC_0/GL0_INST/U0_RGB1_RGB2 -fixed no 771 183
+set_location M2S_MSS_sb_0/CCC_0/GL0_INST/U0_RGB1_RGB3 -fixed no 771 180
+set_location M2S_MSS_sb_0/CCC_0/GL0_INST/U0_RGB1_RGB4 -fixed no 770 177
+set_location M2S_MSS_sb_0/CCC_0/GL0_INST/U0_RGB1_RGB5 -fixed no 771 174
+set_location M2S_MSS_sb_0/CCC_0/GL0_INST/U0_RGB1_RGB6 -fixed no 254 135
+set_location M2S_MSS_sb_0/CCC_0/GL0_INST/U0_RGB1_RGB7 -fixed no 254 129
+set_location M2S_MSS_sb_0/CCC_0/GL0_INST/U0_RGB1_RGB8 -fixed no 770 63
+set_location M2S_MSS_sb_0/CORERESETP_0/sdif0_areset_n_clk_base_RNI7MR6/U0_RGB1_RGB0 -fixed no 770 180
+set_location M2S_MSS_sb_0/CORERESETP_0/sdif0_areset_n_clk_base_RNI7MR6/U0_RGB1_RGB1 -fixed no 770 174
+set_location M2S_MSS_sb_0/CORERESETP_0/sdif0_areset_n_rcosc_RNIDB37/U0_RGB1_RGB0 -fixed no 772 174
+set_location M2S_MSS_sb_0/FABOSC_0/I_RCOSC_25_50MHZ_FAB_CLKINT/U0_RGB1_RGB0 -fixed no 773 174
+set_location M2S_MSS_sb_0/FABOSC_0/I_RCOSC_25_50MHZ_FAB_CLKINT/U0_RGB1_RGB1 -fixed no 255 135
+set_location M2S_MSS_sb_0/M2S_MSS_sb_MSS_0/FIC_2_APB_M_PCLK_inferred_clock_RNIVUHA/U0_RGB1_RGB0 -fixed no 771 261
+set_location M2S_MSS_sb_0/M2S_MSS_sb_MSS_0/FIC_2_APB_M_PCLK_inferred_clock_RNIVUHA/U0_RGB1_RGB1 -fixed no 770 258
+set_location M2S_MSS_sb_0/M2S_MSS_sb_MSS_0/FIC_2_APB_M_PCLK_inferred_clock_RNIVUHA/U0_RGB1_RGB2 -fixed no 770 231
+set_location M2S_MSS_sb_0/M2S_MSS_sb_MSS_0/FIC_2_APB_M_PCLK_inferred_clock_RNIVUHA/U0_RGB1_RGB3 -fixed no 770 228
+set_location M2S_MSS_sb_0/M2S_MSS_sb_MSS_0/FIC_2_APB_M_PCLK_inferred_clock_RNIVUHA/U0_RGB1_RGB4 -fixed no 770 225
+set_location M2S_MSS_sb_0/M2S_MSS_sb_MSS_0/FIC_2_APB_M_PCLK_inferred_clock_RNIVUHA/U0_RGB1_RGB5 -fixed no 771 222
+set_location M2S_MSS_sb_0/M2S_MSS_sb_MSS_0/MSS_ADLIB_INST_RNI7K43/U0_RGB1_RGB0 -fixed no 772 261
+set_location M2S_MSS_sb_0/M2S_MSS_sb_MSS_0/MSS_ADLIB_INST_RNI7K43/U0_RGB1_RGB1 -fixed no 771 258
+set_location M2S_MSS_sb_0/M2S_MSS_sb_MSS_0/MSS_ADLIB_INST_RNI7K43/U0_RGB1_RGB2 -fixed no 771 231
+set_location M2S_MSS_sb_0/M2S_MSS_sb_MSS_0/MSS_ADLIB_INST_RNI7K43/U0_RGB1_RGB3 -fixed no 771 228
+set_location M2S_MSS_sb_0/M2S_MSS_sb_MSS_0/MSS_ADLIB_INST_RNI7K43/U0_RGB1_RGB4 -fixed no 771 225
+set_location M2S_MSS_sb_0/M2S_MSS_sb_MSS_0/MSS_ADLIB_INST_RNI7K43/U0_RGB1_RGB5 -fixed no 772 222
+set_location M2S_MSS_sb_0/CORERESETP_0/count_ddr_s_143_CC_0 -fixed no 792 176
+set_location M2S_MSS_sb_0/CORERESETP_0/count_ddr_s_143_CC_1 -fixed no 804 176
+set_location M2S_MSS_sb_0/CORERESETP_0/count_sdif0_s_142_CC_0 -fixed no 816 179
+set_location M2S_MSS_sb_0/CORERESETP_0/count_sdif0_s_142_CC_1 -fixed no 828 179

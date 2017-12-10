@@ -1,0 +1,80 @@
+#--  Synopsys, Inc.
+#--  Version J-2015.03M-SP1-2
+#--  Project file C:\Users\Hiperwall\Desktop\microsemilab\UCI_Demo2\synthesis\run_options.txt
+#--  Written on Thu Feb 02 00:52:01 2017
+
+
+#project files
+add_file -verilog "C:/Users/Hiperwall/Desktop/microsemilab/UCI_Demo2/component/work/M2S_MSS/SERDES_IF2_0/M2S_MSS_SERDES_IF2_0_SERDES_IF2_syn.v"
+add_file -verilog "C:/Users/Hiperwall/Desktop/microsemilab/UCI_Demo2/component/work/M2S_MSS/SERDES_IF2_0/M2S_MSS_SERDES_IF2_0_SERDES_IF2.v"
+add_file -verilog "C:/Users/Hiperwall/Desktop/microsemilab/UCI_Demo2/component/Actel/DirectCore/CoreConfigP/7.0.105/rtl/vlog/core/coreconfigp.v"
+add_file -verilog "C:/Users/Hiperwall/Desktop/microsemilab/UCI_Demo2/component/Actel/DirectCore/CoreResetP/7.0.104/rtl/vlog/core/coreresetp_pcie_hotreset.v"
+add_file -verilog "C:/Users/Hiperwall/Desktop/microsemilab/UCI_Demo2/component/Actel/DirectCore/CoreResetP/7.0.104/rtl/vlog/core/coreresetp.v"
+add_file -verilog "C:/Users/Hiperwall/Desktop/microsemilab/UCI_Demo2/component/work/M2S_MSS_sb/CCC_0/M2S_MSS_sb_CCC_0_FCCC.v"
+add_file -verilog "C:/Users/Hiperwall/Desktop/microsemilab/UCI_Demo2/component/Actel/SgCore/OSC/2.0.101/osc_comps.v"
+add_file -verilog "C:/Users/Hiperwall/Desktop/microsemilab/UCI_Demo2/component/work/M2S_MSS_sb/FABOSC_0/M2S_MSS_sb_FABOSC_0_OSC.v"
+add_file -verilog "C:/Users/Hiperwall/Desktop/microsemilab/UCI_Demo2/component/work/M2S_MSS_sb_MSS/M2S_MSS_sb_MSS_syn.v"
+add_file -verilog "C:/Users/Hiperwall/Desktop/microsemilab/UCI_Demo2/component/work/M2S_MSS_sb_MSS/M2S_MSS_sb_MSS.v"
+add_file -verilog "C:/Users/Hiperwall/Desktop/microsemilab/UCI_Demo2/component/work/M2S_MSS_sb/M2S_MSS_sb.v"
+add_file -verilog "C:/Users/Hiperwall/Desktop/microsemilab/UCI_Demo2/component/work/M2S_MSS/M2S_MSS.v"
+
+
+
+#implementation: "synthesis"
+impl -add synthesis -type fpga
+
+#
+#implementation attributes
+
+set_option -vlog_std v2001
+
+#device options
+set_option -technology SmartFusion2
+set_option -part M2S090TS
+set_option -package FBGA484
+set_option -speed_grade -1
+set_option -part_companion ""
+
+#compilation/mapping options
+set_option -use_fsm_explorer 0
+set_option -top_module "M2S_MSS"
+
+# mapper_options
+set_option -frequency 100.000
+set_option -write_verilog 0
+set_option -write_vhdl 0
+set_option -srs_instrumentation 1
+
+# actel_options
+set_option -rw_check_on_ram 0
+
+# Microsemi G4
+set_option -run_prop_extract 1
+set_option -maxfan 10000
+set_option -clock_globalthreshold 2
+set_option -async_globalthreshold 12
+set_option -globalthreshold 5000
+set_option -low_power_ram_decomp 0
+set_option -disable_io_insertion 0
+set_option -opcond COMTC
+set_option -retiming 0
+set_option -report_path 4000
+set_option -update_models_cp 0
+set_option -preserve_registers 0
+
+# sequential_optimization_options
+set_option -symbolic_fsm_compiler 1
+
+# Compiler Options
+set_option -compiler_compatible 0
+set_option -resource_sharing 1
+
+# Compiler Options
+set_option -auto_infer_blackbox 0
+
+#automatic place and route (vendor) options
+set_option -write_apr_constraint 1
+
+#set result format/file last
+project -result_file "./M2S_MSS.edn"
+impl -active "synthesis"

@@ -1,0 +1,11 @@
+KEY IDE_DES_TOOL "Ide"
+KEY IDE_DES_ADB_PATH "C:\Users\Hiperwall\Desktop\microsemilab\calit2boardtest\designer\impl1\top.adb"
+LIST SOURCE_FILES
+VALUE "C:\Users\Hiperwall\Desktop\microsemilab\calit2boardtest\constraint\top_fhb_auto_generated.sdc;sdc"
+VALUE "C:\Users\Hiperwall\Desktop\microsemilab\calit2boardtest\constraint\io\top.pdc;pdc"
+ENDLIST
+LIST OPTIONAL_FILES
+VALUE "C:\Users\Hiperwall\Desktop\microsemilab\calit2boardtest\synthesis\top_vm.sdc;Skipped"
+ENDLIST
+LIST VCD_FILES
+ENDLIST

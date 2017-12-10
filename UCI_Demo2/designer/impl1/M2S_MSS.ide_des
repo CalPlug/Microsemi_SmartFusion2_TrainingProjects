@@ -1,0 +1,11 @@
+KEY IDE_DES_TOOL "Ide"
+KEY IDE_DES_ADB_PATH "C:\Users\Hiperwall\Desktop\microsemilab\UCI_Demo2\designer\impl1\M2S_MSS.adb"
+LIST SOURCE_FILES
+VALUE "C:\Users\Hiperwall\Desktop\microsemilab\UCI_Demo2\constraint\io\M2S_MSS.io.pdc;pdc"
+VALUE "C:\Users\Hiperwall\Desktop\microsemilab\UCI_Demo2\constraint\fp\M2S_MSS.fp.pdc;pdc"
+ENDLIST
+LIST OPTIONAL_FILES
+VALUE "C:\Users\Hiperwall\Desktop\microsemilab\UCI_Demo2\synthesis\M2S_MSS_sdc.sdc;Skipped"
+ENDLIST
+LIST VCD_FILES
+ENDLIST

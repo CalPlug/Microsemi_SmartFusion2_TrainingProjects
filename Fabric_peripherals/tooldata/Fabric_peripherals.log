@@ -1,0 +1,16 @@
+Project Name: Fabric_peripherals
+Location: C:\Users\Hiperwall\Desktop\microsemilab\Fabric_peripherals
+Description: 
+Preferred HDL Type: Verilog
+
+#-----------------------------------------------------
+                  Device Details
+#-----------------------------------------------------
+
+Part Number    : M2S090TS-1FG484
+Family         : SmartFusion2
+Die            : M2S090TS
+Package        : 484 FBGA
+Speed          : -1
+Core Voltage   : 1.2
+Range          : COM

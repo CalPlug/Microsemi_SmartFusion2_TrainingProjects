@@ -1,0 +1,122 @@
+# Microsemi Physical design constraints file
+
+# Version: v11.7 11.7.0.119
+
+# Design Name: M2S_MSS 
+
+# Input Netlist Format: EDIF 
+
+# Family: SmartFusion2 , Die: M2S090TS , Package: 484 FBGA , Speed grade: STD 
+
+# Date generated: Thu Feb 02 01:02:33 2017 
+
+
+#
+# IO banks setting
+#
+
+set_iobank Bank1 -vcci 1.80 -vref 1.00 -fixed no
+set_iobank Bank2 -vcci 2.50 -fixed no
+set_iobank Bank3 -vcci 2.50 -fixed no
+set_iobank Bank6 -vcci 2.50 -fixed no
+set_iobank Bank8 -vcci 3.30 -fixed no
+
+#
+# Local clock constraints
+#
+
+
+#
+# Region constraints
+#
+
+
+#
+# I/O constraints
+#
+
+set_io DEVRST_N -DIRECTION INPUT -pinname R15
+set_io GPIO_0_M2F -DIRECTION OUTPUT -iostd LVCMOS33 -pinname E1 -fixed yes
+set_io GPIO_1_M2F -DIRECTION OUTPUT -iostd LVCMOS33 -pinname F4 -fixed yes
+set_io GPIO_2_M2F -DIRECTION OUTPUT -iostd LVCMOS33 -pinname F3 -fixed yes
+set_io GPIO_3_M2F -DIRECTION OUTPUT -iostd LVCMOS33 -pinname G7 -fixed yes
+set_io I2C_0_SCL -DIRECTION INOUT -pinname G16 -fixed yes
+set_io I2C_0_SDA -DIRECTION INOUT -pinname G17 -fixed yes
+set_io I2C_1_SCL -DIRECTION INOUT -pinname R22 -fixed yes
+set_io I2C_1_SDA -DIRECTION INOUT -pinname P22 -fixed yes
+set_io MDDR_ADDR\[0\] -DIRECTION OUTPUT -pinname B17 -fixed yes
+set_io MDDR_ADDR\[1\] -DIRECTION OUTPUT -pinname D16 -fixed yes
+set_io MDDR_ADDR\[2\] -DIRECTION OUTPUT -pinname E16 -fixed yes
+set_io MDDR_ADDR\[3\] -DIRECTION OUTPUT -pinname C17 -fixed yes
+set_io MDDR_ADDR\[4\] -DIRECTION OUTPUT -pinname C18 -fixed yes
+set_io MDDR_ADDR\[5\] -DIRECTION OUTPUT -pinname B19 -fixed yes
+set_io MDDR_ADDR\[6\] -DIRECTION OUTPUT -pinname A20 -fixed yes
+set_io MDDR_ADDR\[7\] -DIRECTION OUTPUT -pinname C19 -fixed yes
+set_io MDDR_ADDR\[8\] -DIRECTION OUTPUT -pinname E17 -fixed yes
+set_io MDDR_ADDR\[9\] -DIRECTION OUTPUT -pinname F17 -fixed yes
+set_io MDDR_ADDR\[10\] -DIRECTION OUTPUT -pinname A21 -fixed yes
+set_io MDDR_ADDR\[11\] -DIRECTION OUTPUT -pinname B21 -fixed yes
+set_io MDDR_ADDR\[12\] -DIRECTION OUTPUT -pinname E19 -fixed yes
+set_io MDDR_ADDR\[13\] -DIRECTION OUTPUT -pinname D20 -fixed yes
+set_io MDDR_ADDR\[14\] -DIRECTION OUTPUT -pinname D18 -fixed yes
+set_io MDDR_ADDR\[15\] -DIRECTION OUTPUT -pinname E18 -fixed yes
+set_io MDDR_BA\[0\] -DIRECTION OUTPUT -pinname A18 -fixed yes
+set_io MDDR_BA\[1\] -DIRECTION OUTPUT -pinname A19 -fixed yes
+set_io MDDR_BA\[2\] -DIRECTION OUTPUT -pinname C16 -fixed yes
+set_io MDDR_CAS_N -DIRECTION OUTPUT -pinname F15 -fixed yes
+set_io MDDR_CKE -DIRECTION OUTPUT -pinname B15 -fixed yes
+set_io MDDR_CLK -DIRECTION OUTPUT -pinname A16 -fixed yes
+set_io MDDR_CLK_N -DIRECTION OUTPUT -pinname A17 -fixed yes
+set_io MDDR_CS_N -DIRECTION OUTPUT -pinname C15 -fixed yes
+set_io MDDR_DM_RDQS\[0\] -DIRECTION INOUT -pinname A10 -fixed yes
+set_io MDDR_DQS\[0\] -DIRECTION INOUT -pinname B11 -fixed yes
+set_io MDDR_DQS_N\[0\] -DIRECTION INOUT -pinname C11 -fixed yes
+set_io MDDR_DQS_TMATCH_0_IN -DIRECTION INPUT -pinname G12 -fixed yes
+set_io MDDR_DQS_TMATCH_0_OUT -DIRECTION OUTPUT -pinname F12 -fixed yes
+set_io MDDR_DQ\[0\] -DIRECTION INOUT -pinname B9 -fixed yes
+set_io MDDR_DQ\[1\] -DIRECTION INOUT -pinname A9 -fixed yes
+set_io MDDR_DQ\[2\] -DIRECTION INOUT -pinname F10 -fixed yes
+set_io MDDR_DQ\[3\] -DIRECTION INOUT -pinname E10 -fixed yes
+set_io MDDR_DQ\[4\] -DIRECTION INOUT -pinname A11 -fixed yes
+set_io MDDR_DQ\[5\] -DIRECTION INOUT -pinname D10 -fixed yes
+set_io MDDR_DQ\[6\] -DIRECTION INOUT -pinname D11 -fixed yes
+set_io MDDR_DQ\[7\] -DIRECTION INOUT -pinname E12 -fixed yes
+set_io MDDR_ODT -DIRECTION OUTPUT -pinname C20 -fixed yes
+set_io MDDR_RAS_N -DIRECTION OUTPUT -pinname F14 -fixed yes
+set_io MDDR_RESET_N -DIRECTION OUTPUT -pinname E15 -fixed yes
+set_io MDDR_WE_N -DIRECTION OUTPUT -pinname G14 -fixed yes
+set_io MMUART_0_RXD -DIRECTION INPUT -pinname C22 -fixed yes
+set_io MMUART_0_TXD -DIRECTION OUTPUT -pinname D21 -fixed yes
+set_io MMUART_1_RXD -DIRECTION INPUT -pinname G18 -fixed yes
+set_io MMUART_1_TXD -DIRECTION OUTPUT -pinname H19 -fixed yes
+set_io REFCLK0_N -DIRECTION INPUT -pinname T1 -fixed yes
+set_io REFCLK0_P -DIRECTION INPUT -pinname U1 -fixed yes
+set_io RXD0_N -DIRECTION INPUT -pinname Y1
+set_io RXD0_P -DIRECTION INPUT -pinname W1
+set_io RXD1_N -DIRECTION INPUT -pinname Y3
+set_io RXD1_P -DIRECTION INPUT -pinname W3
+set_io RXD2_N -DIRECTION INPUT -pinname Y5
+set_io RXD2_P -DIRECTION INPUT -pinname W5
+set_io RXD3_N -DIRECTION INPUT -pinname Y7
+set_io RXD3_P -DIRECTION INPUT -pinname W7
+set_io SPI_0_CLK -DIRECTION INOUT -pinname N19 -fixed yes
+set_io SPI_0_DI -DIRECTION INPUT -pinname N20 -fixed yes
+set_io SPI_0_DO -DIRECTION OUTPUT -pinname N21 -fixed yes
+set_io SPI_0_SS0 -DIRECTION INOUT -pinname N22 -fixed yes
+set_io SPI_1_CLK -DIRECTION INOUT -pinname M21 -fixed yes
+set_io SPI_1_DI -DIRECTION INPUT -pinname M22 -fixed yes
+set_io SPI_1_DO -DIRECTION OUTPUT -pinname L21 -fixed yes
+set_io SPI_1_SS0 -DIRECTION INOUT -pinname L20 -fixed yes
+set_io TXD0_N -DIRECTION OUTPUT -pinname AA2
+set_io TXD0_P -DIRECTION OUTPUT -pinname AB2
+set_io TXD1_N -DIRECTION OUTPUT -pinname AA4
+set_io TXD1_P -DIRECTION OUTPUT -pinname AB4
+set_io TXD2_N -DIRECTION OUTPUT -pinname AA6
+set_io TXD2_P -DIRECTION OUTPUT -pinname AB6
+set_io TXD3_N -DIRECTION OUTPUT -pinname AA8
+set_io TXD3_P -DIRECTION OUTPUT -pinname AB8
+
+#
+# Core cell constraints
+#
+

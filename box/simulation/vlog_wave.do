@@ -1,0 +1,36 @@
+onerror {resume}
+quietly WaveActivateNextPane {} 0
+add wave -noupdate /testbench/Top_0/DEVRST_N
+add wave -noupdate /testbench/Top_0/PB_SW
+add wave -noupdate -divider {SYSRESET signals}
+add wave -noupdate /testbench/Top_0/SYSRESET_0/DEVRST_N
+add wave -noupdate /testbench/Top_0/SYSRESET_0/POWER_ON_RESET_N
+add wave -noupdate /testbench/Top_0/SYSRESET_0/reset_n_int
+add wave -noupdate -divider {FCCC signals}
+add wave -noupdate /testbench/Top_0/FCCC_0/RCOSC_25_50MHZ
+add wave -noupdate /testbench/Top_0/FCCC_0/LOCK
+add wave -noupdate /testbench/Top_0/FCCC_0/GL0
+add wave -noupdate -divider {LED_ctrl signals}
+add wave -noupdate /testbench/Top_0/LED_ctrl_0/RESETn
+add wave -noupdate /testbench/Top_0/LED_ctrl_0/CLK
+add wave -noupdate /testbench/Top_0/LED_ctrl_0/sh_clk
+add wave -noupdate -radix hexadecimal -childformat {{{/testbench/Top_0/LED_ctrl_0/LED[1]} -radix hexadecimal} {{/testbench/Top_0/LED_ctrl_0/LED[0]} -radix hexadecimal}} -subitemconfig {{/testbench/Top_0/LED_ctrl_0/LED[1]} {-radix hexadecimal} {/testbench/Top_0/LED_ctrl_0/LED[0]} {-radix hexadecimal}} /testbench/Top_0/LED_ctrl_0/LED
+add wave -noupdate /testbench/Top_0/LED_ctrl_0/PB_SW
+TreeUpdate [SetDefaultTree]
+WaveRestoreCursors {{Cursor 1} {0 fs} 0}
+quietly wave cursor active 0
+configure wave -namecolwidth 304
+configure wave -valuecolwidth 100
+configure wave -justifyvalue left
+configure wave -signalnamewidth 0
+configure wave -snapdistance 10
+configure wave -datasetprefix 0
+configure wave -rowmargin 4
+configure wave -childrowmargin 2
+configure wave -gridoffset 0
+configure wave -gridperiod 1
+configure wave -griddelta 40
+configure wave -timeline 0
+configure wave -timelineunits us
+update
+WaveRestoreZoom {0 fs} {1591800 ns}

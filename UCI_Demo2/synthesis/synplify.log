@@ -1,0 +1,99 @@
+sourcing C:\Microsemi\Libero_SoC_v11.7\Synplify\lib\message_override.tcl
+
+
+Starting:    C:\Microsemi\Libero_SoC_v11.7\Synplify\bin64\mbin\synbatch.exe
+Install:     C:\Microsemi\Libero_SoC_v11.7\Synplify
+Hostname:    MSPC1
+Date:        Thu Feb 02 00:52:01 2017
+Version:     J-2015.03M-SP1-2
+
+Arguments:   -product synplify_pro -licensetype synplifypro_actel -batch -log synplify.log M2S_MSS_syn.tcl
+ProductType: synplify_pro
+
+License checkout: synplifypro_actel
+License: synplifypro_actel node-locked 
+Licensed Vendor: actel
+License Option: actel_oem
+
+Running in Vendor Mode
+
+
+Implementation not found: synthesis
+
+log file: "C:\Users\Hiperwall\Desktop\microsemilab\UCI_Demo2\synthesis\M2S_MSS.srr"
+
+Running: synthesis in foreground
+
+
+
+Running M2S_MSS_syn|synthesis
+
+
+Running: compile (Compile) on M2S_MSS_syn|synthesis
+
+
+Running: compile_flow (Compile Process) on M2S_MSS_syn|synthesis
+
+
+Running: compiler (Compile Input) on M2S_MSS_syn|synthesis
+
+Copied C:\Users\Hiperwall\Desktop\microsemilab\UCI_Demo2\synthesis\synwork\M2S_MSS_comp.srs to C:\Users\Hiperwall\Desktop\microsemilab\UCI_Demo2\synthesis\M2S_MSS.srs
+
+
+compiler Completed
+Return Code: 0
+Run Time:0h:00m:02s
+
+
+Running: multi_srs_gen (Multi-srs Generator) on M2S_MSS_syn|synthesis
+
+Copied C:\Users\Hiperwall\Desktop\microsemilab\UCI_Demo2\synthesis\synwork\M2S_MSS_comp.srs to C:\Users\Hiperwall\Desktop\microsemilab\UCI_Demo2\synthesis\synwork\M2S_MSS_s.srs
+
+
+multi_srs_gen Completed
+Return Code: 0
+Run Time:0h:00m:01s
+
+Copied C:\Users\Hiperwall\Desktop\microsemilab\UCI_Demo2\synthesis\synwork\M2S_MSS_mult.srs to C:\Users\Hiperwall\Desktop\microsemilab\UCI_Demo2\synthesis\M2S_MSS.srs
+
+Complete: Compile Process on M2S_MSS_syn|synthesis
+
+
+Running: premap (Pre-mapping) on M2S_MSS_syn|synthesis
+
+Copied C:\Users\Hiperwall\Desktop\microsemilab\UCI_Demo2\synthesis\M2S_MSS.sap to C:\Users\Hiperwall\Desktop\microsemilab\UCI_Demo2\synthesis\synwork\M2S_MSS_s.sap
+
+
+premap Completed with warnings
+Return Code: 1
+Run Time:0h:00m:01s
+
+Complete: Compile on M2S_MSS_syn|synthesis
+
+
+Running: map (Map) on M2S_MSS_syn|synthesis
+
+
+Running: fpga_mapper (Map & Optimize) on M2S_MSS_syn|synthesis
+
+Copied C:\Users\Hiperwall\Desktop\microsemilab\UCI_Demo2\synthesis\synwork\M2S_MSS_m.srm to C:\Users\Hiperwall\Desktop\microsemilab\UCI_Demo2\synthesis\M2S_MSS.srm
+
+
+fpga_mapper Completed with warnings
+Return Code: 1
+Run Time:0h:00m:03s
+
+Complete: Map on M2S_MSS_syn|synthesis
+
+Complete: Logic Synthesis on M2S_MSS_syn|synthesis
+
+Copied C:\Users\Hiperwall\Desktop\microsemilab\UCI_Demo2\synthesis\M2S_MSS.srr to C:\Users\Hiperwall\Desktop\microsemilab\UCI_Demo2\synthesis\backup\M2S_MSS.srr
+
+TCL script complete: "M2S_MSS_syn.tcl"
+
+exit status=0
+
+exit status=0
+
+License checkin: synplifypro_actel
+

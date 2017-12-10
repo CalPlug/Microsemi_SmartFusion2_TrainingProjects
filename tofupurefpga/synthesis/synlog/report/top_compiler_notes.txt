@@ -1,0 +1,7 @@
+@N|Running in 64-bit mode
+@N|Running in 64-bit mode
+@N:: Running Verilog Compiler in System Verilog mode
+@N: CG364 :"C:\Users\Hiperwall\Desktop\microsemilab\tofupurefpga\hdl\top.v":1:7:1:9|Synthesizing module top in library work.
+@N: CL159 :"C:\Users\Hiperwall\Desktop\microsemilab\tofupurefpga\hdl\top.v":2:6:2:13|Input cloooock is unused.
+@N|Running in 64-bit mode
+

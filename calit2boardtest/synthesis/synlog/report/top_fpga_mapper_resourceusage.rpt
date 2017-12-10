@@ -1,0 +1,26 @@
+Resource Usage Report for top 
+
+Mapping to part: m2s010tq144std
+CFG1           1 use
+
+Sequential Cells: 
+SLE            0 uses
+
+DSP Blocks:    0 of 22 (0%)
+
+I/O ports: 3
+I/O primitives: 2
+OUTBUF         2 uses
+
+
+Total LUTs:    1
+
+Extra resources required for RAM and MACC interface logic during P&R:
+
+RAM64x18 Interface Logic : SLEs = 0; LUTs = 0;
+RAM1K18  Interface Logic : SLEs = 0; LUTs = 0;
+MACC     Interface Logic : SLEs = 0; LUTs = 0;
+
+Total number of SLEs after P&R:  0 + 0 + 0 + 0 = 0;
+Total number of LUTs after P&R:  1 + 0 + 0 + 0 = 1;
+

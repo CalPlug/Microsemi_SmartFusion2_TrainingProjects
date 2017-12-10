@@ -1,0 +1,2 @@
+@E: CS153 :"C:\Users\Hiperwall\Desktop\microsemilab\calit2boardtest\hdl\top.v":41:11:41:11|Can't mix blocking and non-blocking assignments to a variable
+

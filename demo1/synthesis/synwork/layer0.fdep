@@ -1,0 +1,42 @@
+#OPTIONS:"|-layerid|0|-orig_srs|C:\\Users\\Hiperwall\\Desktop\\microsemilab\\demo1\\synthesis\\synwork\\Top_comp.srs|-top|Top|-prodtype|synplify_pro|-infer_seqShift|-primux|-dspmac|-pqdpadd|-fixsmult|-sdff_counter|-divnmod|-nram|-I|C:\\Users\\Hiperwall\\Desktop\\microsemilab\\demo1\\synthesis\\|-I|C:\\Microsemi\\Libero_SoC_v11.7\\Synplify\\lib|-v2001|-devicelib|C:\\Microsemi\\Libero_SoC_v11.7\\Synplify\\lib\\generic\\smartfusion2.v|-encrypt|-pro|-ui|-fid2|-ram|-sharing|on|-ll|2000|-autosm|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work"
+#CUR:"C:\\Microsemi\\Libero_SoC_v11.7\\Synplify\\bin64\\c_ver.exe":1449250526
+#CUR:"C:\\Microsemi\\Libero_SoC_v11.7\\Synplify\\lib\\generic\\smartfusion2.v":1449250530
+#CUR:"C:\\Microsemi\\Libero_SoC_v11.7\\Synplify\\lib\\vlog\\hypermods.v":1449250534
+#CUR:"C:\\Microsemi\\Libero_SoC_v11.7\\Synplify\\lib\\vlog\\umr_capim.v":1449250534
+#CUR:"C:\\Microsemi\\Libero_SoC_v11.7\\Synplify\\lib\\vlog\\scemi_objects.v":1449250534
+#CUR:"C:\\Microsemi\\Libero_SoC_v11.7\\Synplify\\lib\\vlog\\scemi_pipes.svh":1449250534
+#CUR:"C:\\Users\\Hiperwall\\Desktop\\microsemilab\\demo1\\hdl\\LED_ctrl.v":1485941497
+#CUR:"C:\\Users\\Hiperwall\\Desktop\\microsemilab\\demo1\\component\\work\\Top\\FCCC_0\\Top_FCCC_0_FCCC.v":1485943895
+#CUR:"C:\\Users\\Hiperwall\\Desktop\\microsemilab\\demo1\\component\\Actel\\SgCore\\OSC\\2.0.101\\osc_comps.v":1455744545
+#CUR:"C:\\Users\\Hiperwall\\Desktop\\microsemilab\\demo1\\component\\work\\Top\\OSC_0\\Top_OSC_0_OSC.v":1485943897
+#CUR:"C:\\Users\\Hiperwall\\Desktop\\microsemilab\\demo1\\component\\work\\Top\\Top.v":1485943897
+#numinternalfiles:5
+#defaultlanguage:verilog
+0			"C:\Users\Hiperwall\Desktop\microsemilab\demo1\hdl\LED_ctrl.v" verilog
+1			"C:\Users\Hiperwall\Desktop\microsemilab\demo1\component\work\Top\FCCC_0\Top_FCCC_0_FCCC.v" verilog
+2			"C:\Users\Hiperwall\Desktop\microsemilab\demo1\component\Actel\SgCore\OSC\2.0.101\osc_comps.v" verilog
+3			"C:\Users\Hiperwall\Desktop\microsemilab\demo1\component\work\Top\OSC_0\Top_OSC_0_OSC.v" verilog
+4			"C:\Users\Hiperwall\Desktop\microsemilab\demo1\component\work\Top\Top.v" verilog
+#Dependency Lists(Uses List)
+0 -1
+1 -1
+2 -1
+3 2
+4 1 0 3
+#Dependency Lists(Users Of)
+0 4
+1 4
+2 3
+3 4
+4 -1
+#Design Unit to File Association
+module work LED_ctrl 0
+module work Top_FCCC_0_FCCC 1
+module work RCOSC_1MHZ 2
+module work RCOSC_25_50MHZ 2
+module work XTLOSC 2
+module work RCOSC_1MHZ_FAB 2
+module work RCOSC_25_50MHZ_FAB 2
+module work XTLOSC_FAB 2
+module work Top_OSC_0_OSC 3
+module work Top 4

@@ -1,0 +1,30 @@
+
+===============================================================================.
+
+Info: Global design data: 
+      Total globals:                       6 
+      Globals that cannot be demoted:      1 
+      Globals considered for demotion:     5 
+
+
+Info: List of globals that cannot be demoted: 
+    CLK    ASYN   DATA   Instance Name 
+    ---    ----   ----   ------------- 
+    41     0      1      'M2S_MSS_sb_0/CCC_0/GL0_INST' 
+
+Info: List of globals considered for demotion: 
+    CLK    ASYN   DATA   Instance Name 
+    ---    ----   ----   ------------- 
+    110    0      0      'M2S_MSS_sb_0/M2S_MSS_sb_MSS_0/FIC_2_APB_M_PCLK_inferred_clock_RNIVUHA' 
+    36     0      0      'M2S_MSS_sb_0/FABOSC_0/I_RCOSC_25_50MHZ_FAB_CLKINT' 
+    0      112    0      'M2S_MSS_sb_0/M2S_MSS_sb_MSS_0/MSS_ADLIB_INST_RNI7K43' 
+    0      34     0      'M2S_MSS_sb_0/CORERESETP_0/sdif0_areset_n_rcosc_RNIDB37' 
+    0      29     0      'M2S_MSS_sb_0/CORERESETP_0/sdif0_areset_n_clk_base_RNI7MR6' 
+
+Info: Demotion information: 
+Info: CMPG4-302: Added 0 row global instances.
+Info: CMPG4-303: Deleted 0 global instances.
+
+===============================================================================.
+
+INFO: No User PDC file(s) was specified.

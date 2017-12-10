@@ -1,0 +1,1 @@
+Error: SDC0021: C:\Users\Hiperwall\Desktop\microsemilab\calit2boardtest\constraint\top_fhb_auto_generated.sdc:1: Invalid false path constraint: the -from value [get_clocks { }] is incorrect.

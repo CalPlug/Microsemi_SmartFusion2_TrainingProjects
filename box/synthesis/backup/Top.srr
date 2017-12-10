@@ -1,0 +1,48 @@
+#Build: Synplify Pro J-2015.03M-SP1-2, Build 266R, Dec 14 2015
+#install: C:\Microsemi\Libero_SoC_v11.7\Synplify
+#OS: Windows 8 6.2
+#Hostname: MSPC1
+
+#Implementation: synthesis
+
+Synopsys HDL Compiler, version comp201503sp1p1, Build 240R, built Dec  1 2015
+@N|Running in 64-bit mode
+Copyright (C) 1994-2015 Synopsys, Inc. This software and the associated documentation are proprietary to Synopsys, Inc. This software may only be used in accordance with the terms and conditions of a written license agreement with Synopsys, Inc.  All other use, reproduction, or distribution of this software is strictly prohibited.
+
+Synopsys Verilog Compiler, version comp201503sp1p1, Build 240R, built Dec  1 2015
+@N|Running in 64-bit mode
+Copyright (C) 1994-2015 Synopsys, Inc. This software and the associated documentation are proprietary to Synopsys, Inc. This software may only be used in accordance with the terms and conditions of a written license agreement with Synopsys, Inc.  All other use, reproduction, or distribution of this software is strictly prohibited.
+
+@I::"C:\Microsemi\Libero_SoC_v11.7\Synplify\lib\generic\smartfusion2.v"
+@I::"C:\Microsemi\Libero_SoC_v11.7\Synplify\lib\vlog\hypermods.v"
+@I::"C:\Microsemi\Libero_SoC_v11.7\Synplify\lib\vlog\umr_capim.v"
+@I::"C:\Microsemi\Libero_SoC_v11.7\Synplify\lib\vlog\scemi_objects.v"
+@I::"C:\Microsemi\Libero_SoC_v11.7\Synplify\lib\vlog\scemi_pipes.svh"
+@I::"C:\Users\Hiperwall\Desktop\microsemilab\box\component\work\Top\FCCC_0\Top_FCCC_0_FCCC.v"
+@I::"C:\Users\Hiperwall\Desktop\microsemilab\box\component\Actel\SgCore\OSC\2.0.101\osc_comps.v"
+@I::"C:\Users\Hiperwall\Desktop\microsemilab\box\component\work\Top\OSC_0\Top_OSC_0_OSC.v"
+@I::"C:\Users\Hiperwall\Desktop\microsemilab\box\component\work\Top\Top.v"
+Verilog syntax check successful!
+Selecting top level module Top
+@N: CG364 :"C:\Microsemi\Libero_SoC_v11.7\Synplify\lib\generic\smartfusion2.v":126:7:126:10|Synthesizing module AND2
+
+@N: CG364 :"C:\Microsemi\Libero_SoC_v11.7\Synplify\lib\generic\smartfusion2.v":376:7:376:9|Synthesizing module VCC
+
+@N: CG364 :"C:\Microsemi\Libero_SoC_v11.7\Synplify\lib\generic\smartfusion2.v":372:7:372:9|Synthesizing module GND
+
+@N: CG364 :"C:\Microsemi\Libero_SoC_v11.7\Synplify\lib\generic\smartfusion2.v":362:7:362:12|Synthesizing module CLKINT
+
+@N: CG364 :"C:\Microsemi\Libero_SoC_v11.7\Synplify\lib\generic\smartfusion2.v":727:7:727:9|Synthesizing module CCC
+
+@N: CG364 :"C:\Users\Hiperwall\Desktop\microsemilab\box\component\work\Top\FCCC_0\Top_FCCC_0_FCCC.v":5:7:5:21|Synthesizing module Top_FCCC_0_FCCC
+
+@E: CG389 :"C:\Users\Hiperwall\Desktop\microsemilab\box\component\work\Top\Top.v":77:9:77:18|Reference to undefined module LED_ctrl
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+# Wed Feb 01 03:41:12 2017
+
+###########################################################]
+@END
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+# Wed Feb 01 03:41:12 2017
+
+###########################################################]

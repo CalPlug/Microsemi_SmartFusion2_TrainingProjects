@@ -1,0 +1,63 @@
+INFO: Reading User SDC file C:\Users\Hiperwall\Desktop\DigiKeyBoard\constraint\SF2_MSS_sys_derived_constraints.sdc.
+
+***** Place and Route Configurations *****
+Timing-driven            : ON
+Power-driven             : OFF
+High-effort              : OFF
+Repair min-delay         : ON
+Incremental              : OFF
+Inter-clock optimization : ON
+TDPR scenario            : place_and_route
+
+INFO: Reading User PDC file C:\Users\Hiperwall\Desktop\DigiKeyBoard\constraint\io\user.pdc. 0 error(s) and 0 warning(s)
+
+Running the I/O Bank and Globals Assigner.
+Info:  I/O Bank and Globals Assigner identified 16 fixed I/O macros, 11 unfixed I/O macros
+
+I/O Bank and Globals Assigner completed successfully.
+Total time spent in I/O Bank and Globals Assigner: 0 seconds
+
+Placer V4.0 - 11.8.1 
+Design: SF2_MSS_sys                     Started: Fri Dec 08 20:33:31 2017
+
+Initializing Timing-Driven Placement ...
+Placing design...
+End of placement.
+Pre-Placement Runtime        : 2 seconds
+Placement Runtime            : 11 seconds
+
+Placer completed successfully.
+
+Design: SF2_MSS_sys                     
+Finished: Fri Dec 08 20:34:06 2017
+Total CPU Time:     00:00:33            Total Elapsed Time: 00:00:35
+Total Memory Usage: 331.6 Mbytes
+                        o - o - o - o - o - o
+
+
+Router 
+Design: C:\Users\Hiperwall\Desktop\DigiKeyBoard\designer\SF2_MSS_sys\SF2_MSS_sysStarted: Fri Dec 08 20:34:10 2017
+
+Final stats: search run time 6.186744
+
+Router completed successfully.
+
+Design: C:\Users\Hiperwall\Desktop\DigiKeyBoard\designer\SF2_MSS_sys\SF2_MSS_sys
+Finished: Fri Dec 08 20:34:22 2017
+Total CPU Time:     00:00:11            Total Elapsed Time: 00:00:12
+Total Memory Usage: 496.9 Mbytes
+                        o - o - o - o - o - o
+
+Info: Iteration 1:
+  Total violating paths eligible for improvement: 0
+  Worst minimum delay slack: 
+Resource Usage
++---------------+------+-------+------------+
+| Type          | Used | Total | Percentage |
++---------------+------+-------+------------+
+| 4LUT          | 954  | 12084 | 7.89       |
+| DFF           | 581  | 12084 | 4.81       |
+| I/O Register  | 0    | 246   | 0.00       |
+| Logic Element | 1116 | 12084 | 9.24       |
++---------------+------+-------+------------+
+

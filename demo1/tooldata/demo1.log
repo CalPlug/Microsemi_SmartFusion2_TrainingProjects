@@ -1,0 +1,16 @@
+Project Name: demo1
+Location: C:\Users\Hiperwall\Desktop\microsemilab\demo1
+Description: 
+Preferred HDL Type: Verilog
+
+#-----------------------------------------------------
+                  Device Details
+#-----------------------------------------------------
+
+Part Number    : M2S090-1FG484
+Family         : SmartFusion2
+Die            : M2S090
+Package        : 484 FBGA
+Speed          : -1
+Core Voltage   : 1.2
+Range          : COM

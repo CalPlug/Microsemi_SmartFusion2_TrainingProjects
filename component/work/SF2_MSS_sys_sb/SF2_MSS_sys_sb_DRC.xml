@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<?xml-stylesheet type="text/xsl" href="drcss.xsl"?>
+<drcreport>
+  <header>SF2_MSS_sys_sb</header>
+  <drc>
+    <status>C:\Microsemi\Libero_SoC_v11.8\Designer/data/drcreport\warn.png</status>
+    <StatusMessage>Warning</StatusMessage>
+    <message>Floating Driver</message>
+    <detail>Floating output pin CCC_0:GL1</detail>
+    <crossprobe>liberoaction://cross_probe/smartdesign/SF2_MSS_sys_sb/pins/CCC_0:GL1</crossprobe>
+  </drc>
+  <drc>
+    <status>C:\Microsemi\Libero_SoC_v11.8\Designer/data/drcreport\warn.png</status>
+    <StatusMessage>Warning</StatusMessage>
+    <message>Unconnected Bus Interface</message>
+    <detail>Unconnected bus interface pin corepwm_0:APBslave</detail>
+    <crossprobe>liberoaction://cross_probe/smartdesign/SF2_MSS_sys_sb/pins/corepwm_0:APBslave</crossprobe>
+  </drc>
+</drcreport>

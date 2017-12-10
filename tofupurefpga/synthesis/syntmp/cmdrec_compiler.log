@@ -1,0 +1,8 @@
+C:\Microsemi\Libero_SoC_v11.8\SynplifyPro\bin64\c_hdl.exe  -osyn  C:\Users\Hiperwall\Desktop\microsemilab\tofupurefpga\synthesis\synwork\top_comp.srs  -top  top  -hdllog  C:\Users\Hiperwall\Desktop\microsemilab\tofupurefpga\synthesis\synlog\top_compiler.srr  -encrypt  -mp  4  -verification_mode 0  -verilog  -prodtype  synplify_pro  -infer_seqShift -primux -dspmac -pqdpadd -fixsmult -sdff_counter -divnmod -nram   -I C:\Users\Hiperwall\Desktop\microsemilab\tofupurefpga\synthesis\  -I C:\Microsemi\Libero_SoC_v11.8\SynplifyPro\lib   -sysv  -devicelib  C:\Microsemi\Libero_SoC_v11.8\SynplifyPro\lib\generic\smartfusion2.v  -encrypt  -pro  -dmgen  C:\Users\Hiperwall\Desktop\microsemilab\tofupurefpga\synthesis\dm  -ui -fid2 -ram -sharing on -ll 2000 -autosm  -lib work C:\Users\Hiperwall\Desktop\microsemilab\tofupurefpga\hdl\top.v 
+rc:0 success:1 runtime:4
+file:C:\Users\Hiperwall\Desktop\microsemilab\tofupurefpga\synthesis\synwork\top_comp.srs|io:o|time:1509577592|size:1507|exec:0
+file:C:\Users\Hiperwall\Desktop\microsemilab\tofupurefpga\synthesis\synlog\top_compiler.srr|io:o|time:1509577592|size:3810|exec:0
+file:C:\Microsemi\Libero_SoC_v11.8\SynplifyPro\lib\generic\smartfusion2.v|io:i|time:1487970428|size:16359|exec:0
+file:C:\Users\Hiperwall\Desktop\microsemilab\tofupurefpga\hdl\top.v|io:i|time:1509577550|size:409|exec:0
+file:C:\Microsemi\Libero_SoC_v11.8\SynplifyPro\bin\c_hdl.exe|io:i|time:1479402364|size:1337856|exec:1
+file:C:\Microsemi\Libero_SoC_v11.8\SynplifyPro\bin64\c_hdl.exe|io:i|time:1479402568|size:1973248|exec:1

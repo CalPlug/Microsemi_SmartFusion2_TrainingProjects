@@ -1,0 +1,14 @@
+C:\Microsemi\Libero_SoC_v11.7\Synplify\bin64\m_generic.exe  -mp  1  -prjfile  C:\Users\Hiperwall\Desktop\microsemilab\UCI_Demo2\synthesis\scratchproject.prs  -implementation  synthesis  -prodtype  synplify_pro   -encrypt  -pro  -rundir  C:\Users\Hiperwall\Desktop\microsemilab\UCI_Demo2\synthesis   -part M2S090TS  -package FBGA484  -grade -1    -maxfan 10000 -clock_globalthreshold 2 -async_globalthreshold 12 -globalthreshold 5000 -low_power_ram_decomp 0 -opcond COMTC -report_path 4000 -RWCheckOnRam 0 -summaryfile C:\Users\Hiperwall\Desktop\microsemilab\UCI_Demo2\synthesis\synlog\report\M2S_MSS_premap.xml  -top_level_module  M2S_MSS  -oedif  C:\Users\Hiperwall\Desktop\microsemilab\UCI_Demo2\synthesis\M2S_MSS.edn  -conchk_prepass  C:\Users\Hiperwall\Desktop\microsemilab\UCI_Demo2\synthesis\M2S_MSS_cck_prepass.rpt   -freq 100.000   C:\Users\Hiperwall\Desktop\microsemilab\UCI_Demo2\synthesis\synwork\M2S_MSS_mult.srs  -flow prepass  -gcc_prepass  -osrd  C:\Users\Hiperwall\Desktop\microsemilab\UCI_Demo2\synthesis\synwork\M2S_MSS_prem.srd  -qsap  C:\Users\Hiperwall\Desktop\microsemilab\UCI_Demo2\synthesis\M2S_MSS.sap  -devicelib  C:\Microsemi\Libero_SoC_v11.7\Synplify\lib\generic\smartfusion2.v  -ologparam  C:\Users\Hiperwall\Desktop\microsemilab\UCI_Demo2\synthesis\syntmp\M2S_MSS.plg  -osyn  C:\Users\Hiperwall\Desktop\microsemilab\UCI_Demo2\synthesis\synwork\M2S_MSS_prem.srd  -prjdir  C:\Users\Hiperwall\Desktop\microsemilab\UCI_Demo2\synthesis\  -prjname  M2S_MSS_syn  -log  C:\Users\Hiperwall\Desktop\microsemilab\UCI_Demo2\synthesis\synlog\M2S_MSS_premap.srr 
+rc:1 success:1
+C:\Users\Hiperwall\Desktop\microsemilab\UCI_Demo2\synthesis\scratchproject.prs|o|1486025521|3234
+C:\Users\Hiperwall\Desktop\microsemilab\UCI_Demo2\synthesis\M2S_MSS.edn|o|0|0
+C:\Users\Hiperwall\Desktop\microsemilab\UCI_Demo2\synthesis\M2S_MSS_cck_prepass.rpt|o|0|0
+C:\Users\Hiperwall\Desktop\microsemilab\UCI_Demo2\synthesis\synwork\M2S_MSS_mult.srs|i|1486025524|11859
+C:\Users\Hiperwall\Desktop\microsemilab\UCI_Demo2\synthesis\synwork\M2S_MSS_prem.srd|o|1486025525|193049
+C:\Users\Hiperwall\Desktop\microsemilab\UCI_Demo2\synthesis\M2S_MSS.sap|o|1486025525|34172
+C:\Microsemi\Libero_SoC_v11.7\Synplify\lib\generic\smartfusion2.v|i|1449250530|16359
+C:\Users\Hiperwall\Desktop\microsemilab\UCI_Demo2\synthesis\syntmp\M2S_MSS.plg|o|1486025524|0
+C:\Users\Hiperwall\Desktop\microsemilab\UCI_Demo2\synthesis\synwork\M2S_MSS_prem.srd|o|1486025525|193049
+C:\Users\Hiperwall\Desktop\microsemilab\UCI_Demo2\synthesis\synlog\M2S_MSS_premap.srr|o|1486025525|11603
+C:\Microsemi\Libero_SoC_v11.7\Synplify\bin\m_generic.exe|i|1449767944|15814144
+C:\Microsemi\Libero_SoC_v11.7\Synplify\bin64\m_generic.exe|i|1449769556|27632640

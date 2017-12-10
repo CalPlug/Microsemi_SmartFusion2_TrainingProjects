@@ -1,0 +1,23 @@
+!SESSION 2017-02-06 12:17:08.295 -----------------------------------------------
+eclipse.buildId=M20130329-1600
+java.version=1.6.0_22
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=en_US
+Framework arguments:  -application org.eclipse.cdt.managedbuilder.core.headlessbuild -import C:\Users\Hiperwall\Desktop\microsemilab\Fabric_UART_V2\sc34\SoftConsole\my_system_sb_MSS_CM3\projects\my_system_sb_MSS_CM3_hw_platform
+Command-line arguments:  -os win32 -ws win32 -arch x86 -application org.eclipse.cdt.managedbuilder.core.headlessbuild -data C:/Users/Hiperwall/Desktop/microsemilab/Fabric_UART_V2/sc34/SoftConsole/my_system_sb_MSS_CM3 -import C:\Users\Hiperwall\Desktop\microsemilab\Fabric_UART_V2\sc34\SoftConsole\my_system_sb_MSS_CM3\projects\my_system_sb_MSS_CM3_hw_platform
+
+!ENTRY org.eclipse.cdt.core 1 0 2017-02-06 12:17:11.029
+!MESSAGE Indexed 'my_system_sb_MSS_CM3_hw_platform' (14 sources, 33 headers) in 0.88 sec: 3,860 declarations; 9,860 references; 24 unresolved inclusions; 1,213 syntax errors; 2,895 unresolved names (17.42%)
+!SESSION 2017-02-06 12:17:12.687 -----------------------------------------------
+eclipse.buildId=M20130329-1600
+java.version=1.6.0_22
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=en_US
+Framework arguments:  -application org.eclipse.cdt.managedbuilder.core.headlessbuild -import C:\Users\Hiperwall\Desktop\microsemilab\Fabric_UART_V2\sc34\SoftConsole\my_system_sb_MSS_CM3\projects\my_system_sb_MSS_CM3_app
+Command-line arguments:  -os win32 -ws win32 -arch x86 -application org.eclipse.cdt.managedbuilder.core.headlessbuild -data C:/Users/Hiperwall/Desktop/microsemilab/Fabric_UART_V2/sc34/SoftConsole/my_system_sb_MSS_CM3 -import C:\Users\Hiperwall\Desktop\microsemilab\Fabric_UART_V2\sc34\SoftConsole\my_system_sb_MSS_CM3\projects\my_system_sb_MSS_CM3_app
+
+!ENTRY org.eclipse.core.resources 2 10035 2017-02-06 12:17:13.609
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
+
+!ENTRY org.eclipse.cdt.core 1 0 2017-02-06 12:17:14.703
+!MESSAGE Indexed 'my_system_sb_MSS_CM3_app' (1 sources, 8 headers) in 0.12 sec: 1 declarations; 0 references; 8 unresolved inclusions; 0 syntax errors; 0 unresolved names (0.00%)

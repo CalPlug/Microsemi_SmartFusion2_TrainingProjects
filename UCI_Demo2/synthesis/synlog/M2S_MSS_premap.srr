@@ -1,0 +1,77 @@
+Synopsys Generic Technology Pre-mapping, Version mapact, Build 1659R, Built Dec 10 2015 09:44:42
+Copyright (C) 1994-2015, Synopsys, Inc. This software and the associated documentation are proprietary to Synopsys, Inc. This software may only be used in accordance with the terms and conditions of a written license agreement with Synopsys, Inc.  All other use, reproduction, or distribution of this software is strictly prohibited.
+Product Version J-2015.03M-SP1-2
+
+Mapper Startup Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 99MB peak: 100MB)
+
+@L: C:\Users\Hiperwall\Desktop\microsemilab\UCI_Demo2\synthesis\M2S_MSS_scck.rpt 
+Printing clock  summary report in "C:\Users\Hiperwall\Desktop\microsemilab\UCI_Demo2\synthesis\M2S_MSS_scck.rpt" file 
+@N: MF248 |Running in 64-bit mode.
+@N: MF667 |Clock conversion disabled 
+
+Design Input Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 108MB peak: 111MB)
+
+
+Mapper Initialization Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 108MB peak: 111MB)
+
+
+Start loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 109MB peak: 111MB)
+
+
+Finished loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 109MB peak: 111MB)
+
+@W: BN132 :"c:\users\hiperwall\desktop\microsemilab\uci_demo2\component\actel\directcore\coreresetp\7.0.104\rtl\vlog\core\coreresetp.v":1089:4:1089:9|Removing sequential instance M2S_MSS_sb_0.CORERESETP_0.MDDR_DDR_AXI_S_CORE_RESET_N_int,  because it is equivalent to instance M2S_MSS_sb_0.CORERESETP_0.FDDR_CORE_RESET_N_int
+@N: BN362 :"c:\users\hiperwall\desktop\microsemilab\uci_demo2\component\actel\directcore\coreconfigp\7.0.105\rtl\vlog\core\coreconfigp.v":461:4:461:9|Removing sequential instance FDDR_PENABLE of view:PrimLib.dffr(prim) in hierarchy view:work.CoreConfigP_Z1(verilog) because there are no references to its outputs 
+@N: BN362 :"c:\users\hiperwall\desktop\microsemilab\uci_demo2\component\actel\directcore\coreconfigp\7.0.105\rtl\vlog\core\coreconfigp.v":461:4:461:9|Removing sequential instance SDIF2_PENABLE of view:PrimLib.dffr(prim) in hierarchy view:work.CoreConfigP_Z1(verilog) because there are no references to its outputs 
+@N: BN362 :"c:\users\hiperwall\desktop\microsemilab\uci_demo2\component\actel\directcore\coreconfigp\7.0.105\rtl\vlog\core\coreconfigp.v":461:4:461:9|Removing sequential instance SDIF3_PENABLE of view:PrimLib.dffr(prim) in hierarchy view:work.CoreConfigP_Z1(verilog) because there are no references to its outputs 
+@N: BN362 :"c:\users\hiperwall\desktop\microsemilab\uci_demo2\component\actel\directcore\coreresetp\7.0.104\rtl\vlog\core\coreresetp.v":1089:4:1089:9|Removing sequential instance FDDR_CORE_RESET_N_int of view:PrimLib.dffre(prim) in hierarchy view:work.CoreResetP_Z2(verilog) because there are no references to its outputs 
+@N: BN362 :"c:\users\hiperwall\desktop\microsemilab\uci_demo2\component\actel\directcore\coreresetp\7.0.104\rtl\vlog\core\coreresetp.v":1235:4:1235:9|Removing sequential instance SDIF1_PHY_RESET_N_int of view:PrimLib.dffre(prim) in hierarchy view:work.CoreResetP_Z2(verilog) because there are no references to its outputs 
+@N: BN362 :"c:\users\hiperwall\desktop\microsemilab\uci_demo2\component\actel\directcore\coreresetp\7.0.104\rtl\vlog\core\coreresetp.v":1235:4:1235:9|Removing sequential instance SDIF1_CORE_RESET_N_0 of view:PrimLib.dffre(prim) in hierarchy view:work.CoreResetP_Z2(verilog) because there are no references to its outputs 
+@N: BN362 :"c:\users\hiperwall\desktop\microsemilab\uci_demo2\component\actel\directcore\coreresetp\7.0.104\rtl\vlog\core\coreresetp.v":1300:4:1300:9|Removing sequential instance SDIF2_PHY_RESET_N_int of view:PrimLib.dffre(prim) in hierarchy view:work.CoreResetP_Z2(verilog) because there are no references to its outputs 
+@N: BN362 :"c:\users\hiperwall\desktop\microsemilab\uci_demo2\component\actel\directcore\coreresetp\7.0.104\rtl\vlog\core\coreresetp.v":1300:4:1300:9|Removing sequential instance SDIF2_CORE_RESET_N_0 of view:PrimLib.dffre(prim) in hierarchy view:work.CoreResetP_Z2(verilog) because there are no references to its outputs 
+@N: BN362 :"c:\users\hiperwall\desktop\microsemilab\uci_demo2\component\actel\directcore\coreresetp\7.0.104\rtl\vlog\core\coreresetp.v":1365:4:1365:9|Removing sequential instance SDIF3_PHY_RESET_N_int of view:PrimLib.dffre(prim) in hierarchy view:work.CoreResetP_Z2(verilog) because there are no references to its outputs 
+@N: BN362 :"c:\users\hiperwall\desktop\microsemilab\uci_demo2\component\actel\directcore\coreresetp\7.0.104\rtl\vlog\core\coreresetp.v":1365:4:1365:9|Removing sequential instance SDIF3_CORE_RESET_N_0 of view:PrimLib.dffre(prim) in hierarchy view:work.CoreResetP_Z2(verilog) because there are no references to its outputs 
+@N: BN362 :"c:\users\hiperwall\desktop\microsemilab\uci_demo2\component\actel\directcore\coreresetp\7.0.104\rtl\vlog\core\coreresetp.v":1235:4:1235:9|Removing sequential instance sdif1_state[3:0] of view:PrimLib.statemachine(prim) in hierarchy view:work.CoreResetP_Z2(verilog) because there are no references to its outputs 
+@N: BN362 :"c:\users\hiperwall\desktop\microsemilab\uci_demo2\component\actel\directcore\coreresetp\7.0.104\rtl\vlog\core\coreresetp.v":1300:4:1300:9|Removing sequential instance sdif2_state[3:0] of view:PrimLib.statemachine(prim) in hierarchy view:work.CoreResetP_Z2(verilog) because there are no references to its outputs 
+@N: BN362 :"c:\users\hiperwall\desktop\microsemilab\uci_demo2\component\actel\directcore\coreresetp\7.0.104\rtl\vlog\core\coreresetp.v":1365:4:1365:9|Removing sequential instance sdif3_state[3:0] of view:PrimLib.statemachine(prim) in hierarchy view:work.CoreResetP_Z2(verilog) because there are no references to its outputs 
+@N: BN362 :"c:\users\hiperwall\desktop\microsemilab\uci_demo2\component\actel\directcore\coreresetp\7.0.104\rtl\vlog\core\coreresetp.v":811:4:811:9|Removing sequential instance sdif1_areset_n_clk_base of view:PrimLib.dffr(prim) in hierarchy view:work.CoreResetP_Z2(verilog) because there are no references to its outputs 
+@N: BN362 :"c:\users\hiperwall\desktop\microsemilab\uci_demo2\component\actel\directcore\coreresetp\7.0.104\rtl\vlog\core\coreresetp.v":825:4:825:9|Removing sequential instance sdif2_areset_n_clk_base of view:PrimLib.dffr(prim) in hierarchy view:work.CoreResetP_Z2(verilog) because there are no references to its outputs 
+@N: BN362 :"c:\users\hiperwall\desktop\microsemilab\uci_demo2\component\actel\directcore\coreresetp\7.0.104\rtl\vlog\core\coreresetp.v":839:4:839:9|Removing sequential instance sdif3_areset_n_clk_base of view:PrimLib.dffr(prim) in hierarchy view:work.CoreResetP_Z2(verilog) because there are no references to its outputs 
+@N: BN362 :"c:\users\hiperwall\desktop\microsemilab\uci_demo2\component\actel\directcore\coreresetp\7.0.104\rtl\vlog\core\coreresetp.v":811:4:811:9|Removing sequential instance sdif1_areset_n_q1 of view:PrimLib.dffr(prim) in hierarchy view:work.CoreResetP_Z2(verilog) because there are no references to its outputs 
+@N: BN362 :"c:\users\hiperwall\desktop\microsemilab\uci_demo2\component\actel\directcore\coreresetp\7.0.104\rtl\vlog\core\coreresetp.v":825:4:825:9|Removing sequential instance sdif2_areset_n_q1 of view:PrimLib.dffr(prim) in hierarchy view:work.CoreResetP_Z2(verilog) because there are no references to its outputs 
+@N: BN362 :"c:\users\hiperwall\desktop\microsemilab\uci_demo2\component\actel\directcore\coreresetp\7.0.104\rtl\vlog\core\coreresetp.v":839:4:839:9|Removing sequential instance sdif3_areset_n_q1 of view:PrimLib.dffr(prim) in hierarchy view:work.CoreResetP_Z2(verilog) because there are no references to its outputs 
+syn_allowed_resources : blockrams=109  set on top level netlist M2S_MSS
+
+Finished netlist restructuring (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 137MB peak: 139MB)
+
+
+
+@S |Clock Summary
+*****************
+
+Start                                                         Requested     Requested     Clock        Clock              
+Clock                                                         Frequency     Period        Type         Group              
+--------------------------------------------------------------------------------------------------------------------------
+M2S_MSS_sb_CCC_0_FCCC|GL0_net_inferred_clock                  100.0 MHz     10.000        inferred     Inferred_clkgroup_3
+M2S_MSS_sb_FABOSC_0_OSC|RCOSC_25_50MHZ_CCC_inferred_clock     100.0 MHz     10.000        inferred     Inferred_clkgroup_4
+M2S_MSS_sb_MSS|FIC_2_APB_M_PCLK_inferred_clock                100.0 MHz     10.000        inferred     Inferred_clkgroup_2
+M2S_MSS|APB_S_PCLK                                            100.0 MHz     10.000        inferred     Inferred_clkgroup_1
+M2S_MSS|CLK_BASE                                              100.0 MHz     10.000        inferred     Inferred_clkgroup_0
+==========================================================================================================================
+
+@W: MT530 :"c:\users\hiperwall\desktop\microsemilab\uci_demo2\component\work\m2s_mss\serdes_if2_0\m2s_mss_serdes_if2_0_serdes_if2.v":159:52:159:64|Found inferred clock M2S_MSS|CLK_BASE which controls 0 sequential elements including SERDES_IF2_0.SERDESIF_INST. This clock has no specified timing constraint which may adversely impact design performance. 
+@W: MT530 :"c:\users\hiperwall\desktop\microsemilab\uci_demo2\component\work\m2s_mss\serdes_if2_0\m2s_mss_serdes_if2_0_serdes_if2.v":159:52:159:64|Found inferred clock M2S_MSS|APB_S_PCLK which controls 0 sequential elements including SERDES_IF2_0.SERDESIF_INST. This clock has no specified timing constraint which may adversely impact design performance. 
+@W: MT530 :"c:\users\hiperwall\desktop\microsemilab\uci_demo2\component\actel\directcore\coreconfigp\7.0.105\rtl\vlog\core\coreconfigp.v":546:4:546:9|Found inferred clock M2S_MSS_sb_MSS|FIC_2_APB_M_PCLK_inferred_clock which controls 111 sequential elements including M2S_MSS_sb_0.CORECONFIGP_0.FIC_2_APB_M_PRDATA[31:0]. This clock has no specified timing constraint which may adversely impact design performance. 
+@W: MT530 :"c:\users\hiperwall\desktop\microsemilab\uci_demo2\component\actel\directcore\coreresetp\7.0.104\rtl\vlog\core\coreresetp.v":1170:4:1170:9|Found inferred clock M2S_MSS_sb_CCC_0_FCCC|GL0_net_inferred_clock which controls 69 sequential elements including M2S_MSS_sb_0.CORERESETP_0.count_sdif0_enable. This clock has no specified timing constraint which may adversely impact design performance. 
+@W: MT530 :"c:\users\hiperwall\desktop\microsemilab\uci_demo2\component\actel\directcore\coreresetp\7.0.104\rtl\vlog\core\coreresetp.v":1613:4:1613:9|Found inferred clock M2S_MSS_sb_FABOSC_0_OSC|RCOSC_25_50MHZ_CCC_inferred_clock which controls 46 sequential elements including M2S_MSS_sb_0.CORERESETP_0.count_ddr[13:0]. This clock has no specified timing constraint which may adversely impact design performance. 
+
+Finished Pre Mapping Phase.
+@N: BN225 |Writing default property annotation file C:\Users\Hiperwall\Desktop\microsemilab\UCI_Demo2\synthesis\M2S_MSS.sap.
+Pre-mapping successful!
+
+At Mapper Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 73MB peak: 139MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+# Thu Feb 02 00:52:05 2017
+
+###########################################################]

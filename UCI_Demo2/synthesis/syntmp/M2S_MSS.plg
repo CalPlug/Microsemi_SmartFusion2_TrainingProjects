@@ -1,0 +1,67 @@
+@P:  Worst Slack : 1.615
+@P:  M2S_MSS_sb_CCC_0_FCCC|GL0_net_inferred_clock - Estimated Frequency : 459.9 MHz
+@P:  M2S_MSS_sb_CCC_0_FCCC|GL0_net_inferred_clock - Requested Frequency : 100.0 MHz
+@P:  M2S_MSS_sb_CCC_0_FCCC|GL0_net_inferred_clock - Estimated Period : 2.175
+@P:  M2S_MSS_sb_CCC_0_FCCC|GL0_net_inferred_clock - Requested Period : 10.000
+@P:  M2S_MSS_sb_CCC_0_FCCC|GL0_net_inferred_clock - Slack : 7.825
+@P:  M2S_MSS_sb_FABOSC_0_OSC|RCOSC_25_50MHZ_CCC_inferred_clock - Estimated Frequency : 428.6 MHz
+@P:  M2S_MSS_sb_FABOSC_0_OSC|RCOSC_25_50MHZ_CCC_inferred_clock - Requested Frequency : 100.0 MHz
+@P:  M2S_MSS_sb_FABOSC_0_OSC|RCOSC_25_50MHZ_CCC_inferred_clock - Estimated Period : 2.333
+@P:  M2S_MSS_sb_FABOSC_0_OSC|RCOSC_25_50MHZ_CCC_inferred_clock - Requested Period : 10.000
+@P:  M2S_MSS_sb_FABOSC_0_OSC|RCOSC_25_50MHZ_CCC_inferred_clock - Slack : 7.667
+@P:  M2S_MSS_sb_MSS|FIC_2_APB_M_PCLK_inferred_clock - Estimated Frequency : 144.9 MHz
+@P:  M2S_MSS_sb_MSS|FIC_2_APB_M_PCLK_inferred_clock - Requested Frequency : 100.0 MHz
+@P:  M2S_MSS_sb_MSS|FIC_2_APB_M_PCLK_inferred_clock - Estimated Period : 6.903
+@P:  M2S_MSS_sb_MSS|FIC_2_APB_M_PCLK_inferred_clock - Requested Period : 10.000
+@P:  M2S_MSS_sb_MSS|FIC_2_APB_M_PCLK_inferred_clock - Slack : 1.615
+@P:  M2S_MSS|APB_S_PCLK - Estimated Frequency : NA
+@P:  M2S_MSS|APB_S_PCLK - Requested Frequency : 100.0 MHz
+@P:  M2S_MSS|APB_S_PCLK - Estimated Period : NA
+@P:  M2S_MSS|APB_S_PCLK - Requested Period : 10.000
+@P:  M2S_MSS|APB_S_PCLK - Slack : NA
+@P:  M2S_MSS|CLK_BASE - Estimated Frequency : NA
+@P:  M2S_MSS|CLK_BASE - Requested Frequency : 100.0 MHz
+@P:  M2S_MSS|CLK_BASE - Estimated Period : NA
+@P:  M2S_MSS|CLK_BASE - Requested Period : 10.000
+@P:  M2S_MSS|CLK_BASE - Slack : NA
+@P:  System - Estimated Frequency : NA
+@P:  System - Requested Frequency : 100.0 MHz
+@P:  System - Estimated Period : NA
+@P:  System - Requested Period : 10.000
+@P:  System - Slack : NA
+@P:  Worst Slack(min analysis) : 0.278
+@P:  M2S_MSS_sb_CCC_0_FCCC|GL0_net_inferred_clock - Estimated Frequency(min analysis) : 459.9 MHz
+@P:  M2S_MSS_sb_CCC_0_FCCC|GL0_net_inferred_clock - Requested Frequency(min analysis) : 100.0 MHz
+@P:  M2S_MSS_sb_CCC_0_FCCC|GL0_net_inferred_clock - Estimated Period(min analysis) : 2.175
+@P:  M2S_MSS_sb_CCC_0_FCCC|GL0_net_inferred_clock - Requested Period(min analysis) : 10.000
+@P:  M2S_MSS_sb_CCC_0_FCCC|GL0_net_inferred_clock - Slack(min analysis) : 7.825
+@P:  M2S_MSS_sb_FABOSC_0_OSC|RCOSC_25_50MHZ_CCC_inferred_clock - Estimated Frequency(min analysis) : 428.6 MHz
+@P:  M2S_MSS_sb_FABOSC_0_OSC|RCOSC_25_50MHZ_CCC_inferred_clock - Requested Frequency(min analysis) : 100.0 MHz
+@P:  M2S_MSS_sb_FABOSC_0_OSC|RCOSC_25_50MHZ_CCC_inferred_clock - Estimated Period(min analysis) : 2.333
+@P:  M2S_MSS_sb_FABOSC_0_OSC|RCOSC_25_50MHZ_CCC_inferred_clock - Requested Period(min analysis) : 10.000
+@P:  M2S_MSS_sb_FABOSC_0_OSC|RCOSC_25_50MHZ_CCC_inferred_clock - Slack(min analysis) : 7.667
+@P:  M2S_MSS_sb_MSS|FIC_2_APB_M_PCLK_inferred_clock - Estimated Frequency(min analysis) : 144.9 MHz
+@P:  M2S_MSS_sb_MSS|FIC_2_APB_M_PCLK_inferred_clock - Requested Frequency(min analysis) : 100.0 MHz
+@P:  M2S_MSS_sb_MSS|FIC_2_APB_M_PCLK_inferred_clock - Estimated Period(min analysis) : 6.903
+@P:  M2S_MSS_sb_MSS|FIC_2_APB_M_PCLK_inferred_clock - Requested Period(min analysis) : 10.000
+@P:  M2S_MSS_sb_MSS|FIC_2_APB_M_PCLK_inferred_clock - Slack(min analysis) : 1.615
+@P:  M2S_MSS|APB_S_PCLK - Estimated Frequency(min analysis) : NA
+@P:  M2S_MSS|APB_S_PCLK - Requested Frequency(min analysis) : 100.0 MHz
+@P:  M2S_MSS|APB_S_PCLK - Estimated Period(min analysis) : NA
+@P:  M2S_MSS|APB_S_PCLK - Requested Period(min analysis) : 10.000
+@P:  M2S_MSS|APB_S_PCLK - Slack(min analysis) : NA
+@P:  M2S_MSS|CLK_BASE - Estimated Frequency(min analysis) : NA
+@P:  M2S_MSS|CLK_BASE - Requested Frequency(min analysis) : 100.0 MHz
+@P:  M2S_MSS|CLK_BASE - Estimated Period(min analysis) : NA
+@P:  M2S_MSS|CLK_BASE - Requested Period(min analysis) : 10.000
+@P:  M2S_MSS|CLK_BASE - Slack(min analysis) : NA
+@P:  System - Estimated Frequency(min analysis) : NA
+@P:  System - Requested Frequency(min analysis) : 100.0 MHz
+@P:  System - Estimated Period(min analysis) : NA
+@P:  System - Requested Period(min analysis) : 10.000
+@P:  System - Slack(min analysis) : NA
+@P: M2S_MSS Part : m2s090tsfbga484-1
+@P: M2S_MSS Register bits  : 185 
+@P: M2S_MSS DSP Blocks  : 0
+@P: M2S_MSS I/O primitives : 76
+@P:  CPU Time : 0h:00m:02s

@@ -1,0 +1,36 @@
+#===========================================================
+# Created by Microsemi SmartDesign Thu Feb 02 00:50:56 2017
+#
+# Syntax: 
+# ------- 
+#
+# memmap    resource_name base_address;
+#
+# write     width resource_name byte_offset data;
+# read      width resource_name byte_offset;
+# readcheck width resource_name byte_offset data;
+#
+#===========================================================
+
+#-----------------------------------------------------------
+# Memory Map
+# Define name and base address of each resource.
+#-----------------------------------------------------------
+
+memmap M2S_MSS_sb_MSS_0 0x40020800;
+memmap SERDES_IF2_0 0x40028000;
+#-----------------------------------------------------------
+# Include resource scriptlets
+#-----------------------------------------------------------
+
+
+#-----------------------------------------------------------
+# Peripheral Initialization
+#-----------------------------------------------------------
+#define USE_MDDR
+#define USE_SERDESIF_0
+
+include "peripheral_init.bfm"
+procedure subsystem_init;
+  call init;
+return

@@ -1,0 +1,619 @@
+Archive member included because of file (symbol)
+
+C:\Users\Hiperwall\Desktop\microsemilab\UCI_Demo2\SoftConsole\M2S_MSS_sb_MSS_CM3\M2S_MSS_sb_MSS_CM3_hw_platform\Debug\libM2S_MSS_sb_MSS_CM3_hw_platform.a(mss_gpio.o)
+                              ./main.o (MSS_GPIO_init)
+C:\Users\Hiperwall\Desktop\microsemilab\UCI_Demo2\SoftConsole\M2S_MSS_sb_MSS_CM3\M2S_MSS_sb_MSS_CM3_hw_platform\Debug\libM2S_MSS_sb_MSS_CM3_hw_platform.a(system_m2sxxx.o)
+                              ./main.o (SystemCoreClock)
+C:\Users\Hiperwall\Desktop\microsemilab\UCI_Demo2\SoftConsole\M2S_MSS_sb_MSS_CM3\M2S_MSS_sb_MSS_CM3_hw_platform\Debug\libM2S_MSS_sb_MSS_CM3_hw_platform.a(sys_config.o)
+                              C:\Users\Hiperwall\Desktop\microsemilab\UCI_Demo2\SoftConsole\M2S_MSS_sb_MSS_CM3\M2S_MSS_sb_MSS_CM3_hw_platform\Debug\libM2S_MSS_sb_MSS_CM3_hw_platform.a(system_m2sxxx.o) (g_m2s_mddr_addr)
+C:\Users\Hiperwall\Desktop\microsemilab\UCI_Demo2\SoftConsole\M2S_MSS_sb_MSS_CM3\M2S_MSS_sb_MSS_CM3_hw_platform\Debug\libM2S_MSS_sb_MSS_CM3_hw_platform.a(sys_config_SERDESIF_0.o)
+                              C:\Users\Hiperwall\Desktop\microsemilab\UCI_Demo2\SoftConsole\M2S_MSS_sb_MSS_CM3\M2S_MSS_sb_MSS_CM3_hw_platform\Debug\libM2S_MSS_sb_MSS_CM3_hw_platform.a(system_m2sxxx.o) (g_m2s_serdes_0_config)
+c:/microsemi/libero_v11.5/softconsole/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-errno.o)
+                              C:/Users/Hiperwall/Desktop/microsemilab/UCI_Demo2/SoftConsole/M2S_MSS_sb_MSS_CM3/M2S_MSS_sb_MSS_CM3_hw_platform/Debug/CMSIS/startup_gcc/newlib_stubs.o (__errno)
+c:/microsemi/libero_v11.5/softconsole/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-impure.o)
+                              c:/microsemi/libero_v11.5/softconsole/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-errno.o) (_impure_ptr)
+c:/microsemi/libero_v11.5/softconsole/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-init.o)
+                              C:/Users/Hiperwall/Desktop/microsemilab/UCI_Demo2/SoftConsole/M2S_MSS_sb_MSS_CM3/M2S_MSS_sb_MSS_CM3_hw_platform/Debug/CMSIS/startup_gcc/startup_m2sxxx.o (__libc_init_array)
+
+Discarded input sections
+
+ .text          0x00000000        0x0 c:/microsemi/libero_v11.5/softconsole/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/thumb2/crti.o
+ .data          0x00000000        0x0 c:/microsemi/libero_v11.5/softconsole/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/thumb2/crti.o
+ .bss           0x00000000        0x0 c:/microsemi/libero_v11.5/softconsole/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/thumb2/crti.o
+ .data          0x00000000        0x4 c:/microsemi/libero_v11.5/softconsole/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/thumb2/crtbegin.o
+ .text          0x00000000        0x0 ./main.o
+ .data          0x00000000        0x0 ./main.o
+ .bss           0x00000000        0x0 ./main.o
+ .text          0x00000000        0x0 C:/Users/Hiperwall/Desktop/microsemilab/UCI_Demo2/SoftConsole/M2S_MSS_sb_MSS_CM3/M2S_MSS_sb_MSS_CM3_hw_platform/Debug/CMSIS/startup_gcc/startup_m2sxxx.o
+ .data          0x00000000        0x0 C:/Users/Hiperwall/Desktop/microsemilab/UCI_Demo2/SoftConsole/M2S_MSS_sb_MSS_CM3/M2S_MSS_sb_MSS_CM3_hw_platform/Debug/CMSIS/startup_gcc/startup_m2sxxx.o
+ .bss           0x00000000        0x0 C:/Users/Hiperwall/Desktop/microsemilab/UCI_Demo2/SoftConsole/M2S_MSS_sb_MSS_CM3/M2S_MSS_sb_MSS_CM3_hw_platform/Debug/CMSIS/startup_gcc/startup_m2sxxx.o
+ .text          0x00000000        0x0 C:/Users/Hiperwall/Desktop/microsemilab/UCI_Demo2/SoftConsole/M2S_MSS_sb_MSS_CM3/M2S_MSS_sb_MSS_CM3_hw_platform/Debug/CMSIS/startup_gcc/newlib_stubs.o
+ .data          0x00000000        0x0 C:/Users/Hiperwall/Desktop/microsemilab/UCI_Demo2/SoftConsole/M2S_MSS_sb_MSS_CM3/M2S_MSS_sb_MSS_CM3_hw_platform/Debug/CMSIS/startup_gcc/newlib_stubs.o
+ .bss           0x00000000        0x0 C:/Users/Hiperwall/Desktop/microsemilab/UCI_Demo2/SoftConsole/M2S_MSS_sb_MSS_CM3/M2S_MSS_sb_MSS_CM3_hw_platform/Debug/CMSIS/startup_gcc/newlib_stubs.o
+ .bss.__env     0x00000000        0x4 C:/Users/Hiperwall/Desktop/microsemilab/UCI_Demo2/SoftConsole/M2S_MSS_sb_MSS_CM3/M2S_MSS_sb_MSS_CM3_hw_platform/Debug/CMSIS/startup_gcc/newlib_stubs.o
+ .data.environ  0x00000000        0x4 C:/Users/Hiperwall/Desktop/microsemilab/UCI_Demo2/SoftConsole/M2S_MSS_sb_MSS_CM3/M2S_MSS_sb_MSS_CM3_hw_platform/Debug/CMSIS/startup_gcc/newlib_stubs.o
+ .text._close   0x00000000       0x18 C:/Users/Hiperwall/Desktop/microsemilab/UCI_Demo2/SoftConsole/M2S_MSS_sb_MSS_CM3/M2S_MSS_sb_MSS_CM3_hw_platform/Debug/CMSIS/startup_gcc/newlib_stubs.o
+ .text._execve  0x00000000       0x28 C:/Users/Hiperwall/Desktop/microsemilab/UCI_Demo2/SoftConsole/M2S_MSS_sb_MSS_CM3/M2S_MSS_sb_MSS_CM3_hw_platform/Debug/CMSIS/startup_gcc/newlib_stubs.o
+ .text._exit    0x00000000        0xc C:/Users/Hiperwall/Desktop/microsemilab/UCI_Demo2/SoftConsole/M2S_MSS_sb_MSS_CM3/M2S_MSS_sb_MSS_CM3_hw_platform/Debug/CMSIS/startup_gcc/newlib_stubs.o
+ .text._fork    0x00000000       0x18 C:/Users/Hiperwall/Desktop/microsemilab/UCI_Demo2/SoftConsole/M2S_MSS_sb_MSS_CM3/M2S_MSS_sb_MSS_CM3_hw_platform/Debug/CMSIS/startup_gcc/newlib_stubs.o
+ .text._fstat   0x00000000       0x24 C:/Users/Hiperwall/Desktop/microsemilab/UCI_Demo2/SoftConsole/M2S_MSS_sb_MSS_CM3/M2S_MSS_sb_MSS_CM3_hw_platform/Debug/CMSIS/startup_gcc/newlib_stubs.o
+ .text._getpid  0x00000000       0x10 C:/Users/Hiperwall/Desktop/microsemilab/UCI_Demo2/SoftConsole/M2S_MSS_sb_MSS_CM3/M2S_MSS_sb_MSS_CM3_hw_platform/Debug/CMSIS/startup_gcc/newlib_stubs.o
+ .text._isatty  0x00000000       0x18 C:/Users/Hiperwall/Desktop/microsemilab/UCI_Demo2/SoftConsole/M2S_MSS_sb_MSS_CM3/M2S_MSS_sb_MSS_CM3_hw_platform/Debug/CMSIS/startup_gcc/newlib_stubs.o
+ .text._kill    0x00000000       0x24 C:/Users/Hiperwall/Desktop/microsemilab/UCI_Demo2/SoftConsole/M2S_MSS_sb_MSS_CM3/M2S_MSS_sb_MSS_CM3_hw_platform/Debug/CMSIS/startup_gcc/newlib_stubs.o
+ .text._link    0x00000000       0x24 C:/Users/Hiperwall/Desktop/microsemilab/UCI_Demo2/SoftConsole/M2S_MSS_sb_MSS_CM3/M2S_MSS_sb_MSS_CM3_hw_platform/Debug/CMSIS/startup_gcc/newlib_stubs.o
+ .text._lseek   0x00000000       0x1c C:/Users/Hiperwall/Desktop/microsemilab/UCI_Demo2/SoftConsole/M2S_MSS_sb_MSS_CM3/M2S_MSS_sb_MSS_CM3_hw_platform/Debug/CMSIS/startup_gcc/newlib_stubs.o
+ .text._open    0x00000000       0x1c C:/Users/Hiperwall/Desktop/microsemilab/UCI_Demo2/SoftConsole/M2S_MSS_sb_MSS_CM3/M2S_MSS_sb_MSS_CM3_hw_platform/Debug/CMSIS/startup_gcc/newlib_stubs.o
+ .text._read    0x00000000       0x1c C:/Users/Hiperwall/Desktop/microsemilab/UCI_Demo2/SoftConsole/M2S_MSS_sb_MSS_CM3/M2S_MSS_sb_MSS_CM3_hw_platform/Debug/CMSIS/startup_gcc/newlib_stubs.o
+ .text._write_r
+                0x00000000       0x20 C:/Users/Hiperwall/Desktop/microsemilab/UCI_Demo2/SoftConsole/M2S_MSS_sb_MSS_CM3/M2S_MSS_sb_MSS_CM3_hw_platform/Debug/CMSIS/startup_gcc/newlib_stubs.o
+ .rodata        0x00000000       0x30 C:/Users/Hiperwall/Desktop/microsemilab/UCI_Demo2/SoftConsole/M2S_MSS_sb_MSS_CM3/M2S_MSS_sb_MSS_CM3_hw_platform/Debug/CMSIS/startup_gcc/newlib_stubs.o
+ .text._sbrk    0x00000000       0xe4 C:/Users/Hiperwall/Desktop/microsemilab/UCI_Demo2/SoftConsole/M2S_MSS_sb_MSS_CM3/M2S_MSS_sb_MSS_CM3_hw_platform/Debug/CMSIS/startup_gcc/newlib_stubs.o
+ .text._stat    0x00000000       0x24 C:/Users/Hiperwall/Desktop/microsemilab/UCI_Demo2/SoftConsole/M2S_MSS_sb_MSS_CM3/M2S_MSS_sb_MSS_CM3_hw_platform/Debug/CMSIS/startup_gcc/newlib_stubs.o
+ .text._times   0x00000000       0x18 C:/Users/Hiperwall/Desktop/microsemilab/UCI_Demo2/SoftConsole/M2S_MSS_sb_MSS_CM3/M2S_MSS_sb_MSS_CM3_hw_platform/Debug/CMSIS/startup_gcc/newlib_stubs.o
+ .text._unlink  0x00000000       0x24 C:/Users/Hiperwall/Desktop/microsemilab/UCI_Demo2/SoftConsole/M2S_MSS_sb_MSS_CM3/M2S_MSS_sb_MSS_CM3_hw_platform/Debug/CMSIS/startup_gcc/newlib_stubs.o
+ .text._wait    0x00000000       0x24 C:/Users/Hiperwall/Desktop/microsemilab/UCI_Demo2/SoftConsole/M2S_MSS_sb_MSS_CM3/M2S_MSS_sb_MSS_CM3_hw_platform/Debug/CMSIS/startup_gcc/newlib_stubs.o
+ .bss.heap_end.2220
+                0x00000000        0x4 C:/Users/Hiperwall/Desktop/microsemilab/UCI_Demo2/SoftConsole/M2S_MSS_sb_MSS_CM3/M2S_MSS_sb_MSS_CM3_hw_platform/Debug/CMSIS/startup_gcc/newlib_stubs.o
+ .text          0x00000000        0x0 C:\Users\Hiperwall\Desktop\microsemilab\UCI_Demo2\SoftConsole\M2S_MSS_sb_MSS_CM3\M2S_MSS_sb_MSS_CM3_hw_platform\Debug\libM2S_MSS_sb_MSS_CM3_hw_platform.a(mss_gpio.o)
+ .data          0x00000000        0x0 C:\Users\Hiperwall\Desktop\microsemilab\UCI_Demo2\SoftConsole\M2S_MSS_sb_MSS_CM3\M2S_MSS_sb_MSS_CM3_hw_platform\Debug\libM2S_MSS_sb_MSS_CM3_hw_platform.a(mss_gpio.o)
+ .bss           0x00000000        0x0 C:\Users\Hiperwall\Desktop\microsemilab\UCI_Demo2\SoftConsole\M2S_MSS_sb_MSS_CM3\M2S_MSS_sb_MSS_CM3_hw_platform\Debug\libM2S_MSS_sb_MSS_CM3_hw_platform.a(mss_gpio.o)
+ .text.NVIC_EnableIRQ
+                0x00000000       0x38 C:\Users\Hiperwall\Desktop\microsemilab\UCI_Demo2\SoftConsole\M2S_MSS_sb_MSS_CM3\M2S_MSS_sb_MSS_CM3_hw_platform\Debug\libM2S_MSS_sb_MSS_CM3_hw_platform.a(mss_gpio.o)
+ .text.MSS_GPIO_set_output
+                0x00000000       0x70 C:\Users\Hiperwall\Desktop\microsemilab\UCI_Demo2\SoftConsole\M2S_MSS_sb_MSS_CM3\M2S_MSS_sb_MSS_CM3_hw_platform\Debug\libM2S_MSS_sb_MSS_CM3_hw_platform.a(mss_gpio.o)
+ .text.MSS_GPIO_drive_inout
+                0x00000000      0x128 C:\Users\Hiperwall\Desktop\microsemilab\UCI_Demo2\SoftConsole\M2S_MSS_sb_MSS_CM3\M2S_MSS_sb_MSS_CM3_hw_platform\Debug\libM2S_MSS_sb_MSS_CM3_hw_platform.a(mss_gpio.o)
+ .text.MSS_GPIO_enable_irq
+                0x00000000       0x60 C:\Users\Hiperwall\Desktop\microsemilab\UCI_Demo2\SoftConsole\M2S_MSS_sb_MSS_CM3\M2S_MSS_sb_MSS_CM3_hw_platform\Debug\libM2S_MSS_sb_MSS_CM3_hw_platform.a(mss_gpio.o)
+ .text.MSS_GPIO_disable_irq
+                0x00000000       0x50 C:\Users\Hiperwall\Desktop\microsemilab\UCI_Demo2\SoftConsole\M2S_MSS_sb_MSS_CM3\M2S_MSS_sb_MSS_CM3_hw_platform\Debug\libM2S_MSS_sb_MSS_CM3_hw_platform.a(mss_gpio.o)
+ .text.MSS_GPIO_clear_irq
+                0x00000000       0x40 C:\Users\Hiperwall\Desktop\microsemilab\UCI_Demo2\SoftConsole\M2S_MSS_sb_MSS_CM3\M2S_MSS_sb_MSS_CM3_hw_platform\Debug\libM2S_MSS_sb_MSS_CM3_hw_platform.a(mss_gpio.o)
+ .text          0x00000000        0x0 C:\Users\Hiperwall\Desktop\microsemilab\UCI_Demo2\SoftConsole\M2S_MSS_sb_MSS_CM3\M2S_MSS_sb_MSS_CM3_hw_platform\Debug\libM2S_MSS_sb_MSS_CM3_hw_platform.a(system_m2sxxx.o)
+ .data          0x00000000        0x0 C:\Users\Hiperwall\Desktop\microsemilab\UCI_Demo2\SoftConsole\M2S_MSS_sb_MSS_CM3\M2S_MSS_sb_MSS_CM3_hw_platform\Debug\libM2S_MSS_sb_MSS_CM3_hw_platform.a(system_m2sxxx.o)
+ .bss           0x00000000        0x0 C:\Users\Hiperwall\Desktop\microsemilab\UCI_Demo2\SoftConsole\M2S_MSS_sb_MSS_CM3\M2S_MSS_sb_MSS_CM3_hw_platform\Debug\libM2S_MSS_sb_MSS_CM3_hw_platform.a(system_m2sxxx.o)
+ .data.g_FrequencyPCLK0
+                0x00000000        0x4 C:\Users\Hiperwall\Desktop\microsemilab\UCI_Demo2\SoftConsole\M2S_MSS_sb_MSS_CM3\M2S_MSS_sb_MSS_CM3_hw_platform\Debug\libM2S_MSS_sb_MSS_CM3_hw_platform.a(system_m2sxxx.o)
+ .data.g_FrequencyPCLK1
+                0x00000000        0x4 C:\Users\Hiperwall\Desktop\microsemilab\UCI_Demo2\SoftConsole\M2S_MSS_sb_MSS_CM3\M2S_MSS_sb_MSS_CM3_hw_platform\Debug\libM2S_MSS_sb_MSS_CM3_hw_platform.a(system_m2sxxx.o)
+ .data.g_FrequencyPCLK2
+                0x00000000        0x4 C:\Users\Hiperwall\Desktop\microsemilab\UCI_Demo2\SoftConsole\M2S_MSS_sb_MSS_CM3\M2S_MSS_sb_MSS_CM3_hw_platform\Debug\libM2S_MSS_sb_MSS_CM3_hw_platform.a(system_m2sxxx.o)
+ .data.g_FrequencyFIC0
+                0x00000000        0x4 C:\Users\Hiperwall\Desktop\microsemilab\UCI_Demo2\SoftConsole\M2S_MSS_sb_MSS_CM3\M2S_MSS_sb_MSS_CM3_hw_platform\Debug\libM2S_MSS_sb_MSS_CM3_hw_platform.a(system_m2sxxx.o)
+ .data.g_FrequencyFIC1
+                0x00000000        0x4 C:\Users\Hiperwall\Desktop\microsemilab\UCI_Demo2\SoftConsole\M2S_MSS_sb_MSS_CM3\M2S_MSS_sb_MSS_CM3_hw_platform\Debug\libM2S_MSS_sb_MSS_CM3_hw_platform.a(system_m2sxxx.o)
+ .data.g_FrequencyFIC64
+                0x00000000        0x4 C:\Users\Hiperwall\Desktop\microsemilab\UCI_Demo2\SoftConsole\M2S_MSS_sb_MSS_CM3\M2S_MSS_sb_MSS_CM3_hw_platform\Debug\libM2S_MSS_sb_MSS_CM3_hw_platform.a(system_m2sxxx.o)
+ .text.SystemCoreClockUpdate
+                0x00000000      0x14c C:\Users\Hiperwall\Desktop\microsemilab\UCI_Demo2\SoftConsole\M2S_MSS_sb_MSS_CM3\M2S_MSS_sb_MSS_CM3_hw_platform\Debug\libM2S_MSS_sb_MSS_CM3_hw_platform.a(system_m2sxxx.o)
+ .text.get_rcosc_25_50mhz_frequency
+                0x00000000       0x44 C:\Users\Hiperwall\Desktop\microsemilab\UCI_Demo2\SoftConsole\M2S_MSS_sb_MSS_CM3\M2S_MSS_sb_MSS_CM3_hw_platform\Debug\libM2S_MSS_sb_MSS_CM3_hw_platform.a(system_m2sxxx.o)
+ .text.set_clock_frequency_globals
+                0x00000000       0x6c C:\Users\Hiperwall\Desktop\microsemilab\UCI_Demo2\SoftConsole\M2S_MSS_sb_MSS_CM3\M2S_MSS_sb_MSS_CM3_hw_platform\Debug\libM2S_MSS_sb_MSS_CM3_hw_platform.a(system_m2sxxx.o)
+ .rodata.C.19.3584
+                0x00000000        0x8 C:\Users\Hiperwall\Desktop\microsemilab\UCI_Demo2\SoftConsole\M2S_MSS_sb_MSS_CM3\M2S_MSS_sb_MSS_CM3_hw_platform\Debug\libM2S_MSS_sb_MSS_CM3_hw_platform.a(system_m2sxxx.o)
+ .text          0x00000000        0x0 C:\Users\Hiperwall\Desktop\microsemilab\UCI_Demo2\SoftConsole\M2S_MSS_sb_MSS_CM3\M2S_MSS_sb_MSS_CM3_hw_platform\Debug\libM2S_MSS_sb_MSS_CM3_hw_platform.a(sys_config.o)
+ .data          0x00000000        0x0 C:\Users\Hiperwall\Desktop\microsemilab\UCI_Demo2\SoftConsole\M2S_MSS_sb_MSS_CM3\M2S_MSS_sb_MSS_CM3_hw_platform\Debug\libM2S_MSS_sb_MSS_CM3_hw_platform.a(sys_config.o)
+ .bss           0x00000000        0x0 C:\Users\Hiperwall\Desktop\microsemilab\UCI_Demo2\SoftConsole\M2S_MSS_sb_MSS_CM3\M2S_MSS_sb_MSS_CM3_hw_platform\Debug\libM2S_MSS_sb_MSS_CM3_hw_platform.a(sys_config.o)
+ .text          0x00000000        0x0 C:\Users\Hiperwall\Desktop\microsemilab\UCI_Demo2\SoftConsole\M2S_MSS_sb_MSS_CM3\M2S_MSS_sb_MSS_CM3_hw_platform\Debug\libM2S_MSS_sb_MSS_CM3_hw_platform.a(sys_config_SERDESIF_0.o)
+ .data          0x00000000        0x0 C:\Users\Hiperwall\Desktop\microsemilab\UCI_Demo2\SoftConsole\M2S_MSS_sb_MSS_CM3\M2S_MSS_sb_MSS_CM3_hw_platform\Debug\libM2S_MSS_sb_MSS_CM3_hw_platform.a(sys_config_SERDESIF_0.o)
+ .bss           0x00000000        0x0 C:\Users\Hiperwall\Desktop\microsemilab\UCI_Demo2\SoftConsole\M2S_MSS_sb_MSS_CM3\M2S_MSS_sb_MSS_CM3_hw_platform\Debug\libM2S_MSS_sb_MSS_CM3_hw_platform.a(sys_config_SERDESIF_0.o)
+ .text          0x00000000        0xc c:/microsemi/libero_v11.5/softconsole/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-errno.o)
+ .data          0x00000000        0x0 c:/microsemi/libero_v11.5/softconsole/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-errno.o)
+ .bss           0x00000000        0x0 c:/microsemi/libero_v11.5/softconsole/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-errno.o)
+ .text          0x00000000        0x0 c:/microsemi/libero_v11.5/softconsole/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-impure.o)
+ .data          0x00000000       0xf4 c:/microsemi/libero_v11.5/softconsole/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-impure.o)
+ .bss           0x00000000        0x0 c:/microsemi/libero_v11.5/softconsole/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-impure.o)
+ .rodata        0x00000000        0x4 c:/microsemi/libero_v11.5/softconsole/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-impure.o)
+ .rodata.str1.4
+                0x00000000        0x4 c:/microsemi/libero_v11.5/softconsole/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-impure.o)
+ .data          0x00000000        0x0 c:/microsemi/libero_v11.5/softconsole/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-init.o)
+ .bss           0x00000000        0x0 c:/microsemi/libero_v11.5/softconsole/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-init.o)
+ .text          0x00000000        0x0 c:/microsemi/libero_v11.5/softconsole/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/thumb2/crtend.o
+ .data          0x00000000        0x0 c:/microsemi/libero_v11.5/softconsole/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/thumb2/crtend.o
+ .bss           0x00000000        0x0 c:/microsemi/libero_v11.5/softconsole/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/thumb2/crtend.o
+ .text          0x00000000        0x0 c:/microsemi/libero_v11.5/softconsole/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/thumb2/crtn.o
+ .data          0x00000000        0x0 c:/microsemi/libero_v11.5/softconsole/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/thumb2/crtn.o
+ .bss           0x00000000        0x0 c:/microsemi/libero_v11.5/softconsole/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/thumb2/crtn.o
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+ram              0x20000000         0x00010000         xrw
+*default*        0x00000000         0xffffffff
+
+Linker script and memory map
+
+LOAD c:/microsemi/libero_v11.5/softconsole/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/thumb2/crti.o
+LOAD c:/microsemi/libero_v11.5/softconsole/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/thumb2/crtbegin.o
+LOAD ./main.o
+LOAD C:/Users/Hiperwall/Desktop/microsemilab/UCI_Demo2/SoftConsole/M2S_MSS_sb_MSS_CM3/M2S_MSS_sb_MSS_CM3_hw_platform/Debug/CMSIS/startup_gcc/startup_m2sxxx.o
+LOAD C:/Users/Hiperwall/Desktop/microsemilab/UCI_Demo2/SoftConsole/M2S_MSS_sb_MSS_CM3/M2S_MSS_sb_MSS_CM3_hw_platform/Debug/CMSIS/startup_gcc/newlib_stubs.o
+LOAD C:\Users\Hiperwall\Desktop\microsemilab\UCI_Demo2\SoftConsole\M2S_MSS_sb_MSS_CM3\M2S_MSS_sb_MSS_CM3_hw_platform\Debug\libM2S_MSS_sb_MSS_CM3_hw_platform.a
+START GROUP
+LOAD c:/microsemi/libero_v11.5/softconsole/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/thumb2\libgcc.a
+LOAD c:/microsemi/libero_v11.5/softconsole/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a
+END GROUP
+LOAD c:/microsemi/libero_v11.5/softconsole/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/thumb2/crtend.o
+LOAD c:/microsemi/libero_v11.5/softconsole/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/thumb2/crtn.o
+START GROUP
+LOAD c:/microsemi/libero_v11.5/softconsole/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a
+LOAD c:/microsemi/libero_v11.5/softconsole/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/thumb2\libgcc.a
+LOAD c:/microsemi/libero_v11.5/softconsole/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libm.a
+END GROUP
+                0x00000000                __DYNAMIC = 0x0
+                0x20000000                RAM_START_ADDRESS = 0x20000000
+                0x00010000                RAM_SIZE = 0x10000
+                0x00001000                MAIN_STACK_SIZE = 0x1000
+                0x00001000                MIN_SIZE_HEAP = 0x1000
+                0x20010000                PROVIDE (__main_stack_start, (RAM_START_ADDRESS + RAM_SIZE))
+                0x20010000                PROVIDE (_estack, __main_stack_start)
+                0x00000000                PROVIDE (__mirrored_nvm, 0x0)
+                0x00000000                PROVIDE (__smartfusion2_memory_remap, 0x0)
+
+.vector_table   0x20000000      0x190
+                0x20000000                __vector_table_load = LOADADDR (.vector_table)
+                0x20000000                __vector_table_start = .
+                0x20000000                __vector_table_vma_base_address = .
+ *(.isr_vector)
+ .isr_vector    0x20000000      0x190 C:/Users/Hiperwall/Desktop/microsemilab/UCI_Demo2/SoftConsole/M2S_MSS_sb_MSS_CM3/M2S_MSS_sb_MSS_CM3_hw_platform/Debug/CMSIS/startup_gcc/startup_m2sxxx.o
+                0x20000000                g_pfnVectors
+                0x20000190                . = ALIGN (0x10)
+                0x20000190                _evector_table = .
+
+.boot_code      0x20000190      0x330
+ *(.boot_code)
+ .boot_code     0x20000190      0x330 C:/Users/Hiperwall/Desktop/microsemilab/UCI_Demo2/SoftConsole/M2S_MSS_sb_MSS_CM3/M2S_MSS_sb_MSS_CM3_hw_platform/Debug/CMSIS/startup_gcc/startup_m2sxxx.o
+                0x20000190                Reset_Handler
+                0x2000037e                NMI_Handler
+                0x20000380                HardFault_Handler
+                0x20000382                MemManage_Handler
+                0x20000384                BusFault_Handler
+                0x20000386                UsageFault_Handler
+                0x20000388                SVC_Handler
+                0x2000038a                DebugMon_Handler
+                0x2000038c                PendSV_Handler
+                0x2000038e                SysTick_Handler
+                0x20000390                WdogWakeup_IRQHandler
+                0x20000392                RTC_Wakeup_IRQHandler
+                0x20000394                SPI0_IRQHandler
+                0x20000396                SPI1_IRQHandler
+                0x20000398                I2C0_IRQHandler
+                0x2000039a                I2C0_SMBAlert_IRQHandler
+                0x2000039c                I2C0_SMBus_IRQHandler
+                0x2000039e                I2C1_IRQHandler
+                0x200003a0                I2C1_SMBAlert_IRQHandler
+                0x200003a2                I2C1_SMBus_IRQHandler
+                0x200003a4                UART0_IRQHandler
+                0x200003a6                UART1_IRQHandler
+                0x200003a8                EthernetMAC_IRQHandler
+                0x200003aa                DMA_IRQHandler
+                0x200003ac                Timer1_IRQHandler
+                0x200003ae                Timer2_IRQHandler
+                0x200003b0                CAN_IRQHandler
+                0x200003b2                ENVM0_IRQHandler
+                0x200003b4                ENVM1_IRQHandler
+                0x200003b6                ComBlk_IRQHandler
+                0x200003b8                USB_IRQHandler
+                0x200003ba                USB_DMA_IRQHandler
+                0x200003bc                PLL_Lock_IRQHandler
+                0x200003be                PLL_LockLost_IRQHandler
+                0x200003c0                CommSwitchError_IRQHandler
+                0x200003c2                CacheError_IRQHandler
+                0x200003c4                DDR_IRQHandler
+                0x200003c6                HPDMA_Complete_IRQHandler
+                0x200003c8                HPDMA_Error_IRQHandler
+                0x200003ca                ECC_Error_IRQHandler
+                0x200003cc                MDDR_IOCalib_IRQHandler
+                0x200003ce                FAB_PLL_Lock_IRQHandler
+                0x200003d0                FAB_PLL_LockLost_IRQHandler
+                0x200003d2                FIC64_IRQHandler
+                0x200003d4                FabricIrq0_IRQHandler
+                0x200003d6                FabricIrq1_IRQHandler
+                0x200003d8                FabricIrq2_IRQHandler
+                0x200003da                FabricIrq3_IRQHandler
+                0x200003dc                FabricIrq4_IRQHandler
+                0x200003de                FabricIrq5_IRQHandler
+                0x200003e0                FabricIrq6_IRQHandler
+                0x200003e2                FabricIrq7_IRQHandler
+                0x200003e4                FabricIrq8_IRQHandler
+                0x200003e6                FabricIrq9_IRQHandler
+                0x200003e8                FabricIrq10_IRQHandler
+                0x200003ea                FabricIrq11_IRQHandler
+                0x200003ec                FabricIrq12_IRQHandler
+                0x200003ee                FabricIrq13_IRQHandler
+                0x200003f0                FabricIrq14_IRQHandler
+                0x200003f2                FabricIrq15_IRQHandler
+                0x200003f4                GPIO0_IRQHandler
+                0x200003f6                GPIO1_IRQHandler
+                0x200003f8                GPIO2_IRQHandler
+                0x200003fa                GPIO3_IRQHandler
+                0x200003fc                GPIO4_IRQHandler
+                0x200003fe                GPIO5_IRQHandler
+                0x20000400                GPIO6_IRQHandler
+                0x20000402                GPIO7_IRQHandler
+                0x20000404                GPIO8_IRQHandler
+                0x20000406                GPIO9_IRQHandler
+                0x20000408                GPIO10_IRQHandler
+                0x2000040a                GPIO11_IRQHandler
+                0x2000040c                GPIO12_IRQHandler
+                0x2000040e                GPIO13_IRQHandler
+                0x20000410                GPIO14_IRQHandler
+                0x20000412                GPIO15_IRQHandler
+                0x20000414                GPIO16_IRQHandler
+                0x20000416                GPIO17_IRQHandler
+                0x20000418                GPIO18_IRQHandler
+                0x2000041a                GPIO19_IRQHandler
+                0x2000041c                GPIO20_IRQHandler
+                0x2000041e                GPIO21_IRQHandler
+                0x20000420                GPIO22_IRQHandler
+                0x20000422                GPIO23_IRQHandler
+                0x20000424                GPIO24_IRQHandler
+                0x20000426                GPIO25_IRQHandler
+                0x20000428                GPIO26_IRQHandler
+                0x2000042a                GPIO27_IRQHandler
+                0x2000042c                GPIO28_IRQHandler
+                0x2000042e                GPIO29_IRQHandler
+                0x20000430                GPIO30_IRQHandler
+                0x20000432                GPIO31_IRQHandler
+                0x20000434                mscc_post_hw_cfg_init
+                0x200004c0                . = ALIGN (0x10)
+
+.text           0x200004c0      0xb20
+ CREATE_OBJECT_SYMBOLS
+                0x200004c0                __text_load = LOADADDR (.text)
+                0x200004c0                __text_start = .
+ *(.text .text.* .gnu.linkonce.t.*)
+ .text          0x200004c0       0x30 c:/microsemi/libero_v11.5/softconsole/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/thumb2/crtbegin.o
+ .text.MSS_GPIO_set_outputs
+                0x200004f0       0x20 ./main.o
+ .text.MSS_GPIO_get_outputs
+                0x20000510       0x18 ./main.o
+ .text.main     0x20000528       0x58 ./main.o
+                0x20000528                main
+ .text.delay    0x20000580       0x30 ./main.o
+ .text.NVIC_DisableIRQ
+                0x200005b0       0x3c C:\Users\Hiperwall\Desktop\microsemilab\UCI_Demo2\SoftConsole\M2S_MSS_sb_MSS_CM3\M2S_MSS_sb_MSS_CM3_hw_platform\Debug\libM2S_MSS_sb_MSS_CM3_hw_platform.a(mss_gpio.o)
+ .text.NVIC_ClearPendingIRQ
+                0x200005ec       0x3c C:\Users\Hiperwall\Desktop\microsemilab\UCI_Demo2\SoftConsole\M2S_MSS_sb_MSS_CM3\M2S_MSS_sb_MSS_CM3_hw_platform\Debug\libM2S_MSS_sb_MSS_CM3_hw_platform.a(mss_gpio.o)
+ .text.MSS_GPIO_init
+                0x20000628       0xac C:\Users\Hiperwall\Desktop\microsemilab\UCI_Demo2\SoftConsole\M2S_MSS_sb_MSS_CM3\M2S_MSS_sb_MSS_CM3_hw_platform\Debug\libM2S_MSS_sb_MSS_CM3_hw_platform.a(mss_gpio.o)
+                0x20000628                MSS_GPIO_init
+ .text.MSS_GPIO_config
+                0x200006d4       0x3c C:\Users\Hiperwall\Desktop\microsemilab\UCI_Demo2\SoftConsole\M2S_MSS_sb_MSS_CM3\M2S_MSS_sb_MSS_CM3_hw_platform\Debug\libM2S_MSS_sb_MSS_CM3_hw_platform.a(mss_gpio.o)
+                0x200006d4                MSS_GPIO_config
+ .text.SystemInit
+                0x20000710       0xe0 C:\Users\Hiperwall\Desktop\microsemilab\UCI_Demo2\SoftConsole\M2S_MSS_sb_MSS_CM3\M2S_MSS_sb_MSS_CM3_hw_platform\Debug\libM2S_MSS_sb_MSS_CM3_hw_platform.a(system_m2sxxx.o)
+                0x20000710                SystemInit
+ .text.copy_cfg16_to_regs
+                0x200007f0       0x48 C:\Users\Hiperwall\Desktop\microsemilab\UCI_Demo2\SoftConsole\M2S_MSS_sb_MSS_CM3\M2S_MSS_sb_MSS_CM3_hw_platform\Debug\libM2S_MSS_sb_MSS_CM3_hw_platform.a(system_m2sxxx.o)
+ .text.config_by_addr_value
+                0x20000838       0x48 C:\Users\Hiperwall\Desktop\microsemilab\UCI_Demo2\SoftConsole\M2S_MSS_sb_MSS_CM3\M2S_MSS_sb_MSS_CM3_hw_platform\Debug\libM2S_MSS_sb_MSS_CM3_hw_platform.a(system_m2sxxx.o)
+ .text.config_ddr_subsys
+                0x20000880       0xf0 C:\Users\Hiperwall\Desktop\microsemilab\UCI_Demo2\SoftConsole\M2S_MSS_sb_MSS_CM3\M2S_MSS_sb_MSS_CM3_hw_platform\Debug\libM2S_MSS_sb_MSS_CM3_hw_platform.a(system_m2sxxx.o)
+ .text.configure_serdes_intf
+                0x20000970       0x18 C:\Users\Hiperwall\Desktop\microsemilab\UCI_Demo2\SoftConsole\M2S_MSS_sb_MSS_CM3\M2S_MSS_sb_MSS_CM3_hw_platform\Debug\libM2S_MSS_sb_MSS_CM3_hw_platform.a(system_m2sxxx.o)
+ .text.configure_pcie_intf
+                0x20000988       0x1c C:\Users\Hiperwall\Desktop\microsemilab\UCI_Demo2\SoftConsole\M2S_MSS_sb_MSS_CM3\M2S_MSS_sb_MSS_CM3_hw_platform\Debug\libM2S_MSS_sb_MSS_CM3_hw_platform.a(system_m2sxxx.o)
+ .text.configure_pcie_block
+                0x200009a4      0x300 C:\Users\Hiperwall\Desktop\microsemilab\UCI_Demo2\SoftConsole\M2S_MSS_sb_MSS_CM3\M2S_MSS_sb_MSS_CM3_hw_platform\Debug\libM2S_MSS_sb_MSS_CM3_hw_platform.a(system_m2sxxx.o)
+ .text.get_silicon_revision
+                0x20000ca4       0x50 C:\Users\Hiperwall\Desktop\microsemilab\UCI_Demo2\SoftConsole\M2S_MSS_sb_MSS_CM3\M2S_MSS_sb_MSS_CM3_hw_platform\Debug\libM2S_MSS_sb_MSS_CM3_hw_platform.a(system_m2sxxx.o)
+ .text.silicon_workarounds
+                0x20000cf4       0x20 C:\Users\Hiperwall\Desktop\microsemilab\UCI_Demo2\SoftConsole\M2S_MSS_sb_MSS_CM3\M2S_MSS_sb_MSS_CM3_hw_platform\Debug\libM2S_MSS_sb_MSS_CM3_hw_platform.a(system_m2sxxx.o)
+ .text.m2s050_rev_a_workarounds
+                0x20000d14       0x44 C:\Users\Hiperwall\Desktop\microsemilab\UCI_Demo2\SoftConsole\M2S_MSS_sb_MSS_CM3\M2S_MSS_sb_MSS_CM3_hw_platform\Debug\libM2S_MSS_sb_MSS_CM3_hw_platform.a(system_m2sxxx.o)
+ .text          0x20000d58       0x50 c:/microsemi/libero_v11.5/softconsole/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-init.o)
+                0x20000d58                __libc_init_array
+ *(.plt)
+ *(.gnu.warning)
+ *(.glue_7t)
+ .glue_7t       0x00000000        0x0 linker stubs
+ *(.glue_7)
+ .glue_7        0x00000000        0x0 linker stubs
+ *(.vfp11_veneer)
+ .vfp11_veneer  0x00000000        0x0 linker stubs
+                0x20000da8                . = ALIGN (0x4)
+ *crtbegin.o(.ctors)
+ *(EXCLUDE_FILE(*crtend.o) .ctors)
+ *(SORT(.ctors.*))
+ *crtend.o(.ctors)
+ *crtbegin.o(.dtors)
+ *(EXCLUDE_FILE(*crtend.o) .dtors)
+ *(SORT(.dtors.*))
+ *crtend.o(.dtors)
+ *(.rodata .rodata.* .gnu.linkonce.r.*)
+ .rodata.g_config_reg_lut
+                0x20000da8       0x80 C:\Users\Hiperwall\Desktop\microsemilab\UCI_Demo2\SoftConsole\M2S_MSS_sb_MSS_CM3\M2S_MSS_sb_MSS_CM3_hw_platform\Debug\libM2S_MSS_sb_MSS_CM3_hw_platform.a(mss_gpio.o)
+ .rodata.g_gpio_irqn_lut
+                0x20000e28       0x20 C:\Users\Hiperwall\Desktop\microsemilab\UCI_Demo2\SoftConsole\M2S_MSS_sb_MSS_CM3\M2S_MSS_sb_MSS_CM3_hw_platform\Debug\libM2S_MSS_sb_MSS_CM3_hw_platform.a(mss_gpio.o)
+ .rodata.g_serdes0_pcie_lane_cfg_lut
+                0x20000e48        0xc C:\Users\Hiperwall\Desktop\microsemilab\UCI_Demo2\SoftConsole\M2S_MSS_sb_MSS_CM3\M2S_MSS_sb_MSS_CM3_hw_platform\Debug\libM2S_MSS_sb_MSS_CM3_hw_platform.a(system_m2sxxx.o)
+ .rodata.g_serdes1_pcie_lane_cfg_lut
+                0x20000e54        0xc C:\Users\Hiperwall\Desktop\microsemilab\UCI_Demo2\SoftConsole\M2S_MSS_sb_MSS_CM3\M2S_MSS_sb_MSS_CM3_hw_platform\Debug\libM2S_MSS_sb_MSS_CM3_hw_platform.a(system_m2sxxx.o)
+ .rodata.g_serdes2_pcie_lane_cfg_lut
+                0x20000e60        0xc C:\Users\Hiperwall\Desktop\microsemilab\UCI_Demo2\SoftConsole\M2S_MSS_sb_MSS_CM3\M2S_MSS_sb_MSS_CM3_hw_platform\Debug\libM2S_MSS_sb_MSS_CM3_hw_platform.a(system_m2sxxx.o)
+ .rodata.g_serdes3_pcie_lane_cfg_lut
+                0x20000e6c        0xc C:\Users\Hiperwall\Desktop\microsemilab\UCI_Demo2\SoftConsole\M2S_MSS_sb_MSS_CM3\M2S_MSS_sb_MSS_CM3_hw_platform\Debug\libM2S_MSS_sb_MSS_CM3_hw_platform.a(system_m2sxxx.o)
+ .rodata.g_pcie_lane_cfg_lut
+                0x20000e78       0x10 C:\Users\Hiperwall\Desktop\microsemilab\UCI_Demo2\SoftConsole\M2S_MSS_sb_MSS_CM3\M2S_MSS_sb_MSS_CM3_hw_platform\Debug\libM2S_MSS_sb_MSS_CM3_hw_platform.a(system_m2sxxx.o)
+ .rodata.C.23.3700
+                0x20000e88       0x10 C:\Users\Hiperwall\Desktop\microsemilab\UCI_Demo2\SoftConsole\M2S_MSS_sb_MSS_CM3\M2S_MSS_sb_MSS_CM3_hw_platform\Debug\libM2S_MSS_sb_MSS_CM3_hw_platform.a(system_m2sxxx.o)
+ .rodata.g_m2s_mddr_addr
+                0x20000e98        0x4 C:\Users\Hiperwall\Desktop\microsemilab\UCI_Demo2\SoftConsole\M2S_MSS_sb_MSS_CM3\M2S_MSS_sb_MSS_CM3_hw_platform\Debug\libM2S_MSS_sb_MSS_CM3_hw_platform.a(sys_config.o)
+                0x20000e98                g_m2s_mddr_addr
+ .rodata.g_m2s_mddr_subsys_config
+                0x20000e9c      0x10c C:\Users\Hiperwall\Desktop\microsemilab\UCI_Demo2\SoftConsole\M2S_MSS_sb_MSS_CM3\M2S_MSS_sb_MSS_CM3_hw_platform\Debug\libM2S_MSS_sb_MSS_CM3_hw_platform.a(sys_config.o)
+                0x20000e9c                g_m2s_mddr_subsys_config
+ .rodata.g_m2s_serdes_0_config
+                0x20000fa8       0x18 C:\Users\Hiperwall\Desktop\microsemilab\UCI_Demo2\SoftConsole\M2S_MSS_sb_MSS_CM3\M2S_MSS_sb_MSS_CM3_hw_platform\Debug\libM2S_MSS_sb_MSS_CM3_hw_platform.a(sys_config_SERDESIF_0.o)
+                0x20000fa8                g_m2s_serdes_0_config
+ *(.ARM.extab* .gnu.linkonce.armextab.*)
+ *(.gcc_except_table)
+ *(.eh_frame_hdr)
+ *(.eh_frame)
+ *(.vector_table)
+ *(.init)
+ .init          0x20000fc0        0x4 c:/microsemi/libero_v11.5/softconsole/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/thumb2/crti.o
+                0x20000fc0                _init
+ .init          0x20000fc4        0x8 c:/microsemi/libero_v11.5/softconsole/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/thumb2/crtn.o
+ *(.fini)
+ .fini          0x20000fcc        0x4 c:/microsemi/libero_v11.5/softconsole/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/thumb2/crti.o
+                0x20000fcc                _fini
+ .fini          0x20000fd0        0x8 c:/microsemi/libero_v11.5/softconsole/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/thumb2/crtn.o
+                0x20000fd8                PROVIDE (__preinit_array_start, .)
+ *(.preinit_array)
+                0x20000fd8                PROVIDE (__preinit_array_end, .)
+                0x20000fd8                PROVIDE (__init_array_start, .)
+ *(SORT(.init_array.*))
+ *(.init_array)
+ .init_array    0x20000fd8        0x4 c:/microsemi/libero_v11.5/softconsole/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/thumb2/crtbegin.o
+                0x20000fdc                PROVIDE (__init_array_end, .)
+                0x20000fdc                PROVIDE (__fini_array_start, .)
+ *(.fini_array)
+ .fini_array    0x20000fdc        0x4 c:/microsemi/libero_v11.5/softconsole/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/thumb2/crtbegin.o
+ *(SORT(.fini_array.*))
+                0x20000fe0                PROVIDE (__fini_array_end, .)
+                0x20000fe0                . = ALIGN (0x10)
+                0x20000fe0                __exidx_start = .
+
+.v4_bx          0x20000fe0        0x0
+ .v4_bx         0x00000000        0x0 linker stubs
+
+.ARM.exidx
+ *(.ARM.exidx* .gnu.linkonce.armexidx.*)
+                0x20000fe0                __exidx_end = .
+                0x20000fe0                _etext = .
+                0x20000fe0                PROVIDE (__text_end, .)
+
+.data           0x20000fe0       0x10
+                0x20000fe0                __data_load = LOADADDR (.data)
+                0x20000fe0                _sidata = LOADADDR (.data)
+                0x20000fe0                __data_start = .
+                0x20000fe0                _sdata = .
+ *(.jcr)
+ .jcr           0x20000fe0        0x0 c:/microsemi/libero_v11.5/softconsole/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/thumb2/crtbegin.o
+ .jcr           0x20000fe0        0x4 c:/microsemi/libero_v11.5/softconsole/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/thumb2/crtend.o
+ *(.got.plt)
+ *(.got)
+ *(.shdata)
+ *(.data .data.* .gnu.linkonce.d.*)
+ .data.SystemCoreClock
+                0x20000fe4        0x4 C:\Users\Hiperwall\Desktop\microsemilab\UCI_Demo2\SoftConsole\M2S_MSS_sb_MSS_CM3\M2S_MSS_sb_MSS_CM3_hw_platform\Debug\libM2S_MSS_sb_MSS_CM3_hw_platform.a(system_m2sxxx.o)
+                0x20000fe4                SystemCoreClock
+                0x20000ff0                . = ALIGN (0x10)
+ *fill*         0x20000fe8        0x8 00
+                0x20000ff0                _edata = .
+
+.bss            0x20000ff0       0x10
+                0x20000ff0                __bss_start__ = .
+                0x20000ff0                _sbss = .
+ *(.shbss)
+ *(.bss .bss.* .gnu.linkonce.b.*)
+ .bss           0x20000ff0        0x1 c:/microsemi/libero_v11.5/softconsole/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/thumb2/crtbegin.o
+ *(COMMON)
+                0x20001000                . = ALIGN (0x10)
+ *fill*         0x20000ff1        0xf 00
+                0x20001000                __bss_end__ = .
+                0x20001000                _end = .
+                0x20001000                __end = _end
+                0x20001000                _ebss = .
+                0x20001000                PROVIDE (end, .)
+
+.heap           0x20001000     0xe000
+                0x20001000                __heap_start__ = .
+                0x20002000                . = (. + MIN_SIZE_HEAP)
+ *fill*         0x20001000     0x1000 00
+                0x2000f000                . = (. + (((ABSOLUTE (RAM_START_ADDRESS) + RAM_SIZE) - MAIN_STACK_SIZE) - .))
+ *fill*         0x20002000     0xd000 00
+                0x2000f000                _eheap = .
+
+.stack          0x2000f000     0x1000
+                0x2000f000                __stack_start__ = .
+                0x20010000                . = (. + MAIN_STACK_SIZE)
+ *fill*         0x2000f000     0x1000 00
+                0x20010000                _estack = .
+
+.stab
+ *(.stab)
+
+.stabstr
+ *(.stabstr)
+
+.debug
+ *(.debug)
+
+.line
+ *(.line)
+
+.debug_srcinfo
+ *(.debug_srcinfo)
+
+.debug_sfnames
+ *(.debug_sfnames)
+
+.comment        0x00000000      0x102
+ .comment       0x00000000       0x2b ./main.o
+ .comment       0x0000002b       0x2b C:/Users/Hiperwall/Desktop/microsemilab/UCI_Demo2/SoftConsole/M2S_MSS_sb_MSS_CM3/M2S_MSS_sb_MSS_CM3_hw_platform/Debug/CMSIS/startup_gcc/newlib_stubs.o
+ .comment       0x00000056       0x2b C:\Users\Hiperwall\Desktop\microsemilab\UCI_Demo2\SoftConsole\M2S_MSS_sb_MSS_CM3\M2S_MSS_sb_MSS_CM3_hw_platform\Debug\libM2S_MSS_sb_MSS_CM3_hw_platform.a(mss_gpio.o)
+ .comment       0x00000081       0x2b C:\Users\Hiperwall\Desktop\microsemilab\UCI_Demo2\SoftConsole\M2S_MSS_sb_MSS_CM3\M2S_MSS_sb_MSS_CM3_hw_platform\Debug\libM2S_MSS_sb_MSS_CM3_hw_platform.a(system_m2sxxx.o)
+ .comment       0x000000ac       0x2b C:\Users\Hiperwall\Desktop\microsemilab\UCI_Demo2\SoftConsole\M2S_MSS_sb_MSS_CM3\M2S_MSS_sb_MSS_CM3_hw_platform\Debug\libM2S_MSS_sb_MSS_CM3_hw_platform.a(sys_config.o)
+ .comment       0x000000d7       0x2b C:\Users\Hiperwall\Desktop\microsemilab\UCI_Demo2\SoftConsole\M2S_MSS_sb_MSS_CM3\M2S_MSS_sb_MSS_CM3_hw_platform\Debug\libM2S_MSS_sb_MSS_CM3_hw_platform.a(sys_config_SERDESIF_0.o)
+
+.debug_aranges  0x00000000      0x1c8
+ *(.debug_aranges)
+ .debug_aranges
+                0x00000000       0x38 ./main.o
+ .debug_aranges
+                0x00000038       0xa8 C:/Users/Hiperwall/Desktop/microsemilab/UCI_Demo2/SoftConsole/M2S_MSS_sb_MSS_CM3/M2S_MSS_sb_MSS_CM3_hw_platform/Debug/CMSIS/startup_gcc/newlib_stubs.o
+ .debug_aranges
+                0x000000e0       0x68 C:\Users\Hiperwall\Desktop\microsemilab\UCI_Demo2\SoftConsole\M2S_MSS_sb_MSS_CM3\M2S_MSS_sb_MSS_CM3_hw_platform\Debug\libM2S_MSS_sb_MSS_CM3_hw_platform.a(mss_gpio.o)
+ .debug_aranges
+                0x00000148       0x80 C:\Users\Hiperwall\Desktop\microsemilab\UCI_Demo2\SoftConsole\M2S_MSS_sb_MSS_CM3\M2S_MSS_sb_MSS_CM3_hw_platform\Debug\libM2S_MSS_sb_MSS_CM3_hw_platform.a(system_m2sxxx.o)
+
+.debug_pubnames
+                0x00000000      0x2f1
+ *(.debug_pubnames)
+ .debug_pubnames
+                0x00000000       0x1b ./main.o
+ .debug_pubnames
+                0x0000001b       0xeb C:/Users/Hiperwall/Desktop/microsemilab/UCI_Demo2/SoftConsole/M2S_MSS_sb_MSS_CM3/M2S_MSS_sb_MSS_CM3_hw_platform/Debug/CMSIS/startup_gcc/newlib_stubs.o
+ .debug_pubnames
+                0x00000106       0xb1 C:\Users\Hiperwall\Desktop\microsemilab\UCI_Demo2\SoftConsole\M2S_MSS_sb_MSS_CM3\M2S_MSS_sb_MSS_CM3_hw_platform\Debug\libM2S_MSS_sb_MSS_CM3_hw_platform.a(mss_gpio.o)
+ .debug_pubnames
+                0x000001b7       0xcb C:\Users\Hiperwall\Desktop\microsemilab\UCI_Demo2\SoftConsole\M2S_MSS_sb_MSS_CM3\M2S_MSS_sb_MSS_CM3_hw_platform\Debug\libM2S_MSS_sb_MSS_CM3_hw_platform.a(system_m2sxxx.o)
+ .debug_pubnames
+                0x00000282       0x43 C:\Users\Hiperwall\Desktop\microsemilab\UCI_Demo2\SoftConsole\M2S_MSS_sb_MSS_CM3\M2S_MSS_sb_MSS_CM3_hw_platform\Debug\libM2S_MSS_sb_MSS_CM3_hw_platform.a(sys_config.o)
+ .debug_pubnames
+                0x000002c5       0x2c C:\Users\Hiperwall\Desktop\microsemilab\UCI_Demo2\SoftConsole\M2S_MSS_sb_MSS_CM3\M2S_MSS_sb_MSS_CM3_hw_platform\Debug\libM2S_MSS_sb_MSS_CM3_hw_platform.a(sys_config_SERDESIF_0.o)
+
+.debug_info     0x00000000     0x67e9
+ *(.debug_info .gnu.linkonce.wi.*)
+ .debug_info    0x00000000      0x43c ./main.o
+ .debug_info    0x0000043c      0x6ed C:/Users/Hiperwall/Desktop/microsemilab/UCI_Demo2/SoftConsole/M2S_MSS_sb_MSS_CM3/M2S_MSS_sb_MSS_CM3_hw_platform/Debug/CMSIS/startup_gcc/newlib_stubs.o
+ .debug_info    0x00000b29     0x1164 C:\Users\Hiperwall\Desktop\microsemilab\UCI_Demo2\SoftConsole\M2S_MSS_sb_MSS_CM3\M2S_MSS_sb_MSS_CM3_hw_platform\Debug\libM2S_MSS_sb_MSS_CM3_hw_platform.a(mss_gpio.o)
+ .debug_info    0x00001c8d     0x3755 C:\Users\Hiperwall\Desktop\microsemilab\UCI_Demo2\SoftConsole\M2S_MSS_sb_MSS_CM3\M2S_MSS_sb_MSS_CM3_hw_platform\Debug\libM2S_MSS_sb_MSS_CM3_hw_platform.a(system_m2sxxx.o)
+ .debug_info    0x000053e2     0x132c C:\Users\Hiperwall\Desktop\microsemilab\UCI_Demo2\SoftConsole\M2S_MSS_sb_MSS_CM3\M2S_MSS_sb_MSS_CM3_hw_platform\Debug\libM2S_MSS_sb_MSS_CM3_hw_platform.a(sys_config.o)
+ .debug_info    0x0000670e       0xdb C:\Users\Hiperwall\Desktop\microsemilab\UCI_Demo2\SoftConsole\M2S_MSS_sb_MSS_CM3\M2S_MSS_sb_MSS_CM3_hw_platform\Debug\libM2S_MSS_sb_MSS_CM3_hw_platform.a(sys_config_SERDESIF_0.o)
+
+.debug_abbrev   0x00000000      0x770
+ *(.debug_abbrev)
+ .debug_abbrev  0x00000000      0x125 ./main.o
+ .debug_abbrev  0x00000125      0x170 C:/Users/Hiperwall/Desktop/microsemilab/UCI_Demo2/SoftConsole/M2S_MSS_sb_MSS_CM3/M2S_MSS_sb_MSS_CM3_hw_platform/Debug/CMSIS/startup_gcc/newlib_stubs.o
+ .debug_abbrev  0x00000295      0x165 C:\Users\Hiperwall\Desktop\microsemilab\UCI_Demo2\SoftConsole\M2S_MSS_sb_MSS_CM3\M2S_MSS_sb_MSS_CM3_hw_platform\Debug\libM2S_MSS_sb_MSS_CM3_hw_platform.a(mss_gpio.o)
+ .debug_abbrev  0x000003fa      0x1db C:\Users\Hiperwall\Desktop\microsemilab\UCI_Demo2\SoftConsole\M2S_MSS_sb_MSS_CM3\M2S_MSS_sb_MSS_CM3_hw_platform\Debug\libM2S_MSS_sb_MSS_CM3_hw_platform.a(system_m2sxxx.o)
+ .debug_abbrev  0x000005d5      0x10a C:\Users\Hiperwall\Desktop\microsemilab\UCI_Demo2\SoftConsole\M2S_MSS_sb_MSS_CM3\M2S_MSS_sb_MSS_CM3_hw_platform\Debug\libM2S_MSS_sb_MSS_CM3_hw_platform.a(sys_config.o)
+ .debug_abbrev  0x000006df       0x91 C:\Users\Hiperwall\Desktop\microsemilab\UCI_Demo2\SoftConsole\M2S_MSS_sb_MSS_CM3\M2S_MSS_sb_MSS_CM3_hw_platform\Debug\libM2S_MSS_sb_MSS_CM3_hw_platform.a(sys_config_SERDESIF_0.o)
+
+.debug_line     0x00000000     0x10a0
+ *(.debug_line)
+ .debug_line    0x00000000      0x2e7 ./main.o
+ .debug_line    0x000002e7      0x486 C:/Users/Hiperwall/Desktop/microsemilab/UCI_Demo2/SoftConsole/M2S_MSS_sb_MSS_CM3/M2S_MSS_sb_MSS_CM3_hw_platform/Debug/CMSIS/startup_gcc/newlib_stubs.o
+ .debug_line    0x0000076d      0x365 C:\Users\Hiperwall\Desktop\microsemilab\UCI_Demo2\SoftConsole\M2S_MSS_sb_MSS_CM3\M2S_MSS_sb_MSS_CM3_hw_platform\Debug\libM2S_MSS_sb_MSS_CM3_hw_platform.a(mss_gpio.o)
+ .debug_line    0x00000ad2      0x306 C:\Users\Hiperwall\Desktop\microsemilab\UCI_Demo2\SoftConsole\M2S_MSS_sb_MSS_CM3\M2S_MSS_sb_MSS_CM3_hw_platform\Debug\libM2S_MSS_sb_MSS_CM3_hw_platform.a(system_m2sxxx.o)
+ .debug_line    0x00000dd8      0x1ae C:\Users\Hiperwall\Desktop\microsemilab\UCI_Demo2\SoftConsole\M2S_MSS_sb_MSS_CM3\M2S_MSS_sb_MSS_CM3_hw_platform\Debug\libM2S_MSS_sb_MSS_CM3_hw_platform.a(sys_config.o)
+ .debug_line    0x00000f86      0x11a C:\Users\Hiperwall\Desktop\microsemilab\UCI_Demo2\SoftConsole\M2S_MSS_sb_MSS_CM3\M2S_MSS_sb_MSS_CM3_hw_platform\Debug\libM2S_MSS_sb_MSS_CM3_hw_platform.a(sys_config_SERDESIF_0.o)
+
+.debug_frame    0x00000000      0x5a0
+ *(.debug_frame)
+ .debug_frame   0x00000000       0x80 ./main.o
+ .debug_frame   0x00000080      0x21c C:/Users/Hiperwall/Desktop/microsemilab/UCI_Demo2/SoftConsole/M2S_MSS_sb_MSS_CM3/M2S_MSS_sb_MSS_CM3_hw_platform/Debug/CMSIS/startup_gcc/newlib_stubs.o
+ .debug_frame   0x0000029c      0x130 C:\Users\Hiperwall\Desktop\microsemilab\UCI_Demo2\SoftConsole\M2S_MSS_sb_MSS_CM3\M2S_MSS_sb_MSS_CM3_hw_platform\Debug\libM2S_MSS_sb_MSS_CM3_hw_platform.a(mss_gpio.o)
+ .debug_frame   0x000003cc      0x188 C:\Users\Hiperwall\Desktop\microsemilab\UCI_Demo2\SoftConsole\M2S_MSS_sb_MSS_CM3\M2S_MSS_sb_MSS_CM3_hw_platform\Debug\libM2S_MSS_sb_MSS_CM3_hw_platform.a(system_m2sxxx.o)
+ .debug_frame   0x00000554       0x20 c:/microsemi/libero_v11.5/softconsole/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-errno.o)
+ .debug_frame   0x00000574       0x2c c:/microsemi/libero_v11.5/softconsole/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-init.o)
+
+.debug_str      0x00000000     0x3c33
+ *(.debug_str)
+ .debug_str     0x00000000      0x45e ./main.o
+                                0x4a0 (size before relaxing)
+ .debug_str     0x0000045e      0x284 C:/Users/Hiperwall/Desktop/microsemilab/UCI_Demo2/SoftConsole/M2S_MSS_sb_MSS_CM3/M2S_MSS_sb_MSS_CM3_hw_platform/Debug/CMSIS/startup_gcc/newlib_stubs.o
+                                0x349 (size before relaxing)
+ .debug_str     0x000006e2      0xd87 C:\Users\Hiperwall\Desktop\microsemilab\UCI_Demo2\SoftConsole\M2S_MSS_sb_MSS_CM3\M2S_MSS_sb_MSS_CM3_hw_platform\Debug\libM2S_MSS_sb_MSS_CM3_hw_platform.a(mss_gpio.o)
+                               0x1229 (size before relaxing)
+ .debug_str     0x00001469     0x276b C:\Users\Hiperwall\Desktop\microsemilab\UCI_Demo2\SoftConsole\M2S_MSS_sb_MSS_CM3\M2S_MSS_sb_MSS_CM3_hw_platform\Debug\libM2S_MSS_sb_MSS_CM3_hw_platform.a(system_m2sxxx.o)
+                               0x3021 (size before relaxing)
+ .debug_str     0x00003bd4       0x2a C:\Users\Hiperwall\Desktop\microsemilab\UCI_Demo2\SoftConsole\M2S_MSS_sb_MSS_CM3\M2S_MSS_sb_MSS_CM3_hw_platform\Debug\libM2S_MSS_sb_MSS_CM3_hw_platform.a(sys_config.o)
+                               0x1075 (size before relaxing)
+ .debug_str     0x00003bfe       0x35 C:\Users\Hiperwall\Desktop\microsemilab\UCI_Demo2\SoftConsole\M2S_MSS_sb_MSS_CM3\M2S_MSS_sb_MSS_CM3_hw_platform\Debug\libM2S_MSS_sb_MSS_CM3_hw_platform.a(sys_config_SERDESIF_0.o)
+                                0x17c (size before relaxing)
+
+.debug_loc      0x00000000      0x965
+ *(.debug_loc)
+ .debug_loc     0x00000000       0xd0 ./main.o
+ .debug_loc     0x000000d0      0x3c6 C:/Users/Hiperwall/Desktop/microsemilab/UCI_Demo2/SoftConsole/M2S_MSS_sb_MSS_CM3/M2S_MSS_sb_MSS_CM3_hw_platform/Debug/CMSIS/startup_gcc/newlib_stubs.o
+ .debug_loc     0x00000496      0x226 C:\Users\Hiperwall\Desktop\microsemilab\UCI_Demo2\SoftConsole\M2S_MSS_sb_MSS_CM3\M2S_MSS_sb_MSS_CM3_hw_platform\Debug\libM2S_MSS_sb_MSS_CM3_hw_platform.a(mss_gpio.o)
+ .debug_loc     0x000006bc      0x2a9 C:\Users\Hiperwall\Desktop\microsemilab\UCI_Demo2\SoftConsole\M2S_MSS_sb_MSS_CM3\M2S_MSS_sb_MSS_CM3_hw_platform\Debug\libM2S_MSS_sb_MSS_CM3_hw_platform.a(system_m2sxxx.o)
+
+.debug_macinfo  0x00000000    0x2500b
+ *(.debug_macinfo)
+ .debug_macinfo
+                0x00000000     0x72e8 ./main.o
+ .debug_macinfo
+                0x000072e8     0x4bf0 C:/Users/Hiperwall/Desktop/microsemilab/UCI_Demo2/SoftConsole/M2S_MSS_sb_MSS_CM3/M2S_MSS_sb_MSS_CM3_hw_platform/Debug/CMSIS/startup_gcc/newlib_stubs.o
+ .debug_macinfo
+                0x0000bed8     0x777c C:\Users\Hiperwall\Desktop\microsemilab\UCI_Demo2\SoftConsole\M2S_MSS_sb_MSS_CM3\M2S_MSS_sb_MSS_CM3_hw_platform\Debug\libM2S_MSS_sb_MSS_CM3_hw_platform.a(mss_gpio.o)
+ .debug_macinfo
+                0x00013654     0x759b C:\Users\Hiperwall\Desktop\microsemilab\UCI_Demo2\SoftConsole\M2S_MSS_sb_MSS_CM3\M2S_MSS_sb_MSS_CM3_hw_platform\Debug\libM2S_MSS_sb_MSS_CM3_hw_platform.a(system_m2sxxx.o)
+ .debug_macinfo
+                0x0001abef     0x8f0a C:\Users\Hiperwall\Desktop\microsemilab\UCI_Demo2\SoftConsole\M2S_MSS_sb_MSS_CM3\M2S_MSS_sb_MSS_CM3_hw_platform\Debug\libM2S_MSS_sb_MSS_CM3_hw_platform.a(sys_config.o)
+ .debug_macinfo
+                0x00023af9     0x1512 C:\Users\Hiperwall\Desktop\microsemilab\UCI_Demo2\SoftConsole\M2S_MSS_sb_MSS_CM3\M2S_MSS_sb_MSS_CM3_hw_platform\Debug\libM2S_MSS_sb_MSS_CM3_hw_platform.a(sys_config_SERDESIF_0.o)
+
+.debug_weaknames
+ *(.debug_weaknames)
+
+.debug_funcnames
+ *(.debug_funcnames)
+
+.debug_typenames
+ *(.debug_typenames)
+
+.debug_varnames
+ *(.debug_varnames)
+
+.note.gnu.arm.ident
+ *(.note.gnu.arm.ident)
+
+.ARM.attributes
+                0x00000000       0x25
+ *(.ARM.attributes)
+ .ARM.attributes
+                0x00000000       0x19 c:/microsemi/libero_v11.5/softconsole/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/thumb2/crti.o
+ .ARM.attributes
+                0x00000019       0x29 c:/microsemi/libero_v11.5/softconsole/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/thumb2/crtbegin.o
+ .ARM.attributes
+                0x00000042       0x31 ./main.o
+ .ARM.attributes
+                0x00000073       0x21 C:/Users/Hiperwall/Desktop/microsemilab/UCI_Demo2/SoftConsole/M2S_MSS_sb_MSS_CM3/M2S_MSS_sb_MSS_CM3_hw_platform/Debug/CMSIS/startup_gcc/startup_m2sxxx.o
+ .ARM.attributes
+                0x00000094       0x31 C:/Users/Hiperwall/Desktop/microsemilab/UCI_Demo2/SoftConsole/M2S_MSS_sb_MSS_CM3/M2S_MSS_sb_MSS_CM3_hw_platform/Debug/CMSIS/startup_gcc/newlib_stubs.o
+ .ARM.attributes
+                0x000000c5       0x31 C:\Users\Hiperwall\Desktop\microsemilab\UCI_Demo2\SoftConsole\M2S_MSS_sb_MSS_CM3\M2S_MSS_sb_MSS_CM3_hw_platform\Debug\libM2S_MSS_sb_MSS_CM3_hw_platform.a(mss_gpio.o)
+ .ARM.attributes
+                0x000000f6       0x31 C:\Users\Hiperwall\Desktop\microsemilab\UCI_Demo2\SoftConsole\M2S_MSS_sb_MSS_CM3\M2S_MSS_sb_MSS_CM3_hw_platform\Debug\libM2S_MSS_sb_MSS_CM3_hw_platform.a(system_m2sxxx.o)
+ .ARM.attributes
+                0x00000127       0x31 C:\Users\Hiperwall\Desktop\microsemilab\UCI_Demo2\SoftConsole\M2S_MSS_sb_MSS_CM3\M2S_MSS_sb_MSS_CM3_hw_platform\Debug\libM2S_MSS_sb_MSS_CM3_hw_platform.a(sys_config.o)
+ .ARM.attributes
+                0x00000158       0x31 C:\Users\Hiperwall\Desktop\microsemilab\UCI_Demo2\SoftConsole\M2S_MSS_sb_MSS_CM3\M2S_MSS_sb_MSS_CM3_hw_platform\Debug\libM2S_MSS_sb_MSS_CM3_hw_platform.a(sys_config_SERDESIF_0.o)
+ .ARM.attributes
+                0x00000189       0x29 c:/microsemi/libero_v11.5/softconsole/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-errno.o)
+ .ARM.attributes
+                0x000001b2       0x29 c:/microsemi/libero_v11.5/softconsole/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-impure.o)
+ .ARM.attributes
+                0x000001db       0x29 c:/microsemi/libero_v11.5/softconsole/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/../../../../arm-none-eabi/lib/thumb2\libc.a(lib_a-init.o)
+ .ARM.attributes
+                0x00000204       0x29 c:/microsemi/libero_v11.5/softconsole/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/thumb2/crtend.o
+ .ARM.attributes
+                0x0000022d       0x19 c:/microsemi/libero_v11.5/softconsole/sourcery-g++/bin/../lib/gcc/arm-none-eabi/4.4.1/thumb2/crtn.o
+
+/DISCARD/
+ *(.note.GNU-stack)
+ *(.isr_vector)
+OUTPUT(M2S_MSS_sb_MSS_CM3_app elf32-littlearm)
+
+.debug_ranges   0x00000000      0x1a8
+ .debug_ranges  0x00000000       0x30 ./main.o
+ .debug_ranges  0x00000030       0xa0 C:/Users/Hiperwall/Desktop/microsemilab/UCI_Demo2/SoftConsole/M2S_MSS_sb_MSS_CM3/M2S_MSS_sb_MSS_CM3_hw_platform/Debug/CMSIS/startup_gcc/newlib_stubs.o
+ .debug_ranges  0x000000d0       0x60 C:\Users\Hiperwall\Desktop\microsemilab\UCI_Demo2\SoftConsole\M2S_MSS_sb_MSS_CM3\M2S_MSS_sb_MSS_CM3_hw_platform\Debug\libM2S_MSS_sb_MSS_CM3_hw_platform.a(mss_gpio.o)
+ .debug_ranges  0x00000130       0x78 C:\Users\Hiperwall\Desktop\microsemilab\UCI_Demo2\SoftConsole\M2S_MSS_sb_MSS_CM3\M2S_MSS_sb_MSS_CM3_hw_platform\Debug\libM2S_MSS_sb_MSS_CM3_hw_platform.a(system_m2sxxx.o)

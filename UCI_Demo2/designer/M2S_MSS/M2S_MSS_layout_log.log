@@ -1,0 +1,59 @@
+***** Place and Route Configurations *****
+Timing-driven            : ON
+Power-driven             : OFF
+High-effort              : OFF
+Repair min-delay         : ON
+Incremental              : OFF
+Inter-clock optimization : OFF
+TDPR scenario            : Primary
+
+
+Running the I/O Bank and Globals Assigner.
+Info:  I/O Bank and Globals Assigner identified 60 fixed I/O macros, 16 unfixed I/O macros
+
+I/O Bank and Globals Assigner completed successfully.
+Total time spent in I/O Bank and Globals Assigner: 1 seconds
+
+Placer V4.0 - 11.7.0 
+Design: M2S_MSS                         Started: Thu Feb 02 01:03:20 2017
+
+Initializing Timing-Driven Placement ...
+Placing design...
+End of placement.
+Pre-Placement Runtime        : 1 seconds
+Placement Runtime            : 2 seconds
+
+Placer completed successfully.
+
+Design: M2S_MSS                         
+Finished: Thu Feb 02 01:03:46 2017
+Total CPU Time:     00:00:24            Total Elapsed Time: 00:00:26
+Total Memory Usage: 490.2 Mbytes
+                        o - o - o - o - o - o
+
+
+Router 
+Design: C:\Users\Hiperwall\Desktop\microsemilab\UCI_Demo2\designer\M2S_MSS\M2S_MSSStarted: Thu Feb 02 01:03:52 2017
+
+
+Router completed successfully.
+
+Design: C:\Users\Hiperwall\Desktop\microsemilab\UCI_Demo2\designer\M2S_MSS\M2S_MSS
+Finished: Thu Feb 02 01:04:31 2017
+Total CPU Time:     00:00:37            Total Elapsed Time: 00:00:39
+Total Memory Usage: 2715.1 Mbytes
+                        o - o - o - o - o - o
+
+Info: Iteration 1:
+  Number of violating paths: 0
+  Worst minimum delay slack: 
+Resource Usage
++---------------+------+-------+------------+
+| Type          | Used | Total | Percentage |
++---------------+------+-------+------------+
+| 4LUT          | 143  | 86184 | 0.17       |
+| DFF           | 185  | 86184 | 0.21       |
+| I/O Register  | 0    | 795   | 0.00       |
+| Logic Element | 207  | 86184 | 0.24       |
++---------------+------+-------+------------+
+

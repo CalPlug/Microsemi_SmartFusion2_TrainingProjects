@@ -1,0 +1,8 @@
+@W: MO111 :"c:\users\hiperwall\desktop\microsemilab\demo1\component\work\top\osc_0\top_osc_0_osc.v":20:7:20:16|Tristate driver XTLOSC_O2F on net XTLOSC_O2F has its enable tied to GND (module Top_OSC_0_OSC) 
+@W: MO111 :"c:\users\hiperwall\desktop\microsemilab\demo1\component\work\top\osc_0\top_osc_0_osc.v":19:7:19:16|Tristate driver XTLOSC_CCC on net XTLOSC_CCC has its enable tied to GND (module Top_OSC_0_OSC) 
+@W: MO111 :"c:\users\hiperwall\desktop\microsemilab\demo1\component\work\top\osc_0\top_osc_0_osc.v":18:7:18:20|Tristate driver RCOSC_1MHZ_O2F on net RCOSC_1MHZ_O2F has its enable tied to GND (module Top_OSC_0_OSC) 
+@W: MO111 :"c:\users\hiperwall\desktop\microsemilab\demo1\component\work\top\osc_0\top_osc_0_osc.v":17:7:17:20|Tristate driver RCOSC_1MHZ_CCC on net RCOSC_1MHZ_CCC has its enable tied to GND (module Top_OSC_0_OSC) 
+@W: MO111 :"c:\users\hiperwall\desktop\microsemilab\demo1\component\work\top\osc_0\top_osc_0_osc.v":16:7:16:24|Tristate driver RCOSC_25_50MHZ_O2F on net RCOSC_25_50MHZ_O2F has its enable tied to GND (module Top_OSC_0_OSC) 
+@W: MT246 :"c:\users\hiperwall\desktop\microsemilab\demo1\component\work\top\fccc_0\top_fccc_0_fccc.v":20:36:20:43|Blackbox CCC is missing a user supplied timing model. This may have a negative effect on timing analysis and optimizations (Quality of Results) 
+@W: MT420 |Found inferred clock LED_ctrl|counter_inferred_clock[17] with period 10.00ns. Please declare a user-defined clock on object "n:LED_ctrl_0.counter[17]"
+@W: MT420 |Found inferred clock Top_FCCC_0_FCCC|GL0_net_inferred_clock with period 10.00ns. Please declare a user-defined clock on object "n:FCCC_0.GL0_net"

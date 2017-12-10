@@ -1,0 +1,28 @@
+Info: C:/Users/Hiperwall/Desktop/microsemilab/calit2boardtest/constraint/top_fhb_auto_generated.sdc was successfully generated.
+Info: Successfully wrote HDL file 'C:/Users/Hiperwall/Desktop/microsemilab/calit2boardtest/synthesis/top.vm'
+Warning:  NETLIST:001  Override the cell RCOSC_25_50MHZ_FAB with the one from ADLIB.. FILE C:/Users/Hiperwall/Desktop/microsemilab/calit2boardtest/synthesis/top.vm LINE 15.
+Warning: CMPG4-201: Net LIVE_PROBE_FB_0_PROBE_A drives no load.
+Warning: CMPG4-201: Net MICROSEMI_FHB_AUTO_INST_LIVE_PROBE_FB_0/PROBE_B drives no load.
+Warning: CMPG4-007: Top level port cloooock is not connected to any IO pad
+
+===============================================================================.
+
+Info: Global design data: 
+      Total globals:                       1 
+      Globals that cannot be demoted:      1 
+      Globals considered for demotion:     0 
+
+
+Info: List of globals that cannot be demoted: 
+    CLK    ASYN   DATA   Instance Name 
+    ---    ----   ----   ------------- 
+    0      0      0      'MICROSEMI_FHB_AUTO_INST_SKEW_CLKINT_INST_0' 
+
+Info: Demotion information: 
+Info: CMPG4-302: Added 0 row global instances.
+Info: CMPG4-303: Deleted 0 global instances.
+
+===============================================================================.
+
+INFO: Reading User PDC file C:/Users/Hiperwall/Desktop/microsemilab/calit2boardtest/constraint/top_fhb_auto_generated.ndc. 0 error(s) and 0 warning(s)
+INFO: Reading User PDC file C:/Users/Hiperwall/Desktop/microsemilab/calit2boardtest/constraint/top_fhb_auto_generated.ndc. 0 error(s) and 0 warning(s)

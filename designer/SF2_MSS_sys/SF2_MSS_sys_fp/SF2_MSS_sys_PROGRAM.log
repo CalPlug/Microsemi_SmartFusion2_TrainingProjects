@@ -1,0 +1,37 @@
+Software Version: 11.8.1.12
+Embedded FlashPro5 programmer detected.
+programmer 'E20023JXLX' : FlashPro5
+Opened 'C:\Users\Hiperwall\Desktop\DigiKeyBoard\designer\SF2_MSS_sys\SF2_MSS_sys_fp\SF2_MSS_sys.pro'
+The 'open_project' command succeeded.
+IPD file 'C:/Users/Hiperwall/Desktop/DigiKeyBoard/designer/SF2_MSS_sys/SF2_MSS_sys.ipd' has been loaded successfully.
+DESIGN : SF2_MSS_sys;  CHECKSUM : C9E7;  PDB_VERSION : 1.9
+The 'set_programming_file' command succeeded.
+Warning: Programming is already enabled for device 'M2S010'.
+The 'enable_device' command succeeded.
+The 'set_programming_action' command succeeded.
+programmer 'E20023JXLX' : Scan Chain...
+Warning: programmer 'E20023JXLX' : Vpump has been selected on programmer AND an externally provided Vpump has also been detected. Using externally provided Vpump voltage source.
+programmer 'E20023JXLX' : Check Chain...
+programmer 'E20023JXLX' : Scan and Check Chain PASSED.
+programmer 'E20023JXLX' : device 'M2S010' : Executing action PROGRAM
+programmer 'E20023JXLX' : device 'M2S010' : Family: Igloo2
+programmer 'E20023JXLX' : device 'M2S010' : Product:      M2GL005
+programmer 'E20023JXLX' : device 'M2S010' : EXPORT ISC_ENABLE_RESULT[32] = 00796844
+programmer 'E20023JXLX' : device 'M2S010' : EXPORT CRCERR[1] = 0
+programmer 'E20023JXLX' : device 'M2S010' : EXPORT EDCERR[1] = 0
+programmer 'E20023JXLX' : device 'M2S010' : Programming FPGA Array and eNVM...
+programmer 'E20023JXLX' : device 'M2S010' : ===================================================================================
+programmer 'E20023JXLX' : device 'M2S010' : EXPORT DSN[128] = 878af3a0dd27b17f2ff48a6c7c88828d
+programmer 'E20023JXLX' : device 'M2S010' : ===================================================================================
+programmer 'E20023JXLX' : device 'M2S010' : Finished: Fri Dec 08 20:38:05 2017 (Elapsed time 00:00:27)
+programmer 'E20023JXLX' : device 'M2S010' : Executing action PROGRAM PASSED.
+programmer 'E20023JXLX' : Chain programming PASSED.
+Chain Programming Finished: Fri Dec 08 20:38:05 2017 (Elapsed time 00:00:27)
+
+                        o - o - o - o - o - o
+
+The 'run_selected_actions' command succeeded.
+The 'set_programming_file' command succeeded.
+Project saved.
+The 'save_project' command succeeded.
+Project closed.

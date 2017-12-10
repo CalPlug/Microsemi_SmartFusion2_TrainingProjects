@@ -1,0 +1,2 @@
+@W: BN137 :"c:\users\hiperwall\desktop\microsemilab\calit2boardtest\hdl\top.v":33:4:33:5|Found combinational loop during mapping at net led1
+@W: BN137 :|Found combinational loop during mapping at net G_17

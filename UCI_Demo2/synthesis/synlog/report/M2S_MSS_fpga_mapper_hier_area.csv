@@ -1,0 +1,10 @@
+
+. Module name, SLE, CFG, ARI1, BUFFER, MACC, RAM1K18, RAM64X18, GLOBAL, IO
+. M2S_MSS, 185, 116, 27, 0, 0, 0, 0, 6, 76
+.	. M2S_MSS_SERDES_IF2_0_SERDES_IF2, 0, 0, 0, 0, 0, 0, 0, 0, 1
+.	. M2S_MSS_sb, 185, 116, 27, 0, 0, 0, 0, 6, 55
+.	.	. CoreConfigP_Z1, 109, 82, 0, 0, 0, 0, 0, 0, 0
+.	.	. CoreResetP_Z2, 76, 33, 27, 0, 0, 0, 0, 2, 0
+.	.	. M2S_MSS_sb_CCC_0_FCCC, 0, 0, 0, 0, 0, 0, 0, 1, 0
+.	.	. M2S_MSS_sb_FABOSC_0_OSC, 0, 0, 0, 0, 0, 0, 0, 1, 0
+.	.	. M2S_MSS_sb_MSS, 0, 1, 0, 0, 0, 0, 0, 2, 55

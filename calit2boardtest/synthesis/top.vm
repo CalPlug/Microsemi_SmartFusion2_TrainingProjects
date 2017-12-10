@@ -1,0 +1,57 @@
+`timescale 1 ns/100 ps
+// Version: v11.8 SP1 11.8.1.12
+
+
+module RCOSC_25_50MHZ(
+       CLKOUT
+    );
+output CLKOUT;
+
+    parameter FREQUENCY = 50.0 ;
+    
+endmodule
+
+
+module RCOSC_25_50MHZ_FAB(
+       A,
+       CLKOUT
+    );
+input  A;
+output CLKOUT;
+
+    
+endmodule
+
+
+module top(
+       cloooock,
+       led1,
+       led2,
+       DEVRST_N
+    );
+input  cloooock;
+output led1;
+output led2;
+input  DEVRST_N;
+
+    wire GND, VCC, G_17, \50MHZ_INST_CLKOUT , 
+        SYSRESET_0_POWER_ON_RESET_N, LIVE_PROBE_FB_0_PROBE_A, 
+        OSC_0_RSOSC_25_50MHZ_O2F, SKEWCLKINT_NET_Y_INST_0;
+    
+    RCOSC_25_50MHZ MICROSEMI_FHB_AUTO_INST_50MHZ_INST (.CLKOUT(
+        \50MHZ_INST_CLKOUT ));
+    OUTBUF #( .IOSTD("") )  led1_obuf (.D(G_17), .PAD(led1));
+    RCOSC_25_50MHZ_FAB \50MHZ_INST_FAB  (.A(\50MHZ_INST_CLKOUT ), 
+        .CLKOUT(OSC_0_RSOSC_25_50MHZ_O2F));
+    CFG1 #( .INIT(2'h1) )  N_15_i_0 (.A(G_17), .Y(G_17));
+    OUTBUF #( .IOSTD("") )  led2_obuf (.D(G_17), .PAD(led2));
+    VCC VCC_Z (.Y(VCC));
+    LIVE_PROBE_FB MICROSEMI_FHB_AUTO_INST_LIVE_PROBE_FB_0 (.PROBE_A(
+        LIVE_PROBE_FB_0_PROBE_A), .PROBE_B());
+    SYSRESET MICROSEMI_FHB_AUTO_INST_SYSRESET_0 (.POWER_ON_RESET_N(
+        SYSRESET_0_POWER_ON_RESET_N), .DEVRST_N(DEVRST_N));
+    CLKINT_PRESERVE MICROSEMI_FHB_AUTO_INST_SKEW_CLKINT_INST_0 (.A(
+        OSC_0_RSOSC_25_50MHZ_O2F), .Y(SKEWCLKINT_NET_Y_INST_0));
+    GND GND_Z (.Y(GND));
+    
+endmodule

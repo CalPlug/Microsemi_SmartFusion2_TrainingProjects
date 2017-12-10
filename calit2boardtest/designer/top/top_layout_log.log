@@ -1,0 +1,8 @@
+INFO: Reading User SDC file C:\Users\Hiperwall\Desktop\microsemilab\calit2boardtest\constraint\top_fhb_auto_generated.sdc.
+1 error found.
+Check logfile C:\Users\Hiperwall\Desktop\microsemilab\calit2boardtest\constraint\placer_sdc_errors.log for details.
+Error while executing command check_constraints: 
+    while executing
+"check_constraints {C:\Users\Hiperwall\Desktop\microsemilab\calit2boardtest\constraint\placer_sdc_errors.log}"
+    (file "C:\Users\Hiperwall\Desktop\microsemilab\calit2boardtest\designer\top\run_tao_adl.tcl" line 5)
+

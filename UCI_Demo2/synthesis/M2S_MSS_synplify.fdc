@@ -1,0 +1,61 @@
+#0 define_false_path
+#1001 define_clock {p:CLK_BASE} -name {M2S_MSS|CLK_BASE} -ref_rise {0.000000} -ref_fall {5.000000} -uncertainty {0.000000} -period {10.000000} -clockgroup {Inferred_clkgroup_0} -rise {0.000000} -fall {5.000000}
+#1002 define_clock {p:APB_S_PCLK} -name {M2S_MSS|APB_S_PCLK} -ref_rise {0.000000} -ref_fall {5.000000} -uncertainty {0.000000} -period {10.000000} -clockgroup {Inferred_clkgroup_1} -rise {0.000000} -fall {5.000000}
+#1003 define_clock {n:M2S_MSS_sb_0.M2S_MSS_sb_MSS_0.FIC_2_APB_M_PCLK} -name {M2S_MSS_sb_MSS|FIC_2_APB_M_PCLK_inferred_clock} -ref_rise {0.000000} -ref_fall {5.000000} -uncertainty {0.000000} -period {10.000000} -clockgroup {Inferred_clkgroup_2} -rise {0.000000}  . . . 
+#1004 define_clock {n:M2S_MSS_sb_0.CCC_0.GL0_net} -name {M2S_MSS_sb_CCC_0_FCCC|GL0_net_inferred_clock} -ref_rise {0.000000} -ref_fall {5.000000} -uncertainty {0.000000} -period {10.000000} -clockgroup {Inferred_clkgroup_3} -rise {0.000000} -fall {5.000000}
+#1005 define_clock {n:M2S_MSS_sb_0.FABOSC_0.RCOSC_25_50MHZ_CCC} -name {M2S_MSS_sb_FABOSC_0_OSC|RCOSC_25_50MHZ_CCC_inferred_clock} -ref_rise {0.000000} -ref_fall {5.000000} -uncertainty {0.000000} -period {10.000000} -clockgroup {Inferred_clkgroup_4} -rise {0.000 . . . 
+define_attribute {i:M2S_MSS_sb_0.M2S_MSS_sb_MSS_0.I2C_0_SCL_PAD}  {syn_noprune} 1
+define_attribute {i:M2S_MSS_sb_0.M2S_MSS_sb_MSS_0.I2C_0_SDA_PAD}  {syn_noprune} 1
+define_attribute {i:M2S_MSS_sb_0.M2S_MSS_sb_MSS_0.I2C_1_SCL_PAD}  {syn_noprune} 1
+define_attribute {i:M2S_MSS_sb_0.M2S_MSS_sb_MSS_0.I2C_1_SDA_PAD}  {syn_noprune} 1
+define_attribute {i:M2S_MSS_sb_0.M2S_MSS_sb_MSS_0.MDDR_ADDR_0_PAD}  {syn_noprune} 1
+define_attribute {i:M2S_MSS_sb_0.M2S_MSS_sb_MSS_0.MDDR_ADDR_1_PAD}  {syn_noprune} 1
+define_attribute {i:M2S_MSS_sb_0.M2S_MSS_sb_MSS_0.MDDR_ADDR_2_PAD}  {syn_noprune} 1
+define_attribute {i:M2S_MSS_sb_0.M2S_MSS_sb_MSS_0.MDDR_ADDR_3_PAD}  {syn_noprune} 1
+define_attribute {i:M2S_MSS_sb_0.M2S_MSS_sb_MSS_0.MDDR_ADDR_4_PAD}  {syn_noprune} 1
+define_attribute {i:M2S_MSS_sb_0.M2S_MSS_sb_MSS_0.MDDR_ADDR_5_PAD}  {syn_noprune} 1
+define_attribute {i:M2S_MSS_sb_0.M2S_MSS_sb_MSS_0.MDDR_ADDR_6_PAD}  {syn_noprune} 1
+define_attribute {i:M2S_MSS_sb_0.M2S_MSS_sb_MSS_0.MDDR_ADDR_7_PAD}  {syn_noprune} 1
+define_attribute {i:M2S_MSS_sb_0.M2S_MSS_sb_MSS_0.MDDR_ADDR_8_PAD}  {syn_noprune} 1
+define_attribute {i:M2S_MSS_sb_0.M2S_MSS_sb_MSS_0.MDDR_ADDR_9_PAD}  {syn_noprune} 1
+define_attribute {i:M2S_MSS_sb_0.M2S_MSS_sb_MSS_0.MDDR_ADDR_10_PAD}  {syn_noprune} 1
+define_attribute {i:M2S_MSS_sb_0.M2S_MSS_sb_MSS_0.MDDR_ADDR_11_PAD}  {syn_noprune} 1
+define_attribute {i:M2S_MSS_sb_0.M2S_MSS_sb_MSS_0.MDDR_ADDR_12_PAD}  {syn_noprune} 1
+define_attribute {i:M2S_MSS_sb_0.M2S_MSS_sb_MSS_0.MDDR_ADDR_13_PAD}  {syn_noprune} 1
+define_attribute {i:M2S_MSS_sb_0.M2S_MSS_sb_MSS_0.MDDR_ADDR_14_PAD}  {syn_noprune} 1
+define_attribute {i:M2S_MSS_sb_0.M2S_MSS_sb_MSS_0.MDDR_ADDR_15_PAD}  {syn_noprune} 1
+define_attribute {i:M2S_MSS_sb_0.M2S_MSS_sb_MSS_0.MDDR_BA_0_PAD}  {syn_noprune} 1
+define_attribute {i:M2S_MSS_sb_0.M2S_MSS_sb_MSS_0.MDDR_BA_1_PAD}  {syn_noprune} 1
+define_attribute {i:M2S_MSS_sb_0.M2S_MSS_sb_MSS_0.MDDR_BA_2_PAD}  {syn_noprune} 1
+define_attribute {i:M2S_MSS_sb_0.M2S_MSS_sb_MSS_0.MDDR_CAS_N_PAD}  {syn_noprune} 1
+define_attribute {i:M2S_MSS_sb_0.M2S_MSS_sb_MSS_0.MDDR_CKE_PAD}  {syn_noprune} 1
+define_attribute {i:M2S_MSS_sb_0.M2S_MSS_sb_MSS_0.MDDR_CS_N_PAD}  {syn_noprune} 1
+define_attribute {i:M2S_MSS_sb_0.M2S_MSS_sb_MSS_0.MDDR_DM_RDQS_0_PAD}  {syn_noprune} 1
+define_attribute {i:M2S_MSS_sb_0.M2S_MSS_sb_MSS_0.MDDR_DQ_0_PAD}  {syn_noprune} 1
+define_attribute {i:M2S_MSS_sb_0.M2S_MSS_sb_MSS_0.MDDR_DQ_1_PAD}  {syn_noprune} 1
+define_attribute {i:M2S_MSS_sb_0.M2S_MSS_sb_MSS_0.MDDR_DQ_2_PAD}  {syn_noprune} 1
+define_attribute {i:M2S_MSS_sb_0.M2S_MSS_sb_MSS_0.MDDR_DQ_3_PAD}  {syn_noprune} 1
+define_attribute {i:M2S_MSS_sb_0.M2S_MSS_sb_MSS_0.MDDR_DQ_4_PAD}  {syn_noprune} 1
+define_attribute {i:M2S_MSS_sb_0.M2S_MSS_sb_MSS_0.MDDR_DQ_5_PAD}  {syn_noprune} 1
+define_attribute {i:M2S_MSS_sb_0.M2S_MSS_sb_MSS_0.MDDR_DQ_6_PAD}  {syn_noprune} 1
+define_attribute {i:M2S_MSS_sb_0.M2S_MSS_sb_MSS_0.MDDR_DQ_7_PAD}  {syn_noprune} 1
+define_attribute {i:M2S_MSS_sb_0.M2S_MSS_sb_MSS_0.MDDR_DQS_TMATCH_0_IN_PAD}  {syn_noprune} 1
+define_attribute {i:M2S_MSS_sb_0.M2S_MSS_sb_MSS_0.MDDR_DQS_TMATCH_0_OUT_PAD}  {syn_noprune} 1
+define_attribute {i:M2S_MSS_sb_0.M2S_MSS_sb_MSS_0.MDDR_ODT_PAD}  {syn_noprune} 1
+define_attribute {i:M2S_MSS_sb_0.M2S_MSS_sb_MSS_0.MDDR_RAS_N_PAD}  {syn_noprune} 1
+define_attribute {i:M2S_MSS_sb_0.M2S_MSS_sb_MSS_0.MDDR_RESET_N_PAD}  {syn_noprune} 1
+define_attribute {i:M2S_MSS_sb_0.M2S_MSS_sb_MSS_0.MDDR_WE_N_PAD}  {syn_noprune} 1
+define_attribute {i:M2S_MSS_sb_0.M2S_MSS_sb_MSS_0.MMUART_0_RXD_PAD}  {syn_noprune} 1
+define_attribute {i:M2S_MSS_sb_0.M2S_MSS_sb_MSS_0.MMUART_0_TXD_PAD}  {syn_noprune} 1
+define_attribute {i:M2S_MSS_sb_0.M2S_MSS_sb_MSS_0.MMUART_1_RXD_PAD}  {syn_noprune} 1
+define_attribute {i:M2S_MSS_sb_0.M2S_MSS_sb_MSS_0.MMUART_1_TXD_PAD}  {syn_noprune} 1
+define_attribute {i:M2S_MSS_sb_0.M2S_MSS_sb_MSS_0.SPI_0_CLK_PAD}  {syn_noprune} 1
+define_attribute {i:M2S_MSS_sb_0.M2S_MSS_sb_MSS_0.SPI_0_DI_PAD}  {syn_noprune} 1
+define_attribute {i:M2S_MSS_sb_0.M2S_MSS_sb_MSS_0.SPI_0_DO_PAD}  {syn_noprune} 1
+define_attribute {i:M2S_MSS_sb_0.M2S_MSS_sb_MSS_0.SPI_0_SS0_PAD}  {syn_noprune} 1
+define_attribute {i:M2S_MSS_sb_0.M2S_MSS_sb_MSS_0.SPI_1_CLK_PAD}  {syn_noprune} 1
+define_attribute {i:M2S_MSS_sb_0.M2S_MSS_sb_MSS_0.SPI_1_DI_PAD}  {syn_noprune} 1
+define_attribute {i:M2S_MSS_sb_0.M2S_MSS_sb_MSS_0.SPI_1_DO_PAD}  {syn_noprune} 1
+define_attribute {i:M2S_MSS_sb_0.M2S_MSS_sb_MSS_0.SPI_1_SS0_PAD}  {syn_noprune} 1
+define_attribute {i:M2S_MSS_sb_0.FABOSC_0}  {syn_noprune} 1
+define_attribute {i:M2S_MSS_sb_0}  {syn_noprune} 1

@@ -1,0 +1,9 @@
+pin,slack
+N_15_i_0:A,
+N_15_i_0:Y,
+BLOCK_INTERFACE_I_led1:A,
+BLOCK_INTERFACE_I_led1:Y,
+BLOCK_INTERFACE_I_led2:A,
+BLOCK_INTERFACE_I_led2:Y,
+led1,
+led2,

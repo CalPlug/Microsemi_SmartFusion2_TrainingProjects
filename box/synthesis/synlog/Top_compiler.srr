@@ -1,0 +1,72 @@
+Synopsys HDL Compiler, version comp201503sp1p1, Build 240R, built Dec  1 2015
+@N|Running in 64-bit mode
+Copyright (C) 1994-2015 Synopsys, Inc. This software and the associated documentation are proprietary to Synopsys, Inc. This software may only be used in accordance with the terms and conditions of a written license agreement with Synopsys, Inc.  All other use, reproduction, or distribution of this software is strictly prohibited.
+
+Synopsys Verilog Compiler, version comp201503sp1p1, Build 240R, built Dec  1 2015
+@N|Running in 64-bit mode
+Copyright (C) 1994-2015 Synopsys, Inc. This software and the associated documentation are proprietary to Synopsys, Inc. This software may only be used in accordance with the terms and conditions of a written license agreement with Synopsys, Inc.  All other use, reproduction, or distribution of this software is strictly prohibited.
+
+@I::"C:\Microsemi\Libero_SoC_v11.7\Synplify\lib\generic\smartfusion2.v"
+@I::"C:\Microsemi\Libero_SoC_v11.7\Synplify\lib\vlog\hypermods.v"
+@I::"C:\Microsemi\Libero_SoC_v11.7\Synplify\lib\vlog\umr_capim.v"
+@I::"C:\Microsemi\Libero_SoC_v11.7\Synplify\lib\vlog\scemi_objects.v"
+@I::"C:\Microsemi\Libero_SoC_v11.7\Synplify\lib\vlog\scemi_pipes.svh"
+@I::"C:\Users\Hiperwall\Desktop\microsemilab\box\hdl\LED_ctrl.v"
+@I::"C:\Users\Hiperwall\Desktop\microsemilab\box\component\work\Top\FCCC_0\Top_FCCC_0_FCCC.v"
+@I::"C:\Users\Hiperwall\Desktop\microsemilab\box\component\Actel\SgCore\OSC\2.0.101\osc_comps.v"
+@I::"C:\Users\Hiperwall\Desktop\microsemilab\box\component\work\Top\OSC_0\Top_OSC_0_OSC.v"
+@I::"C:\Users\Hiperwall\Desktop\microsemilab\box\component\work\Top\Top.v"
+Verilog syntax check successful!
+Selecting top level module Top
+@N: CG364 :"C:\Microsemi\Libero_SoC_v11.7\Synplify\lib\generic\smartfusion2.v":126:7:126:10|Synthesizing module AND2
+
+@N: CG364 :"C:\Microsemi\Libero_SoC_v11.7\Synplify\lib\generic\smartfusion2.v":376:7:376:9|Synthesizing module VCC
+
+@N: CG364 :"C:\Microsemi\Libero_SoC_v11.7\Synplify\lib\generic\smartfusion2.v":372:7:372:9|Synthesizing module GND
+
+@N: CG364 :"C:\Microsemi\Libero_SoC_v11.7\Synplify\lib\generic\smartfusion2.v":362:7:362:12|Synthesizing module CLKINT
+
+@N: CG364 :"C:\Microsemi\Libero_SoC_v11.7\Synplify\lib\generic\smartfusion2.v":727:7:727:9|Synthesizing module CCC
+
+@N: CG364 :"C:\Users\Hiperwall\Desktop\microsemilab\box\component\work\Top\FCCC_0\Top_FCCC_0_FCCC.v":5:7:5:21|Synthesizing module Top_FCCC_0_FCCC
+
+@N: CG364 :"C:\Users\Hiperwall\Desktop\microsemilab\box\hdl\LED_ctrl.v":21:7:21:14|Synthesizing module LED_ctrl
+
+@N: CG364 :"C:\Users\Hiperwall\Desktop\microsemilab\box\component\Actel\SgCore\OSC\2.0.101\osc_comps.v":11:7:11:20|Synthesizing module RCOSC_25_50MHZ
+
+@N: CG364 :"C:\Users\Hiperwall\Desktop\microsemilab\box\component\work\Top\OSC_0\Top_OSC_0_OSC.v":5:7:5:19|Synthesizing module Top_OSC_0_OSC
+
+@N: CG364 :"C:\Microsemi\Libero_SoC_v11.7\Synplify\lib\generic\smartfusion2.v":718:7:718:14|Synthesizing module SYSRESET
+
+@N: CG364 :"C:\Users\Hiperwall\Desktop\microsemilab\box\component\work\Top\Top.v":9:7:9:9|Synthesizing module Top
+
+@W: CL157 :"C:\Users\Hiperwall\Desktop\microsemilab\box\component\work\Top\OSC_0\Top_OSC_0_OSC.v":16:7:16:24|*Output RCOSC_25_50MHZ_O2F has undriven bits -- simulation mismatch possible.
+@W: CL157 :"C:\Users\Hiperwall\Desktop\microsemilab\box\component\work\Top\OSC_0\Top_OSC_0_OSC.v":17:7:17:20|*Output RCOSC_1MHZ_CCC has undriven bits -- simulation mismatch possible.
+@W: CL157 :"C:\Users\Hiperwall\Desktop\microsemilab\box\component\work\Top\OSC_0\Top_OSC_0_OSC.v":18:7:18:20|*Output RCOSC_1MHZ_O2F has undriven bits -- simulation mismatch possible.
+@W: CL157 :"C:\Users\Hiperwall\Desktop\microsemilab\box\component\work\Top\OSC_0\Top_OSC_0_OSC.v":19:7:19:16|*Output XTLOSC_CCC has undriven bits -- simulation mismatch possible.
+@W: CL157 :"C:\Users\Hiperwall\Desktop\microsemilab\box\component\work\Top\OSC_0\Top_OSC_0_OSC.v":20:7:20:16|*Output XTLOSC_O2F has undriven bits -- simulation mismatch possible.
+@W: CL159 :"C:\Users\Hiperwall\Desktop\microsemilab\box\component\work\Top\OSC_0\Top_OSC_0_OSC.v":14:7:14:9|Input XTL is unused
+
+At c_ver Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 68MB peak: 70MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+# Tue Feb 07 16:28:58 2017
+
+###########################################################]
+Synopsys Netlist Linker, version comp201503sp1p1, Build 240R, built Dec  1 2015
+@N|Running in 64-bit mode
+
+At syn_nfilter Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 67MB peak: 68MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+# Tue Feb 07 16:28:58 2017
+
+###########################################################]
+@END
+
+At c_hdl Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 3MB peak: 4MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+# Tue Feb 07 16:28:58 2017
+
+###########################################################]

@@ -1,0 +1,14 @@
+C:\Microsemi\Libero_SoC_v11.7\Synplify\bin64\m_generic.exe  -mp  1  -prjfile  C:\Users\Hiperwall\Desktop\microsemilab\box\synthesis\scratchproject.prs  -implementation  synthesis  -prodtype  synplify_pro   -encrypt  -pro  -rundir  C:\Users\Hiperwall\Desktop\microsemilab\box\synthesis   -part M2S090  -package FBGA484  -grade -1    -maxfan 10000 -clock_globalthreshold 2 -async_globalthreshold 12 -globalthreshold 5000 -low_power_ram_decomp 0 -opcond COMTC -report_path 4000 -RWCheckOnRam 0 -summaryfile C:\Users\Hiperwall\Desktop\microsemilab\box\synthesis\synlog\report\Top_premap.xml  -top_level_module  Top  -oedif  C:\Users\Hiperwall\Desktop\microsemilab\box\synthesis\Top.edn  -conchk_prepass  C:\Users\Hiperwall\Desktop\microsemilab\box\synthesis\Top_cck_prepass.rpt   -freq 100.000   C:\Users\Hiperwall\Desktop\microsemilab\box\synthesis\synwork\Top_mult.srs  -flow prepass  -gcc_prepass  -osrd  C:\Users\Hiperwall\Desktop\microsemilab\box\synthesis\synwork\Top_prem.srd  -qsap  C:\Users\Hiperwall\Desktop\microsemilab\box\synthesis\Top.sap  -devicelib  C:\Microsemi\Libero_SoC_v11.7\Synplify\lib\generic\smartfusion2.v  -ologparam  C:\Users\Hiperwall\Desktop\microsemilab\box\synthesis\syntmp\Top.plg  -osyn  C:\Users\Hiperwall\Desktop\microsemilab\box\synthesis\synwork\Top_prem.srd  -prjdir  C:\Users\Hiperwall\Desktop\microsemilab\box\synthesis\  -prjname  Top_syn  -log  C:\Users\Hiperwall\Desktop\microsemilab\box\synthesis\synlog\Top_premap.srr 
+rc:1 success:1
+C:\Users\Hiperwall\Desktop\microsemilab\box\synthesis\scratchproject.prs|o|1486513738|2138
+C:\Users\Hiperwall\Desktop\microsemilab\box\synthesis\Top.edn|o|0|0
+C:\Users\Hiperwall\Desktop\microsemilab\box\synthesis\Top_cck_prepass.rpt|o|0|0
+C:\Users\Hiperwall\Desktop\microsemilab\box\synthesis\synwork\Top_mult.srs|i|1486513740|4026
+C:\Users\Hiperwall\Desktop\microsemilab\box\synthesis\synwork\Top_prem.srd|o|1486513740|11141
+C:\Users\Hiperwall\Desktop\microsemilab\box\synthesis\Top.sap|o|1486513740|2143
+C:\Microsemi\Libero_SoC_v11.7\Synplify\lib\generic\smartfusion2.v|i|1449250530|16359
+C:\Users\Hiperwall\Desktop\microsemilab\box\synthesis\syntmp\Top.plg|o|1486513740|0
+C:\Users\Hiperwall\Desktop\microsemilab\box\synthesis\synwork\Top_prem.srd|o|1486513740|11141
+C:\Users\Hiperwall\Desktop\microsemilab\box\synthesis\synlog\Top_premap.srr|o|1486513740|3419
+C:\Microsemi\Libero_SoC_v11.7\Synplify\bin\m_generic.exe|i|1449767944|15814144
+C:\Microsemi\Libero_SoC_v11.7\Synplify\bin64\m_generic.exe|i|1449769556|27632640

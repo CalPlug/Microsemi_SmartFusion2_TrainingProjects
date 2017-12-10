@@ -1,0 +1,10 @@
+DESIGN=Top
+DESDIR=C:\Users\Hiperwall\Desktop\microsemilab\box\designer\Top
+TARGET_DIR=C:\Users\Hiperwall\Desktop\microsemilab\box\designer\Top
+FAM=SmartFusion2
+DIE=PA4M7500_N
+PACKAGE=fg484
+PINRPT_BY_NAME=1
+PINRPT_BY_NUMBER=1
+BANK_REPORT=1
+IOREG_REPORT=1

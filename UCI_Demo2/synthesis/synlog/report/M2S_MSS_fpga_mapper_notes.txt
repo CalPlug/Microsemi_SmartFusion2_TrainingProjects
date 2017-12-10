@@ -1,0 +1,16 @@
+@N: MF248 |Running in 64-bit mode.
+@N: MF667 |Clock conversion disabled 
+@N: MO225 :"c:\users\hiperwall\desktop\microsemilab\uci_demo2\component\actel\directcore\coreresetp\7.0.104\rtl\vlog\core\coreresetp.v":1170:4:1170:9|No possible illegal states for state machine sdif0_state[3:0],safe FSM implementation is disabled
+@N: BN362 :"c:\users\hiperwall\desktop\microsemilab\uci_demo2\component\actel\directcore\coreresetp\7.0.104\rtl\vlog\core\coreresetp.v":1089:4:1089:9|Removing sequential instance M2S_MSS_sb_0.CORERESETP_0.DDR_READY_int in hierarchy view:work.M2S_MSS(verilog) because there are no references to its outputs 
+@N: FP130 |Promoting Net un1_M2S_MSS_sb_0_3 on CLKINT  I_144 
+@N: FP130 |Promoting Net un1_M2S_MSS_sb_0_4 on CLKINT  I_145 
+@N: FP130 |Promoting Net M2S_MSS_sb_0.CORERESETP_0.sm0_areset_n_rcosc on CLKINT  I_146 
+@N: FP130 |Promoting Net M2S_MSS_sb_0.CORERESETP_0.sm0_areset_n_clk_base on CLKINT  I_147 
+@N: BW103 |Synopsys Constraint File time units using default value of 1ns 
+@N: BW107 |Synopsys Constraint File capacitance units using default value of 1pF 
+@N: MT320 |Timing report estimates place and route data. Please look at the place and route timing report for final timing.
+@N: MT322 |Clock constraints cover only FF-to-FF paths associated with the clock.
+@N: MT582 |Estimated period and frequency not reported for given clock unless the clock has at least one timing path which is not a false or a max delay path and that does not have excessive slack
+@N: MT320 |Timing report estimates place and route data. Please look at the place and route timing report for final timing.
+@N: MT322 |Clock constraints cover only FF-to-FF paths associated with the clock.
+@N: MT582 |Estimated period and frequency not reported for given clock unless the clock has at least one timing path which is not a false or a max delay path and that does not have excessive slack

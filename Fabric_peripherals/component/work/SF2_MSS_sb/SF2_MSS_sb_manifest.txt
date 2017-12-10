@@ -1,0 +1,68 @@
+Microsemi Corporation - Microsemi Libero Software Release v11.7 (Version 11.7.0.119)
+
+Date      :  Mon Feb 06 12:29:57 2017
+Project   :  C:\Users\Hiperwall\Desktop\microsemilab\Fabric_peripherals
+Component :  SF2_MSS_sb
+Family    :  SmartFusion2
+
+
+HDL source files for all Synthesis and Simulation tools:
+    C:/Users/Hiperwall/Desktop/microsemilab/Fabric_peripherals/component/Actel/DirectCore/COREI2C/7.0.102/rtl/vlog/core/corei2c.v
+    C:/Users/Hiperwall/Desktop/microsemilab/Fabric_peripherals/component/Actel/DirectCore/COREI2C/7.0.102/rtl/vlog/core/corei2creal.v
+    C:/Users/Hiperwall/Desktop/microsemilab/Fabric_peripherals/component/Actel/DirectCore/CoreAPB3/4.1.100/rtl/vlog/core/coreapb3.v
+    C:/Users/Hiperwall/Desktop/microsemilab/Fabric_peripherals/component/Actel/DirectCore/CoreAPB3/4.1.100/rtl/vlog/core/coreapb3_iaddr_reg.v
+    C:/Users/Hiperwall/Desktop/microsemilab/Fabric_peripherals/component/Actel/DirectCore/CoreAPB3/4.1.100/rtl/vlog/core/coreapb3_muxptob3.v
+    C:/Users/Hiperwall/Desktop/microsemilab/Fabric_peripherals/component/Actel/DirectCore/CoreResetP/7.0.104/rtl/vlog/core/coreresetp.v
+    C:/Users/Hiperwall/Desktop/microsemilab/Fabric_peripherals/component/Actel/DirectCore/CoreResetP/7.0.104/rtl/vlog/core/coreresetp_pcie_hotreset.v
+    C:/Users/Hiperwall/Desktop/microsemilab/Fabric_peripherals/component/work/SF2_MSS_sb/CCC_0/SF2_MSS_sb_CCC_0_FCCC.v
+    C:/Users/Hiperwall/Desktop/microsemilab/Fabric_peripherals/component/work/SF2_MSS_sb/CoreUARTapb_0_0/rtl/vlog/core/Clock_gen.v
+    C:/Users/Hiperwall/Desktop/microsemilab/Fabric_peripherals/component/work/SF2_MSS_sb/CoreUARTapb_0_0/rtl/vlog/core/CoreUART.v
+    C:/Users/Hiperwall/Desktop/microsemilab/Fabric_peripherals/component/work/SF2_MSS_sb/CoreUARTapb_0_0/rtl/vlog/core/CoreUARTapb.v
+    C:/Users/Hiperwall/Desktop/microsemilab/Fabric_peripherals/component/work/SF2_MSS_sb/CoreUARTapb_0_0/rtl/vlog/core/Rx_async.v
+    C:/Users/Hiperwall/Desktop/microsemilab/Fabric_peripherals/component/work/SF2_MSS_sb/CoreUARTapb_0_0/rtl/vlog/core/Tx_async.v
+    C:/Users/Hiperwall/Desktop/microsemilab/Fabric_peripherals/component/work/SF2_MSS_sb/CoreUARTapb_0_0/rtl/vlog/core/fifo_256x8_smartfusion2.v
+    C:/Users/Hiperwall/Desktop/microsemilab/Fabric_peripherals/component/work/SF2_MSS_sb/FABOSC_0/SF2_MSS_sb_FABOSC_0_OSC.v
+    C:/Users/Hiperwall/Desktop/microsemilab/Fabric_peripherals/component/work/SF2_MSS_sb/SF2_MSS_sb.v
+    C:/Users/Hiperwall/Desktop/microsemilab/Fabric_peripherals/component/work/SF2_MSS_sb_MSS/SF2_MSS_sb_MSS.v
+
+HDL source files for Synopsys SynplifyPro Synthesis tool:
+    C:/Users/Hiperwall/Desktop/microsemilab/Fabric_peripherals/component/Actel/SgCore/OSC/2.0.101/osc_comps.v
+    C:/Users/Hiperwall/Desktop/microsemilab/Fabric_peripherals/component/work/SF2_MSS_sb_MSS/SF2_MSS_sb_MSS_syn.v
+
+HDL source files for Mentor Precision Synthesis tool:
+    C:/Users/Hiperwall/Desktop/microsemilab/Fabric_peripherals/component/Actel/SgCore/OSC/2.0.101/osc_comps_pre.v
+    C:/Users/Hiperwall/Desktop/microsemilab/Fabric_peripherals/component/work/SF2_MSS_sb_MSS/SF2_MSS_sb_MSS_pre.v
+
+Stimulus files for all Simulation tools:
+    C:/Users/Hiperwall/Desktop/microsemilab/Fabric_peripherals/component/Actel/SmartFusion2MSS/MSS/1.1.400/peripheral_init.bfm
+    C:/Users/Hiperwall/Desktop/microsemilab/Fabric_peripherals/component/work/SF2_MSS_sb/CoreUARTapb_0_0/mti/scripts/bfmtovec_compile.do
+    C:/Users/Hiperwall/Desktop/microsemilab/Fabric_peripherals/component/work/SF2_MSS_sb/CoreUARTapb_0_0/mti/scripts/coreuart_usertb_apb_master.bfm
+    C:/Users/Hiperwall/Desktop/microsemilab/Fabric_peripherals/component/work/SF2_MSS_sb/CoreUARTapb_0_0/mti/scripts/coreuart_usertb_include.bfm
+    C:/Users/Hiperwall/Desktop/microsemilab/Fabric_peripherals/component/work/SF2_MSS_sb/CoreUARTapb_0_0/mti/scripts/wave_vlog_amba.do
+    C:/Users/Hiperwall/Desktop/microsemilab/Fabric_peripherals/component/work/SF2_MSS_sb/subsystem.bfm
+    C:/Users/Hiperwall/Desktop/microsemilab/Fabric_peripherals/component/work/SF2_MSS_sb_MSS/CM3_compile_bfm.tcl
+    C:/Users/Hiperwall/Desktop/microsemilab/Fabric_peripherals/component/work/SF2_MSS_sb_MSS/test.bfm
+    C:/Users/Hiperwall/Desktop/microsemilab/Fabric_peripherals/component/work/SF2_MSS_sb_MSS/user.bfm
+
+    C:/Users/Hiperwall/Desktop/microsemilab/Fabric_peripherals/component/Actel/DirectCore/CoreUARTapb/5.2.2/rtl/vlog/amba_bfm/bfm_ahbl.v
+    C:/Users/Hiperwall/Desktop/microsemilab/Fabric_peripherals/component/Actel/DirectCore/CoreUARTapb/5.2.2/rtl/vlog/amba_bfm/bfm_ahblapb.v
+    C:/Users/Hiperwall/Desktop/microsemilab/Fabric_peripherals/component/Actel/DirectCore/CoreUARTapb/5.2.2/rtl/vlog/amba_bfm/bfm_ahbslave.v
+    C:/Users/Hiperwall/Desktop/microsemilab/Fabric_peripherals/component/Actel/DirectCore/CoreUARTapb/5.2.2/rtl/vlog/amba_bfm/bfm_ahbslaveext.v
+    C:/Users/Hiperwall/Desktop/microsemilab/Fabric_peripherals/component/Actel/DirectCore/CoreUARTapb/5.2.2/rtl/vlog/amba_bfm/bfm_ahbtoapb.v
+    C:/Users/Hiperwall/Desktop/microsemilab/Fabric_peripherals/component/Actel/DirectCore/CoreUARTapb/5.2.2/rtl/vlog/amba_bfm/bfm_apb.v
+    C:/Users/Hiperwall/Desktop/microsemilab/Fabric_peripherals/component/Actel/DirectCore/CoreUARTapb/5.2.2/rtl/vlog/amba_bfm/bfm_apbslave.v
+    C:/Users/Hiperwall/Desktop/microsemilab/Fabric_peripherals/component/Actel/DirectCore/CoreUARTapb/5.2.2/rtl/vlog/amba_bfm/bfm_apbslaveext.v
+    C:/Users/Hiperwall/Desktop/microsemilab/Fabric_peripherals/component/Actel/DirectCore/CoreUARTapb/5.2.2/rtl/vlog/amba_bfm/bfm_apbtoapb.v
+    C:/Users/Hiperwall/Desktop/microsemilab/Fabric_peripherals/component/Actel/DirectCore/CoreUARTapb/5.2.2/rtl/vlog/amba_bfm/bfm_main.v
+    C:/Users/Hiperwall/Desktop/microsemilab/Fabric_peripherals/component/work/SF2_MSS_sb/CoreUARTapb_0_0/coreparameters.v
+    C:/Users/Hiperwall/Desktop/microsemilab/Fabric_peripherals/component/work/SF2_MSS_sb/CoreUARTapb_0_0/rtl/vlog/test/user/testbench.v
+
+Firmware files for all Software IDE tools:
+    C:/Users/Hiperwall/Desktop/microsemilab/Fabric_peripherals/component/work/SF2_MSS_sb_MSS/sys_config_mss_clocks.h
+
+Configuration files to be used for Programming:
+    C:/Users/Hiperwall/Desktop/microsemilab/Fabric_peripherals/component/work/SF2_MSS_sb_MSS/ENVM.cfg
+
+Configuration files to be used for all Simulation tools:
+    C:/Users/Hiperwall/Desktop/microsemilab/Fabric_peripherals/component/work/SF2_MSS_sb_MSS/ENVM.cfg
+

@@ -1,0 +1,24 @@
+// --------------------------------------
+// CoreABC SERDES Initialization Sequence
+// --------------------------------------
+
+// SYSTEM_CONFIG_PHY_MODE_1
+APBWRT DAT 0 0xa028 0x11C
+// LANE0_RXIDLE_MAX_ERRCNT_THR
+APBWRT DAT 0 0x9008 0xF8
+// SYSTEM_CONFIG_PHY_MODE_1
+APBWRT DAT 0 0xa028 0xF1C
+
+// Set CONFIG1_DONE to '1'
+APBWRT DAT 0 0x2000 0x1
+
+// Wait for SDIF_RELEASE assertion
+$WaitSdifRelease
+APBREAD 0 0x2004
+AND 0x02
+JUMP IF ZERO $WaitSdifRelease
+
+// Set CONFIG2_DONE to '1'
+APBWRT DAT 0 0x2000 0x3
+
+HALT

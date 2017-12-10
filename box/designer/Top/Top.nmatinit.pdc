@@ -1,0 +1,67 @@
+# Microsemi Physical design constraints file
+
+# Version: v11.7 SP2 11.7.2.2
+
+# Design Name: Top 
+
+# Input Netlist Format: EDIF 
+
+# Family: SmartFusion2 , Die: M2S090 , Package: 484 FBGA , Speed grade: -1 
+
+# Date generated: Tue Feb 07 17:41:05 2017 
+
+
+#
+# I/O constraints
+#
+
+set_io LED\[0\] -DIRECTION OUTPUT -pinname E1 -fixed no
+set_io LED\[1\] -DIRECTION OUTPUT -pinname F4 -fixed no
+set_io PB_SW -DIRECTION INPUT -pinname L20 -fixed no
+
+#
+# Core cell constraints
+#
+
+set_location AND2_0 -fixed no 307 186
+set_location LED_ctrl_0/counter\[10\] -fixed no 298 187
+set_location SYSRESET_0 -fixed no 1020 8
+set_location LED_ctrl_0/counter\[15\] -fixed no 303 187
+set_location LED_ctrl_0/counter\[0\] -fixed no 264 187
+set_location OSC_0/I_RCOSC_25_50MHZ -fixed no 24 254
+set_location LED_ctrl_0/counter\[1\] -fixed no 276 187
+set_location LED_ctrl_0/counter_RNO\[0\] -fixed no 264 186
+set_location LED_ctrl_0/counter\[8\] -fixed no 296 187
+set_location LED_ctrl_0/counter\[2\] -fixed no 283 187
+set_location AND2_0_RNIKOS1/U0_RGB1 -fixed no 254 186
+set_location LED_ctrl_0/counter\[6\] -fixed no 294 187
+set_location LED_ctrl_0/pb_reg1 -fixed no 305 187
+set_location LED_ctrl_0/counter\[9\] -fixed no 297 187
+set_location LED_ctrl_0/sh_lft\[0\] -fixed no 308 187
+set_location FCCC_0/GL0_INST -fixed no 513 132
+set_location LED_ctrl_0/counter\[11\] -fixed no 299 187
+set_location FCCC_0/GL0_INST/U0_RGB1 -fixed no 255 186
+set_location LED_ctrl_0/counter\[18\] -fixed no 306 187
+set_location LED_ctrl_0/counter\[3\] -fixed no 289 187
+set_location LED_ctrl_0/LED\[1\] -fixed no 309 186
+set_location LED_ctrl_0/counter_inferred_clock_RNIVA6D\[17\] -fixed no 509 132
+set_location LED_ctrl_0/pb_reg2 -fixed no 307 187
+set_location LED_ctrl_0/sh_lft\[1\] -fixed no 309 187
+set_location LED_ctrl_0/counter\[14\] -fixed no 302 187
+set_location LED_ctrl_0/counter\[17\] -fixed no 284 187
+set_location LED_ctrl_0/counter\[5\] -fixed no 293 187
+set_location AND2_0_RNIKOS1 -fixed no 512 132
+set_location LED_ctrl_0/counter\[13\] -fixed no 301 187
+set_location LED_ctrl_0/counter_inferred_clock_RNIVA6D\[17\]/U0_RGB1 -fixed no 256 186
+set_location LED_ctrl_0/LED\[0\] -fixed no 308 186
+set_location LED_ctrl_0/counter\[4\] -fixed no 292 187
+set_location LED_ctrl_0/counter\[16\] -fixed no 304 187
+set_location LED_ctrl_0/counter\[7\] -fixed no 295 187
+set_location LED_ctrl_0/counter\[12\] -fixed no 300 187
+set_location FCCC_0/CCC_INST -fixed no 18 254
+set_location LED_ctrl_0/un2_counter_s_1_40 -fixed no 267 186
+set_location LED_ctrl_0/un2_counter_cry_1 -fixed no 288 186
+set_location LED_ctrl_0/un2_counter_cry_1_FCINST1_CC_0 -fixed no 288 188
+set_location LED_ctrl_0/un2_counter_cry_1_FCINST1_CC_1 -fixed no 300 188
+set_location LED_ctrl_0/un2_counter_s_1_40_CC_0 -fixed no 267 188
+set_location LED_ctrl_0/un2_counter_s_1_40_CC_1 -fixed no 276 188

@@ -1,0 +1,40 @@
+Software Version: 11.7.0.119
+Driver : 3.0.0 build 1
+programmer '97188' : FlashPro4
+Opened 'C:/Users/Hiperwall/Desktop/microsemilab/UCI_Demo2/designer/M2S_MSS/M2S_MSS_fp/M2S_MSS.pro'
+The 'open_project' command succeeded.
+IPD file 'C:/Users/Hiperwall/Desktop/microsemilab/UCI_Demo2/designer/M2S_MSS/M2S_MSS.ipd' has been loaded successfully.
+DESIGN : M2S_MSS;  CHECKSUM : C30D;  PDB_VERSION : 1.9
+The 'set_programming_file' command succeeded.
+Warning: Programming is already enabled for device 'M2S090TS'.
+The 'enable_device' command succeeded.
+The 'set_programming_action' command succeeded.
+programmer '97188' : Scan Chain...
+Warning: programmer '97188' : Vpump has been selected on programmer AND an externally provided Vpump has also been detected. Using externally provided Vpump voltage source.
+programmer '97188' : Check Chain...
+programmer '97188' : Scan and Check Chain PASSED.
+programmer '97188' : device 'M2S090TS' : Executing action PROGRAM
+programmer '97188' : device 'M2S090TS' : EXPORT ISC_ENABLE_RESULT[32] = 007a6744
+programmer '97188' : device 'M2S090TS' : EXPORT CRCERR: [1] = 0
+programmer '97188' : device 'M2S090TS' : EXPORT EDCERR: [1] = 0
+programmer '97188' : device 'M2S090TS' : TEMPGRADE: ROOM
+programmer '97188' : device 'M2S090TS' : EXPORT VPPRANGE: [3] = 2
+programmer '97188' : device 'M2S090TS' : VPPRANGE: HIGH
+programmer '97188' : device 'M2S090TS' : EXPORT TEMP: [8] = 67
+programmer '97188' : device 'M2S090TS' : EXPORT VPP: [8] = 7a
+programmer '97188' : device 'M2S090TS' : Programming FPGA Array and eNVM...
+programmer '97188' : device 'M2S090TS' : ===================================================================================
+programmer '97188' : device 'M2S090TS' : EXPORT DSN[128] = 25f57094ff0cca2d6c9e2262cfda6a04
+programmer '97188' : device 'M2S090TS' : ===================================================================================
+programmer '97188' : device 'M2S090TS' : Finished: Tue Feb 07 10:00:38 2017 (Elapsed time 00:01:47)
+programmer '97188' : device 'M2S090TS' : Executing action PROGRAM PASSED.
+programmer '97188' : Chain programming PASSED.
+Chain Programming Finished: Tue Feb 07 10:00:38 2017 (Elapsed time 00:01:47)
+
+                        o - o - o - o - o - o
+
+The 'run_selected_actions' command succeeded.
+The 'set_programming_file' command succeeded.
+Project saved.
+The 'save_project' command succeeded.
+Project closed.

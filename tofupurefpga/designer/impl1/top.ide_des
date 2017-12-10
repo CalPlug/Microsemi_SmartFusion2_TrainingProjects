@@ -1,0 +1,11 @@
+KEY IDE_DES_TOOL "Ide"
+KEY IDE_DES_ADB_PATH "C:\Users\Hiperwall\Desktop\microsemilab\tofupurefpga\designer\impl1\top.adb"
+LIST SOURCE_FILES
+VALUE "C:\Users\Hiperwall\Desktop\microsemilab\tofupurefpga\synthesis\top.edn;edn"
+VALUE "C:\Users\Hiperwall\Desktop\microsemilab\tofupurefpga\constraint\io\top.pdc;pdc"
+ENDLIST
+LIST OPTIONAL_FILES
+VALUE "C:\Users\Hiperwall\Desktop\microsemilab\tofupurefpga\synthesis\top_sdc.sdc;Skipped"
+ENDLIST
+LIST VCD_FILES
+ENDLIST

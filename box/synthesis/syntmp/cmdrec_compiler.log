@@ -1,0 +1,12 @@
+C:\Microsemi\Libero_SoC_v11.7\Synplify\bin64\c_hdl.exe  -osyn  C:\Users\Hiperwall\Desktop\microsemilab\box\synthesis\synwork\Top_comp.srs  -top  Top  -hdllog  C:\Users\Hiperwall\Desktop\microsemilab\box\synthesis\synlog\Top_compiler.srr  -encrypt  -mp  1  -verilog  -prodtype  synplify_pro  -infer_seqShift -primux -dspmac -pqdpadd -fixsmult -sdff_counter -divnmod -nram   -I C:\Users\Hiperwall\Desktop\microsemilab\box\synthesis\  -I C:\Microsemi\Libero_SoC_v11.7\Synplify\lib   -v2001  -devicelib  C:\Microsemi\Libero_SoC_v11.7\Synplify\lib\generic\smartfusion2.v  -encrypt  -pro  -dmgen  C:\Users\Hiperwall\Desktop\microsemilab\box\synthesis\dm  -ui -fid2 -ram -sharing on -ll 2000 -autosm  -lib work C:\Users\Hiperwall\Desktop\microsemilab\box\hdl\LED_ctrl.v -lib work C:\Users\Hiperwall\Desktop\microsemilab\box\component\work\Top\FCCC_0\Top_FCCC_0_FCCC.v -lib work C:\Users\Hiperwall\Desktop\microsemilab\box\component\Actel\SgCore\OSC\2.0.101\osc_comps.v -lib work C:\Users\Hiperwall\Desktop\microsemilab\box\component\work\Top\OSC_0\Top_OSC_0_OSC.v -lib work C:\Users\Hiperwall\Desktop\microsemilab\box\component\work\Top\Top.v 
+rc:0 success:1
+C:\Users\Hiperwall\Desktop\microsemilab\box\synthesis\synwork\Top_comp.srs|o|1486513738|9297
+C:\Users\Hiperwall\Desktop\microsemilab\box\synthesis\synlog\Top_compiler.srr|o|1486513738|5080
+C:\Microsemi\Libero_SoC_v11.7\Synplify\lib\generic\smartfusion2.v|i|1449250530|16359
+C:\Users\Hiperwall\Desktop\microsemilab\box\hdl\LED_ctrl.v|i|1486513682|1757
+C:\Users\Hiperwall\Desktop\microsemilab\box\component\work\Top\FCCC_0\Top_FCCC_0_FCCC.v|i|1485948062|1717
+C:\Users\Hiperwall\Desktop\microsemilab\box\component\Actel\SgCore\OSC\2.0.101\osc_comps.v|i|1455744545|924
+C:\Users\Hiperwall\Desktop\microsemilab\box\component\work\Top\OSC_0\Top_OSC_0_OSC.v|i|1485948064|528
+C:\Users\Hiperwall\Desktop\microsemilab\box\component\work\Top\Top.v|i|1486021606|3462
+C:\Microsemi\Libero_SoC_v11.7\Synplify\bin\c_hdl.exe|i|1449250522|1295872
+C:\Microsemi\Libero_SoC_v11.7\Synplify\bin64\c_hdl.exe|i|1449250524|1897472

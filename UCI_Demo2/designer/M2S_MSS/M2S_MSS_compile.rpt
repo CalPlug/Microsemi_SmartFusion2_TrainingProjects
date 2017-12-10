@@ -1,0 +1,220 @@
+Compile Report
+Microsemi Corporation - Microsemi Libero Software Release v11.7 (Version 11.7.0.119)
+Date: Thu Feb 02 00:52:21 2017
+
+Device Selection
++--------------------------------+----------------+
+| Family                         | SmartFusion2   |
+| Device                         | M2S090TS       |
+| Package                        | 484 FBGA       |
+| Speed Grade                    | -1             |
+| Temp                           | 0:25:85        |
+| Voltage                        | 1.26:1.20:1.14 |
+| Core Voltage                   | 1.2V           |
+| Ramp Rate                      | 100ms Minimum  |
+| System Controller Suspend Mode | No             |
+| PLL Supply Voltage             | 3.3V           |
+| Default I/O technology         | LVCMOS 2.5V    |
+| Restrict Probe Pins            | Yes            |
+| Restrict SPI Pins              | No             |
++--------------------------------+----------------+
+
+Source Files
++---------+-------------------------------------------------------------------------+
+| Topcell | M2S_MSS                                                                 |
+| Format  | EDIF                                                                    |
+| Source  | C:\Users\Hiperwall\Desktop\microsemilab\UCI_Demo2\synthesis\M2S_MSS.edn |
++---------+-------------------------------------------------------------------------+
+
+Options
++---------------------------------------------------------+-------+
+| Merge User SDC file(s) with Existing Timing Constraints | true  |
+| Abort Compile if errors are found in PDC file(s)        | true  |
+| Enable Single Event Transient mitigation                | false |
+| Enable Design Separation Methodology                    | false |
+| Limit the number of high fanout nets to display to      | 10    |
++---------------------------------------------------------+-------+
+
+Resource Usage
++---------------------------+------+-------+------------+
+| Type                      | Used | Total | Percentage |
++---------------------------+------+-------+------------+
+| 4LUT                      | 143  | 86184 | 0.17       |
+| DFF                       | 185  | 86184 | 0.21       |
+| I/O Register              | 0    | 795   | 0.00       |
+| User I/O                  | 79   | 265   | 29.81      |
+| -- Single-ended I/O       | 73   | 265   | 27.55      |
+| -- Differential I/O Pairs | 3    | 132   | 2.27       |
+| RAM64x18                  | 0    | 112   | 0.00       |
+| RAM1K18                   | 0    | 109   | 0.00       |
+| MACC                      | 0    | 84    | 0.00       |
+| Chip Globals              | 6    | 16    | 37.50      |
+| CCC                       | 1    | 6     | 16.67      |
+| RCOSC_25_50MHZ            | 1    | 1     | 100.00     |
+| RCOSC_1MHZ                | 0    | 1     | 0.00       |
+| XTLOSC                    | 0    | 1     | 0.00       |
+| SERDESIF Blocks           | 1    | 1     | 100.00     |
+| -- SERDESIF Lanes         | 1    | 4     | 25.00      |
+| MSS                       | 1    | 1     | 100.00     |
++---------------------------+------+-------+------------+
+
+Detailed Logic Resource Usage
++--------------------------+------+-----+
+| Type                     | 4LUT | DFF |
++--------------------------+------+-----+
+| Fabric Logic             | 143  | 185 |
+| RAM64x18 Interface Logic | 0    | 0   |
+| RAM1K18 Interface Logic  | 0    | 0   |
+| MACC Interface Logic     | 0    | 0   |
+| Total Used               | 143  | 185 |
++--------------------------+------+-----+
+
+MSS Resource Usage
++---------------+------+-------+
+| Type          | Used | Total |
++---------------+------+-------+
+| Cortex-M3*    | 1    | 1     |
+| eNVM (512KB)* | 1    | 1     |
+| eSRAM*        | 2    | 2     |
+| TIMER*        | 2    | 2     |
+| CAN           | 0    | 1     |
+| SPI           | 2    | 2     |
+| I2C           | 2    | 2     |
+| UART          | 2    | 2     |
+| USB           | 0    | 1     |
+| MAC           | 0    | 1     |
+| MDDR          | 1    | 1     |
+| HPDMA         | 0    | 1     |
+| PDMA          | 1    | 1     |
++---------------+------+-------+
+
+* These resources are always marked as used when you are using the MSS
+
+SERDESIF Lanes Usage
++------------+--------------+-------+-------+-------+
+| SERDESIF   | Lane0        | Lane1 | Lane2 | Lane3 |
++------------+--------------+-------+-------+-------+
+| SERDESIF_0 | PCIE1 (Gen1) | ----  | ----  | ----  |
++------------+--------------+-------+-------+-------+
+
+Detailed Carry Chains Resource Usage
++--------+------+
+| Length | Used |
+| 13     | 1    |
+| 14     | 1    |
+| Total  | 2    |
++--------+------+
+
+I/O Function
++--------------------------------------+--------------+-------------+-----------------+
+| Type                                 | w/o register | w/ register | w/ DDR register |
++--------------------------------------+--------------+-------------+-----------------+
+| Input I/O                            | 16           | 0           | 0               |
+| Output I/O                           | 40           | 0           | 0               |
+| Bidirectional I/O                    | 17           | 0           | 0               |
+| Differential Input I/O Pairs         | 1            | 0           | 0               |
+| Differential Output I/O Pairs        | 1            | 0           | 0               |
+| Differential Bidirectional I/O Pairs | 1            | 0           | 0               |
++--------------------------------------+--------------+-------------+-----------------+
+
+I/O Technology
++-------------------------------+--------+--------+-------+--------+---------------+
+| I/O Standard                  | Vddi   | Vref   | Input | Output | Bidirectional |
++-------------------------------+--------+--------+-------+--------+---------------+
+| LVCMOS25                      |  2.50v |  N/A   |  15   |  13    |  8            |
+| SSTL18I (Input/Bidirectional) |  1.80v |  1.00v |  1    |  0     |  11           |
+| SSTL18I (Output)              |  1.80v |  N/A   |  0    |  29    |  0            |
+| LVDS                          |  2.50v |  N/A   |  2    |  0     |  0            |
++-------------------------------+--------+--------+-------+--------+---------------+
+
+I/O Placement
++----------+-------+------------+
+| Type     | Count | Percentage |
++----------+-------+------------+
+| Locked   |  59   | 74.68%     |
+| Placed   |  0    | 0.00%      |
+| UnPlaced |  20   | 25.32%     |
++----------+-------+------------+
+
+Nets assigned to chip global resources
++--------+---------+---------------------------------------------------------------------------------------+
+| Fanout | Type    | Name                                                                                  |
++--------+---------+---------------------------------------------------------------------------------------+
+| 112    | INT_NET | Net   : M2S_MSS_sb_0/MSS_ADLIB_INST_RNI7K43                                           |
+|        |         | Driver: M2S_MSS_sb_0/M2S_MSS_sb_MSS_0/MSS_ADLIB_INST_RNI7K43/U0_RGB1                  |
+|        |         | Source: NETLIST                                                                       |
+| 110    | INT_NET | Net   : M2S_MSS_sb_0/FIC_2_APB_M_PCLK_inferred_clock_RNIVUHA                          |
+|        |         | Driver: M2S_MSS_sb_0/M2S_MSS_sb_MSS_0/FIC_2_APB_M_PCLK_inferred_clock_RNIVUHA/U0_RGB1 |
+|        |         | Source: NETLIST                                                                       |
+| 42     | INT_NET | Net   : FAB_CCC_GL0_c                                                                 |
+|        |         | Driver: M2S_MSS_sb_0/CCC_0/GL0_INST/U0_RGB1                                           |
+|        |         | Source: NETLIST                                                                       |
+| 36     | INT_NET | Net   : M2S_MSS_sb_0/FABOSC_0_RCOSC_25_50MHZ_O2F                                      |
+|        |         | Driver: M2S_MSS_sb_0/FABOSC_0/I_RCOSC_25_50MHZ_FAB_CLKINT/U0_RGB1                     |
+|        |         | Source: NETLIST                                                                       |
+| 34     | INT_NET | Net   : M2S_MSS_sb_0/CORERESETP_0/sm0_areset_n_rcosc                                  |
+|        |         | Driver: M2S_MSS_sb_0/CORERESETP_0/sdif0_areset_n_rcosc_RNIDB37/U0_RGB1                |
+|        |         | Source: NETLIST                                                                       |
+| 29     | INT_NET | Net   : M2S_MSS_sb_0/CORERESETP_0/sm0_areset_n_clk_base                               |
+|        |         | Driver: M2S_MSS_sb_0/CORERESETP_0/sdif0_areset_n_clk_base_RNI7MR6/U0_RGB1             |
+|        |         | Source: NETLIST                                                                       |
++--------+---------+---------------------------------------------------------------------------------------+
+
+Nets assigned to row global resources
++--------+------+------+
+| Fanout | Type | Name |
++--------+------+------+
++--------+------+------+
+
+High fanout nets
++--------+---------+---------------------------------------------------------------------+
+| Fanout | Type    | Name                                                                |
++--------+---------+---------------------------------------------------------------------+
+| 47     | INT_NET | Net   : M2S_MSS_sb_0/CORECONFIGP_0/state_347_d                      |
+|        |         | Driver: M2S_MSS_sb_0/CORECONFIGP_0/state_s0_0_a2_0_a2               |
+| 41     | INT_NET | Net   : M2S_MSS_sb_0/CORECONFIGP_0/state[1]                         |
+|        |         | Driver: M2S_MSS_sb_0/CORECONFIGP_0/state[1]                         |
+| 34     | INT_NET | Net   : N_39                                                        |
+|        |         | Driver: M2S_MSS_sb_0/CORECONFIGP_0/R_SDIF0_PSEL_1_i_o2              |
+| 19     | INT_NET | Net   : M2S_MSS_sb_0/CORECONFIGP_0_MDDR_APBmslave_PSELx             |
+|        |         | Driver: M2S_MSS_sb_0/CORECONFIGP_0/MDDR_PSEL_0_a4                   |
+| 17     | INT_NET | Net   : M2S_MSS_sb_0/CORECONFIGP_0/soft_reset_reg6                  |
+|        |         | Driver: M2S_MSS_sb_0/CORECONFIGP_0/soft_reset_reg6_0_a2             |
+| 15     | INT_NET | Net   : M2S_MSS_sb_0/CORECONFIGP_0/N_126                            |
+|        |         | Driver: M2S_MSS_sb_0/CORECONFIGP_0/prdata_0_iv_0_a3[2]              |
+| 14     | INT_NET | Net   : M2S_MSS_sb_0/CORERESETP_0/count_ddr_enable_rcosc            |
+|        |         | Driver: M2S_MSS_sb_0/CORERESETP_0/count_ddr_enable_rcosc            |
+| 13     | INT_NET | Net   : M2S_MSS_sb_0/CORERESETP_0/count_sdif0_enable_rcosc          |
+|        |         | Driver: M2S_MSS_sb_0/CORERESETP_0/count_sdif0_enable_rcosc          |
+| 10     | INT_NET | Net   : M2S_MSS_sb_0/M2S_MSS_sb_MSS_TMP_0_FIC_2_APB_MASTER_PADDR[2] |
+|        |         | Driver: M2S_MSS_sb_0/M2S_MSS_sb_MSS_0/MSS_ADLIB_INST                |
+| 10     | INT_NET | Net   : M2S_MSS_sb_0/M2S_MSS_sb_MSS_TMP_0_FIC_2_APB_MASTER_PADDR[4] |
+|        |         | Driver: M2S_MSS_sb_0/M2S_MSS_sb_MSS_0/MSS_ADLIB_INST                |
++--------+---------+---------------------------------------------------------------------+
+
+High fanout nets (through buffer trees)
++--------+---------+---------------------------------------------------------------------+
+| Fanout | Type    | Name                                                                |
++--------+---------+---------------------------------------------------------------------+
+| 47     | INT_NET | Net   : M2S_MSS_sb_0/CORECONFIGP_0/state_347_d                      |
+|        |         | Driver: M2S_MSS_sb_0/CORECONFIGP_0/state_s0_0_a2_0_a2               |
+| 41     | INT_NET | Net   : M2S_MSS_sb_0/CORECONFIGP_0/state[1]                         |
+|        |         | Driver: M2S_MSS_sb_0/CORECONFIGP_0/state[1]                         |
+| 34     | INT_NET | Net   : N_39                                                        |
+|        |         | Driver: M2S_MSS_sb_0/CORECONFIGP_0/R_SDIF0_PSEL_1_i_o2              |
+| 19     | INT_NET | Net   : M2S_MSS_sb_0/CORECONFIGP_0_MDDR_APBmslave_PSELx             |
+|        |         | Driver: M2S_MSS_sb_0/CORECONFIGP_0/MDDR_PSEL_0_a4                   |
+| 17     | INT_NET | Net   : M2S_MSS_sb_0/CORECONFIGP_0/soft_reset_reg6                  |
+|        |         | Driver: M2S_MSS_sb_0/CORECONFIGP_0/soft_reset_reg6_0_a2             |
+| 15     | INT_NET | Net   : M2S_MSS_sb_0/CORECONFIGP_0/N_126                            |
+|        |         | Driver: M2S_MSS_sb_0/CORECONFIGP_0/prdata_0_iv_0_a3[2]              |
+| 14     | INT_NET | Net   : M2S_MSS_sb_0/CORERESETP_0/count_ddr_enable_rcosc            |
+|        |         | Driver: M2S_MSS_sb_0/CORERESETP_0/count_ddr_enable_rcosc            |
+| 13     | INT_NET | Net   : M2S_MSS_sb_0/CORERESETP_0/count_sdif0_enable_rcosc          |
+|        |         | Driver: M2S_MSS_sb_0/CORERESETP_0/count_sdif0_enable_rcosc          |
+| 10     | INT_NET | Net   : M2S_MSS_sb_0/M2S_MSS_sb_MSS_TMP_0_FIC_2_APB_MASTER_PADDR[2] |
+|        |         | Driver: M2S_MSS_sb_0/M2S_MSS_sb_MSS_0/MSS_ADLIB_INST                |
+| 10     | INT_NET | Net   : M2S_MSS_sb_0/M2S_MSS_sb_MSS_TMP_0_FIC_2_APB_MASTER_PADDR[4] |
+|        |         | Driver: M2S_MSS_sb_0/M2S_MSS_sb_MSS_0/MSS_ADLIB_INST                |
++--------+---------+---------------------------------------------------------------------+
+

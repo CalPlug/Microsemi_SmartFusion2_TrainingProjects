@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<?xml-stylesheet type="text/xsl" href="drcss.xsl"?>
+<drcreport>
+  <header>M2S_MSS</header>
+  <drc>
+    <status>C:\Microsemi\Libero_SoC_v11.7\Designer/data/drcreport\warn.png</status>
+    <StatusMessage>Warning</StatusMessage>
+    <message>Unconnected Bus Interface</message>
+    <detail>Unconnected bus interface pin SERDES_IF2_0:AXI_0_MASTER</detail>
+    <crossprobe>liberoaction://cross_probe/smartdesign/M2S_MSS/pins/SERDES_IF2_0:AXI_0_MASTER</crossprobe>
+  </drc>
+</drcreport>

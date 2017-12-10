@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<?xml-stylesheet type="text/xsl" href="drcss.xsl"?>
+<drcreport>
+  <header>SF2_MSS_sys</header>
+  <drc>
+    <status>C:\Microsemi\Libero_SoC_v11.8\Designer/data/drcreport\error.png</status>
+    <StatusMessage>Error</StatusMessage>
+    <message>No Top Level Ports</message>
+    <detail>You must create at least one port for a valid design</detail>
+    <crossprobe>liberoaction://cross_probe/smartdesign/SF2_MSS_sys/instances/SF2_MSS_sys</crossprobe>
+  </drc>
+</drcreport>

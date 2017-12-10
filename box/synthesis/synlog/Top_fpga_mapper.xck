@@ -1,0 +1,2 @@
+CKID0001:@|S:LED_ctrl_0.counter[17]@|E:LED_ctrl_0.sh_lft[0]@|F:@syn_sample_clock_path==CKID0001@|M:ClockId0001 
+CKID0002:@|S:FCCC_0.GL0_INST@|E:LED_ctrl_0.counter[5]@|F:@syn_sample_clock_path==CKID0002@|M:ClockId0002 

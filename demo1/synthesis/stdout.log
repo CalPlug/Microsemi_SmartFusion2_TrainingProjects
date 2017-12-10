@@ -1,0 +1,22 @@
+sourcing C:\Microsemi\Libero_SoC_v11.7\Synplify\lib\message_override.tcl
+
+Starting:    C:\Microsemi\Libero_SoC_v11.7\Synplify\bin64\mbin\synplify.exe
+Install:     C:\Microsemi\Libero_SoC_v11.7\Synplify
+Hostname:    MSPC1
+Date:        Wed Feb 01 02:18:28 2017
+Version:     J-2015.03M-SP1-2
+
+Arguments:   -product synplify_pro Top_syn.prj
+ProductType: synplify_pro
+
+License checkout: synplifypro_actel
+License: synplifypro_actel node-locked 
+Licensed Vendor: actel
+License Option: actel_oem
+
+
+auto_infer_blackbox is not supported in current product.
+OnSyncomMessage()
+OnSyncomMessage()
+exit status=0
+License checkin: synplifypro_actel

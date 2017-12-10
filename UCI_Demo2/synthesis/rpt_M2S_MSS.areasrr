@@ -1,0 +1,222 @@
+#### START OF AREA REPORT #####[
+
+Part:			M2S090TSFBGA484-1 (Microsemi)
+
+-----------------------------------------------------------------------
+########   Utilization report for  Top level view:   M2S_MSS   ########
+=======================================================================
+
+SEQUENTIAL ELEMENTS
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+SLE      185                100 %                
+=================================================
+Total SEQUENTIAL ELEMENTS in the block M2S_MSS:	185 (42.53 % Utilization)
+
+
+COMBINATIONAL LOGIC
+Name          Total elements     Utilization     Notes
+------------------------------------------------------
+CFG           116                100 %                
+ARI1          27                 100 %                
+BLACK BOX     56                 100 %                
+======================================================
+Total COMBINATIONAL LOGIC in the block M2S_MSS:	199 (45.75 % Utilization)
+
+
+GLOBAL BUFFERS
+Name       Total elements     Utilization     Notes
+---------------------------------------------------
+GLOBAL     6                  100 %                
+===================================================
+Total GLOBAL BUFFERS in the block M2S_MSS:	6 (1.38 % Utilization)
+
+
+IO PADS
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+IO       76                 100 %                
+=================================================
+Total IO PADS in the block M2S_MSS:	76 (17.47 % Utilization)
+
+-------------------------------------------------------------------------------------
+########   Utilization report for  cell:   M2S_MSS_SERDES_IF2_0_SERDES_IF2   ########
+Instance path:   M2S_MSS.M2S_MSS_SERDES_IF2_0_SERDES_IF2                             
+=====================================================================================
+
+COMBINATIONAL LOGIC
+Name          Total elements     Utilization     Notes
+------------------------------------------------------
+BLACK BOX     1                  1.79 %               
+======================================================
+Total COMBINATIONAL LOGIC in the block M2S_MSS.M2S_MSS_SERDES_IF2_0_SERDES_IF2:	1 (0.23 % Utilization)
+
+
+IO PADS
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+IO       1                  1.32 %               
+=================================================
+Total IO PADS in the block M2S_MSS.M2S_MSS_SERDES_IF2_0_SERDES_IF2:	1 (0.23 % Utilization)
+
+----------------------------------------------------------------
+########   Utilization report for  cell:   M2S_MSS_sb   ########
+Instance path:   M2S_MSS.M2S_MSS_sb                             
+================================================================
+
+SEQUENTIAL ELEMENTS
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+SLE      185                100 %                
+=================================================
+Total SEQUENTIAL ELEMENTS in the block M2S_MSS.M2S_MSS_sb:	185 (42.53 % Utilization)
+
+
+COMBINATIONAL LOGIC
+Name          Total elements     Utilization     Notes
+------------------------------------------------------
+CFG           116                100 %                
+ARI1          27                 100 %                
+BLACK BOX     55                 98.2 %               
+======================================================
+Total COMBINATIONAL LOGIC in the block M2S_MSS.M2S_MSS_sb:	198 (45.52 % Utilization)
+
+
+GLOBAL BUFFERS
+Name       Total elements     Utilization     Notes
+---------------------------------------------------
+GLOBAL     6                  100 %                
+===================================================
+Total GLOBAL BUFFERS in the block M2S_MSS.M2S_MSS_sb:	6 (1.38 % Utilization)
+
+
+IO PADS
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+IO       55                 72.4 %               
+=================================================
+Total IO PADS in the block M2S_MSS.M2S_MSS_sb:	55 (12.64 % Utilization)
+
+--------------------------------------------------------------------
+########   Utilization report for  cell:   CoreConfigP_Z1   ########
+Instance path:   M2S_MSS_sb.CoreConfigP_Z1                          
+====================================================================
+
+SEQUENTIAL ELEMENTS
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+SLE      109                58.9 %               
+=================================================
+Total SEQUENTIAL ELEMENTS in the block M2S_MSS_sb.CoreConfigP_Z1:	109 (25.06 % Utilization)
+
+
+COMBINATIONAL LOGIC
+Name          Total elements     Utilization     Notes
+------------------------------------------------------
+CFG           82                 70.7 %               
+BLACK BOX     4                  7.14 %               
+======================================================
+Total COMBINATIONAL LOGIC in the block M2S_MSS_sb.CoreConfigP_Z1:	86 (19.77 % Utilization)
+
+-------------------------------------------------------------------
+########   Utilization report for  cell:   CoreResetP_Z2   ########
+Instance path:   M2S_MSS_sb.CoreResetP_Z2                          
+===================================================================
+
+SEQUENTIAL ELEMENTS
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+SLE      76                 41.1 %               
+=================================================
+Total SEQUENTIAL ELEMENTS in the block M2S_MSS_sb.CoreResetP_Z2:	76 (17.47 % Utilization)
+
+
+COMBINATIONAL LOGIC
+Name          Total elements     Utilization     Notes
+------------------------------------------------------
+CFG           33                 28.4 %               
+ARI1          27                 100 %                
+BLACK BOX     43                 76.8 %               
+======================================================
+Total COMBINATIONAL LOGIC in the block M2S_MSS_sb.CoreResetP_Z2:	103 (23.68 % Utilization)
+
+
+GLOBAL BUFFERS
+Name       Total elements     Utilization     Notes
+---------------------------------------------------
+GLOBAL     2                  33.3 %               
+===================================================
+Total GLOBAL BUFFERS in the block M2S_MSS_sb.CoreResetP_Z2:	2 (0.46 % Utilization)
+
+---------------------------------------------------------------------------
+########   Utilization report for  cell:   M2S_MSS_sb_CCC_0_FCCC   ########
+Instance path:   M2S_MSS_sb.M2S_MSS_sb_CCC_0_FCCC                          
+===========================================================================
+
+COMBINATIONAL LOGIC
+Name          Total elements     Utilization     Notes
+------------------------------------------------------
+BLACK BOX     2                  3.57 %               
+======================================================
+Total COMBINATIONAL LOGIC in the block M2S_MSS_sb.M2S_MSS_sb_CCC_0_FCCC:	2 (0.46 % Utilization)
+
+
+GLOBAL BUFFERS
+Name       Total elements     Utilization     Notes
+---------------------------------------------------
+GLOBAL     1                  16.7 %               
+===================================================
+Total GLOBAL BUFFERS in the block M2S_MSS_sb.M2S_MSS_sb_CCC_0_FCCC:	1 (0.23 % Utilization)
+
+-----------------------------------------------------------------------------
+########   Utilization report for  cell:   M2S_MSS_sb_FABOSC_0_OSC   ########
+Instance path:   M2S_MSS_sb.M2S_MSS_sb_FABOSC_0_OSC                          
+=============================================================================
+
+COMBINATIONAL LOGIC
+Name          Total elements     Utilization     Notes
+------------------------------------------------------
+BLACK BOX     3                  5.36 %               
+======================================================
+Total COMBINATIONAL LOGIC in the block M2S_MSS_sb.M2S_MSS_sb_FABOSC_0_OSC:	3 (0.69 % Utilization)
+
+
+GLOBAL BUFFERS
+Name       Total elements     Utilization     Notes
+---------------------------------------------------
+GLOBAL     1                  16.7 %               
+===================================================
+Total GLOBAL BUFFERS in the block M2S_MSS_sb.M2S_MSS_sb_FABOSC_0_OSC:	1 (0.23 % Utilization)
+
+--------------------------------------------------------------------
+########   Utilization report for  cell:   M2S_MSS_sb_MSS   ########
+Instance path:   M2S_MSS_sb.M2S_MSS_sb_MSS                          
+====================================================================
+
+COMBINATIONAL LOGIC
+Name          Total elements     Utilization     Notes
+------------------------------------------------------
+CFG           1                  0.8620 %             
+BLACK BOX     2                  3.57 %               
+======================================================
+Total COMBINATIONAL LOGIC in the block M2S_MSS_sb.M2S_MSS_sb_MSS:	3 (0.69 % Utilization)
+
+
+GLOBAL BUFFERS
+Name       Total elements     Utilization     Notes
+---------------------------------------------------
+GLOBAL     2                  33.3 %               
+===================================================
+Total GLOBAL BUFFERS in the block M2S_MSS_sb.M2S_MSS_sb_MSS:	2 (0.46 % Utilization)
+
+
+IO PADS
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+IO       55                 72.4 %               
+=================================================
+Total IO PADS in the block M2S_MSS_sb.M2S_MSS_sb_MSS:	55 (12.64 % Utilization)
+
+
+##### END OF AREA REPORT #####]
+

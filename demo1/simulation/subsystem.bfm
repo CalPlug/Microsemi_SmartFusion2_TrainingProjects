@@ -1,0 +1,8 @@
+
+#-----------------------------------------------------------
+# Peripheral Initialization
+#-----------------------------------------------------------
+
+procedure subsystem_init;
+# No peripheral initialization required
+return

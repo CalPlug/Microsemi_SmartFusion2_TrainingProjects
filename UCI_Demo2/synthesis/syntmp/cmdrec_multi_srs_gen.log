@@ -1,0 +1,7 @@
+C:\Microsemi\Libero_SoC_v11.7\Synplify\bin64\syn_nfilter.exe  -link  -top  M2S_MSS  -multisrs  C:\Users\Hiperwall\Desktop\microsemilab\UCI_Demo2\synthesis\synwork\M2S_MSS_comp.srs  -osyn  C:\Users\Hiperwall\Desktop\microsemilab\UCI_Demo2\synthesis\synwork\M2S_MSS_mult.srs  -log  C:\Users\Hiperwall\Desktop\microsemilab\UCI_Demo2\synthesis\synlog\M2S_MSS_multi_srs_gen.srr 
+rc:0 success:1
+C:\Users\Hiperwall\Desktop\microsemilab\UCI_Demo2\synthesis\synwork\M2S_MSS_comp.srs|i|1486025522|147670
+C:\Users\Hiperwall\Desktop\microsemilab\UCI_Demo2\synthesis\synwork\M2S_MSS_mult.srs|o|1486025524|11859
+C:\Users\Hiperwall\Desktop\microsemilab\UCI_Demo2\synthesis\synlog\M2S_MSS_multi_srs_gen.srr|o|1486025524|377
+C:\Microsemi\Libero_SoC_v11.7\Synplify\bin\syn_nfilter.exe|i|1449250524|3007488
+C:\Microsemi\Libero_SoC_v11.7\Synplify\bin64\syn_nfilter.exe|i|1449250526|3974144

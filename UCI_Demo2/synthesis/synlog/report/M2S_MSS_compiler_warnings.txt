@@ -1,0 +1,44 @@
+@W: CL207 :"C:\Users\Hiperwall\Desktop\microsemilab\UCI_Demo2\component\Actel\DirectCore\CoreConfigP\7.0.105\rtl\vlog\core\coreconfigp.v":461:4:461:9|All reachable assignments to SDIF1_PENABLE assign 0, register removed by optimization.
+@W: CL169 :"C:\Users\Hiperwall\Desktop\microsemilab\UCI_Demo2\component\Actel\DirectCore\CoreResetP\7.0.104\rtl\vlog\core\coreresetp.v":1581:4:1581:9|Pruning register count_sdif3[12:0] 
+@W: CL169 :"C:\Users\Hiperwall\Desktop\microsemilab\UCI_Demo2\component\Actel\DirectCore\CoreResetP\7.0.104\rtl\vlog\core\coreresetp.v":1549:4:1549:9|Pruning register count_sdif2[12:0] 
+@W: CL169 :"C:\Users\Hiperwall\Desktop\microsemilab\UCI_Demo2\component\Actel\DirectCore\CoreResetP\7.0.104\rtl\vlog\core\coreresetp.v":1517:4:1517:9|Pruning register count_sdif1[12:0] 
+@W: CL169 :"C:\Users\Hiperwall\Desktop\microsemilab\UCI_Demo2\component\Actel\DirectCore\CoreResetP\7.0.104\rtl\vlog\core\coreresetp.v":1455:4:1455:9|Pruning register count_sdif1_enable_q1 
+@W: CL169 :"C:\Users\Hiperwall\Desktop\microsemilab\UCI_Demo2\component\Actel\DirectCore\CoreResetP\7.0.104\rtl\vlog\core\coreresetp.v":1455:4:1455:9|Pruning register count_sdif2_enable_q1 
+@W: CL169 :"C:\Users\Hiperwall\Desktop\microsemilab\UCI_Demo2\component\Actel\DirectCore\CoreResetP\7.0.104\rtl\vlog\core\coreresetp.v":1455:4:1455:9|Pruning register count_sdif3_enable_q1 
+@W: CL169 :"C:\Users\Hiperwall\Desktop\microsemilab\UCI_Demo2\component\Actel\DirectCore\CoreResetP\7.0.104\rtl\vlog\core\coreresetp.v":1455:4:1455:9|Pruning register count_sdif1_enable_rcosc 
+@W: CL169 :"C:\Users\Hiperwall\Desktop\microsemilab\UCI_Demo2\component\Actel\DirectCore\CoreResetP\7.0.104\rtl\vlog\core\coreresetp.v":1455:4:1455:9|Pruning register count_sdif2_enable_rcosc 
+@W: CL169 :"C:\Users\Hiperwall\Desktop\microsemilab\UCI_Demo2\component\Actel\DirectCore\CoreResetP\7.0.104\rtl\vlog\core\coreresetp.v":1455:4:1455:9|Pruning register count_sdif3_enable_rcosc 
+@W: CL169 :"C:\Users\Hiperwall\Desktop\microsemilab\UCI_Demo2\component\Actel\DirectCore\CoreResetP\7.0.104\rtl\vlog\core\coreresetp.v":1365:4:1365:9|Pruning register count_sdif3_enable 
+@W: CL169 :"C:\Users\Hiperwall\Desktop\microsemilab\UCI_Demo2\component\Actel\DirectCore\CoreResetP\7.0.104\rtl\vlog\core\coreresetp.v":1300:4:1300:9|Pruning register count_sdif2_enable 
+@W: CL169 :"C:\Users\Hiperwall\Desktop\microsemilab\UCI_Demo2\component\Actel\DirectCore\CoreResetP\7.0.104\rtl\vlog\core\coreresetp.v":1235:4:1235:9|Pruning register count_sdif1_enable 
+@W: CL190 :"C:\Users\Hiperwall\Desktop\microsemilab\UCI_Demo2\component\Actel\DirectCore\CoreResetP\7.0.104\rtl\vlog\core\coreresetp.v":1433:4:1433:9|Optimizing register bit EXT_RESET_OUT_int to a constant 0
+@W: CL169 :"C:\Users\Hiperwall\Desktop\microsemilab\UCI_Demo2\component\Actel\DirectCore\CoreResetP\7.0.104\rtl\vlog\core\coreresetp.v":1089:4:1089:9|Pruning register release_ext_reset 
+@W: CL169 :"C:\Users\Hiperwall\Desktop\microsemilab\UCI_Demo2\component\Actel\DirectCore\CoreResetP\7.0.104\rtl\vlog\core\coreresetp.v":1433:4:1433:9|Pruning register EXT_RESET_OUT_int 
+@W: CL169 :"C:\Users\Hiperwall\Desktop\microsemilab\UCI_Demo2\component\Actel\DirectCore\CoreResetP\7.0.104\rtl\vlog\core\coreresetp.v":1433:4:1433:9|Pruning register sm2_state[2:0] 
+@W: CL169 :"C:\Users\Hiperwall\Desktop\microsemilab\UCI_Demo2\component\Actel\DirectCore\CoreResetP\7.0.104\rtl\vlog\core\coreresetp.v":783:4:783:9|Pruning register sm2_areset_n_q1 
+@W: CL169 :"C:\Users\Hiperwall\Desktop\microsemilab\UCI_Demo2\component\Actel\DirectCore\CoreResetP\7.0.104\rtl\vlog\core\coreresetp.v":783:4:783:9|Pruning register sm2_areset_n_clk_base 
+@W: CL157 :"C:\Users\Hiperwall\Desktop\microsemilab\UCI_Demo2\component\work\M2S_MSS_sb\FABOSC_0\M2S_MSS_sb_FABOSC_0_OSC.v":17:7:17:20|*Output RCOSC_1MHZ_CCC has undriven bits -- simulation mismatch possible.
+@W: CL157 :"C:\Users\Hiperwall\Desktop\microsemilab\UCI_Demo2\component\work\M2S_MSS_sb\FABOSC_0\M2S_MSS_sb_FABOSC_0_OSC.v":18:7:18:20|*Output RCOSC_1MHZ_O2F has undriven bits -- simulation mismatch possible.
+@W: CL157 :"C:\Users\Hiperwall\Desktop\microsemilab\UCI_Demo2\component\work\M2S_MSS_sb\FABOSC_0\M2S_MSS_sb_FABOSC_0_OSC.v":19:7:19:16|*Output XTLOSC_CCC has undriven bits -- simulation mismatch possible.
+@W: CL157 :"C:\Users\Hiperwall\Desktop\microsemilab\UCI_Demo2\component\work\M2S_MSS_sb\FABOSC_0\M2S_MSS_sb_FABOSC_0_OSC.v":20:7:20:16|*Output XTLOSC_O2F has undriven bits -- simulation mismatch possible.
+@W: CL159 :"C:\Users\Hiperwall\Desktop\microsemilab\UCI_Demo2\component\work\M2S_MSS_sb\FABOSC_0\M2S_MSS_sb_FABOSC_0_OSC.v":14:7:14:9|Input XTL is unused
+@W: CL159 :"C:\Users\Hiperwall\Desktop\microsemilab\UCI_Demo2\component\Actel\DirectCore\CoreResetP\7.0.104\rtl\vlog\core\coreresetp.v":29:20:29:28|Input CLK_LTSSM is unused
+@W: CL159 :"C:\Users\Hiperwall\Desktop\microsemilab\UCI_Demo2\component\Actel\DirectCore\CoreResetP\7.0.104\rtl\vlog\core\coreresetp.v":56:20:56:28|Input FPLL_LOCK is unused
+@W: CL159 :"C:\Users\Hiperwall\Desktop\microsemilab\UCI_Demo2\component\Actel\DirectCore\CoreResetP\7.0.104\rtl\vlog\core\coreresetp.v":68:20:68:34|Input SDIF1_SPLL_LOCK is unused
+@W: CL159 :"C:\Users\Hiperwall\Desktop\microsemilab\UCI_Demo2\component\Actel\DirectCore\CoreResetP\7.0.104\rtl\vlog\core\coreresetp.v":72:20:72:34|Input SDIF2_SPLL_LOCK is unused
+@W: CL159 :"C:\Users\Hiperwall\Desktop\microsemilab\UCI_Demo2\component\Actel\DirectCore\CoreResetP\7.0.104\rtl\vlog\core\coreresetp.v":76:20:76:34|Input SDIF3_SPLL_LOCK is unused
+@W: CL159 :"C:\Users\Hiperwall\Desktop\microsemilab\UCI_Demo2\component\Actel\DirectCore\CoreResetP\7.0.104\rtl\vlog\core\coreresetp.v":90:20:90:29|Input SDIF0_PSEL is unused
+@W: CL159 :"C:\Users\Hiperwall\Desktop\microsemilab\UCI_Demo2\component\Actel\DirectCore\CoreResetP\7.0.104\rtl\vlog\core\coreresetp.v":91:20:91:31|Input SDIF0_PWRITE is unused
+@W: CL159 :"C:\Users\Hiperwall\Desktop\microsemilab\UCI_Demo2\component\Actel\DirectCore\CoreResetP\7.0.104\rtl\vlog\core\coreresetp.v":92:20:92:31|Input SDIF0_PRDATA is unused
+@W: CL159 :"C:\Users\Hiperwall\Desktop\microsemilab\UCI_Demo2\component\Actel\DirectCore\CoreResetP\7.0.104\rtl\vlog\core\coreresetp.v":93:20:93:29|Input SDIF1_PSEL is unused
+@W: CL159 :"C:\Users\Hiperwall\Desktop\microsemilab\UCI_Demo2\component\Actel\DirectCore\CoreResetP\7.0.104\rtl\vlog\core\coreresetp.v":94:20:94:31|Input SDIF1_PWRITE is unused
+@W: CL159 :"C:\Users\Hiperwall\Desktop\microsemilab\UCI_Demo2\component\Actel\DirectCore\CoreResetP\7.0.104\rtl\vlog\core\coreresetp.v":95:20:95:31|Input SDIF1_PRDATA is unused
+@W: CL159 :"C:\Users\Hiperwall\Desktop\microsemilab\UCI_Demo2\component\Actel\DirectCore\CoreResetP\7.0.104\rtl\vlog\core\coreresetp.v":96:20:96:29|Input SDIF2_PSEL is unused
+@W: CL159 :"C:\Users\Hiperwall\Desktop\microsemilab\UCI_Demo2\component\Actel\DirectCore\CoreResetP\7.0.104\rtl\vlog\core\coreresetp.v":97:20:97:31|Input SDIF2_PWRITE is unused
+@W: CL159 :"C:\Users\Hiperwall\Desktop\microsemilab\UCI_Demo2\component\Actel\DirectCore\CoreResetP\7.0.104\rtl\vlog\core\coreresetp.v":98:20:98:31|Input SDIF2_PRDATA is unused
+@W: CL159 :"C:\Users\Hiperwall\Desktop\microsemilab\UCI_Demo2\component\Actel\DirectCore\CoreResetP\7.0.104\rtl\vlog\core\coreresetp.v":99:20:99:29|Input SDIF3_PSEL is unused
+@W: CL159 :"C:\Users\Hiperwall\Desktop\microsemilab\UCI_Demo2\component\Actel\DirectCore\CoreResetP\7.0.104\rtl\vlog\core\coreresetp.v":100:20:100:31|Input SDIF3_PWRITE is unused
+@W: CL159 :"C:\Users\Hiperwall\Desktop\microsemilab\UCI_Demo2\component\Actel\DirectCore\CoreResetP\7.0.104\rtl\vlog\core\coreresetp.v":101:20:101:31|Input SDIF3_PRDATA is unused
+@W: CL159 :"C:\Users\Hiperwall\Desktop\microsemilab\UCI_Demo2\component\Actel\DirectCore\CoreConfigP\7.0.105\rtl\vlog\core\coreconfigp.v":71:24:71:35|Input SDIF1_PREADY is unused
+@W: CL159 :"C:\Users\Hiperwall\Desktop\microsemilab\UCI_Demo2\component\Actel\DirectCore\CoreConfigP\7.0.105\rtl\vlog\core\coreconfigp.v":72:24:72:36|Input SDIF1_PSLVERR is unused
+

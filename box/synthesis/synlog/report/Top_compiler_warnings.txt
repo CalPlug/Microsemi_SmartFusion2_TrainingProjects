@@ -1,0 +1,7 @@
+@W: CL157 :"C:\Users\Hiperwall\Desktop\microsemilab\box\component\work\Top\OSC_0\Top_OSC_0_OSC.v":16:7:16:24|*Output RCOSC_25_50MHZ_O2F has undriven bits -- simulation mismatch possible.
+@W: CL157 :"C:\Users\Hiperwall\Desktop\microsemilab\box\component\work\Top\OSC_0\Top_OSC_0_OSC.v":17:7:17:20|*Output RCOSC_1MHZ_CCC has undriven bits -- simulation mismatch possible.
+@W: CL157 :"C:\Users\Hiperwall\Desktop\microsemilab\box\component\work\Top\OSC_0\Top_OSC_0_OSC.v":18:7:18:20|*Output RCOSC_1MHZ_O2F has undriven bits -- simulation mismatch possible.
+@W: CL157 :"C:\Users\Hiperwall\Desktop\microsemilab\box\component\work\Top\OSC_0\Top_OSC_0_OSC.v":19:7:19:16|*Output XTLOSC_CCC has undriven bits -- simulation mismatch possible.
+@W: CL157 :"C:\Users\Hiperwall\Desktop\microsemilab\box\component\work\Top\OSC_0\Top_OSC_0_OSC.v":20:7:20:16|*Output XTLOSC_O2F has undriven bits -- simulation mismatch possible.
+@W: CL159 :"C:\Users\Hiperwall\Desktop\microsemilab\box\component\work\Top\OSC_0\Top_OSC_0_OSC.v":14:7:14:9|Input XTL is unused
+

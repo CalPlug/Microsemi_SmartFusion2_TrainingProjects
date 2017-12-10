@@ -1,0 +1,17 @@
+*****************************************************************
+Pin Report - Date: Tue Feb 07 17:42:08 2017 Pinchecksum: NOT-AVAILABLE
+Product: Designer
+Release: v11.7 SP2
+Version: 11.7.2.2
+Design Name: Top
+Family: SmartFusion2
+Die: M2S090
+Package: 484 FBGA
+*****************************************************************
+
+Port     |Pin |Fixed |Function                      |Bank     |I/O Std   |Direction                      |I/O state in Flash*Freeze mode |Resistor Pull                      |I/O available in Flash*Freeze mode |Schmitt Trigger |Odt_Static    |Odt Imp (Ohm)  |Low Power Exit |Input Delay |Slew         |Pre-Emphasis      |Output Drive (mA) |Output Load (pF) |
+---------|----|------|------------------------------|---------|----------|-------------------------------|-------------------------------|-----------------------------------|-----------------------------------|----------------|--------------|---------------|---------------|------------|-------------|------------------|------------------|-----------------|
+DEVRST_N  R15  Fixed  DEVRST_N                       ---       
+LED[0]    E1   Yes    MSIO143PB8                     Bank8     LVCMOS33   Output                          TRISTATE                        None                                No                                  ---              ---            ---             ---             ---          ---           ---                4                  5                 
+LED[1]    F4   Yes    MSIO145NB8                     Bank8     LVCMOS33   Output                          TRISTATE                        None                                No                                  ---              ---            ---             ---             ---          ---           ---                4                  5                 
+PB_SW     L20  Yes    MSIO17NB3/SPI_1_SS0/GPIO_13_A  Bank3     LVCMOS33   Input                           TRISTATE                        None                                No                                  Off              ---            ---             Off             Off          ---           ---                ---                ---               

@@ -1,0 +1,2153 @@
+
+M2S_MSS_sb_MSS_CM3_app:     file format elf32-littlearm
+
+Sections:
+Idx Name          Size      VMA       LMA       File off  Algn
+  0 .vector_table 00000190  20000000  20000000  00008000  2**4
+                  CONTENTS, ALLOC, LOAD, READONLY, CODE
+  1 .boot_code    00000330  20000190  20000190  00008190  2**4
+                  CONTENTS, ALLOC, LOAD, READONLY, CODE
+  2 .text         00000b20  200004c0  200004c0  000084c0  2**4
+                  CONTENTS, ALLOC, LOAD, READONLY, CODE
+  3 .data         00000010  20000fe0  20000fe0  00008fe0  2**4
+                  CONTENTS, ALLOC, LOAD, DATA
+  4 .bss          00000010  20000ff0  20000ff0  00008ff0  2**4
+                  ALLOC
+  5 .heap         0000e000  20001000  20001000  00008ff0  2**4
+                  ALLOC
+  6 .stack        00001000  2000f000  2000f000  00008ff0  2**4
+                  ALLOC
+  7 .comment      00000102  00000000  00000000  00008ff0  2**0
+                  CONTENTS, READONLY
+  8 .debug_aranges 000001c8  00000000  00000000  000090f2  2**0
+                  CONTENTS, READONLY, DEBUGGING
+  9 .debug_pubnames 000002f1  00000000  00000000  000092ba  2**0
+                  CONTENTS, READONLY, DEBUGGING
+ 10 .debug_info   000067e9  00000000  00000000  000095ab  2**0
+                  CONTENTS, READONLY, DEBUGGING
+ 11 .debug_abbrev 00000770  00000000  00000000  0000fd94  2**0
+                  CONTENTS, READONLY, DEBUGGING
+ 12 .debug_line   000010a0  00000000  00000000  00010504  2**0
+                  CONTENTS, READONLY, DEBUGGING
+ 13 .debug_frame  000005a0  00000000  00000000  000115a4  2**2
+                  CONTENTS, READONLY, DEBUGGING
+ 14 .debug_str    00003c33  00000000  00000000  00011b44  2**0
+                  CONTENTS, READONLY, DEBUGGING
+ 15 .debug_loc    00000965  00000000  00000000  00015777  2**0
+                  CONTENTS, READONLY, DEBUGGING
+ 16 .debug_macinfo 0002500b  00000000  00000000  000160dc  2**0
+                  CONTENTS, READONLY, DEBUGGING
+ 17 .ARM.attributes 00000025  00000000  00000000  0003b0e7  2**0
+                  CONTENTS, READONLY
+ 18 .debug_ranges 000001a8  00000000  00000000  0003b10c  2**0
+                  CONTENTS, READONLY, DEBUGGING
+
+Disassembly of section .vector_table:
+
+20000000 <__vector_table_start>:
+20000000:	20010000 	.word	0x20010000
+20000004:	20000191 	.word	0x20000191
+20000008:	2000037f 	.word	0x2000037f
+2000000c:	20000381 	.word	0x20000381
+20000010:	20000383 	.word	0x20000383
+20000014:	20000385 	.word	0x20000385
+20000018:	20000387 	.word	0x20000387
+	...
+2000002c:	20000389 	.word	0x20000389
+20000030:	2000038b 	.word	0x2000038b
+20000034:	00000000 	.word	0x00000000
+20000038:	2000038d 	.word	0x2000038d
+2000003c:	2000038f 	.word	0x2000038f
+20000040:	20000391 	.word	0x20000391
+20000044:	20000393 	.word	0x20000393
+20000048:	20000395 	.word	0x20000395
+2000004c:	20000397 	.word	0x20000397
+20000050:	20000399 	.word	0x20000399
+20000054:	2000039b 	.word	0x2000039b
+20000058:	2000039d 	.word	0x2000039d
+2000005c:	2000039f 	.word	0x2000039f
+20000060:	200003a1 	.word	0x200003a1
+20000064:	200003a3 	.word	0x200003a3
+20000068:	200003a5 	.word	0x200003a5
+2000006c:	200003a7 	.word	0x200003a7
+20000070:	200003a9 	.word	0x200003a9
+20000074:	200003ab 	.word	0x200003ab
+20000078:	200003ad 	.word	0x200003ad
+2000007c:	200003af 	.word	0x200003af
+20000080:	200003b1 	.word	0x200003b1
+20000084:	200003b3 	.word	0x200003b3
+20000088:	200003b5 	.word	0x200003b5
+2000008c:	200003b7 	.word	0x200003b7
+20000090:	200003b9 	.word	0x200003b9
+20000094:	200003bb 	.word	0x200003bb
+20000098:	200003bd 	.word	0x200003bd
+2000009c:	200003bf 	.word	0x200003bf
+200000a0:	200003c1 	.word	0x200003c1
+200000a4:	200003c3 	.word	0x200003c3
+200000a8:	200003c5 	.word	0x200003c5
+200000ac:	200003c7 	.word	0x200003c7
+200000b0:	200003c9 	.word	0x200003c9
+200000b4:	200003cb 	.word	0x200003cb
+200000b8:	200003cd 	.word	0x200003cd
+200000bc:	200003cf 	.word	0x200003cf
+200000c0:	200003d1 	.word	0x200003d1
+200000c4:	200003d3 	.word	0x200003d3
+200000c8:	200003d5 	.word	0x200003d5
+200000cc:	200003d7 	.word	0x200003d7
+200000d0:	200003d9 	.word	0x200003d9
+200000d4:	200003db 	.word	0x200003db
+200000d8:	200003dd 	.word	0x200003dd
+200000dc:	200003df 	.word	0x200003df
+200000e0:	200003e1 	.word	0x200003e1
+200000e4:	200003e3 	.word	0x200003e3
+200000e8:	200003e5 	.word	0x200003e5
+200000ec:	200003e7 	.word	0x200003e7
+200000f0:	200003e9 	.word	0x200003e9
+200000f4:	200003eb 	.word	0x200003eb
+200000f8:	200003ed 	.word	0x200003ed
+200000fc:	200003ef 	.word	0x200003ef
+20000100:	200003f1 	.word	0x200003f1
+20000104:	200003f3 	.word	0x200003f3
+20000108:	200003f5 	.word	0x200003f5
+2000010c:	200003f7 	.word	0x200003f7
+20000110:	200003f9 	.word	0x200003f9
+20000114:	200003fb 	.word	0x200003fb
+20000118:	200003fd 	.word	0x200003fd
+2000011c:	200003ff 	.word	0x200003ff
+20000120:	20000401 	.word	0x20000401
+20000124:	20000403 	.word	0x20000403
+20000128:	20000405 	.word	0x20000405
+2000012c:	20000407 	.word	0x20000407
+20000130:	20000409 	.word	0x20000409
+20000134:	2000040b 	.word	0x2000040b
+20000138:	2000040d 	.word	0x2000040d
+2000013c:	2000040f 	.word	0x2000040f
+20000140:	20000411 	.word	0x20000411
+20000144:	20000413 	.word	0x20000413
+20000148:	20000415 	.word	0x20000415
+2000014c:	20000417 	.word	0x20000417
+20000150:	20000419 	.word	0x20000419
+20000154:	2000041b 	.word	0x2000041b
+20000158:	2000041d 	.word	0x2000041d
+2000015c:	2000041f 	.word	0x2000041f
+20000160:	20000421 	.word	0x20000421
+20000164:	20000423 	.word	0x20000423
+20000168:	20000425 	.word	0x20000425
+2000016c:	20000427 	.word	0x20000427
+20000170:	20000429 	.word	0x20000429
+20000174:	2000042b 	.word	0x2000042b
+20000178:	2000042d 	.word	0x2000042d
+2000017c:	2000042f 	.word	0x2000042f
+20000180:	20000431 	.word	0x20000431
+20000184:	20000433 	.word	0x20000433
+	...
+
+Disassembly of section .boot_code:
+
+20000190 <Reset_Handler>:
+20000190:	f04f 0b00 	mov.w	fp, #0
+20000194:	f8df 02be 	ldr.w	r0, [pc, #702]	; 20000456 <SF2_MDDR_MODE_CR>
+20000198:	6800      	ldr	r0, [r0, #0]
+2000019a:	f8df 12b6 	ldr.w	r1, [pc, #694]	; 20000452 <SF2_EDAC_CR>
+2000019e:	6809      	ldr	r1, [r1, #0]
+200001a0:	f001 0103 	and.w	r1, r1, #3
+200001a4:	f000 001c 	and.w	r0, r0, #28
+200001a8:	2814      	cmp	r0, #20
+200001aa:	d101      	bne.n	200001b0 <check_esram_edac>
+200001ac:	f04b 0b02 	orr.w	fp, fp, #2
+
+200001b0 <check_esram_edac>:
+200001b0:	2900      	cmp	r1, #0
+200001b2:	d001      	beq.n	200001b8 <check_stack_init>
+200001b4:	f04b 0b01 	orr.w	fp, fp, #1
+
+200001b8 <check_stack_init>:
+200001b8:	f1bb 0f00 	cmp.w	fp, #0
+200001bc:	d005      	beq.n	200001ca <system_init>
+
+200001be <clear_stack>:
+200001be:	48a7      	ldr	r0, [pc, #668]	; (2000045c <SF2_MDDR_MODE_CR+0x6>)
+200001c0:	49a7      	ldr	r1, [pc, #668]	; (20000460 <SF2_MDDR_MODE_CR+0xa>)
+200001c2:	f8df 2272 	ldr.w	r2, [pc, #626]	; 20000436 <RAM_INIT_PATTERN>
+200001c6:	f000 f89f 	bl	20000308 <fill_memory>
+
+200001ca <system_init>:
+200001ca:	48a6      	ldr	r0, [pc, #664]	; (20000464 <SF2_MDDR_MODE_CR+0xe>)
+200001cc:	4780      	blx	r0
+200001ce:	f00b 0a02 	and.w	sl, fp, #2
+200001d2:	f1ba 0f00 	cmp.w	sl, #0
+200001d6:	d00c      	beq.n	200001f2 <remap_memory>
+200001d8:	f8df 026e 	ldr.w	r0, [pc, #622]	; 2000044a <SF2_DDRB_NB_SIZE>
+200001dc:	f8df 126e 	ldr.w	r1, [pc, #622]	; 2000044e <SF2_DDRB_CR>
+200001e0:	6802      	ldr	r2, [r0, #0]
+200001e2:	680b      	ldr	r3, [r1, #0]
+200001e4:	b40f      	push	{r0, r1, r2, r3}
+200001e6:	f04f 0200 	mov.w	r2, #0
+200001ea:	f04f 03ff 	mov.w	r3, #255	; 0xff
+200001ee:	6002      	str	r2, [r0, #0]
+200001f0:	600b      	str	r3, [r1, #0]
+
+200001f2 <remap_memory>:
+200001f2:	489d      	ldr	r0, [pc, #628]	; (20000468 <SF2_MDDR_MODE_CR+0x12>)
+200001f4:	4a9d      	ldr	r2, [pc, #628]	; (2000046c <SF2_MDDR_MODE_CR+0x16>)
+200001f6:	4b9e      	ldr	r3, [pc, #632]	; (20000470 <SF2_MDDR_MODE_CR+0x1a>)
+200001f8:	2802      	cmp	r0, #2
+200001fa:	d108      	bne.n	2000020e <check_esram_remap>
+200001fc:	f8df 123e 	ldr.w	r1, [pc, #574]	; 2000043e <SF2_ESRAM_CR>
+20000200:	600a      	str	r2, [r1, #0]
+20000202:	f8df 1242 	ldr.w	r1, [pc, #578]	; 20000446 <SF2_ENVM_REMAP_CR>
+20000206:	600a      	str	r2, [r1, #0]
+20000208:	f8df 1236 	ldr.w	r1, [pc, #566]	; 20000442 <SF2_DDR_CR>
+2000020c:	600b      	str	r3, [r1, #0]
+
+2000020e <check_esram_remap>:
+2000020e:	2801      	cmp	r0, #1
+20000210:	d108      	bne.n	20000224 <check_mirrored_nvm>
+20000212:	f8df 122e 	ldr.w	r1, [pc, #558]	; 20000442 <SF2_DDR_CR>
+20000216:	600a      	str	r2, [r1, #0]
+20000218:	f8df 122a 	ldr.w	r1, [pc, #554]	; 20000446 <SF2_ENVM_REMAP_CR>
+2000021c:	600a      	str	r2, [r1, #0]
+2000021e:	f8df 121e 	ldr.w	r1, [pc, #542]	; 2000043e <SF2_ESRAM_CR>
+20000222:	600b      	str	r3, [r1, #0]
+
+20000224 <check_mirrored_nvm>:
+20000224:	4893      	ldr	r0, [pc, #588]	; (20000474 <SF2_MDDR_MODE_CR+0x1e>)
+20000226:	2800      	cmp	r0, #0
+20000228:	d109      	bne.n	2000023e <copy_data>
+2000022a:	4893      	ldr	r0, [pc, #588]	; (20000478 <SF2_MDDR_MODE_CR+0x22>)
+2000022c:	4993      	ldr	r1, [pc, #588]	; (2000047c <SF2_MDDR_MODE_CR+0x26>)
+2000022e:	4a94      	ldr	r2, [pc, #592]	; (20000480 <SF2_MDDR_MODE_CR+0x2a>)
+20000230:	f000 f832 	bl	20000298 <block_copy>
+
+20000234 <copy_text>:
+20000234:	4893      	ldr	r0, [pc, #588]	; (20000484 <SF2_MDDR_MODE_CR+0x2e>)
+20000236:	4994      	ldr	r1, [pc, #592]	; (20000488 <SF2_MDDR_MODE_CR+0x32>)
+20000238:	4a94      	ldr	r2, [pc, #592]	; (2000048c <SF2_MDDR_MODE_CR+0x36>)
+2000023a:	f000 f82d 	bl	20000298 <block_copy>
+
+2000023e <copy_data>:
+2000023e:	4894      	ldr	r0, [pc, #592]	; (20000490 <SF2_MDDR_MODE_CR+0x3a>)
+20000240:	4994      	ldr	r1, [pc, #592]	; (20000494 <SF2_MDDR_MODE_CR+0x3e>)
+20000242:	4a95      	ldr	r2, [pc, #596]	; (20000498 <SF2_MDDR_MODE_CR+0x42>)
+20000244:	f000 f828 	bl	20000298 <block_copy>
+
+20000248 <clear_bss>:
+20000248:	4894      	ldr	r0, [pc, #592]	; (2000049c <SF2_MDDR_MODE_CR+0x46>)
+2000024a:	4995      	ldr	r1, [pc, #596]	; (200004a0 <SF2_MDDR_MODE_CR+0x4a>)
+2000024c:	f8df 21e6 	ldr.w	r2, [pc, #486]	; 20000436 <RAM_INIT_PATTERN>
+20000250:	f000 f85a 	bl	20000308 <fill_memory>
+
+20000254 <clear_heap>:
+20000254:	f1bb 0f00 	cmp.w	fp, #0
+20000258:	d012      	beq.n	20000280 <call_glob_ctor>
+2000025a:	4892      	ldr	r0, [pc, #584]	; (200004a4 <SF2_MDDR_MODE_CR+0x4e>)
+2000025c:	4992      	ldr	r1, [pc, #584]	; (200004a8 <SF2_MDDR_MODE_CR+0x52>)
+2000025e:	f8df 21da 	ldr.w	r2, [pc, #474]	; 2000043a <HEAP_INIT_PATTERN>
+20000262:	f000 f851 	bl	20000308 <fill_memory>
+20000266:	f00b 0a02 	and.w	sl, fp, #2
+2000026a:	f1ba 0f00 	cmp.w	sl, #0
+2000026e:	d007      	beq.n	20000280 <call_glob_ctor>
+20000270:	bc0f      	pop	{r0, r1, r2, r3}
+20000272:	6002      	str	r2, [r0, #0]
+20000274:	600b      	str	r3, [r1, #0]
+20000276:	bf00      	nop
+20000278:	f3af 8000 	nop.w
+2000027c:	f3af 8000 	nop.w
+
+20000280 <call_glob_ctor>:
+20000280:	f8df 0228 	ldr.w	r0, [pc, #552]	; 200004ac <SF2_MDDR_MODE_CR+0x56>
+20000284:	f20f 0e03 	addw	lr, pc, #3
+20000288:	4700      	bx	r0
+
+2000028a <branch_to_main>:
+2000028a:	f04f 0000 	mov.w	r0, #0
+2000028e:	f04f 0100 	mov.w	r1, #0
+20000292:	f8df f21c 	ldr.w	pc, [pc, #540]	; 200004b0 <SF2_MDDR_MODE_CR+0x5a>
+
+20000296 <ExitLoop>:
+20000296:	e7fe      	b.n	20000296 <ExitLoop>
+
+20000298 <block_copy>:
+20000298:	e92d 41f8 	stmdb	sp!, {r3, r4, r5, r6, r7, r8, lr}
+2000029c:	4288      	cmp	r0, r1
+2000029e:	d025      	beq.n	200002ec <block_copy_exit>
+200002a0:	ebb2 0201 	subs.w	r2, r2, r1
+200002a4:	d500      	bpl.n	200002a8 <block_copy_address_ok>
+200002a6:	e7fe      	b.n	200002a6 <block_copy+0xe>
+
+200002a8 <block_copy_address_ok>:
+200002a8:	ea40 0301 	orr.w	r3, r0, r1
+200002ac:	f013 0303 	ands.w	r3, r3, #3
+200002b0:	d002      	beq.n	200002b8 <block_copy_continue>
+
+200002b2 <block_copy_byte_copy>:
+200002b2:	f000 f81d 	bl	200002f0 <block_copy_byte>
+200002b6:	e019      	b.n	200002ec <block_copy_exit>
+
+200002b8 <block_copy_continue>:
+200002b8:	f04f 0300 	mov.w	r3, #0
+200002bc:	4690      	mov	r8, r2
+200002be:	1112      	asrs	r2, r2, #4
+200002c0:	d0f7      	beq.n	200002b2 <block_copy_byte_copy>
+
+200002c2 <block_copy_loop>:
+200002c2:	429a      	cmp	r2, r3
+200002c4:	bf1c      	itt	ne
+200002c6:	c8f0      	ldmiane	r0!, {r4, r5, r6, r7}
+200002c8:	c1f0      	stmiane	r1!, {r4, r5, r6, r7}
+200002ca:	f103 0301 	add.w	r3, r3, #1
+200002ce:	d1f8      	bne.n	200002c2 <block_copy_loop>
+200002d0:	f008 080f 	and.w	r8, r8, #15
+200002d4:	f1b8 0f00 	cmp.w	r8, #0
+200002d8:	d008      	beq.n	200002ec <block_copy_exit>
+
+200002da <copy_spare_bytes>:
+200002da:	7804      	ldrb	r4, [r0, #0]
+200002dc:	700c      	strb	r4, [r1, #0]
+200002de:	f100 0001 	add.w	r0, r0, #1
+200002e2:	f101 0101 	add.w	r1, r1, #1
+200002e6:	f1b8 0801 	subs.w	r8, r8, #1
+200002ea:	d1f6      	bne.n	200002da <copy_spare_bytes>
+
+200002ec <block_copy_exit>:
+200002ec:	e8bd 81f8 	ldmia.w	sp!, {r3, r4, r5, r6, r7, r8, pc}
+
+200002f0 <block_copy_byte>:
+200002f0:	b508      	push	{r3, lr}
+200002f2:	f04f 0300 	mov.w	r3, #0
+
+200002f6 <block_copy_byte_loop>:
+200002f6:	7803      	ldrb	r3, [r0, #0]
+200002f8:	700b      	strb	r3, [r1, #0]
+200002fa:	f100 0001 	add.w	r0, r0, #1
+200002fe:	f101 0101 	add.w	r1, r1, #1
+20000302:	3a01      	subs	r2, #1
+20000304:	d1f7      	bne.n	200002f6 <block_copy_byte_loop>
+20000306:	bd08      	pop	{r3, pc}
+
+20000308 <fill_memory>:
+20000308:	4288      	cmp	r0, r1
+2000030a:	d037      	beq.n	2000037c <fill_memory_exit>
+2000030c:	f000 0603 	and.w	r6, r0, #3
+20000310:	2e00      	cmp	r6, #0
+20000312:	d014      	beq.n	2000033e <fill_memory_end_start>
+20000314:	f04f 0504 	mov.w	r5, #4
+20000318:	eba5 0406 	sub.w	r4, r5, r6
+2000031c:	f04f 0708 	mov.w	r7, #8
+20000320:	fb07 f806 	mul.w	r8, r7, r6
+20000324:	4691      	mov	r9, r2
+20000326:	fa69 f908 	ror.w	r9, r9, r8
+
+2000032a <fill_memory_spare_bytes_start>:
+2000032a:	2c00      	cmp	r4, #0
+2000032c:	d007      	beq.n	2000033e <fill_memory_end_start>
+2000032e:	f880 9000 	strb.w	r9, [r0]
+20000332:	fa69 f907 	ror.w	r9, r9, r7
+20000336:	f100 0001 	add.w	r0, r0, #1
+2000033a:	3c01      	subs	r4, #1
+2000033c:	e7f5      	b.n	2000032a <fill_memory_spare_bytes_start>
+
+2000033e <fill_memory_end_start>:
+2000033e:	f04f 0600 	mov.w	r6, #0
+20000342:	460f      	mov	r7, r1
+20000344:	1a09      	subs	r1, r1, r0
+20000346:	4688      	mov	r8, r1
+20000348:	1109      	asrs	r1, r1, #4
+2000034a:	4691      	mov	r9, r2
+2000034c:	4614      	mov	r4, r2
+2000034e:	4615      	mov	r5, r2
+20000350:	42b1      	cmp	r1, r6
+20000352:	d006      	beq.n	20000362 <fill_memory_spare_bytes_end>
+
+20000354 <fill_memory_loop>:
+20000354:	bf18      	it	ne
+20000356:	e8a0 0234 	stmiane.w	r0!, {r2, r4, r5, r9}
+2000035a:	f106 0601 	add.w	r6, r6, #1
+2000035e:	42b1      	cmp	r1, r6
+20000360:	d1f8      	bne.n	20000354 <fill_memory_loop>
+
+20000362 <fill_memory_spare_bytes_end>:
+20000362:	f008 080f 	and.w	r8, r8, #15
+
+20000366 <fill_memory_spare_end_loop>:
+20000366:	f1b8 0f00 	cmp.w	r8, #0
+2000036a:	d007      	beq.n	2000037c <fill_memory_exit>
+2000036c:	7002      	strb	r2, [r0, #0]
+2000036e:	ea4f 2232 	mov.w	r2, r2, ror #8
+20000372:	f100 0001 	add.w	r0, r0, #1
+20000376:	f1b8 0801 	subs.w	r8, r8, #1
+2000037a:	e7f4      	b.n	20000366 <fill_memory_spare_end_loop>
+
+2000037c <fill_memory_exit>:
+2000037c:	4770      	bx	lr
+
+2000037e <NMI_Handler>:
+2000037e:	e7fe      	b.n	2000037e <NMI_Handler>
+
+20000380 <HardFault_Handler>:
+20000380:	e7fe      	b.n	20000380 <HardFault_Handler>
+
+20000382 <MemManage_Handler>:
+20000382:	e7fe      	b.n	20000382 <MemManage_Handler>
+
+20000384 <BusFault_Handler>:
+20000384:	e7fe      	b.n	20000384 <BusFault_Handler>
+
+20000386 <UsageFault_Handler>:
+20000386:	e7fe      	b.n	20000386 <UsageFault_Handler>
+
+20000388 <SVC_Handler>:
+20000388:	e7fe      	b.n	20000388 <SVC_Handler>
+
+2000038a <DebugMon_Handler>:
+2000038a:	e7fe      	b.n	2000038a <DebugMon_Handler>
+
+2000038c <PendSV_Handler>:
+2000038c:	e7fe      	b.n	2000038c <PendSV_Handler>
+
+2000038e <SysTick_Handler>:
+2000038e:	e7fe      	b.n	2000038e <SysTick_Handler>
+
+20000390 <WdogWakeup_IRQHandler>:
+20000390:	e7fe      	b.n	20000390 <WdogWakeup_IRQHandler>
+
+20000392 <RTC_Wakeup_IRQHandler>:
+20000392:	e7fe      	b.n	20000392 <RTC_Wakeup_IRQHandler>
+
+20000394 <SPI0_IRQHandler>:
+20000394:	e7fe      	b.n	20000394 <SPI0_IRQHandler>
+
+20000396 <SPI1_IRQHandler>:
+20000396:	e7fe      	b.n	20000396 <SPI1_IRQHandler>
+
+20000398 <I2C0_IRQHandler>:
+20000398:	e7fe      	b.n	20000398 <I2C0_IRQHandler>
+
+2000039a <I2C0_SMBAlert_IRQHandler>:
+2000039a:	e7fe      	b.n	2000039a <I2C0_SMBAlert_IRQHandler>
+
+2000039c <I2C0_SMBus_IRQHandler>:
+2000039c:	e7fe      	b.n	2000039c <I2C0_SMBus_IRQHandler>
+
+2000039e <I2C1_IRQHandler>:
+2000039e:	e7fe      	b.n	2000039e <I2C1_IRQHandler>
+
+200003a0 <I2C1_SMBAlert_IRQHandler>:
+200003a0:	e7fe      	b.n	200003a0 <I2C1_SMBAlert_IRQHandler>
+
+200003a2 <I2C1_SMBus_IRQHandler>:
+200003a2:	e7fe      	b.n	200003a2 <I2C1_SMBus_IRQHandler>
+
+200003a4 <UART0_IRQHandler>:
+200003a4:	e7fe      	b.n	200003a4 <UART0_IRQHandler>
+
+200003a6 <UART1_IRQHandler>:
+200003a6:	e7fe      	b.n	200003a6 <UART1_IRQHandler>
+
+200003a8 <EthernetMAC_IRQHandler>:
+200003a8:	e7fe      	b.n	200003a8 <EthernetMAC_IRQHandler>
+
+200003aa <DMA_IRQHandler>:
+200003aa:	e7fe      	b.n	200003aa <DMA_IRQHandler>
+
+200003ac <Timer1_IRQHandler>:
+200003ac:	e7fe      	b.n	200003ac <Timer1_IRQHandler>
+
+200003ae <Timer2_IRQHandler>:
+200003ae:	e7fe      	b.n	200003ae <Timer2_IRQHandler>
+
+200003b0 <CAN_IRQHandler>:
+200003b0:	e7fe      	b.n	200003b0 <CAN_IRQHandler>
+
+200003b2 <ENVM0_IRQHandler>:
+200003b2:	e7fe      	b.n	200003b2 <ENVM0_IRQHandler>
+
+200003b4 <ENVM1_IRQHandler>:
+200003b4:	e7fe      	b.n	200003b4 <ENVM1_IRQHandler>
+
+200003b6 <ComBlk_IRQHandler>:
+200003b6:	e7fe      	b.n	200003b6 <ComBlk_IRQHandler>
+
+200003b8 <USB_IRQHandler>:
+200003b8:	e7fe      	b.n	200003b8 <USB_IRQHandler>
+
+200003ba <USB_DMA_IRQHandler>:
+200003ba:	e7fe      	b.n	200003ba <USB_DMA_IRQHandler>
+
+200003bc <PLL_Lock_IRQHandler>:
+200003bc:	e7fe      	b.n	200003bc <PLL_Lock_IRQHandler>
+
+200003be <PLL_LockLost_IRQHandler>:
+200003be:	e7fe      	b.n	200003be <PLL_LockLost_IRQHandler>
+
+200003c0 <CommSwitchError_IRQHandler>:
+200003c0:	e7fe      	b.n	200003c0 <CommSwitchError_IRQHandler>
+
+200003c2 <CacheError_IRQHandler>:
+200003c2:	e7fe      	b.n	200003c2 <CacheError_IRQHandler>
+
+200003c4 <DDR_IRQHandler>:
+200003c4:	e7fe      	b.n	200003c4 <DDR_IRQHandler>
+
+200003c6 <HPDMA_Complete_IRQHandler>:
+200003c6:	e7fe      	b.n	200003c6 <HPDMA_Complete_IRQHandler>
+
+200003c8 <HPDMA_Error_IRQHandler>:
+200003c8:	e7fe      	b.n	200003c8 <HPDMA_Error_IRQHandler>
+
+200003ca <ECC_Error_IRQHandler>:
+200003ca:	e7fe      	b.n	200003ca <ECC_Error_IRQHandler>
+
+200003cc <MDDR_IOCalib_IRQHandler>:
+200003cc:	e7fe      	b.n	200003cc <MDDR_IOCalib_IRQHandler>
+
+200003ce <FAB_PLL_Lock_IRQHandler>:
+200003ce:	e7fe      	b.n	200003ce <FAB_PLL_Lock_IRQHandler>
+
+200003d0 <FAB_PLL_LockLost_IRQHandler>:
+200003d0:	e7fe      	b.n	200003d0 <FAB_PLL_LockLost_IRQHandler>
+
+200003d2 <FIC64_IRQHandler>:
+200003d2:	e7fe      	b.n	200003d2 <FIC64_IRQHandler>
+
+200003d4 <FabricIrq0_IRQHandler>:
+200003d4:	e7fe      	b.n	200003d4 <FabricIrq0_IRQHandler>
+
+200003d6 <FabricIrq1_IRQHandler>:
+200003d6:	e7fe      	b.n	200003d6 <FabricIrq1_IRQHandler>
+
+200003d8 <FabricIrq2_IRQHandler>:
+200003d8:	e7fe      	b.n	200003d8 <FabricIrq2_IRQHandler>
+
+200003da <FabricIrq3_IRQHandler>:
+200003da:	e7fe      	b.n	200003da <FabricIrq3_IRQHandler>
+
+200003dc <FabricIrq4_IRQHandler>:
+200003dc:	e7fe      	b.n	200003dc <FabricIrq4_IRQHandler>
+
+200003de <FabricIrq5_IRQHandler>:
+200003de:	e7fe      	b.n	200003de <FabricIrq5_IRQHandler>
+
+200003e0 <FabricIrq6_IRQHandler>:
+200003e0:	e7fe      	b.n	200003e0 <FabricIrq6_IRQHandler>
+
+200003e2 <FabricIrq7_IRQHandler>:
+200003e2:	e7fe      	b.n	200003e2 <FabricIrq7_IRQHandler>
+
+200003e4 <FabricIrq8_IRQHandler>:
+200003e4:	e7fe      	b.n	200003e4 <FabricIrq8_IRQHandler>
+
+200003e6 <FabricIrq9_IRQHandler>:
+200003e6:	e7fe      	b.n	200003e6 <FabricIrq9_IRQHandler>
+
+200003e8 <FabricIrq10_IRQHandler>:
+200003e8:	e7fe      	b.n	200003e8 <FabricIrq10_IRQHandler>
+
+200003ea <FabricIrq11_IRQHandler>:
+200003ea:	e7fe      	b.n	200003ea <FabricIrq11_IRQHandler>
+
+200003ec <FabricIrq12_IRQHandler>:
+200003ec:	e7fe      	b.n	200003ec <FabricIrq12_IRQHandler>
+
+200003ee <FabricIrq13_IRQHandler>:
+200003ee:	e7fe      	b.n	200003ee <FabricIrq13_IRQHandler>
+
+200003f0 <FabricIrq14_IRQHandler>:
+200003f0:	e7fe      	b.n	200003f0 <FabricIrq14_IRQHandler>
+
+200003f2 <FabricIrq15_IRQHandler>:
+200003f2:	e7fe      	b.n	200003f2 <FabricIrq15_IRQHandler>
+
+200003f4 <GPIO0_IRQHandler>:
+200003f4:	e7fe      	b.n	200003f4 <GPIO0_IRQHandler>
+
+200003f6 <GPIO1_IRQHandler>:
+200003f6:	e7fe      	b.n	200003f6 <GPIO1_IRQHandler>
+
+200003f8 <GPIO2_IRQHandler>:
+200003f8:	e7fe      	b.n	200003f8 <GPIO2_IRQHandler>
+
+200003fa <GPIO3_IRQHandler>:
+200003fa:	e7fe      	b.n	200003fa <GPIO3_IRQHandler>
+
+200003fc <GPIO4_IRQHandler>:
+200003fc:	e7fe      	b.n	200003fc <GPIO4_IRQHandler>
+
+200003fe <GPIO5_IRQHandler>:
+200003fe:	e7fe      	b.n	200003fe <GPIO5_IRQHandler>
+
+20000400 <GPIO6_IRQHandler>:
+20000400:	e7fe      	b.n	20000400 <GPIO6_IRQHandler>
+
+20000402 <GPIO7_IRQHandler>:
+20000402:	e7fe      	b.n	20000402 <GPIO7_IRQHandler>
+
+20000404 <GPIO8_IRQHandler>:
+20000404:	e7fe      	b.n	20000404 <GPIO8_IRQHandler>
+
+20000406 <GPIO9_IRQHandler>:
+20000406:	e7fe      	b.n	20000406 <GPIO9_IRQHandler>
+
+20000408 <GPIO10_IRQHandler>:
+20000408:	e7fe      	b.n	20000408 <GPIO10_IRQHandler>
+
+2000040a <GPIO11_IRQHandler>:
+2000040a:	e7fe      	b.n	2000040a <GPIO11_IRQHandler>
+
+2000040c <GPIO12_IRQHandler>:
+2000040c:	e7fe      	b.n	2000040c <GPIO12_IRQHandler>
+
+2000040e <GPIO13_IRQHandler>:
+2000040e:	e7fe      	b.n	2000040e <GPIO13_IRQHandler>
+
+20000410 <GPIO14_IRQHandler>:
+20000410:	e7fe      	b.n	20000410 <GPIO14_IRQHandler>
+
+20000412 <GPIO15_IRQHandler>:
+20000412:	e7fe      	b.n	20000412 <GPIO15_IRQHandler>
+
+20000414 <GPIO16_IRQHandler>:
+20000414:	e7fe      	b.n	20000414 <GPIO16_IRQHandler>
+
+20000416 <GPIO17_IRQHandler>:
+20000416:	e7fe      	b.n	20000416 <GPIO17_IRQHandler>
+
+20000418 <GPIO18_IRQHandler>:
+20000418:	e7fe      	b.n	20000418 <GPIO18_IRQHandler>
+
+2000041a <GPIO19_IRQHandler>:
+2000041a:	e7fe      	b.n	2000041a <GPIO19_IRQHandler>
+
+2000041c <GPIO20_IRQHandler>:
+2000041c:	e7fe      	b.n	2000041c <GPIO20_IRQHandler>
+
+2000041e <GPIO21_IRQHandler>:
+2000041e:	e7fe      	b.n	2000041e <GPIO21_IRQHandler>
+
+20000420 <GPIO22_IRQHandler>:
+20000420:	e7fe      	b.n	20000420 <GPIO22_IRQHandler>
+
+20000422 <GPIO23_IRQHandler>:
+20000422:	e7fe      	b.n	20000422 <GPIO23_IRQHandler>
+
+20000424 <GPIO24_IRQHandler>:
+20000424:	e7fe      	b.n	20000424 <GPIO24_IRQHandler>
+
+20000426 <GPIO25_IRQHandler>:
+20000426:	e7fe      	b.n	20000426 <GPIO25_IRQHandler>
+
+20000428 <GPIO26_IRQHandler>:
+20000428:	e7fe      	b.n	20000428 <GPIO26_IRQHandler>
+
+2000042a <GPIO27_IRQHandler>:
+2000042a:	e7fe      	b.n	2000042a <GPIO27_IRQHandler>
+
+2000042c <GPIO28_IRQHandler>:
+2000042c:	e7fe      	b.n	2000042c <GPIO28_IRQHandler>
+
+2000042e <GPIO29_IRQHandler>:
+2000042e:	e7fe      	b.n	2000042e <GPIO29_IRQHandler>
+
+20000430 <GPIO30_IRQHandler>:
+20000430:	e7fe      	b.n	20000430 <GPIO30_IRQHandler>
+
+20000432 <GPIO31_IRQHandler>:
+20000432:	e7fe      	b.n	20000432 <GPIO31_IRQHandler>
+
+20000434 <mscc_post_hw_cfg_init>:
+20000434:	4770      	bx	lr
+
+20000436 <RAM_INIT_PATTERN>:
+20000436:	0000      	.short	0x0000
+	...
+
+2000043a <HEAP_INIT_PATTERN>:
+2000043a:	a2a2      	.short	0xa2a2
+2000043c:	a2a2      	.short	0xa2a2
+
+2000043e <SF2_ESRAM_CR>:
+2000043e:	8000      	.short	0x8000
+20000440:	4003      	.short	0x4003
+
+20000442 <SF2_DDR_CR>:
+20000442:	8008      	.short	0x8008
+20000444:	4003      	.short	0x4003
+
+20000446 <SF2_ENVM_REMAP_CR>:
+20000446:	8010      	.short	0x8010
+20000448:	4003      	.short	0x4003
+
+2000044a <SF2_DDRB_NB_SIZE>:
+2000044a:	8030      	.short	0x8030
+2000044c:	4003      	.short	0x4003
+
+2000044e <SF2_DDRB_CR>:
+2000044e:	8034      	.short	0x8034
+20000450:	4003      	.short	0x4003
+
+20000452 <SF2_EDAC_CR>:
+20000452:	8038      	.short	0x8038
+20000454:	4003      	.short	0x4003
+
+20000456 <SF2_MDDR_MODE_CR>:
+20000456:	0818      	.short	0x0818
+20000458:	00004002 	.word	0x00004002
+2000045c:	2000f000 	.word	0x2000f000
+20000460:	20010000 	.word	0x20010000
+20000464:	20000711 	.word	0x20000711
+	...
+20000470:	00000001 	.word	0x00000001
+20000474:	00000000 	.word	0x00000000
+20000478:	20000000 	.word	0x20000000
+2000047c:	20000000 	.word	0x20000000
+20000480:	20000190 	.word	0x20000190
+20000484:	200004c0 	.word	0x200004c0
+20000488:	200004c0 	.word	0x200004c0
+2000048c:	20000fe0 	.word	0x20000fe0
+20000490:	20000fe0 	.word	0x20000fe0
+20000494:	20000fe0 	.word	0x20000fe0
+20000498:	20000ff0 	.word	0x20000ff0
+2000049c:	20000ff0 	.word	0x20000ff0
+200004a0:	20001000 	.word	0x20001000
+200004a4:	20001000 	.word	0x20001000
+200004a8:	2000f000 	.word	0x2000f000
+200004ac:	20000d59 	.word	0x20000d59
+200004b0:	20000529 	.word	0x20000529
+200004b4:	f3af 8000 	nop.w
+200004b8:	f3af 8000 	nop.w
+200004bc:	f3af 8000 	nop.w
+
+Disassembly of section .text:
+
+200004c0 <__do_global_dtors_aux>:
+200004c0:	f640 73f0 	movw	r3, #4080	; 0xff0
+200004c4:	f2c2 0300 	movt	r3, #8192	; 0x2000
+200004c8:	781a      	ldrb	r2, [r3, #0]
+200004ca:	b90a      	cbnz	r2, 200004d0 <__do_global_dtors_aux+0x10>
+200004cc:	2001      	movs	r0, #1
+200004ce:	7018      	strb	r0, [r3, #0]
+200004d0:	4770      	bx	lr
+200004d2:	bf00      	nop
+
+200004d4 <frame_dummy>:
+200004d4:	f640 70e0 	movw	r0, #4064	; 0xfe0
+200004d8:	f2c2 0000 	movt	r0, #8192	; 0x2000
+200004dc:	b508      	push	{r3, lr}
+200004de:	6803      	ldr	r3, [r0, #0]
+200004e0:	b12b      	cbz	r3, 200004ee <frame_dummy+0x1a>
+200004e2:	f240 0300 	movw	r3, #0
+200004e6:	f2c0 0300 	movt	r3, #0
+200004ea:	b103      	cbz	r3, 200004ee <frame_dummy+0x1a>
+200004ec:	4798      	blx	r3
+200004ee:	bd08      	pop	{r3, pc}
+
+200004f0 <MSS_GPIO_set_outputs>:
+static __INLINE void
+MSS_GPIO_set_outputs
+(
+   uint32_t value
+)
+{
+200004f0:	b480      	push	{r7}
+200004f2:	b083      	sub	sp, #12
+200004f4:	af00      	add	r7, sp, #0
+200004f6:	6078      	str	r0, [r7, #4]
+    GPIO->GPIO_OUT = value;
+200004f8:	f243 0300 	movw	r3, #12288	; 0x3000
+200004fc:	f2c4 0301 	movt	r3, #16385	; 0x4001
+20000500:	687a      	ldr	r2, [r7, #4]
+20000502:	f8c3 2088 	str.w	r2, [r3, #136]	; 0x88
+}
+20000506:	f107 070c 	add.w	r7, r7, #12
+2000050a:	46bd      	mov	sp, r7
+2000050c:	bc80      	pop	{r7}
+2000050e:	4770      	bx	lr
+
+20000510 <MSS_GPIO_get_outputs>:
+        gpio_outputs = MSS_GPIO_get_outputs();
+    @endcode
+ */
+static __INLINE uint32_t
+MSS_GPIO_get_outputs( void )
+{
+20000510:	b480      	push	{r7}
+20000512:	af00      	add	r7, sp, #0
+    return GPIO->GPIO_OUT;
+20000514:	f243 0300 	movw	r3, #12288	; 0x3000
+20000518:	f2c4 0301 	movt	r3, #16385	; 0x4001
+2000051c:	f8d3 3088 	ldr.w	r3, [r3, #136]	; 0x88
+}
+20000520:	4618      	mov	r0, r3
+20000522:	46bd      	mov	sp, r7
+20000524:	bc80      	pop	{r7}
+20000526:	4770      	bx	lr
+
+20000528 <main>:
+static void delay(void);
+/* =====================================================
+ * main () function.
+ */
+int main()
+{
+20000528:	b580      	push	{r7, lr}
+2000052a:	b082      	sub	sp, #8
+2000052c:	af00      	add	r7, sp, #0
+	/*
+	 * Initialize MSS GPIOs.
+	 */
+	MSS_GPIO_init();
+2000052e:	f000 f87b 	bl	20000628 <MSS_GPIO_init>
+
+	/*
+	 * Configure MSS GPIOs.
+	 */
+	MSS_GPIO_config( MSS_GPIO_0 , MSS_GPIO_OUTPUT_MODE);
+20000532:	f04f 0000 	mov.w	r0, #0
+20000536:	f04f 0105 	mov.w	r1, #5
+2000053a:	f000 f8cb 	bl	200006d4 <MSS_GPIO_config>
+	MSS_GPIO_config( MSS_GPIO_1 , MSS_GPIO_OUTPUT_MODE);
+2000053e:	f04f 0001 	mov.w	r0, #1
+20000542:	f04f 0105 	mov.w	r1, #5
+20000546:	f000 f8c5 	bl	200006d4 <MSS_GPIO_config>
+	MSS_GPIO_config( MSS_GPIO_2 , MSS_GPIO_OUTPUT_MODE);
+2000054a:	f04f 0002 	mov.w	r0, #2
+2000054e:	f04f 0105 	mov.w	r1, #5
+20000552:	f000 f8bf 	bl	200006d4 <MSS_GPIO_config>
+	MSS_GPIO_config( MSS_GPIO_3 , MSS_GPIO_OUTPUT_MODE);
+20000556:	f04f 0003 	mov.w	r0, #3
+2000055a:	f04f 0105 	mov.w	r1, #5
+2000055e:	f000 f8b9 	bl	200006d4 <MSS_GPIO_config>
+	{
+		uint32_t gpio_pattern;
+		/*
+		 * Decrement delay counter.
+		 */
+		delay();
+20000562:	f000 f80d 	bl	20000580 <delay>
+
+		/*
+		 * Toggle GPIO output pattern by doing an exclusive OR of all
+		 * pattern bits with ones.
+		 */
+		gpio_pattern = MSS_GPIO_get_outputs();
+20000566:	f7ff ffd3 	bl	20000510 <MSS_GPIO_get_outputs>
+2000056a:	4603      	mov	r3, r0
+2000056c:	607b      	str	r3, [r7, #4]
+		gpio_pattern ^= 0xFFFFFFFF;
+2000056e:	687b      	ldr	r3, [r7, #4]
+20000570:	ea6f 0303 	mvn.w	r3, r3
+20000574:	607b      	str	r3, [r7, #4]
+		MSS_GPIO_set_outputs( gpio_pattern );
+20000576:	6878      	ldr	r0, [r7, #4]
+20000578:	f7ff ffba 	bl	200004f0 <MSS_GPIO_set_outputs>
+	}
+2000057c:	e7f1      	b.n	20000562 <main+0x3a>
+2000057e:	bf00      	nop
+
+20000580 <delay>:
+}
+/*=====================================================
+ * delay between displays of the watchdog counter value.
+ */
+static void delay(void)
+{
+20000580:	b480      	push	{r7}
+20000582:	b083      	sub	sp, #12
+20000584:	af00      	add	r7, sp, #0
+	volatile uint32_t delay_count = SystemCoreClock / 128u;
+20000586:	f640 73e4 	movw	r3, #4068	; 0xfe4
+2000058a:	f2c2 0300 	movt	r3, #8192	; 0x2000
+2000058e:	681b      	ldr	r3, [r3, #0]
+20000590:	ea4f 13d3 	mov.w	r3, r3, lsr #7
+20000594:	607b      	str	r3, [r7, #4]
+
+	while(delay_count > 0u)
+20000596:	e003      	b.n	200005a0 <delay+0x20>
+	{
+		--delay_count;
+20000598:	687b      	ldr	r3, [r7, #4]
+2000059a:	f103 33ff 	add.w	r3, r3, #4294967295
+2000059e:	607b      	str	r3, [r7, #4]
+ */
+static void delay(void)
+{
+	volatile uint32_t delay_count = SystemCoreClock / 128u;
+
+	while(delay_count > 0u)
+200005a0:	687b      	ldr	r3, [r7, #4]
+200005a2:	2b00      	cmp	r3, #0
+200005a4:	d1f8      	bne.n	20000598 <delay+0x18>
+	{
+		--delay_count;
+	}
+}
+200005a6:	f107 070c 	add.w	r7, r7, #12
+200005aa:	46bd      	mov	sp, r7
+200005ac:	bc80      	pop	{r7}
+200005ae:	4770      	bx	lr
+
+200005b0 <NVIC_DisableIRQ>:
+    The function disables a device-specific interrupt in the NVIC interrupt controller.
+
+    \param [in]      IRQn  External interrupt number. Value cannot be negative.
+ */
+__STATIC_INLINE void NVIC_DisableIRQ(IRQn_Type IRQn)
+{
+200005b0:	b480      	push	{r7}
+200005b2:	b083      	sub	sp, #12
+200005b4:	af00      	add	r7, sp, #0
+200005b6:	4603      	mov	r3, r0
+200005b8:	71fb      	strb	r3, [r7, #7]
+  NVIC->ICER[((uint32_t)(IRQn) >> 5)] = (1 << ((uint32_t)(IRQn) & 0x1F)); /* disable interrupt */
+200005ba:	f24e 1300 	movw	r3, #57600	; 0xe100
+200005be:	f2ce 0300 	movt	r3, #57344	; 0xe000
+200005c2:	f997 2007 	ldrsb.w	r2, [r7, #7]
+200005c6:	ea4f 1252 	mov.w	r2, r2, lsr #5
+200005ca:	79f9      	ldrb	r1, [r7, #7]
+200005cc:	f001 011f 	and.w	r1, r1, #31
+200005d0:	f04f 0001 	mov.w	r0, #1
+200005d4:	fa00 f101 	lsl.w	r1, r0, r1
+200005d8:	f102 0220 	add.w	r2, r2, #32
+200005dc:	f843 1022 	str.w	r1, [r3, r2, lsl #2]
+}
+200005e0:	f107 070c 	add.w	r7, r7, #12
+200005e4:	46bd      	mov	sp, r7
+200005e6:	bc80      	pop	{r7}
+200005e8:	4770      	bx	lr
+200005ea:	bf00      	nop
+
+200005ec <NVIC_ClearPendingIRQ>:
+    The function clears the pending bit of an external interrupt.
+
+    \param [in]      IRQn  External interrupt number. Value cannot be negative.
+ */
+__STATIC_INLINE void NVIC_ClearPendingIRQ(IRQn_Type IRQn)
+{
+200005ec:	b480      	push	{r7}
+200005ee:	b083      	sub	sp, #12
+200005f0:	af00      	add	r7, sp, #0
+200005f2:	4603      	mov	r3, r0
+200005f4:	71fb      	strb	r3, [r7, #7]
+  NVIC->ICPR[((uint32_t)(IRQn) >> 5)] = (1 << ((uint32_t)(IRQn) & 0x1F)); /* Clear pending interrupt */
+200005f6:	f24e 1300 	movw	r3, #57600	; 0xe100
+200005fa:	f2ce 0300 	movt	r3, #57344	; 0xe000
+200005fe:	f997 2007 	ldrsb.w	r2, [r7, #7]
+20000602:	ea4f 1252 	mov.w	r2, r2, lsr #5
+20000606:	79f9      	ldrb	r1, [r7, #7]
+20000608:	f001 011f 	and.w	r1, r1, #31
+2000060c:	f04f 0001 	mov.w	r0, #1
+20000610:	fa00 f101 	lsl.w	r1, r0, r1
+20000614:	f102 0260 	add.w	r2, r2, #96	; 0x60
+20000618:	f843 1022 	str.w	r1, [r3, r2, lsl #2]
+}
+2000061c:	f107 070c 	add.w	r7, r7, #12
+20000620:	46bd      	mov	sp, r7
+20000622:	bc80      	pop	{r7}
+20000624:	4770      	bx	lr
+20000626:	bf00      	nop
+
+20000628 <MSS_GPIO_init>:
+/*-------------------------------------------------------------------------*//**
+ * MSS_GPIO_init
+ * See "mss_gpio.h" for details of how to use this function.
+ */
+void MSS_GPIO_init( void )
+{
+20000628:	b580      	push	{r7, lr}
+2000062a:	b082      	sub	sp, #8
+2000062c:	af00      	add	r7, sp, #0
+    uint32_t inc;
+    
+    /* reset MSS GPIO hardware */
+    SYSREG->SOFT_RST_CR |= SYSREG_GPIO_SOFTRESET_MASK;
+2000062e:	f248 0300 	movw	r3, #32768	; 0x8000
+20000632:	f2c4 0303 	movt	r3, #16387	; 0x4003
+20000636:	f248 0200 	movw	r2, #32768	; 0x8000
+2000063a:	f2c4 0203 	movt	r2, #16387	; 0x4003
+2000063e:	6c92      	ldr	r2, [r2, #72]	; 0x48
+20000640:	f442 1280 	orr.w	r2, r2, #1048576	; 0x100000
+20000644:	649a      	str	r2, [r3, #72]	; 0x48
+    SYSREG->SOFT_RST_CR |= (SYSREG_GPIO_7_0_SOFTRESET_MASK |
+20000646:	f248 0300 	movw	r3, #32768	; 0x8000
+2000064a:	f2c4 0303 	movt	r3, #16387	; 0x4003
+2000064e:	f248 0200 	movw	r2, #32768	; 0x8000
+20000652:	f2c4 0203 	movt	r2, #16387	; 0x4003
+20000656:	6c92      	ldr	r2, [r2, #72]	; 0x48
+20000658:	f042 72f0 	orr.w	r2, r2, #31457280	; 0x1e00000
+2000065c:	649a      	str	r2, [r3, #72]	; 0x48
+                            SYSREG_GPIO_15_8_SOFTRESET_MASK |
+                            SYSREG_GPIO_23_16_SOFTRESET_MASK |
+                            SYSREG_GPIO_31_24_SOFTRESET_MASK);
+                            
+    /* Clear any previously pended MSS GPIO interrupt */
+    for(inc = 0U; inc < NB_OF_GPIO; ++inc)
+2000065e:	f04f 0300 	mov.w	r3, #0
+20000662:	607b      	str	r3, [r7, #4]
+20000664:	e017      	b.n	20000696 <MSS_GPIO_init+0x6e>
+    {
+        NVIC_DisableIRQ(g_gpio_irqn_lut[inc]);
+20000666:	687a      	ldr	r2, [r7, #4]
+20000668:	f640 6328 	movw	r3, #3624	; 0xe28
+2000066c:	f2c2 0300 	movt	r3, #8192	; 0x2000
+20000670:	5c9b      	ldrb	r3, [r3, r2]
+20000672:	b25b      	sxtb	r3, r3
+20000674:	4618      	mov	r0, r3
+20000676:	f7ff ff9b 	bl	200005b0 <NVIC_DisableIRQ>
+        NVIC_ClearPendingIRQ(g_gpio_irqn_lut[inc]);
+2000067a:	687a      	ldr	r2, [r7, #4]
+2000067c:	f640 6328 	movw	r3, #3624	; 0xe28
+20000680:	f2c2 0300 	movt	r3, #8192	; 0x2000
+20000684:	5c9b      	ldrb	r3, [r3, r2]
+20000686:	b25b      	sxtb	r3, r3
+20000688:	4618      	mov	r0, r3
+2000068a:	f7ff ffaf 	bl	200005ec <NVIC_ClearPendingIRQ>
+                            SYSREG_GPIO_15_8_SOFTRESET_MASK |
+                            SYSREG_GPIO_23_16_SOFTRESET_MASK |
+                            SYSREG_GPIO_31_24_SOFTRESET_MASK);
+                            
+    /* Clear any previously pended MSS GPIO interrupt */
+    for(inc = 0U; inc < NB_OF_GPIO; ++inc)
+2000068e:	687b      	ldr	r3, [r7, #4]
+20000690:	f103 0301 	add.w	r3, r3, #1
+20000694:	607b      	str	r3, [r7, #4]
+20000696:	687b      	ldr	r3, [r7, #4]
+20000698:	2b1f      	cmp	r3, #31
+2000069a:	d9e4      	bls.n	20000666 <MSS_GPIO_init+0x3e>
+    {
+        NVIC_DisableIRQ(g_gpio_irqn_lut[inc]);
+        NVIC_ClearPendingIRQ(g_gpio_irqn_lut[inc]);
+    }
+    /* Take MSS GPIO hardware out of reset. */
+    SYSREG->SOFT_RST_CR &= ~(SYSREG_GPIO_7_0_SOFTRESET_MASK |
+2000069c:	f248 0300 	movw	r3, #32768	; 0x8000
+200006a0:	f2c4 0303 	movt	r3, #16387	; 0x4003
+200006a4:	f248 0200 	movw	r2, #32768	; 0x8000
+200006a8:	f2c4 0203 	movt	r2, #16387	; 0x4003
+200006ac:	6c92      	ldr	r2, [r2, #72]	; 0x48
+200006ae:	f022 72f0 	bic.w	r2, r2, #31457280	; 0x1e00000
+200006b2:	649a      	str	r2, [r3, #72]	; 0x48
+                             SYSREG_GPIO_15_8_SOFTRESET_MASK |
+                             SYSREG_GPIO_23_16_SOFTRESET_MASK |
+                             SYSREG_GPIO_31_24_SOFTRESET_MASK);
+    SYSREG->SOFT_RST_CR &= ~SYSREG_GPIO_SOFTRESET_MASK;
+200006b4:	f248 0300 	movw	r3, #32768	; 0x8000
+200006b8:	f2c4 0303 	movt	r3, #16387	; 0x4003
+200006bc:	f248 0200 	movw	r2, #32768	; 0x8000
+200006c0:	f2c4 0203 	movt	r2, #16387	; 0x4003
+200006c4:	6c92      	ldr	r2, [r2, #72]	; 0x48
+200006c6:	f422 1280 	bic.w	r2, r2, #1048576	; 0x100000
+200006ca:	649a      	str	r2, [r3, #72]	; 0x48
+}
+200006cc:	f107 0708 	add.w	r7, r7, #8
+200006d0:	46bd      	mov	sp, r7
+200006d2:	bd80      	pop	{r7, pc}
+
+200006d4 <MSS_GPIO_config>:
+void MSS_GPIO_config
+(
+    mss_gpio_id_t port_id,
+    uint32_t config
+)
+{
+200006d4:	b480      	push	{r7}
+200006d6:	b085      	sub	sp, #20
+200006d8:	af00      	add	r7, sp, #0
+200006da:	4603      	mov	r3, r0
+200006dc:	6039      	str	r1, [r7, #0]
+200006de:	71fb      	strb	r3, [r7, #7]
+    uint32_t gpio_idx = (uint32_t)port_id;
+200006e0:	79fb      	ldrb	r3, [r7, #7]
+200006e2:	60fb      	str	r3, [r7, #12]
+    
+    ASSERT(gpio_idx < NB_OF_GPIO);
+200006e4:	68fb      	ldr	r3, [r7, #12]
+200006e6:	2b1f      	cmp	r3, #31
+200006e8:	d900      	bls.n	200006ec <MSS_GPIO_config+0x18>
+200006ea:	be00      	bkpt	0x0000
+
+    if(gpio_idx < NB_OF_GPIO)
+200006ec:	68fb      	ldr	r3, [r7, #12]
+200006ee:	2b1f      	cmp	r3, #31
+200006f0:	d808      	bhi.n	20000704 <MSS_GPIO_config+0x30>
+    {
+        *(g_config_reg_lut[gpio_idx]) = config;
+200006f2:	68fa      	ldr	r2, [r7, #12]
+200006f4:	f640 53a8 	movw	r3, #3496	; 0xda8
+200006f8:	f2c2 0300 	movt	r3, #8192	; 0x2000
+200006fc:	f853 3022 	ldr.w	r3, [r3, r2, lsl #2]
+20000700:	683a      	ldr	r2, [r7, #0]
+20000702:	601a      	str	r2, [r3, #0]
+    }
+}
+20000704:	f107 0714 	add.w	r7, r7, #20
+20000708:	46bd      	mov	sp, r7
+2000070a:	bc80      	pop	{r7}
+2000070c:	4770      	bx	lr
+2000070e:	bf00      	nop
+
+20000710 <SystemInit>:
+
+/***************************************************************************//**
+ * See system_m2sxxx.h for details.
+ */
+void SystemInit(void)
+{
+20000710:	b580      	push	{r7, lr}
+20000712:	b084      	sub	sp, #16
+20000714:	af00      	add	r7, sp, #0
+#endif
+
+#if MSS_SYS_SERDES_CONFIG_BY_CORTEX
+    uint32_t core_cfg_version;
+
+    core_cfg_version = CORE_SF2_CFG->IP_VERSION_SR;
+20000716:	f242 0300 	movw	r3, #8192	; 0x2000
+2000071a:	f2c4 0302 	movt	r3, #16386	; 0x4002
+2000071e:	695b      	ldr	r3, [r3, #20]
+20000720:	60fb      	str	r3, [r7, #12]
+     */
+#if (MSS_SYS_FACC_INIT_BY_CORTEX == 1)
+    complete_clock_config();
+#endif
+
+    silicon_workarounds();
+20000722:	f000 fae7 	bl	20000cf4 <silicon_workarounds>
+    /*--------------------------------------------------------------------------
+     * Set STKALIGN to ensure exception stacking starts on 8 bytes address
+     * boundary. This ensures compliance with the "Procedure Call Standards for
+     * the ARM Architecture" (AAPCS).
+     */
+    SCB->CCR |= SCB_CCR_STKALIGN_Msk;
+20000726:	f64e 5300 	movw	r3, #60672	; 0xed00
+2000072a:	f2ce 0300 	movt	r3, #57344	; 0xe000
+2000072e:	f64e 5200 	movw	r2, #60672	; 0xed00
+20000732:	f2ce 0200 	movt	r2, #57344	; 0xe000
+20000736:	6952      	ldr	r2, [r2, #20]
+20000738:	f442 7200 	orr.w	r2, r2, #512	; 0x200
+2000073c:	615a      	str	r2, [r3, #20]
+
+    /*--------------------------------------------------------------------------
+     * MDDR configuration
+     */
+#if MSS_SYS_MDDR_CONFIG_BY_CORTEX
+    if(0u == SYSREG->DDR_CR)
+2000073e:	f248 0300 	movw	r3, #32768	; 0x8000
+20000742:	f2c4 0303 	movt	r3, #16387	; 0x4003
+20000746:	689b      	ldr	r3, [r3, #8]
+20000748:	2b00      	cmp	r3, #0
+2000074a:	d10b      	bne.n	20000764 <SystemInit+0x54>
+         * to address 0x00000000. If MDDR is remapped to 0x00000000 then we are
+         * probably executing this code from MDDR in a debugging session and
+         * attempting to reconfigure the MDDR memory controller will cause the
+         * Cortex-M3 to crash.
+         */
+        config_ddr_subsys(&g_m2s_mddr_subsys_config, &g_m2s_mddr_addr->core);
+2000074c:	f640 6398 	movw	r3, #3736	; 0xe98
+20000750:	f2c2 0300 	movt	r3, #8192	; 0x2000
+20000754:	681b      	ldr	r3, [r3, #0]
+20000756:	f640 609c 	movw	r0, #3740	; 0xe9c
+2000075a:	f2c2 0000 	movt	r0, #8192	; 0x2000
+2000075e:	4619      	mov	r1, r3
+20000760:	f000 f88e 	bl	20000880 <config_ddr_subsys>
+#endif
+
+    /*--------------------------------------------------------------------------
+     * Call user defined configuration function.
+     */
+    mscc_post_hw_cfg_init();
+20000764:	f7ff fe66 	bl	20000434 <mscc_post_hw_cfg_init>
+
+    /*--------------------------------------------------------------------------
+     * SERDES interfaces configuration.
+     */
+#if MSS_SYS_SERDES_CONFIG_BY_CORTEX
+    configure_serdes_intf();
+20000768:	f000 f902 	bl	20000970 <configure_serdes_intf>
+
+    if(core_cfg_version >= CORE_CONFIGP_V7_0)
+2000076c:	68fa      	ldr	r2, [r7, #12]
+2000076e:	f64f 73ff 	movw	r3, #65535	; 0xffff
+20000772:	f2c0 0306 	movt	r3, #6
+20000776:	429a      	cmp	r2, r3
+20000778:	d911      	bls.n	2000079e <SystemInit+0x8e>
+    {
+        CORE_SF2_CFG->CONFIG_DONE = CONFIG_1_DONE;
+2000077a:	f242 0300 	movw	r3, #8192	; 0x2000
+2000077e:	f2c4 0302 	movt	r3, #16386	; 0x4002
+20000782:	f04f 0201 	mov.w	r2, #1
+20000786:	601a      	str	r2, [r3, #0]
+
+        /* Poll for SDIF_RELEASED. */
+        do
+        {
+            sdif_released = CORE_SF2_CFG->INIT_DONE & SDIF_RELEASED_MASK;
+20000788:	f242 0300 	movw	r3, #8192	; 0x2000
+2000078c:	f2c4 0302 	movt	r3, #16386	; 0x4002
+20000790:	685b      	ldr	r3, [r3, #4]
+20000792:	f003 0302 	and.w	r3, r3, #2
+20000796:	607b      	str	r3, [r7, #4]
+        } while (0u == sdif_released);
+20000798:	687b      	ldr	r3, [r7, #4]
+2000079a:	2b00      	cmp	r3, #0
+2000079c:	d0f4      	beq.n	20000788 <SystemInit+0x78>
+    }
+
+    configure_pcie_intf();
+2000079e:	f000 f8f3 	bl	20000988 <configure_pcie_intf>
+     * do this here because this signal is only deasserted by the System
+     * Controller on a power-on reset. Other types of reset such as a watchdog
+     * reset would result in the FPGA fabric being held in reset and getting
+     * stuck waiting for the CoreSF2Config INIT_DONE to become asserted.
+     */
+    SYSREG->SOFT_RST_CR &= ~SYSREG_FPGA_SOFTRESET_MASK;
+200007a2:	f248 0300 	movw	r3, #32768	; 0x8000
+200007a6:	f2c4 0303 	movt	r3, #16387	; 0x4003
+200007aa:	f248 0200 	movw	r2, #32768	; 0x8000
+200007ae:	f2c4 0203 	movt	r2, #16387	; 0x4003
+200007b2:	6c92      	ldr	r2, [r2, #72]	; 0x48
+200007b4:	f422 3280 	bic.w	r2, r2, #65536	; 0x10000
+200007b8:	649a      	str	r2, [r3, #72]	; 0x48
+
+    /*
+     * Signal to CoreSF2Reset that peripheral configuration registers have been
+     * written.
+     */
+    CORE_SF2_CFG->CONFIG_DONE |= (CONFIG_1_DONE | CONFIG_2_DONE);
+200007ba:	f242 0300 	movw	r3, #8192	; 0x2000
+200007be:	f2c4 0302 	movt	r3, #16386	; 0x4002
+200007c2:	f242 0200 	movw	r2, #8192	; 0x2000
+200007c6:	f2c4 0202 	movt	r2, #16386	; 0x4002
+200007ca:	6812      	ldr	r2, [r2, #0]
+200007cc:	f042 0203 	orr.w	r2, r2, #3
+200007d0:	601a      	str	r2, [r3, #0]
+
+    /* Wait for INIT_DONE from CoreSF2Reset. */
+    do
+    {
+        init_done = CORE_SF2_CFG->INIT_DONE & INIT_DONE_MASK;
+200007d2:	f242 0300 	movw	r3, #8192	; 0x2000
+200007d6:	f2c4 0302 	movt	r3, #16386	; 0x4002
+200007da:	685b      	ldr	r3, [r3, #4]
+200007dc:	f003 0301 	and.w	r3, r3, #1
+200007e0:	60bb      	str	r3, [r7, #8]
+    } while (0u == init_done);
+200007e2:	68bb      	ldr	r3, [r7, #8]
+200007e4:	2b00      	cmp	r3, #0
+200007e6:	d0f4      	beq.n	200007d2 <SystemInit+0xc2>
+#endif
+}
+200007e8:	f107 0710 	add.w	r7, r7, #16
+200007ec:	46bd      	mov	sp, r7
+200007ee:	bd80      	pop	{r7, pc}
+
+200007f0 <copy_cfg16_to_regs>:
+(
+    volatile uint32_t * p_regs,
+    const uint16_t * p_cfg,
+    uint32_t nb_16bit_words
+)
+{
+200007f0:	b480      	push	{r7}
+200007f2:	b087      	sub	sp, #28
+200007f4:	af00      	add	r7, sp, #0
+200007f6:	60f8      	str	r0, [r7, #12]
+200007f8:	60b9      	str	r1, [r7, #8]
+200007fa:	607a      	str	r2, [r7, #4]
+    uint32_t inc;
+
+    for(inc = 0u; inc < nb_16bit_words; ++inc)
+200007fc:	f04f 0300 	mov.w	r3, #0
+20000800:	617b      	str	r3, [r7, #20]
+20000802:	e00f      	b.n	20000824 <copy_cfg16_to_regs+0x34>
+    {
+        p_regs[inc] = p_cfg[inc];
+20000804:	697b      	ldr	r3, [r7, #20]
+20000806:	ea4f 0283 	mov.w	r2, r3, lsl #2
+2000080a:	68fb      	ldr	r3, [r7, #12]
+2000080c:	4413      	add	r3, r2
+2000080e:	697a      	ldr	r2, [r7, #20]
+20000810:	ea4f 0142 	mov.w	r1, r2, lsl #1
+20000814:	68ba      	ldr	r2, [r7, #8]
+20000816:	440a      	add	r2, r1
+20000818:	8812      	ldrh	r2, [r2, #0]
+2000081a:	601a      	str	r2, [r3, #0]
+    uint32_t nb_16bit_words
+)
+{
+    uint32_t inc;
+
+    for(inc = 0u; inc < nb_16bit_words; ++inc)
+2000081c:	697b      	ldr	r3, [r7, #20]
+2000081e:	f103 0301 	add.w	r3, r3, #1
+20000822:	617b      	str	r3, [r7, #20]
+20000824:	697a      	ldr	r2, [r7, #20]
+20000826:	687b      	ldr	r3, [r7, #4]
+20000828:	429a      	cmp	r2, r3
+2000082a:	d3eb      	bcc.n	20000804 <copy_cfg16_to_regs+0x14>
+    {
+        p_regs[inc] = p_cfg[inc];
+    }
+}
+2000082c:	f107 071c 	add.w	r7, r7, #28
+20000830:	46bd      	mov	sp, r7
+20000832:	bc80      	pop	{r7}
+20000834:	4770      	bx	lr
+20000836:	bf00      	nop
+
+20000838 <config_by_addr_value>:
+static void config_by_addr_value
+(
+    const cfg_addr_value_pair_t * p_addr_value_pair,
+    uint32_t nb_of_cfg_pairs
+)
+{
+20000838:	b480      	push	{r7}
+2000083a:	b085      	sub	sp, #20
+2000083c:	af00      	add	r7, sp, #0
+2000083e:	6078      	str	r0, [r7, #4]
+20000840:	6039      	str	r1, [r7, #0]
+    uint32_t inc;
+
+    for(inc = 0u; inc < nb_of_cfg_pairs; ++inc)
+20000842:	f04f 0300 	mov.w	r3, #0
+20000846:	60fb      	str	r3, [r7, #12]
+20000848:	e010      	b.n	2000086c <config_by_addr_value+0x34>
+    {
+        *p_addr_value_pair[inc].p_reg = p_addr_value_pair[inc].value;
+2000084a:	68fb      	ldr	r3, [r7, #12]
+2000084c:	ea4f 02c3 	mov.w	r2, r3, lsl #3
+20000850:	687b      	ldr	r3, [r7, #4]
+20000852:	4413      	add	r3, r2
+20000854:	681b      	ldr	r3, [r3, #0]
+20000856:	68fa      	ldr	r2, [r7, #12]
+20000858:	ea4f 01c2 	mov.w	r1, r2, lsl #3
+2000085c:	687a      	ldr	r2, [r7, #4]
+2000085e:	440a      	add	r2, r1
+20000860:	6852      	ldr	r2, [r2, #4]
+20000862:	601a      	str	r2, [r3, #0]
+    uint32_t nb_of_cfg_pairs
+)
+{
+    uint32_t inc;
+
+    for(inc = 0u; inc < nb_of_cfg_pairs; ++inc)
+20000864:	68fb      	ldr	r3, [r7, #12]
+20000866:	f103 0301 	add.w	r3, r3, #1
+2000086a:	60fb      	str	r3, [r7, #12]
+2000086c:	68fa      	ldr	r2, [r7, #12]
+2000086e:	683b      	ldr	r3, [r7, #0]
+20000870:	429a      	cmp	r2, r3
+20000872:	d3ea      	bcc.n	2000084a <config_by_addr_value+0x12>
+    {
+        *p_addr_value_pair[inc].p_reg = p_addr_value_pair[inc].value;
+    }
+}
+20000874:	f107 0714 	add.w	r7, r7, #20
+20000878:	46bd      	mov	sp, r7
+2000087a:	bc80      	pop	{r7}
+2000087c:	4770      	bx	lr
+2000087e:	bf00      	nop
+
+20000880 <config_ddr_subsys>:
+static void config_ddr_subsys
+(
+    const ddr_subsys_cfg_t * p_ddr_subsys_cfg,
+    DDRCore_TypeDef * p_ddr_subsys_regs
+)
+{
+20000880:	b580      	push	{r7, lr}
+20000882:	b084      	sub	sp, #16
+20000884:	af00      	add	r7, sp, #0
+20000886:	6078      	str	r0, [r7, #4]
+20000888:	6039      	str	r1, [r7, #0]
+    const uint16_t * p_cfg;
+
+    /*--------------------------------------------------------------------------
+     * Configure DDR controller part of the MDDR subsystem.
+     */
+    p_cfg = &p_ddr_subsys_cfg->ddrc.DYN_SOFT_RESET_CR;
+2000088a:	687b      	ldr	r3, [r7, #4]
+2000088c:	60fb      	str	r3, [r7, #12]
+    p_regs = &p_ddr_subsys_regs->ddrc.DYN_SOFT_RESET_CR;
+2000088e:	683b      	ldr	r3, [r7, #0]
+20000890:	60bb      	str	r3, [r7, #8]
+
+    copy_cfg16_to_regs(p_regs, p_cfg, NB_OF_DDRC_REGS_TO_CONFIG);
+20000892:	68b8      	ldr	r0, [r7, #8]
+20000894:	68f9      	ldr	r1, [r7, #12]
+20000896:	f04f 0239 	mov.w	r2, #57	; 0x39
+2000089a:	f7ff ffa9 	bl	200007f0 <copy_cfg16_to_regs>
+
+    /*--------------------------------------------------------------------------
+     * Configure DDR PHY.
+     */
+    p_cfg = &p_ddr_subsys_cfg->phy.LOOPBACK_TEST_CR;
+2000089e:	687b      	ldr	r3, [r7, #4]
+200008a0:	f103 0372 	add.w	r3, r3, #114	; 0x72
+200008a4:	60fb      	str	r3, [r7, #12]
+    p_regs = &p_ddr_subsys_regs->phy.LOOPBACK_TEST_CR;
+200008a6:	683b      	ldr	r3, [r7, #0]
+200008a8:	f503 7307 	add.w	r3, r3, #540	; 0x21c
+200008ac:	60bb      	str	r3, [r7, #8]
+
+    copy_cfg16_to_regs(p_regs, p_cfg, NB_OF_DDR_PHY_REGS_TO_CONFIG);
+200008ae:	68b8      	ldr	r0, [r7, #8]
+200008b0:	68f9      	ldr	r1, [r7, #12]
+200008b2:	f04f 0241 	mov.w	r2, #65	; 0x41
+200008b6:	f7ff ff9b 	bl	200007f0 <copy_cfg16_to_regs>
+
+    /*--------------------------------------------------------------------------
+     * Configure DDR FIC.
+     */
+    p_ddr_subsys_regs->fic.NB_ADDR_CR = p_ddr_subsys_cfg->fic.NB_ADDR_CR;
+200008ba:	687b      	ldr	r3, [r7, #4]
+200008bc:	f8b3 30f4 	ldrh.w	r3, [r3, #244]	; 0xf4
+200008c0:	461a      	mov	r2, r3
+200008c2:	683b      	ldr	r3, [r7, #0]
+200008c4:	f8c3 2400 	str.w	r2, [r3, #1024]	; 0x400
+    p_ddr_subsys_regs->fic.NBRWB_SIZE_CR = p_ddr_subsys_cfg->fic.NBRWB_SIZE_CR;
+200008c8:	687b      	ldr	r3, [r7, #4]
+200008ca:	f8b3 30f6 	ldrh.w	r3, [r3, #246]	; 0xf6
+200008ce:	461a      	mov	r2, r3
+200008d0:	683b      	ldr	r3, [r7, #0]
+200008d2:	f8c3 2404 	str.w	r2, [r3, #1028]	; 0x404
+    p_ddr_subsys_regs->fic.WB_TIMEOUT_CR = p_ddr_subsys_cfg->fic.WB_TIMEOUT_CR;
+200008d6:	687b      	ldr	r3, [r7, #4]
+200008d8:	f8b3 30f8 	ldrh.w	r3, [r3, #248]	; 0xf8
+200008dc:	461a      	mov	r2, r3
+200008de:	683b      	ldr	r3, [r7, #0]
+200008e0:	f8c3 2408 	str.w	r2, [r3, #1032]	; 0x408
+    p_ddr_subsys_regs->fic.HPD_SW_RW_EN_CR = p_ddr_subsys_cfg->fic.HPD_SW_RW_EN_CR;
+200008e4:	687b      	ldr	r3, [r7, #4]
+200008e6:	f8b3 30fa 	ldrh.w	r3, [r3, #250]	; 0xfa
+200008ea:	461a      	mov	r2, r3
+200008ec:	683b      	ldr	r3, [r7, #0]
+200008ee:	f8c3 240c 	str.w	r2, [r3, #1036]	; 0x40c
+    p_ddr_subsys_regs->fic.HPD_SW_RW_INVAL_CR = p_ddr_subsys_cfg->fic.HPD_SW_RW_INVAL_CR;
+200008f2:	687b      	ldr	r3, [r7, #4]
+200008f4:	f8b3 30fc 	ldrh.w	r3, [r3, #252]	; 0xfc
+200008f8:	461a      	mov	r2, r3
+200008fa:	683b      	ldr	r3, [r7, #0]
+200008fc:	f8c3 2410 	str.w	r2, [r3, #1040]	; 0x410
+    p_ddr_subsys_regs->fic.SW_WR_ERCLR_CR = p_ddr_subsys_cfg->fic.SW_WR_ERCLR_CR;
+20000900:	687b      	ldr	r3, [r7, #4]
+20000902:	f8b3 30fe 	ldrh.w	r3, [r3, #254]	; 0xfe
+20000906:	461a      	mov	r2, r3
+20000908:	683b      	ldr	r3, [r7, #0]
+2000090a:	f8c3 2414 	str.w	r2, [r3, #1044]	; 0x414
+    p_ddr_subsys_regs->fic.ERR_INT_ENABLE_CR = p_ddr_subsys_cfg->fic.ERR_INT_ENABLE_CR;
+2000090e:	687b      	ldr	r3, [r7, #4]
+20000910:	f8b3 3100 	ldrh.w	r3, [r3, #256]	; 0x100
+20000914:	461a      	mov	r2, r3
+20000916:	683b      	ldr	r3, [r7, #0]
+20000918:	f8c3 2418 	str.w	r2, [r3, #1048]	; 0x418
+    p_ddr_subsys_regs->fic.NUM_AHB_MASTERS_CR = p_ddr_subsys_cfg->fic.NUM_AHB_MASTERS_CR;
+2000091c:	687b      	ldr	r3, [r7, #4]
+2000091e:	f8b3 3102 	ldrh.w	r3, [r3, #258]	; 0x102
+20000922:	461a      	mov	r2, r3
+20000924:	683b      	ldr	r3, [r7, #0]
+20000926:	f8c3 241c 	str.w	r2, [r3, #1052]	; 0x41c
+    p_ddr_subsys_regs->fic.LOCK_TIMEOUTVAL_CR[0] = p_ddr_subsys_cfg->fic.LOCK_TIMEOUTVAL_1_CR;
+2000092a:	687b      	ldr	r3, [r7, #4]
+2000092c:	f8b3 3104 	ldrh.w	r3, [r3, #260]	; 0x104
+20000930:	461a      	mov	r2, r3
+20000932:	683b      	ldr	r3, [r7, #0]
+20000934:	f8c3 2440 	str.w	r2, [r3, #1088]	; 0x440
+    p_ddr_subsys_regs->fic.LOCK_TIMEOUTVAL_CR[1] = p_ddr_subsys_cfg->fic.LOCK_TIMEOUTVAL_2_CR;
+20000938:	687b      	ldr	r3, [r7, #4]
+2000093a:	f8b3 3106 	ldrh.w	r3, [r3, #262]	; 0x106
+2000093e:	461a      	mov	r2, r3
+20000940:	683b      	ldr	r3, [r7, #0]
+20000942:	f8c3 2444 	str.w	r2, [r3, #1092]	; 0x444
+    p_ddr_subsys_regs->fic.LOCK_TIMEOUT_EN_CR = p_ddr_subsys_cfg->fic.LOCK_TIMEOUT_EN_CR;
+20000946:	687b      	ldr	r3, [r7, #4]
+20000948:	f8b3 3108 	ldrh.w	r3, [r3, #264]	; 0x108
+2000094c:	461a      	mov	r2, r3
+2000094e:	683b      	ldr	r3, [r7, #0]
+20000950:	f8c3 2448 	str.w	r2, [r3, #1096]	; 0x448
+
+    /*--------------------------------------------------------------------------
+     * Enable DDR.
+     */
+    p_ddr_subsys_regs->ddrc.DYN_SOFT_RESET_CR = 0x01u;
+20000954:	683b      	ldr	r3, [r7, #0]
+20000956:	f04f 0201 	mov.w	r2, #1
+2000095a:	601a      	str	r2, [r3, #0]
+
+    while(0x0000u == p_ddr_subsys_regs->ddrc.DDRC_SR)
+2000095c:	683b      	ldr	r3, [r7, #0]
+2000095e:	f8d3 30e4 	ldr.w	r3, [r3, #228]	; 0xe4
+20000962:	2b00      	cmp	r3, #0
+20000964:	d0fa      	beq.n	2000095c <config_ddr_subsys+0xdc>
+    {
+        ;
+    }
+}
+20000966:	f107 0710 	add.w	r7, r7, #16
+2000096a:	46bd      	mov	sp, r7
+2000096c:	bd80      	pop	{r7, pc}
+2000096e:	bf00      	nop
+
+20000970 <configure_serdes_intf>:
+ * Configure SERDES interfaces.
+ */
+#if MSS_SYS_SERDES_CONFIG_BY_CORTEX
+
+static void configure_serdes_intf(void)
+{
+20000970:	b580      	push	{r7, lr}
+20000972:	af00      	add	r7, sp, #0
+  #if MSS_SYS_SERDES_0_CONFIG_BY_CORTEX
+    config_by_addr_value(g_m2s_serdes_0_config, SERDES_0_CFG_NB_OF_PAIRS);
+20000974:	f640 70a8 	movw	r0, #4008	; 0xfa8
+20000978:	f2c2 0000 	movt	r0, #8192	; 0x2000
+2000097c:	f04f 0103 	mov.w	r1, #3
+20000980:	f7ff ff5a 	bl	20000838 <config_by_addr_value>
+  #endif
+
+  #if MSS_SYS_SERDES_3_CONFIG_BY_CORTEX
+    config_by_addr_value(g_m2s_serdes_3_config, SERDES_3_CFG_NB_OF_PAIRS);
+  #endif
+}
+20000984:	bd80      	pop	{r7, pc}
+20000986:	bf00      	nop
+
+20000988 <configure_pcie_intf>:
+
+/***************************************************************************//**
+ * Configure PCIe interfaces.
+ */
+static void configure_pcie_intf(void)
+{
+20000988:	b580      	push	{r7, lr}
+2000098a:	af00      	add	r7, sp, #0
+  #if MSS_SYS_SERDES_0_CONFIG_BY_CORTEX
+    configure_pcie_block(g_m2s_serdes_0_config, SERDES_0_CFG_NB_OF_PAIRS, 0u);
+2000098c:	f640 70a8 	movw	r0, #4008	; 0xfa8
+20000990:	f2c2 0000 	movt	r0, #8192	; 0x2000
+20000994:	f04f 0103 	mov.w	r1, #3
+20000998:	f04f 0200 	mov.w	r2, #0
+2000099c:	f000 f802 	bl	200009a4 <configure_pcie_block>
+  #endif
+
+  #if MSS_SYS_SERDES_3_CONFIG_BY_CORTEX
+    configure_pcie_block(g_m2s_serdes_3_config, SERDES_3_CFG_NB_OF_PAIRS, 3u);
+  #endif
+}
+200009a0:	bd80      	pop	{r7, pc}
+200009a2:	bf00      	nop
+
+200009a4 <configure_pcie_block>:
+(
+    const cfg_addr_value_pair_t * p_addr_value_pair,
+    uint32_t nb_of_cfg_pairs,
+    uint32_t serdes_id
+)
+{
+200009a4:	b480      	push	{r7}
+200009a6:	b095      	sub	sp, #84	; 0x54
+200009a8:	af00      	add	r7, sp, #0
+200009aa:	60f8      	str	r0, [r7, #12]
+200009ac:	60b9      	str	r1, [r7, #8]
+200009ae:	607a      	str	r2, [r7, #4]
+    uint32_t inc;
+
+    const uint32_t PMA_READY_MASK = 0x00000080u;
+200009b0:	f04f 0380 	mov.w	r3, #128	; 0x80
+200009b4:	637b      	str	r3, [r7, #52]	; 0x34
+    const uint32_t PCIE_CTRL_REG_LENGTH = 0x1000u;
+200009b6:	f44f 5380 	mov.w	r3, #4096	; 0x1000
+200009ba:	63bb      	str	r3, [r7, #56]	; 0x38
+    const uint32_t PCIE_CTLR_SOFTRESET_MASK = 0x00000001;
+200009bc:	f04f 0301 	mov.w	r3, #1
+200009c0:	63fb      	str	r3, [r7, #60]	; 0x3c
+    const uint32_t PCIE2_CTLR_SOFTRESET_MASK = 0x00000040;
+200009c2:	f04f 0340 	mov.w	r3, #64	; 0x40
+200009c6:	643b      	str	r3, [r7, #64]	; 0x40
+
+    SERDESIF_TypeDef * const serdes_lut[4] =
+    {
+        SERDES0, SERDES1, SERDES2, SERDES3
+    };
+200009c8:	f640 6388 	movw	r3, #3720	; 0xe88
+200009cc:	f2c2 0300 	movt	r3, #8192	; 0x2000
+200009d0:	f107 0c20 	add.w	ip, r7, #32
+200009d4:	cb0f      	ldmia	r3!, {r0, r1, r2, r3}
+200009d6:	e88c 000f 	stmia.w	ip, {r0, r1, r2, r3}
+
+    const uint32_t pcie_ctrl_top_addr_lut[4] =
+    {
+        SERDES0_CFG_BASE + PCIE_CTRL_REG_LENGTH,
+200009da:	6bbb      	ldr	r3, [r7, #56]	; 0x38
+200009dc:	f103 4080 	add.w	r0, r3, #1073741824	; 0x40000000
+200009e0:	f500 3020 	add.w	r0, r0, #163840	; 0x28000
+        SERDES1_CFG_BASE + PCIE_CTRL_REG_LENGTH,
+200009e4:	6bbb      	ldr	r3, [r7, #56]	; 0x38
+200009e6:	f103 4180 	add.w	r1, r3, #1073741824	; 0x40000000
+200009ea:	f501 3130 	add.w	r1, r1, #180224	; 0x2c000
+        SERDES2_CFG_BASE + PCIE_CTRL_REG_LENGTH,
+200009ee:	6bbb      	ldr	r3, [r7, #56]	; 0x38
+200009f0:	f103 4280 	add.w	r2, r3, #1073741824	; 0x40000000
+200009f4:	f502 3240 	add.w	r2, r2, #196608	; 0x30000
+        SERDES3_CFG_BASE + PCIE_CTRL_REG_LENGTH
+200009f8:	6bbb      	ldr	r3, [r7, #56]	; 0x38
+200009fa:	f103 4380 	add.w	r3, r3, #1073741824	; 0x40000000
+200009fe:	f503 3350 	add.w	r3, r3, #212992	; 0x34000
+    };
+20000a02:	6138      	str	r0, [r7, #16]
+20000a04:	6179      	str	r1, [r7, #20]
+20000a06:	61ba      	str	r2, [r7, #24]
+20000a08:	61fb      	str	r3, [r7, #28]
+
+    /*
+     * Poll for PMA_READY.
+     */
+    inc = 0U;
+20000a0a:	f04f 0300 	mov.w	r3, #0
+20000a0e:	633b      	str	r3, [r7, #48]	; 0x30
+    while(g_pcie_lane_cfg_lut[serdes_id][inc].config_reg_lane_sel != 0)
+20000a10:	e060      	b.n	20000ad4 <configure_pcie_block+0x130>
+    {
+        uint32_t pma_ready;
+        uint32_t config_phy_mode_1;
+
+        /* select lane */
+        config_phy_mode_1 = g_pcie_lane_cfg_lut[serdes_id][inc].serdes->sys_regs.CONFIG_PHY_MODE_1;
+20000a12:	687a      	ldr	r2, [r7, #4]
+20000a14:	f640 6378 	movw	r3, #3704	; 0xe78
+20000a18:	f2c2 0300 	movt	r3, #8192	; 0x2000
+20000a1c:	f853 1022 	ldr.w	r1, [r3, r2, lsl #2]
+20000a20:	6b3a      	ldr	r2, [r7, #48]	; 0x30
+20000a22:	4613      	mov	r3, r2
+20000a24:	ea4f 0343 	mov.w	r3, r3, lsl #1
+20000a28:	4413      	add	r3, r2
+20000a2a:	ea4f 0383 	mov.w	r3, r3, lsl #2
+20000a2e:	440b      	add	r3, r1
+20000a30:	681b      	ldr	r3, [r3, #0]
+20000a32:	f503 5300 	add.w	r3, r3, #8192	; 0x2000
+20000a36:	f103 0328 	add.w	r3, r3, #40	; 0x28
+20000a3a:	681b      	ldr	r3, [r3, #0]
+20000a3c:	64bb      	str	r3, [r7, #72]	; 0x48
+        config_phy_mode_1 &= ~CONFIG_REG_LANE_SEL_MASK;
+20000a3e:	6cbb      	ldr	r3, [r7, #72]	; 0x48
+20000a40:	f423 6370 	bic.w	r3, r3, #3840	; 0xf00
+20000a44:	64bb      	str	r3, [r7, #72]	; 0x48
+        config_phy_mode_1 |= (uint32_t)g_pcie_lane_cfg_lut[serdes_id][inc].config_reg_lane_sel;
+20000a46:	687a      	ldr	r2, [r7, #4]
+20000a48:	f640 6378 	movw	r3, #3704	; 0xe78
+20000a4c:	f2c2 0300 	movt	r3, #8192	; 0x2000
+20000a50:	f853 1022 	ldr.w	r1, [r3, r2, lsl #2]
+20000a54:	6b3a      	ldr	r2, [r7, #48]	; 0x30
+20000a56:	4613      	mov	r3, r2
+20000a58:	ea4f 0343 	mov.w	r3, r3, lsl #1
+20000a5c:	4413      	add	r3, r2
+20000a5e:	ea4f 0383 	mov.w	r3, r3, lsl #2
+20000a62:	440b      	add	r3, r1
+20000a64:	891b      	ldrh	r3, [r3, #8]
+20000a66:	6cba      	ldr	r2, [r7, #72]	; 0x48
+20000a68:	ea42 0303 	orr.w	r3, r2, r3
+20000a6c:	64bb      	str	r3, [r7, #72]	; 0x48
+        g_pcie_lane_cfg_lut[serdes_id][inc].serdes->sys_regs.CONFIG_PHY_MODE_1 = config_phy_mode_1;
+20000a6e:	687a      	ldr	r2, [r7, #4]
+20000a70:	f640 6378 	movw	r3, #3704	; 0xe78
+20000a74:	f2c2 0300 	movt	r3, #8192	; 0x2000
+20000a78:	f853 1022 	ldr.w	r1, [r3, r2, lsl #2]
+20000a7c:	6b3a      	ldr	r2, [r7, #48]	; 0x30
+20000a7e:	4613      	mov	r3, r2
+20000a80:	ea4f 0343 	mov.w	r3, r3, lsl #1
+20000a84:	4413      	add	r3, r2
+20000a86:	ea4f 0383 	mov.w	r3, r3, lsl #2
+20000a8a:	440b      	add	r3, r1
+20000a8c:	681b      	ldr	r3, [r3, #0]
+20000a8e:	f503 5300 	add.w	r3, r3, #8192	; 0x2000
+20000a92:	f103 0328 	add.w	r3, r3, #40	; 0x28
+20000a96:	6cba      	ldr	r2, [r7, #72]	; 0x48
+20000a98:	601a      	str	r2, [r3, #0]
+
+        /* Wait for PMA to become ready. */
+        do
+        {
+            pma_ready = g_pcie_lane_cfg_lut[serdes_id][inc].lane->PMA_STATUS & PMA_READY_MASK;
+20000a9a:	687a      	ldr	r2, [r7, #4]
+20000a9c:	f640 6378 	movw	r3, #3704	; 0xe78
+20000aa0:	f2c2 0300 	movt	r3, #8192	; 0x2000
+20000aa4:	f853 1022 	ldr.w	r1, [r3, r2, lsl #2]
+20000aa8:	6b3a      	ldr	r2, [r7, #48]	; 0x30
+20000aaa:	4613      	mov	r3, r2
+20000aac:	ea4f 0343 	mov.w	r3, r3, lsl #1
+20000ab0:	4413      	add	r3, r2
+20000ab2:	ea4f 0383 	mov.w	r3, r3, lsl #2
+20000ab6:	440b      	add	r3, r1
+20000ab8:	685b      	ldr	r3, [r3, #4]
+20000aba:	f8d3 20c0 	ldr.w	r2, [r3, #192]	; 0xc0
+20000abe:	6b7b      	ldr	r3, [r7, #52]	; 0x34
+20000ac0:	ea02 0303 	and.w	r3, r2, r3
+20000ac4:	647b      	str	r3, [r7, #68]	; 0x44
+        }
+        while (0u == pma_ready);
+20000ac6:	6c7b      	ldr	r3, [r7, #68]	; 0x44
+20000ac8:	2b00      	cmp	r3, #0
+20000aca:	d0e6      	beq.n	20000a9a <configure_pcie_block+0xf6>
+        ++inc;
+20000acc:	6b3b      	ldr	r3, [r7, #48]	; 0x30
+20000ace:	f103 0301 	add.w	r3, r3, #1
+20000ad2:	633b      	str	r3, [r7, #48]	; 0x30
+
+    /*
+     * Poll for PMA_READY.
+     */
+    inc = 0U;
+    while(g_pcie_lane_cfg_lut[serdes_id][inc].config_reg_lane_sel != 0)
+20000ad4:	687a      	ldr	r2, [r7, #4]
+20000ad6:	f640 6378 	movw	r3, #3704	; 0xe78
+20000ada:	f2c2 0300 	movt	r3, #8192	; 0x2000
+20000ade:	f853 1022 	ldr.w	r1, [r3, r2, lsl #2]
+20000ae2:	6b3a      	ldr	r2, [r7, #48]	; 0x30
+20000ae4:	4613      	mov	r3, r2
+20000ae6:	ea4f 0343 	mov.w	r3, r3, lsl #1
+20000aea:	4413      	add	r3, r2
+20000aec:	ea4f 0383 	mov.w	r3, r3, lsl #2
+20000af0:	440b      	add	r3, r1
+20000af2:	891b      	ldrh	r3, [r3, #8]
+20000af4:	2b00      	cmp	r3, #0
+20000af6:	d18c      	bne.n	20000a12 <configure_pcie_block+0x6e>
+    }
+
+    /*
+     * Configure the PCIe controller registers.
+     */
+    for(inc = 0u; inc < nb_of_cfg_pairs; ++inc)
+20000af8:	f04f 0300 	mov.w	r3, #0
+20000afc:	633b      	str	r3, [r7, #48]	; 0x30
+20000afe:	e022      	b.n	20000b46 <configure_pcie_block+0x1a2>
+    {
+        uint32_t reg_addr;
+
+        reg_addr = (uint32_t)p_addr_value_pair[inc].p_reg;
+20000b00:	6b3b      	ldr	r3, [r7, #48]	; 0x30
+20000b02:	ea4f 02c3 	mov.w	r2, r3, lsl #3
+20000b06:	68fb      	ldr	r3, [r7, #12]
+20000b08:	4413      	add	r3, r2
+20000b0a:	681b      	ldr	r3, [r3, #0]
+20000b0c:	64fb      	str	r3, [r7, #76]	; 0x4c
+
+        if(reg_addr < pcie_ctrl_top_addr_lut[serdes_id])
+20000b0e:	687b      	ldr	r3, [r7, #4]
+20000b10:	ea4f 0383 	mov.w	r3, r3, lsl #2
+20000b14:	f107 0250 	add.w	r2, r7, #80	; 0x50
+20000b18:	4413      	add	r3, r2
+20000b1a:	f853 2c40 	ldr.w	r2, [r3, #-64]
+20000b1e:	6cfb      	ldr	r3, [r7, #76]	; 0x4c
+20000b20:	429a      	cmp	r2, r3
+20000b22:	d90c      	bls.n	20000b3e <configure_pcie_block+0x19a>
+        {
+            *p_addr_value_pair[inc].p_reg = p_addr_value_pair[inc].value;
+20000b24:	6b3b      	ldr	r3, [r7, #48]	; 0x30
+20000b26:	ea4f 02c3 	mov.w	r2, r3, lsl #3
+20000b2a:	68fb      	ldr	r3, [r7, #12]
+20000b2c:	4413      	add	r3, r2
+20000b2e:	681b      	ldr	r3, [r3, #0]
+20000b30:	6b3a      	ldr	r2, [r7, #48]	; 0x30
+20000b32:	ea4f 01c2 	mov.w	r1, r2, lsl #3
+20000b36:	68fa      	ldr	r2, [r7, #12]
+20000b38:	440a      	add	r2, r1
+20000b3a:	6852      	ldr	r2, [r2, #4]
+20000b3c:	601a      	str	r2, [r3, #0]
+    }
+
+    /*
+     * Configure the PCIe controller registers.
+     */
+    for(inc = 0u; inc < nb_of_cfg_pairs; ++inc)
+20000b3e:	6b3b      	ldr	r3, [r7, #48]	; 0x30
+20000b40:	f103 0301 	add.w	r3, r3, #1
+20000b44:	633b      	str	r3, [r7, #48]	; 0x30
+20000b46:	6b3a      	ldr	r2, [r7, #48]	; 0x30
+20000b48:	68bb      	ldr	r3, [r7, #8]
+20000b4a:	429a      	cmp	r2, r3
+20000b4c:	d3d8      	bcc.n	20000b00 <configure_pcie_block+0x15c>
+    }
+
+    /*
+     * Issue a soft-reset to the PCIe controller
+     */
+    inc = 0U;
+20000b4e:	f04f 0300 	mov.w	r3, #0
+20000b52:	633b      	str	r3, [r7, #48]	; 0x30
+    while(g_pcie_lane_cfg_lut[serdes_id][inc].config_reg_lane_sel != 0)
+20000b54:	e08e      	b.n	20000c74 <configure_pcie_block+0x2d0>
+    {
+        if(FIRST_PCIE_CTRL == g_pcie_lane_cfg_lut[serdes_id][inc].pcie_ctrl_id)
+20000b56:	687a      	ldr	r2, [r7, #4]
+20000b58:	f640 6378 	movw	r3, #3704	; 0xe78
+20000b5c:	f2c2 0300 	movt	r3, #8192	; 0x2000
+20000b60:	f853 1022 	ldr.w	r1, [r3, r2, lsl #2]
+20000b64:	6b3a      	ldr	r2, [r7, #48]	; 0x30
+20000b66:	4613      	mov	r3, r2
+20000b68:	ea4f 0343 	mov.w	r3, r3, lsl #1
+20000b6c:	4413      	add	r3, r2
+20000b6e:	ea4f 0383 	mov.w	r3, r3, lsl #2
+20000b72:	440b      	add	r3, r1
+20000b74:	895b      	ldrh	r3, [r3, #10]
+20000b76:	2b01      	cmp	r3, #1
+20000b78:	d13c      	bne.n	20000bf4 <configure_pcie_block+0x250>
+        {
+            serdes_lut[serdes_id]->sys_regs.SERDESIF_SOFT_RESET &= ~PCIE_CTLR_SOFTRESET_MASK;
+20000b7a:	687b      	ldr	r3, [r7, #4]
+20000b7c:	ea4f 0383 	mov.w	r3, r3, lsl #2
+20000b80:	f107 0250 	add.w	r2, r7, #80	; 0x50
+20000b84:	4413      	add	r3, r2
+20000b86:	f853 1c30 	ldr.w	r1, [r3, #-48]
+20000b8a:	687b      	ldr	r3, [r7, #4]
+20000b8c:	ea4f 0383 	mov.w	r3, r3, lsl #2
+20000b90:	f107 0250 	add.w	r2, r7, #80	; 0x50
+20000b94:	4413      	add	r3, r2
+20000b96:	f853 3c30 	ldr.w	r3, [r3, #-48]
+20000b9a:	f503 5300 	add.w	r3, r3, #8192	; 0x2000
+20000b9e:	f103 0308 	add.w	r3, r3, #8
+20000ba2:	681a      	ldr	r2, [r3, #0]
+20000ba4:	6bfb      	ldr	r3, [r7, #60]	; 0x3c
+20000ba6:	ea6f 0303 	mvn.w	r3, r3
+20000baa:	ea02 0203 	and.w	r2, r2, r3
+20000bae:	f501 5300 	add.w	r3, r1, #8192	; 0x2000
+20000bb2:	f103 0308 	add.w	r3, r3, #8
+20000bb6:	601a      	str	r2, [r3, #0]
+            serdes_lut[serdes_id]->sys_regs.SERDESIF_SOFT_RESET |= PCIE_CTLR_SOFTRESET_MASK;
+20000bb8:	687b      	ldr	r3, [r7, #4]
+20000bba:	ea4f 0383 	mov.w	r3, r3, lsl #2
+20000bbe:	f107 0250 	add.w	r2, r7, #80	; 0x50
+20000bc2:	4413      	add	r3, r2
+20000bc4:	f853 1c30 	ldr.w	r1, [r3, #-48]
+20000bc8:	687b      	ldr	r3, [r7, #4]
+20000bca:	ea4f 0383 	mov.w	r3, r3, lsl #2
+20000bce:	f107 0250 	add.w	r2, r7, #80	; 0x50
+20000bd2:	4413      	add	r3, r2
+20000bd4:	f853 3c30 	ldr.w	r3, [r3, #-48]
+20000bd8:	f503 5300 	add.w	r3, r3, #8192	; 0x2000
+20000bdc:	f103 0308 	add.w	r3, r3, #8
+20000be0:	681a      	ldr	r2, [r3, #0]
+20000be2:	6bfb      	ldr	r3, [r7, #60]	; 0x3c
+20000be4:	ea42 0203 	orr.w	r2, r2, r3
+20000be8:	f501 5300 	add.w	r3, r1, #8192	; 0x2000
+20000bec:	f103 0308 	add.w	r3, r3, #8
+20000bf0:	601a      	str	r2, [r3, #0]
+20000bf2:	e03b      	b.n	20000c6c <configure_pcie_block+0x2c8>
+        }
+        else
+        {
+            serdes_lut[serdes_id]->sys_regs.SERDESIF_SOFT_RESET &= ~PCIE2_CTLR_SOFTRESET_MASK;
+20000bf4:	687b      	ldr	r3, [r7, #4]
+20000bf6:	ea4f 0383 	mov.w	r3, r3, lsl #2
+20000bfa:	f107 0250 	add.w	r2, r7, #80	; 0x50
+20000bfe:	4413      	add	r3, r2
+20000c00:	f853 1c30 	ldr.w	r1, [r3, #-48]
+20000c04:	687b      	ldr	r3, [r7, #4]
+20000c06:	ea4f 0383 	mov.w	r3, r3, lsl #2
+20000c0a:	f107 0250 	add.w	r2, r7, #80	; 0x50
+20000c0e:	4413      	add	r3, r2
+20000c10:	f853 3c30 	ldr.w	r3, [r3, #-48]
+20000c14:	f503 5300 	add.w	r3, r3, #8192	; 0x2000
+20000c18:	f103 0308 	add.w	r3, r3, #8
+20000c1c:	681a      	ldr	r2, [r3, #0]
+20000c1e:	6c3b      	ldr	r3, [r7, #64]	; 0x40
+20000c20:	ea6f 0303 	mvn.w	r3, r3
+20000c24:	ea02 0203 	and.w	r2, r2, r3
+20000c28:	f501 5300 	add.w	r3, r1, #8192	; 0x2000
+20000c2c:	f103 0308 	add.w	r3, r3, #8
+20000c30:	601a      	str	r2, [r3, #0]
+            serdes_lut[serdes_id]->sys_regs.SERDESIF_SOFT_RESET |= PCIE2_CTLR_SOFTRESET_MASK;
+20000c32:	687b      	ldr	r3, [r7, #4]
+20000c34:	ea4f 0383 	mov.w	r3, r3, lsl #2
+20000c38:	f107 0250 	add.w	r2, r7, #80	; 0x50
+20000c3c:	4413      	add	r3, r2
+20000c3e:	f853 1c30 	ldr.w	r1, [r3, #-48]
+20000c42:	687b      	ldr	r3, [r7, #4]
+20000c44:	ea4f 0383 	mov.w	r3, r3, lsl #2
+20000c48:	f107 0250 	add.w	r2, r7, #80	; 0x50
+20000c4c:	4413      	add	r3, r2
+20000c4e:	f853 3c30 	ldr.w	r3, [r3, #-48]
+20000c52:	f503 5300 	add.w	r3, r3, #8192	; 0x2000
+20000c56:	f103 0308 	add.w	r3, r3, #8
+20000c5a:	681a      	ldr	r2, [r3, #0]
+20000c5c:	6c3b      	ldr	r3, [r7, #64]	; 0x40
+20000c5e:	ea42 0203 	orr.w	r2, r2, r3
+20000c62:	f501 5300 	add.w	r3, r1, #8192	; 0x2000
+20000c66:	f103 0308 	add.w	r3, r3, #8
+20000c6a:	601a      	str	r2, [r3, #0]
+        }
+        ++inc;
+20000c6c:	6b3b      	ldr	r3, [r7, #48]	; 0x30
+20000c6e:	f103 0301 	add.w	r3, r3, #1
+20000c72:	633b      	str	r3, [r7, #48]	; 0x30
+
+    /*
+     * Issue a soft-reset to the PCIe controller
+     */
+    inc = 0U;
+    while(g_pcie_lane_cfg_lut[serdes_id][inc].config_reg_lane_sel != 0)
+20000c74:	687a      	ldr	r2, [r7, #4]
+20000c76:	f640 6378 	movw	r3, #3704	; 0xe78
+20000c7a:	f2c2 0300 	movt	r3, #8192	; 0x2000
+20000c7e:	f853 1022 	ldr.w	r1, [r3, r2, lsl #2]
+20000c82:	6b3a      	ldr	r2, [r7, #48]	; 0x30
+20000c84:	4613      	mov	r3, r2
+20000c86:	ea4f 0343 	mov.w	r3, r3, lsl #1
+20000c8a:	4413      	add	r3, r2
+20000c8c:	ea4f 0383 	mov.w	r3, r3, lsl #2
+20000c90:	440b      	add	r3, r1
+20000c92:	891b      	ldrh	r3, [r3, #8]
+20000c94:	2b00      	cmp	r3, #0
+20000c96:	f47f af5e 	bne.w	20000b56 <configure_pcie_block+0x1b2>
+            serdes_lut[serdes_id]->sys_regs.SERDESIF_SOFT_RESET &= ~PCIE2_CTLR_SOFTRESET_MASK;
+            serdes_lut[serdes_id]->sys_regs.SERDESIF_SOFT_RESET |= PCIE2_CTLR_SOFTRESET_MASK;
+        }
+        ++inc;
+    }
+}
+20000c9a:	f107 0754 	add.w	r7, r7, #84	; 0x54
+20000c9e:	46bd      	mov	sp, r7
+20000ca0:	bc80      	pop	{r7}
+20000ca2:	4770      	bx	lr
+
+20000ca4 <get_silicon_revision>:
+
+/*------------------------------------------------------------------------------
+  Retrieve silicon revision from system registers.
+ */
+static uint32_t get_silicon_revision(void)
+{
+20000ca4:	b480      	push	{r7}
+20000ca6:	b083      	sub	sp, #12
+20000ca8:	af00      	add	r7, sp, #0
+    uint32_t silicon_revision;
+    uint32_t device_version;
+
+    device_version = SYSREG->DEVICE_VERSION;
+20000caa:	f248 0300 	movw	r3, #32768	; 0x8000
+20000cae:	f2c4 0303 	movt	r3, #16387	; 0x4003
+20000cb2:	f8d3 314c 	ldr.w	r3, [r3, #332]	; 0x14c
+20000cb6:	607b      	str	r3, [r7, #4]
+    switch(device_version)
+20000cb8:	687a      	ldr	r2, [r7, #4]
+20000cba:	f64f 0302 	movw	r3, #63490	; 0xf802
+20000cbe:	429a      	cmp	r2, r3
+20000cc0:	d006      	beq.n	20000cd0 <get_silicon_revision+0x2c>
+20000cc2:	f64f 0302 	movw	r3, #63490	; 0xf802
+20000cc6:	f2c0 0301 	movt	r3, #1
+20000cca:	429a      	cmp	r2, r3
+20000ccc:	d004      	beq.n	20000cd8 <get_silicon_revision+0x34>
+20000cce:	e007      	b.n	20000ce0 <get_silicon_revision+0x3c>
+    {
+        case 0x0000F802:
+            silicon_revision = M2S050_REV_A_SILICON;
+20000cd0:	f04f 0301 	mov.w	r3, #1
+20000cd4:	603b      	str	r3, [r7, #0]
+            break;
+20000cd6:	e006      	b.n	20000ce6 <get_silicon_revision+0x42>
+
+        case 0x0001F802:
+            silicon_revision = M2S050_REV_B_SILICON;
+20000cd8:	f04f 0302 	mov.w	r3, #2
+20000cdc:	603b      	str	r3, [r7, #0]
+            break;
+20000cde:	e002      	b.n	20000ce6 <get_silicon_revision+0x42>
+
+        default:
+            silicon_revision = UNKNOWN_SILICON_REV;
+20000ce0:	f04f 0300 	mov.w	r3, #0
+20000ce4:	603b      	str	r3, [r7, #0]
+            break;
+    }
+
+    return silicon_revision;
+20000ce6:	683b      	ldr	r3, [r7, #0]
+}
+20000ce8:	4618      	mov	r0, r3
+20000cea:	f107 070c 	add.w	r7, r7, #12
+20000cee:	46bd      	mov	sp, r7
+20000cf0:	bc80      	pop	{r7}
+20000cf2:	4770      	bx	lr
+
+20000cf4 <silicon_workarounds>:
+
+/*------------------------------------------------------------------------------
+  Workarounds for various silicon versions.
+ */
+static void silicon_workarounds(void)
+{
+20000cf4:	b580      	push	{r7, lr}
+20000cf6:	b082      	sub	sp, #8
+20000cf8:	af00      	add	r7, sp, #0
+    uint32_t silicon_revision;
+
+    silicon_revision = get_silicon_revision();
+20000cfa:	f7ff ffd3 	bl	20000ca4 <get_silicon_revision>
+20000cfe:	4603      	mov	r3, r0
+20000d00:	607b      	str	r3, [r7, #4]
+
+    switch(silicon_revision)
+20000d02:	687b      	ldr	r3, [r7, #4]
+20000d04:	2b01      	cmp	r3, #1
+20000d06:	d101      	bne.n	20000d0c <silicon_workarounds+0x18>
+    {
+        case M2S050_REV_A_SILICON:
+            m2s050_rev_a_workarounds();
+20000d08:	f000 f804 	bl	20000d14 <m2s050_rev_a_workarounds>
+        case UNKNOWN_SILICON_REV:
+            /* Fall through. */
+        default:
+            break;
+    }
+}
+20000d0c:	f107 0708 	add.w	r7, r7, #8
+20000d10:	46bd      	mov	sp, r7
+20000d12:	bd80      	pop	{r7, pc}
+
+20000d14 <m2s050_rev_a_workarounds>:
+
+/*------------------------------------------------------------------------------
+  Silicon workarounds for M2S050 rev A.
+ */
+static void m2s050_rev_a_workarounds(void)
+{
+20000d14:	b480      	push	{r7}
+20000d16:	af00      	add	r7, sp, #0
+    /*--------------------------------------------------------------------------
+     * Work around a couple of silicon issues:
+     */
+    /* DDR_CLK_EN <- 1 */
+    SYSREG->MSSDDR_FACC1_CR |= (uint32_t)1 << DDR_CLK_EN_SHIFT;
+20000d18:	f248 0300 	movw	r3, #32768	; 0x8000
+20000d1c:	f2c4 0303 	movt	r3, #16387	; 0x4003
+20000d20:	f248 0200 	movw	r2, #32768	; 0x8000
+20000d24:	f2c4 0203 	movt	r2, #16387	; 0x4003
+20000d28:	f8d2 2098 	ldr.w	r2, [r2, #152]	; 0x98
+20000d2c:	f442 7280 	orr.w	r2, r2, #256	; 0x100
+20000d30:	f8c3 2098 	str.w	r2, [r3, #152]	; 0x98
+
+    /* CONTROLLER_PLL_INIT <- 0 */
+    SYSREG->MSSDDR_FACC1_CR = SYSREG->MSSDDR_FACC1_CR & ~CONTROLLER_PLL_INIT_MASK;
+20000d34:	f248 0300 	movw	r3, #32768	; 0x8000
+20000d38:	f2c4 0303 	movt	r3, #16387	; 0x4003
+20000d3c:	f248 0200 	movw	r2, #32768	; 0x8000
+20000d40:	f2c4 0203 	movt	r2, #16387	; 0x4003
+20000d44:	f8d2 2098 	ldr.w	r2, [r2, #152]	; 0x98
+20000d48:	f022 6280 	bic.w	r2, r2, #67108864	; 0x4000000
+20000d4c:	f8c3 2098 	str.w	r2, [r3, #152]	; 0x98
+}
+20000d50:	46bd      	mov	sp, r7
+20000d52:	bc80      	pop	{r7}
+20000d54:	4770      	bx	lr
+20000d56:	bf00      	nop
+
+20000d58 <__libc_init_array>:
+20000d58:	b570      	push	{r4, r5, r6, lr}
+20000d5a:	f640 76d8 	movw	r6, #4056	; 0xfd8
+20000d5e:	f640 75d8 	movw	r5, #4056	; 0xfd8
+20000d62:	f2c2 0600 	movt	r6, #8192	; 0x2000
+20000d66:	f2c2 0500 	movt	r5, #8192	; 0x2000
+20000d6a:	1b76      	subs	r6, r6, r5
+20000d6c:	10b6      	asrs	r6, r6, #2
+20000d6e:	d006      	beq.n	20000d7e <__libc_init_array+0x26>
+20000d70:	2400      	movs	r4, #0
+20000d72:	f855 3024 	ldr.w	r3, [r5, r4, lsl #2]
+20000d76:	3401      	adds	r4, #1
+20000d78:	4798      	blx	r3
+20000d7a:	42a6      	cmp	r6, r4
+20000d7c:	d8f9      	bhi.n	20000d72 <__libc_init_array+0x1a>
+20000d7e:	f640 75d8 	movw	r5, #4056	; 0xfd8
+20000d82:	f640 76dc 	movw	r6, #4060	; 0xfdc
+20000d86:	f2c2 0500 	movt	r5, #8192	; 0x2000
+20000d8a:	f2c2 0600 	movt	r6, #8192	; 0x2000
+20000d8e:	1b76      	subs	r6, r6, r5
+20000d90:	f000 f916 	bl	20000fc0 <_init>
+20000d94:	10b6      	asrs	r6, r6, #2
+20000d96:	d006      	beq.n	20000da6 <__libc_init_array+0x4e>
+20000d98:	2400      	movs	r4, #0
+20000d9a:	f855 3024 	ldr.w	r3, [r5, r4, lsl #2]
+20000d9e:	3401      	adds	r4, #1
+20000da0:	4798      	blx	r3
+20000da2:	42a6      	cmp	r6, r4
+20000da4:	d8f9      	bhi.n	20000d9a <__libc_init_array+0x42>
+20000da6:	bd70      	pop	{r4, r5, r6, pc}
+
+20000da8 <g_config_reg_lut>:
+20000da8:	3000 4001 3004 4001 3008 4001 300c 4001     .0.@.0.@.0.@.0.@
+20000db8:	3010 4001 3014 4001 3018 4001 301c 4001     .0.@.0.@.0.@.0.@
+20000dc8:	3020 4001 3024 4001 3028 4001 302c 4001      0.@$0.@(0.@,0.@
+20000dd8:	3030 4001 3034 4001 3038 4001 303c 4001     00.@40.@80.@<0.@
+20000de8:	3040 4001 3044 4001 3048 4001 304c 4001     @0.@D0.@H0.@L0.@
+20000df8:	3050 4001 3054 4001 3058 4001 305c 4001     P0.@T0.@X0.@\0.@
+20000e08:	3060 4001 3064 4001 3068 4001 306c 4001     `0.@d0.@h0.@l0.@
+20000e18:	3070 4001 3074 4001 3078 4001 307c 4001     p0.@t0.@x0.@|0.@
+
+20000e28 <g_gpio_irqn_lut>:
+20000e28:	3332 3534 3736 3938 3b3a 3d3c 3f3e 4140     23456789:;<=>?@A
+20000e38:	4342 4544 4746 4948 4b4a 4d4c 4f4e 5150     BCDEFGHIJKLMNOPQ
+
+20000e48 <g_serdes0_pcie_lane_cfg_lut>:
+	...
+
+20000e54 <g_serdes1_pcie_lane_cfg_lut>:
+	...
+
+20000e60 <g_serdes2_pcie_lane_cfg_lut>:
+	...
+
+20000e6c <g_serdes3_pcie_lane_cfg_lut>:
+	...
+
+20000e78 <g_pcie_lane_cfg_lut>:
+20000e78:	0e48 2000 0e54 2000 0e60 2000 0e6c 2000     H.. T.. `.. l.. 
+
+20000e88 <C.23.3700>:
+20000e88:	8000 4002 c000 4002 0000 4003 4000 4003     ...@...@...@.@.@
+
+20000e98 <g_m2s_mddr_addr>:
+20000e98:	0800 4002                                   ...@
+
+20000e9c <g_m2s_mddr_subsys_config>:
+20000e9c:	0000 0000 1188 0290 0002 0000 0002 0888     ................
+20000eac:	0000 333f ffff 7777 0777 0001 4200 0008     ..?3..www....B..
+20000ebc:	0952 0002 0000 0000 0000 0065 01e5 0000     R.........e.....
+20000ecc:	0020 0178 0000 0130 0004 0000 3300 0000      .x...0......3..
+20000edc:	0000 040c 0000 0000 0000 0002 0000 2080     ............... 
+20000eec:	80f8 0007 80f8 0007 0200 0000 0000 0004     ................
+20000efc:	0003 0040 0000 0000 0000 0000 0309 0001     ..@.............
+20000f0c:	0000 0000 0000 0080 0000 0000 0003 0000     ................
+	...
+20000f24:	000b 0000 0000 0000 0000 0080 2004 0100     ............. ..
+20000f34:	0008 0000 0000 0000 0000 0000 0000 0000     ................
+	...
+20000f4c:	4050 0501 5014 0000 0008 0018 0000 0005     P@...P..........
+	...
+20000f6c:	0050 0501 5010 0000 0000 0000 0000 0000     P....P..........
+20000f7c:	0000 0043 0000 0003 0001 0001 0000 0000     ..C.............
+20000f8c:	0000 0001 0000 0000 0000 0000 0000 0000     ................
+	...
+
+20000fa8 <g_m2s_serdes_0_config>:
+20000fa8:	a028 4002 011c 0000 9008 4002 00f8 0000     (..@.......@....
+20000fb8:	a028 4002 0f1c 0000                         (..@....
+
+20000fc0 <_init>:
+20000fc0:	b5f8      	push	{r3, r4, r5, r6, r7, lr}
+20000fc2:	bf00      	nop
+20000fc4:	bcf8      	pop	{r3, r4, r5, r6, r7}
+20000fc6:	bc08      	pop	{r3}
+20000fc8:	469e      	mov	lr, r3
+20000fca:	4770      	bx	lr
+
+20000fcc <_fini>:
+20000fcc:	b5f8      	push	{r3, r4, r5, r6, r7, lr}
+20000fce:	bf00      	nop
+20000fd0:	bcf8      	pop	{r3, r4, r5, r6, r7}
+20000fd2:	bc08      	pop	{r3}
+20000fd4:	469e      	mov	lr, r3
+20000fd6:	4770      	bx	lr
+
+20000fd8 <__frame_dummy_init_array_entry>:
+20000fd8:	04d5 2000                                   ... 
+
+20000fdc <__do_global_dtors_aux_fini_array_entry>:
+20000fdc:	04c1 2000                                   ... 

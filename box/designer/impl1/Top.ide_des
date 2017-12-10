@@ -1,0 +1,10 @@
+KEY IDE_DES_TOOL "Ide"
+KEY IDE_DES_ADB_PATH "C:\Users\Hiperwall\Desktop\microsemilab\box\designer\impl1\Top.adb"
+LIST SOURCE_FILES
+VALUE "C:\Users\Hiperwall\Desktop\microsemilab\box\constraint\io\Fabric_Top.pdc;pdc"
+ENDLIST
+LIST OPTIONAL_FILES
+VALUE "C:\Users\Hiperwall\Desktop\microsemilab\box\synthesis\Top_sdc.sdc;Skipped"
+ENDLIST
+LIST VCD_FILES
+ENDLIST

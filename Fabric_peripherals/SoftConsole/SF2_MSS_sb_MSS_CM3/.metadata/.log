@@ -1,0 +1,23 @@
+!SESSION 2017-02-06 12:35:46.045 -----------------------------------------------
+eclipse.buildId=M20130329-1600
+java.version=1.6.0_22
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=en_US
+Framework arguments:  -application org.eclipse.cdt.managedbuilder.core.headlessbuild -import C:\Users\Hiperwall\Desktop\microsemilab\Fabric_peripherals\SoftConsole\SF2_MSS_sb_MSS_CM3\projects\SF2_MSS_sb_MSS_CM3_hw_platform
+Command-line arguments:  -os win32 -ws win32 -arch x86 -application org.eclipse.cdt.managedbuilder.core.headlessbuild -data C:/Users/Hiperwall/Desktop/microsemilab/Fabric_peripherals/SoftConsole/SF2_MSS_sb_MSS_CM3 -import C:\Users\Hiperwall\Desktop\microsemilab\Fabric_peripherals\SoftConsole\SF2_MSS_sb_MSS_CM3\projects\SF2_MSS_sb_MSS_CM3_hw_platform
+
+!ENTRY org.eclipse.cdt.core 1 0 2017-02-06 12:35:49.046
+!MESSAGE Indexed 'SF2_MSS_sb_MSS_CM3_hw_platform' (17 sources, 36 headers) in 0.89 sec: 4,255 declarations; 11,749 references; 25 unresolved inclusions; 1,217 syntax errors; 3,039 unresolved names (15.96%)
+!SESSION 2017-02-06 12:35:50.749 -----------------------------------------------
+eclipse.buildId=M20130329-1600
+java.version=1.6.0_22
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=en_US
+Framework arguments:  -application org.eclipse.cdt.managedbuilder.core.headlessbuild -import C:\Users\Hiperwall\Desktop\microsemilab\Fabric_peripherals\SoftConsole\SF2_MSS_sb_MSS_CM3\projects\SF2_MSS_sb_MSS_CM3_app
+Command-line arguments:  -os win32 -ws win32 -arch x86 -application org.eclipse.cdt.managedbuilder.core.headlessbuild -data C:/Users/Hiperwall/Desktop/microsemilab/Fabric_peripherals/SoftConsole/SF2_MSS_sb_MSS_CM3 -import C:\Users\Hiperwall\Desktop\microsemilab\Fabric_peripherals\SoftConsole\SF2_MSS_sb_MSS_CM3\projects\SF2_MSS_sb_MSS_CM3_app
+
+!ENTRY org.eclipse.core.resources 2 10035 2017-02-06 12:35:51.671
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
+
+!ENTRY org.eclipse.cdt.core 1 0 2017-02-06 12:35:52.686
+!MESSAGE Indexed 'SF2_MSS_sb_MSS_CM3_app' (1 sources, 8 headers) in 0.12 sec: 1 declarations; 0 references; 8 unresolved inclusions; 0 syntax errors; 0 unresolved names (0.00%)

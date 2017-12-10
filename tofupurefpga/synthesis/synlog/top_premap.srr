@@ -1,0 +1,68 @@
+# Wed Nov 01 16:06:33 2017
+
+Synopsys Generic Technology Pre-mapping, Version map201609actrcp1, Build 005R, Built Jan 25 2017 01:01:33
+Copyright (C) 1994-2016 Synopsys, Inc. All rights reserved. This Synopsys software and all associated documentation are proprietary to Synopsys, Inc. and may only be used pursuant to the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, modification, or distribution of the Synopsys software or the associated documentation is strictly prohibited.
+Product Version L-2016.09M-2
+
+Mapper Startup Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 99MB peak: 100MB)
+
+Reading constraint file: C:\Users\Hiperwall\Desktop\microsemilab\tofupurefpga\designer\top\synthesis.fdc
+@L: C:\Users\Hiperwall\Desktop\microsemilab\tofupurefpga\synthesis\top_scck.rpt 
+Printing clock  summary report in "C:\Users\Hiperwall\Desktop\microsemilab\tofupurefpga\synthesis\top_scck.rpt" file 
+@N: MF248 |Running in 64-bit mode.
+@N: MF667 |Clock conversion disabled. (Command "set_option -fix_gated_and_generated_clocks 0" in the project file.)
+
+Design Input Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 100MB peak: 102MB)
+
+
+Mapper Initialization Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 100MB peak: 102MB)
+
+
+Start loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 101MB peak: 102MB)
+
+
+Finished loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 101MB peak: 104MB)
+
+Warning: Found 1 combinational loops!
+@W: BN137 :"c:\users\hiperwall\desktop\microsemilab\tofupurefpga\hdl\top.v":13:4:13:5|Found combinational loop during mapping at net led1
+1) instance led1_1[0] (in view: work.top(verilog)), output net led1 (in view: work.top(verilog))
+    net        led1
+    input  pin led1_1[0]/I[0]
+    instance   led1_1[0] (cell inv)
+    output pin led1_1[0]/OUT[0]
+    net        led1
+End of loops
+syn_allowed_resources : blockrams=21  set on top level netlist top
+
+Finished netlist restructuring (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 131MB peak: 134MB)
+
+
+
+Clock Summary
+*****************
+
+Start     Requested     Requested     Clock     Clock     Clock
+Clock     Frequency     Period        Type      Group     Load 
+---------------------------------------------------------------
+===============================================================
+
+Finished Pre Mapping Phase.
+@W: MO162 :"c:\users\hiperwall\desktop\microsemilab\tofupurefpga\hdl\top.v":1:7:1:9|Net led1 (in view: work.top(verilog)) resulted in a combinational loop around inverter led1_1[0] (in view: work.top(verilog)) 
+@W: MO162 :"c:\users\hiperwall\desktop\microsemilab\tofupurefpga\hdl\top.v":1:7:1:9|Net led1 (in view: work.top(verilog)) resulted in a combinational loop around inverter led1_1[0] (in view: work.top(verilog)) 
+@N: BN225 |Writing default property annotation file C:\Users\Hiperwall\Desktop\microsemilab\tofupurefpga\synthesis\top.sap.
+
+Starting constraint checker (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 131MB peak: 134MB)
+
+None
+None
+
+Finished constraint checker (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 131MB peak: 134MB)
+
+Pre-mapping successful!
+
+At Mapper Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 46MB peak: 134MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+# Wed Nov 01 16:06:34 2017
+
+###########################################################]

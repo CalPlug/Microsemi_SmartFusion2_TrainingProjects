@@ -1,0 +1,254 @@
+
+
+@S |##### START OF TIMING REPORT #####[
+# Timing Report written on Wed Feb 01 02:11:46 2017
+#
+
+
+Top view:               Top
+Requested Frequency:    100.0 MHz
+Wire load mode:         top
+Paths requested:        5
+Constraint File(s):    
+@N: MT320 |Timing report estimates place and route data. Please look at the place and route timing report for final timing.
+
+@N: MT322 |Clock constraints cover only FF-to-FF paths associated with the clock.
+
+
+
+Performance Summary 
+*******************
+
+
+Worst slack in design: 0.315
+
+                                           Requested     Estimated      Requested     Estimated               Clock        Clock              
+Starting Clock                             Frequency     Frequency      Period        Period        Slack     Type         Group              
+----------------------------------------------------------------------------------------------------------------------------------------------
+LED_ctrl|counter_inferred_clock[17]        100.0 MHz     1016.2 MHz     10.000        0.984         9.016     inferred     Inferred_clkgroup_1
+Top_FCCC_0_FCCC|GL0_net_inferred_clock     100.0 MHz     394.9 MHz      10.000        2.532         7.468     inferred     Inferred_clkgroup_0
+System                                     100.0 MHz     1029.4 MHz     10.000        0.971         9.029     system       system_clkgroup    
+==============================================================================================================================================
+
+
+
+Clock Relationships
+*******************
+
+Clocks                                                                          |    rise  to  rise   |    fall  to  fall   |    rise  to  fall   |    fall  to  rise 
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Starting                                Ending                                  |  constraint  slack  |  constraint  slack  |  constraint  slack  |  constraint  slack
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+System                                  System                                  |  0.000       0.680  |  No paths    -      |  No paths    -      |  No paths    -    
+Top_FCCC_0_FCCC|GL0_net_inferred_clock  Top_FCCC_0_FCCC|GL0_net_inferred_clock  |  0.000       0.315  |  No paths    -      |  No paths    -      |  No paths    -    
+LED_ctrl|counter_inferred_clock[17]     LED_ctrl|counter_inferred_clock[17]     |  0.000       0.378  |  No paths    -      |  No paths    -      |  No paths    -    
+======================================================================================================================================================================
+ Note: 'No paths' indicates there are no paths in the design for that pair of clock edges.
+       'Diff grp' indicates that paths exist but the starting clock and ending clock are in different clock groups.
+
+
+
+Interface Information 
+*********************
+
+No IO constraint found
+
+
+
+====================================
+Detailed Report for Clock: LED_ctrl|counter_inferred_clock[17]
+====================================
+
+
+
+Starting Points with Worst Slack
+********************************
+
+                         Starting                                                               Arrival          
+Instance                 Reference                               Type     Pin     Net           Time        Slack
+                         Clock                                                                                   
+-----------------------------------------------------------------------------------------------------------------
+LED_ctrl_0.sh_lft[0]     LED_ctrl|counter_inferred_clock[17]     SLE      Q       sh_lft[0]     0.053       0.378
+LED_ctrl_0.sh_lft[1]     LED_ctrl|counter_inferred_clock[17]     SLE      Q       sh_lft[1]     0.053       0.378
+=================================================================================================================
+
+
+Ending Points with Worst Slack
+******************************
+
+                         Starting                                                               Required          
+Instance                 Reference                               Type     Pin     Net           Time         Slack
+                         Clock                                                                                    
+------------------------------------------------------------------------------------------------------------------
+LED_ctrl_0.sh_lft[0]     LED_ctrl|counter_inferred_clock[17]     SLE      D       sh_lft[1]     0.155        0.378
+LED_ctrl_0.sh_lft[1]     LED_ctrl|counter_inferred_clock[17]     SLE      D       sh_lft[0]     0.155        0.378
+==================================================================================================================
+
+
+
+Worst Path Information
+***********************
+
+
+Path information for path number 1: 
+    Propagation time:                        0.533
+    + Clock delay at starting point:         0.000 (ideal)
+    - Requested Period:                      0.000
+    - Hold time:                             0.155
+    - Clock delay at ending point:           0.000 (ideal)
+    = Slack (non-critical) :                 0.378
+
+    Number of logic level(s):                0
+    Starting point:                          LED_ctrl_0.sh_lft[0] / Q
+    Ending point:                            LED_ctrl_0.sh_lft[1] / D
+    The start point is clocked by            LED_ctrl|counter_inferred_clock[17] [rising] on pin CLK
+    The end   point is clocked by            LED_ctrl|counter_inferred_clock[17] [rising] on pin CLK
+
+Instance / Net                    Pin      Pin               Arrival     No. of    
+Name                     Type     Name     Dir     Delay     Time        Fan Out(s)
+-----------------------------------------------------------------------------------
+LED_ctrl_0.sh_lft[0]     SLE      Q        Out     0.053     0.053       -         
+sh_lft[0]                Net      -        -       0.480     -           2         
+LED_ctrl_0.sh_lft[1]     SLE      D        In      -         0.533       -         
+===================================================================================
+
+
+
+
+====================================
+Detailed Report for Clock: Top_FCCC_0_FCCC|GL0_net_inferred_clock
+====================================
+
+
+
+Starting Points with Worst Slack
+********************************
+
+                           Starting                                                                    Arrival          
+Instance                   Reference                                  Type     Pin     Net             Time        Slack
+                           Clock                                                                                        
+------------------------------------------------------------------------------------------------------------------------
+LED_ctrl_0.pb_reg1         Top_FCCC_0_FCCC|GL0_net_inferred_clock     SLE      Q       pb_reg1         0.053       0.315
+LED_ctrl_0.counter[16]     Top_FCCC_0_FCCC|GL0_net_inferred_clock     SLE      Q       counter[16]     0.053       0.481
+LED_ctrl_0.counter[15]     Top_FCCC_0_FCCC|GL0_net_inferred_clock     SLE      Q       counter[15]     0.053       0.490
+LED_ctrl_0.counter[14]     Top_FCCC_0_FCCC|GL0_net_inferred_clock     SLE      Q       counter[14]     0.053       0.499
+LED_ctrl_0.counter[13]     Top_FCCC_0_FCCC|GL0_net_inferred_clock     SLE      Q       counter[13]     0.053       0.508
+LED_ctrl_0.counter[0]      Top_FCCC_0_FCCC|GL0_net_inferred_clock     SLE      Q       counter[0]      0.066       0.514
+LED_ctrl_0.counter[12]     Top_FCCC_0_FCCC|GL0_net_inferred_clock     SLE      Q       counter[12]     0.053       0.517
+LED_ctrl_0.counter[11]     Top_FCCC_0_FCCC|GL0_net_inferred_clock     SLE      Q       counter[11]     0.053       0.526
+LED_ctrl_0.counter[18]     Top_FCCC_0_FCCC|GL0_net_inferred_clock     SLE      Q       counter[18]     0.053       0.532
+LED_ctrl_0.counter[10]     Top_FCCC_0_FCCC|GL0_net_inferred_clock     SLE      Q       counter[10]     0.053       0.535
+========================================================================================================================
+
+
+Ending Points with Worst Slack
+******************************
+
+                          Starting                                                                            Required          
+Instance                  Reference                                  Type     Pin     Net                     Time         Slack
+                          Clock                                                                                                 
+--------------------------------------------------------------------------------------------------------------------------------
+LED_ctrl_0.pb_reg2        Top_FCCC_0_FCCC|GL0_net_inferred_clock     SLE      D       pb_reg1                 0.155        0.315
+LED_ctrl_0.counter[0]     Top_FCCC_0_FCCC|GL0_net_inferred_clock     SLE      D       counter_i_0[0]          0.155        0.514
+LED_ctrl_0.counter[2]     Top_FCCC_0_FCCC|GL0_net_inferred_clock     SLE      D       un2_counter_cry_2_S     0.155        1.077
+LED_ctrl_0.counter[3]     Top_FCCC_0_FCCC|GL0_net_inferred_clock     SLE      D       un2_counter_cry_3_S     0.155        1.086
+LED_ctrl_0.counter[4]     Top_FCCC_0_FCCC|GL0_net_inferred_clock     SLE      D       un2_counter_cry_4_S     0.155        1.095
+LED_ctrl_0.counter[5]     Top_FCCC_0_FCCC|GL0_net_inferred_clock     SLE      D       un2_counter_cry_5_S     0.155        1.104
+LED_ctrl_0.counter[6]     Top_FCCC_0_FCCC|GL0_net_inferred_clock     SLE      D       un2_counter_cry_6_S     0.155        1.113
+LED_ctrl_0.counter[7]     Top_FCCC_0_FCCC|GL0_net_inferred_clock     SLE      D       un2_counter_cry_7_S     0.155        1.122
+LED_ctrl_0.counter[8]     Top_FCCC_0_FCCC|GL0_net_inferred_clock     SLE      D       un2_counter_cry_8_S     0.155        1.131
+LED_ctrl_0.counter[9]     Top_FCCC_0_FCCC|GL0_net_inferred_clock     SLE      D       un2_counter_cry_9_S     0.155        1.140
+================================================================================================================================
+
+
+
+Worst Path Information
+***********************
+
+
+Path information for path number 1: 
+    Propagation time:                        0.470
+    + Clock delay at starting point:         0.000 (ideal)
+    - Requested Period:                      0.000
+    - Hold time:                             0.155
+    - Clock delay at ending point:           0.000 (ideal)
+    = Slack (critical) :                     0.315
+
+    Number of logic level(s):                0
+    Starting point:                          LED_ctrl_0.pb_reg1 / Q
+    Ending point:                            LED_ctrl_0.pb_reg2 / D
+    The start point is clocked by            Top_FCCC_0_FCCC|GL0_net_inferred_clock [rising] on pin CLK
+    The end   point is clocked by            Top_FCCC_0_FCCC|GL0_net_inferred_clock [rising] on pin CLK
+
+Instance / Net                  Pin      Pin               Arrival     No. of    
+Name                   Type     Name     Dir     Delay     Time        Fan Out(s)
+---------------------------------------------------------------------------------
+LED_ctrl_0.pb_reg1     SLE      Q        Out     0.053     0.053       -         
+pb_reg1                Net      -        -       0.417     -           1         
+LED_ctrl_0.pb_reg2     SLE      D        In      -         0.470       -         
+=================================================================================
+
+
+
+
+====================================
+Detailed Report for Clock: System
+====================================
+
+
+
+Starting Points with Worst Slack
+********************************
+
+                           Starting                                                                                        Arrival          
+Instance                   Reference     Type               Pin        Net                                                 Time        Slack
+                           Clock                                                                                                            
+--------------------------------------------------------------------------------------------------------------------------------------------
+OSC_0.I_RCOSC_25_50MHZ     System        RCOSC_25_50MHZ     CLKOUT     OSC_0_RCOSC_25_50MHZ_CCC_OUT_RCOSC_25_50MHZ_CCC     0.000       0.680
+============================================================================================================================================
+
+
+Ending Points with Worst Slack
+******************************
+
+                    Starting                                                                                      Required          
+Instance            Reference     Type     Pin                Net                                                 Time         Slack
+                    Clock                                                                                                           
+------------------------------------------------------------------------------------------------------------------------------------
+FCCC_0.CCC_INST     System        CCC      RCOSC_25_50MHZ     OSC_0_RCOSC_25_50MHZ_CCC_OUT_RCOSC_25_50MHZ_CCC     0.000        0.680
+====================================================================================================================================
+
+
+
+Worst Path Information
+***********************
+
+
+Path information for path number 1: 
+    Propagation time:                        0.680
+    + Clock delay at starting point:         0.000 (ideal)
+-0.000
+    - Requested Period:                      0.000
+    - Hold time:                             0.000
+    - Clock delay at ending point:           0.000 (ideal)
+0.000
+    = Slack (non-critical) :                 0.680
+
+    Number of logic level(s):                0
+    Starting point:                          OSC_0.I_RCOSC_25_50MHZ / CLKOUT
+    Ending point:                            FCCC_0.CCC_INST / RCOSC_25_50MHZ
+    The start point is clocked by            System [rising]
+    The end   point is clocked by            System [rising]
+
+Instance / Net                                                         Pin                Pin               Arrival     No. of    
+Name                                                Type               Name               Dir     Delay     Time        Fan Out(s)
+----------------------------------------------------------------------------------------------------------------------------------
+OSC_0.I_RCOSC_25_50MHZ                              RCOSC_25_50MHZ     CLKOUT             Out     0.000     0.000       -         
+OSC_0_RCOSC_25_50MHZ_CCC_OUT_RCOSC_25_50MHZ_CCC     Net                -                  -       0.680     -           1         
+FCCC_0.CCC_INST                                     CCC                RCOSC_25_50MHZ     In      -         0.680       -         
+==================================================================================================================================
+
+
+
+##### END OF TIMING REPORT #####]
+

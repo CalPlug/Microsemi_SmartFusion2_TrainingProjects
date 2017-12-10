@@ -1,0 +1,9 @@
+Detailed Resource Usage
+Module Name,Fabric 4LUT,Fabric DFF,Single-Ended I/O,Differential I/O Pairs,PLLs and CCCs,Chip Globals,SERDESIF Blocks,SERDESIF Lanes,MSS,10/100/1000 Ethernet,Multi-Mode UART,SPI,I2C,PDMA,MDDR Controller,RCOSC_50MHZ
+M2S_MSS_sb_0/CORERESETP_0/Primitives,60,76,0,0,0,2,0,0,0,0,0,0,0,0,0,0
+Primitives/Primitives,1,0,20,0,0,0,0,0,0,0,0,0,0,0,0,0
+M2S_MSS_sb_0/CORECONFIGP_0/Primitives,82,109,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+M2S_MSS_sb_0/M2S_MSS_sb_MSS_0/Primitives,0,0,53,2,0,2,0,0,1,0,2,2,2,1,1,0
+M2S_MSS_sb_0/FABOSC_0/Primitives,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,1
+SERDES_IF2_0/Primitives,0,0,0,1,0,0,1,1,0,0,0,0,0,0,0,0
+M2S_MSS_sb_0/CCC_0/Primitives,0,0,0,0,1,1,0,0,0,0,0,0,0,0,0,0

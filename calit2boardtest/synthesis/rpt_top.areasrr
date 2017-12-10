@@ -1,0 +1,26 @@
+#### START OF AREA REPORT #####[
+
+Part:			M2S010TQ144STD (Microsemi)
+
+-------------------------------------------------------------------
+########   Utilization report for  Top level view:   top   ########
+===================================================================
+
+COMBINATIONAL LOGIC
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+CFG      1                  100 %                
+=================================================
+Total COMBINATIONAL LOGIC in the block top:	1 (20.00 % Utilization)
+
+
+IO PADS
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+IO       2                  100 %                
+=================================================
+Total IO PADS in the block top:	2 (40.00 % Utilization)
+
+
+##### END OF AREA REPORT #####]
+

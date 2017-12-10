@@ -1,0 +1,22 @@
+Microsemi Corporation - Microsemi Libero Software Release Libero SoC v11.8 SP1 (Version 11.8.1.12)
+
+Date      :  Tue Oct 31 17:39:26 2017
+Project   :  C:\Users\Hiperwall\Desktop\microsemilab\calit2boardtest
+Component :  mainUart
+Family    :  SmartFusion2
+
+
+HDL source files for all Synthesis and Simulation tools:
+    C:/Users/Hiperwall/Desktop/microsemilab/calit2boardtest/component/work/mainUart/mainUart.v
+    C:/Users/Hiperwall/Desktop/microsemilab/calit2boardtest/component/work/mainUart/mainUart_0/rtl/vlog/core/Clock_gen.v
+    C:/Users/Hiperwall/Desktop/microsemilab/calit2boardtest/component/work/mainUart/mainUart_0/rtl/vlog/core/CoreUART.v
+    C:/Users/Hiperwall/Desktop/microsemilab/calit2boardtest/component/work/mainUart/mainUart_0/rtl/vlog/core/Rx_async.v
+    C:/Users/Hiperwall/Desktop/microsemilab/calit2boardtest/component/work/mainUart/mainUart_0/rtl/vlog/core/Tx_async.v
+    C:/Users/Hiperwall/Desktop/microsemilab/calit2boardtest/component/work/mainUart/mainUart_0/rtl/vlog/core/fifo_256x8_g4.v
+
+Stimulus files for all Simulation tools:
+    C:/Users/Hiperwall/Desktop/microsemilab/calit2boardtest/component/work/mainUart/mainUart_0/mti/scripts/wave_vlog.do
+
+    C:/Users/Hiperwall/Desktop/microsemilab/calit2boardtest/component/work/mainUart/mainUart_0/coreparameters.v
+    C:/Users/Hiperwall/Desktop/microsemilab/calit2boardtest/component/work/mainUart/mainUart_0/rtl/vlog/test/user/testbnch.v
+

@@ -1,0 +1,2 @@
+eclipse.preferences.version=1
+org.eclipse.core.variables.valueVariables=<?xml version\="1.0" encoding\="UTF-8" standalone\="no"?>\r\n<valueVariables>\r\n<valueVariable name\="openocd_executable" readOnly\="false" value\="openocd.exe"/>\r\n<valueVariable description\="Directory holding debug executable" name\="build_loc" readOnly\="false" value\="C\:/Users/Hiperwall/Desktop/microsemilab/UCI_Demo2/SoftConsole/M2S_MSS_sb_MSS_CM3/M2S_MSS_sb_MSS_CM3_app/Debug"/>\r\n</valueVariables>\r\n

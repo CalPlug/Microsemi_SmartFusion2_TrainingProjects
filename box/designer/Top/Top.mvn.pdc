@@ -1,0 +1,43 @@
+# Microsemi Physical design constraints file
+
+# Version: v11.7 SP2 11.7.2.2
+
+# Design Name:  
+
+# Input Netlist Format: EDIF 
+
+# Family: SmartFusion2 , Die: M2S090 , Package: 484 FBGA , Speed grade: -1 
+
+# Date generated: Tue Feb 07 17:40:27 2017 
+
+
+#
+# IO banks setting
+#
+
+set_iobank Bank3 -vcci 3.30 -fixed no
+set_iobank Bank8 -vcci 3.30 -fixed no
+
+#
+# Local clock constraints
+#
+
+
+#
+# Region constraints
+#
+
+
+#
+# I/O constraints
+#
+
+set_io DEVRST_N -DIRECTION INPUT -pinname R15
+set_io LED\[0\] -DIRECTION OUTPUT -iostd LVCMOS33 -pinname E1 -fixed yes
+set_io LED\[1\] -DIRECTION OUTPUT -iostd LVCMOS33 -pinname F4 -fixed yes
+set_io PB_SW -DIRECTION INPUT -iostd LVCMOS33 -pinname L20 -fixed yes
+
+#
+# Core cell constraints
+#
+

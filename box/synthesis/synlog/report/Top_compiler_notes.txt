@@ -1,0 +1,15 @@
+@N|Running in 64-bit mode
+@N|Running in 64-bit mode
+@N: CG364 :"C:\Microsemi\Libero_SoC_v11.7\Synplify\lib\generic\smartfusion2.v":126:7:126:10|Synthesizing module AND2
+@N: CG364 :"C:\Microsemi\Libero_SoC_v11.7\Synplify\lib\generic\smartfusion2.v":376:7:376:9|Synthesizing module VCC
+@N: CG364 :"C:\Microsemi\Libero_SoC_v11.7\Synplify\lib\generic\smartfusion2.v":372:7:372:9|Synthesizing module GND
+@N: CG364 :"C:\Microsemi\Libero_SoC_v11.7\Synplify\lib\generic\smartfusion2.v":362:7:362:12|Synthesizing module CLKINT
+@N: CG364 :"C:\Microsemi\Libero_SoC_v11.7\Synplify\lib\generic\smartfusion2.v":727:7:727:9|Synthesizing module CCC
+@N: CG364 :"C:\Users\Hiperwall\Desktop\microsemilab\box\component\work\Top\FCCC_0\Top_FCCC_0_FCCC.v":5:7:5:21|Synthesizing module Top_FCCC_0_FCCC
+@N: CG364 :"C:\Users\Hiperwall\Desktop\microsemilab\box\hdl\LED_ctrl.v":21:7:21:14|Synthesizing module LED_ctrl
+@N: CG364 :"C:\Users\Hiperwall\Desktop\microsemilab\box\component\Actel\SgCore\OSC\2.0.101\osc_comps.v":11:7:11:20|Synthesizing module RCOSC_25_50MHZ
+@N: CG364 :"C:\Users\Hiperwall\Desktop\microsemilab\box\component\work\Top\OSC_0\Top_OSC_0_OSC.v":5:7:5:19|Synthesizing module Top_OSC_0_OSC
+@N: CG364 :"C:\Microsemi\Libero_SoC_v11.7\Synplify\lib\generic\smartfusion2.v":718:7:718:14|Synthesizing module SYSRESET
+@N: CG364 :"C:\Users\Hiperwall\Desktop\microsemilab\box\component\work\Top\Top.v":9:7:9:9|Synthesizing module Top
+@N|Running in 64-bit mode
+

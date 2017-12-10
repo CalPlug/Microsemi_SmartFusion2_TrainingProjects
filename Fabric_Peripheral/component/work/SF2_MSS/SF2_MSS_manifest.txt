@@ -1,0 +1,14 @@
+Microsemi Corporation - Microsemi Libero Software Release v11.7 (Version 11.7.0.119)
+
+Date      :  Thu Feb 02 01:42:55 2017
+Project   :  C:\Users\Hiperwall\Desktop\microsemilab\Fabric_Peripheral
+Component :  SF2_MSS
+Family    :  SmartFusion2
+
+
+HDL source files for all Synthesis and Simulation tools:
+    C:/Users/Hiperwall/Desktop/microsemilab/Fabric_Peripheral/component/work/SF2_MSS/SF2_MSS.v
+
+Stimulus files for all Simulation tools:
+    C:/Users/Hiperwall/Desktop/microsemilab/Fabric_Peripheral/component/work/SF2_MSS/subsystem.bfm
+

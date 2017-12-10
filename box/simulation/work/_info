@@ -1,0 +1,32 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/Hiperwall/Desktop/microsemilab/box/simulation
+vTop
+!s110 1485949466
+!i10b 1
+!s100 JK:CzY]kQA4SMJGn[9=zb2
+IB>9OFKYXYV;j`@[4]?W8M1
+VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1485948065
+8C:/Users/Hiperwall/Desktop/microsemilab/box/component/work/Top/Top.v
+FC:/Users/Hiperwall/Desktop/microsemilab/box/component/work/Top/Top.v
+L0 9
+OW;L;10.4c;61
+r1
+!s85 0
+31
+!s108 1485949466.000000
+!s107 C:/Users/Hiperwall/Desktop/microsemilab/box/component/work/Top/Top.v|
+!s90 -reportprogress|300|-work|work|C:/Users/Hiperwall/Desktop/microsemilab/box/component/work/Top/Top.v|
+!s101 -O0
+!i113 1
+o-work work -O0
+n@top

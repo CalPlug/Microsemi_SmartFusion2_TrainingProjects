@@ -1,0 +1,212 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/Hiperwall/Desktop/Servo-arm3/simulation
+Ereset_gen
+Z1 w1494018581
+Z2 DPx4 ieee 15 std_logic_arith 0 22 [G314=:2zXJ`VORJe1J@Z1
+Z3 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z4 DPx4 ieee 14 std_logic_1164 0 22 eNV`TJ_GofJTzYa?f<@Oe1
+R0
+Z5 8C:/Users/Hiperwall/Desktop/Servo-arm3/component/Actel/Simulation/RESET_GEN/1.0.1/RESET_GEN.vhd
+Z6 FC:/Users/Hiperwall/Desktop/Servo-arm3/component/Actel/Simulation/RESET_GEN/1.0.1/RESET_GEN.vhd
+l0
+L6
+V:FbFZKhGMMhN^UL:UYYDE2
+!s100 0jRfW2VYR_aXV?WNA0W3E0
+Z7 OW;C;10.5c;63
+33
+Z8 !s110 1509487328
+!i10b 1
+Z9 !s108 1509487328.000000
+Z10 !s90 -2008|-explicit|-work|postlayout|C:/Users/Hiperwall/Desktop/Servo-arm3/component/Actel/Simulation/RESET_GEN/1.0.1/RESET_GEN.vhd|
+Z11 !s107 C:/Users/Hiperwall/Desktop/Servo-arm3/component/Actel/Simulation/RESET_GEN/1.0.1/RESET_GEN.vhd|
+!i113 1
+Z12 o-2008 -explicit -work postlayout -O0
+Z13 tCvgOpt 0
+Abehavior
+R2
+R3
+R4
+DEx4 work 9 reset_gen 0 22 :FbFZKhGMMhN^UL:UYYDE2
+l15
+L13
+Vmg7fLzd<VoR_n<FdIH>7W1
+!s100 @N`d4IjGGGkBd7`@DPi6j1
+R7
+33
+R8
+!i10b 1
+R9
+R10
+R11
+!i113 1
+R12
+R13
+Esdf_iopad_in
+Z14 w1509487307
+R3
+R4
+R0
+Z15 8C:/Users/Hiperwall/Desktop/Servo-arm3/designer/SF2_MSS_sys/SF2_MSS_sys_ba.vhd
+Z16 FC:/Users/Hiperwall/Desktop/Servo-arm3/designer/SF2_MSS_sys/SF2_MSS_sys_ba.vhd
+l0
+L58
+VI3?f:9Q`P`_II?1WC_UB21
+!s100 >;JZnn9I4nH[:I27eQb[<0
+R7
+33
+Z17 !s110 1509487326
+!i10b 1
+Z18 !s108 1509487322.000000
+Z19 !s90 -2008|-explicit|-work|postlayout|C:/Users/Hiperwall/Desktop/Servo-arm3/designer/SF2_MSS_sys/SF2_MSS_sys_ba.vhd|
+Z20 !s107 C:/Users/Hiperwall/Desktop/Servo-arm3/designer/SF2_MSS_sys/SF2_MSS_sys_ba.vhd|
+!i113 1
+R12
+R13
+Adef_arch
+R3
+R4
+Z21 DEx4 work 12 sdf_iopad_in 0 22 I3?f:9Q`P`_II?1WC_UB21
+l97
+L66
+VaG;kE?QI@dV]XeMfbfIMo3
+!s100 mBQ<aJ]YSE[>MMA>N3Xm11
+R7
+33
+R17
+!i10b 1
+R18
+R19
+R20
+!i113 1
+R12
+R13
+Esdf_iopad_tri
+R14
+R3
+R4
+R0
+R15
+R16
+l0
+L9
+V3M>P7KnoemH@laT^KZNUJ3
+!s100 Xo]O_zZ8g6l_SlfDNe8W^0
+R7
+33
+R17
+!i10b 1
+R18
+R19
+R20
+!i113 1
+R12
+R13
+Adef_arch
+R3
+R4
+Z22 DEx4 work 13 sdf_iopad_tri 0 22 3M>P7KnoemH@laT^KZNUJ3
+l39
+L18
+Ven7II7?VClS5eKZH<W08L1
+!s100 zXb[26LLcb[g<QMOa9b^;1
+R7
+33
+R17
+!i10b 1
+R18
+R19
+R20
+!i113 1
+R12
+R13
+Esf2_mss_sys
+R14
+R3
+R4
+R0
+R15
+R16
+l0
+L123
+VVINJ[LZjfX_bCioAm]nh[1
+!s100 `J2c<6aQJ;F36=4=I49]G2
+R7
+33
+R17
+!i10b 1
+R18
+R19
+R20
+!i113 1
+R12
+R13
+Adef_arch
+DEx12 smartfusion2 6 XTLOSC 0 22 Dg1SIo80bB@j0V0VzS_@n1
+DPx7 verilog 8 vl_types 0 22 bmGnzhS4n>6F^Dki9hX>O3
+DEx12 smartfusion2 10 RCOSC_1MHZ 0 22 Dg1SIo80bB@j0V0VzS_@n1
+R21
+R22
+R3
+R4
+DEx4 work 11 sf2_mss_sys 0 22 VINJ[LZjfX_bCioAm]nh[1
+l4011
+L146
+VGFZhz`_o5C]Y@j03Djn__2
+!s100 nNC7`37^EkN9mD@1N6oJH2
+R7
+33
+!s110 1509487327
+!i10b 1
+R18
+R19
+R20
+!i113 1
+R12
+R13
+Esf2_mss_sys_tb
+Z23 w1494018585
+R3
+R4
+R0
+Z24 8C:/Users/Hiperwall/Desktop/Servo-arm3/component/work/SF2_MSS_sys_tb/SF2_MSS_sys_tb.vhd
+Z25 FC:/Users/Hiperwall/Desktop/Servo-arm3/component/work/SF2_MSS_sys_tb/SF2_MSS_sys_tb.vhd
+l0
+L17
+VXY0Tb3dNCzEQYNC7d?l`[0
+!s100 CELUEFZ_Cl7>Lj`Cocb0F1
+R7
+33
+R8
+!i10b 1
+R9
+Z26 !s90 -2008|-explicit|-work|postlayout|C:/Users/Hiperwall/Desktop/Servo-arm3/component/work/SF2_MSS_sys_tb/SF2_MSS_sys_tb.vhd|
+Z27 !s107 C:/Users/Hiperwall/Desktop/Servo-arm3/component/work/SF2_MSS_sys_tb/SF2_MSS_sys_tb.vhd|
+!i113 1
+R12
+R13
+Artl
+R3
+R4
+DEx4 work 14 sf2_mss_sys_tb 0 22 XY0Tb3dNCzEQYNC7d?l`[0
+l83
+L28
+V]@Qa7kDk5;9V7?IYhn?ca2
+!s100 LU1Qa?ciYHVXkT=RlHn9f3
+R7
+33
+R8
+!i10b 1
+R9
+R26
+R27
+!i113 1
+R12
+R13

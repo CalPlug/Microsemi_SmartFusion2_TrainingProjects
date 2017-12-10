@@ -1,0 +1,21 @@
+# do C:/Users/Hiperwall/Desktop/SF2_Fabric_tutorial/Source_files/vlog_run.do
+# INFO: Simulation library presynth already exists
+# Model Technology ModelSim Microsemi vmap 10.4c Lib Mapping Utility 2015.07 Aug 12 2015
+# vmap presynth presynth 
+# Modifying modelsim.ini
+# Model Technology ModelSim Microsemi vmap 10.4c Lib Mapping Utility 2015.07 Aug 12 2015
+# vmap SmartFusion2 C:/Microsemi/Libero_v11.5/Designer/lib/modelsim/precompiled/vlog/SmartFusion2 
+# Modifying modelsim.ini
+# Model Technology ModelSim Microsemi vlog 10.4c Compiler 2015.07 Aug 12 2015
+# Start time: 02:59:02 on Feb 01,2017
+# vlog -work presynth C:/Microsemiprj/SF2_Fabric_tutorial/SmartFusion2_Fabric/component/work/Fabric_Top/FCCC_0/Fabric_Top_FCCC_0_FCCC.v 
+# ** Error: (vlog-7) Failed to open design unit file "C:/Microsemiprj/SF2_Fabric_tutorial/SmartFusion2_Fabric/component/work/Fabric_Top/FCCC_0/Fabric_Top_FCCC_0_FCCC.v" in read mode.
+# 
+# No such file or directory. (errno = ENOENT)
+# End time: 02:59:02 on Feb 01,2017, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+# ** Error: C:/Microsemi/Libero_SoC_v11.7/Model/win32acoem/vlog failed.
+# Error in macro C:\Users\Hiperwall\Desktop\SF2_Fabric_tutorial\Source_files\vlog_run.do line 28
+# C:/Microsemi/Libero_SoC_v11.7/Model/win32acoem/vlog failed.
+#     while executing
+# "vlog -work presynth "${PROJECT_DIR}/component/work/Fabric_Top/FCCC_0/Fabric_Top_FCCC_0_FCCC.v""

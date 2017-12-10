@@ -1,0 +1,4 @@
+#0 define_false_path
+#1001 define_clock {n:FCCC_0.GL0_net} -name {Top_FCCC_0_FCCC|GL0_net_inferred_clock} -ref_rise {0.000000} -ref_fall {5.000000} -uncertainty {0.000000} -period {10.000000} -clockgroup {Inferred_clkgroup_0} -rise {0.000000} -fall {5.000000}
+#1002 define_clock {n:LED_ctrl_0.counter[17]} -name {LED_ctrl|counter_inferred_clock[17]} -ref_rise {0.000000} -ref_fall {5.000000} -uncertainty {0.000000} -period {10.000000} -clockgroup {Inferred_clkgroup_1} -rise {0.000000} -fall {5.000000}
+define_attribute {i:OSC_0}  {syn_noprune} 1

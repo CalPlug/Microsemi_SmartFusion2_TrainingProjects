@@ -1,0 +1,16 @@
+Project Name: Fabric_UART_V2
+Location: C:\Users\Hiperwall\Desktop\microsemilab\Fabric_UART_V2
+Description: 
+Preferred HDL Type: Verilog
+
+#-----------------------------------------------------
+                  Device Details
+#-----------------------------------------------------
+
+Part Number    : M2S010S-TQ144
+Family         : SmartFusion2
+Die            : M2S010S
+Package        : 144 TQ
+Speed          : STD
+Core Voltage   : 1.2
+Range          : COM

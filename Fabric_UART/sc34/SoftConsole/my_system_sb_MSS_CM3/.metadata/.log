@@ -1,0 +1,29 @@
+!SESSION 2017-02-03 17:29:58.308 -----------------------------------------------
+eclipse.buildId=M20130329-1600
+java.version=1.6.0_22
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=en_US
+Framework arguments:  -application org.eclipse.cdt.managedbuilder.core.headlessbuild -import C:\Users\Hiperwall\Desktop\microsemilab\Fabric_UART\sc34\SoftConsole\my_system_sb_MSS_CM3\projects\my_system_sb_MSS_CM3_hw_platform
+Command-line arguments:  -os win32 -ws win32 -arch x86 -application org.eclipse.cdt.managedbuilder.core.headlessbuild -data C:/Users/Hiperwall/Desktop/microsemilab/Fabric_UART/sc34/SoftConsole/my_system_sb_MSS_CM3 -import C:\Users\Hiperwall\Desktop\microsemilab\Fabric_UART\sc34\SoftConsole\my_system_sb_MSS_CM3\projects\my_system_sb_MSS_CM3_hw_platform
+
+!ENTRY org.eclipse.equinox.p2.directorywatcher 4 0 2017-02-03 17:30:06.585
+!MESSAGE The installable unit org.eclipse.ui.win32.translated_host_properties is missing the filename property.
+
+!ENTRY org.eclipse.equinox.p2.directorywatcher 4 0 2017-02-03 17:30:06.687
+!MESSAGE The installable unit org.eclipse.ui.win32.translated_host_properties is missing the filename property.
+
+!ENTRY org.eclipse.cdt.core 1 0 2017-02-03 17:30:08.922
+!MESSAGE Indexed 'my_system_sb_MSS_CM3_hw_platform' (14 sources, 33 headers) in 0.91 sec: 3,860 declarations; 9,860 references; 24 unresolved inclusions; 1,213 syntax errors; 2,895 unresolved names (17.42%)
+!SESSION 2017-02-03 17:30:10.216 -----------------------------------------------
+eclipse.buildId=M20130329-1600
+java.version=1.6.0_22
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=en_US
+Framework arguments:  -application org.eclipse.cdt.managedbuilder.core.headlessbuild -import C:\Users\Hiperwall\Desktop\microsemilab\Fabric_UART\sc34\SoftConsole\my_system_sb_MSS_CM3\projects\my_system_sb_MSS_CM3_app
+Command-line arguments:  -os win32 -ws win32 -arch x86 -application org.eclipse.cdt.managedbuilder.core.headlessbuild -data C:/Users/Hiperwall/Desktop/microsemilab/Fabric_UART/sc34/SoftConsole/my_system_sb_MSS_CM3 -import C:\Users\Hiperwall\Desktop\microsemilab\Fabric_UART\sc34\SoftConsole\my_system_sb_MSS_CM3\projects\my_system_sb_MSS_CM3_app
+
+!ENTRY org.eclipse.core.resources 2 10035 2017-02-03 17:30:11.195
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
+
+!ENTRY org.eclipse.cdt.core 1 0 2017-02-03 17:30:12.297
+!MESSAGE Indexed 'my_system_sb_MSS_CM3_app' (1 sources, 8 headers) in 0.14 sec: 1 declarations; 0 references; 8 unresolved inclusions; 0 syntax errors; 0 unresolved names (0.00%)

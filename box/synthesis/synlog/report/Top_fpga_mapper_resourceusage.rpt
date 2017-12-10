@@ -1,0 +1,41 @@
+Resource Usage Report for Top 
+
+Mapping to part: m2s090fbga484-1
+Cell usage:
+AND2            1 use
+CCC             1 use
+CLKINT          3 uses
+RCOSC_25_50MHZ  1 use
+SYSRESET        1 use
+CFG1           1 use
+CFG4           2 uses
+
+Carry primitives used for arithmetic functions:
+ARI1           36 uses
+
+
+Sequential Cells: 
+SLE            23 uses
+
+DSP Blocks:    0
+
+I/O ports: 4
+I/O primitives: 3
+INBUF          1 use
+OUTBUF         2 uses
+
+
+Global Clock Buffers: 3
+
+
+Total LUTs:    39
+
+Extra resources required for RAM and MACC interface logic during P&R:
+
+RAM64x18 Interface Logic : SLEs = 0; LUTs = 0;
+RAM1K18  Interface Logic : SLEs = 0; LUTs = 0;
+MACC     Interface Logic : SLEs = 0; LUTs = 0;
+
+Total number of SLEs after P&R:  23 + 0 + 0 + 0 = 23;
+Total number of LUTs after P&R:  39 + 0 + 0 + 0 = 39;
+

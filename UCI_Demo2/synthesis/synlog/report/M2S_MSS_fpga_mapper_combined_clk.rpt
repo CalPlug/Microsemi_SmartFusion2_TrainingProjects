@@ -1,0 +1,26 @@
+
+
+#### START OF CLOCK OPTIMIZATION REPORT #####[
+
+Clock optimization not enabled
+4 non-gated/non-generated clock tree(s) driving 79 clock pin(s) of sequential element(s)
+1 gated/generated clock tree(s) driving 110 clock pin(s) of sequential element(s)
+0 instances converted, 110 sequential instances remain driven by gated/generated clocks
+
+=========================================================== Non-Gated/Non-Generated Clocks ===========================================================
+Clock Tree ID     Driving Element                                       Drive Element Type     Fanout     Sample Instance                             
+------------------------------------------------------------------------------------------------------------------------------------------------------
+@K:CKID0002       CLK_BASE                                              port                   1          SERDES_IF2_0.SERDESIF_INST                  
+@K:CKID0003       APB_S_PCLK                                            port                   1          SERDES_IF2_0.SERDESIF_INST                  
+@K:CKID0004       M2S_MSS_sb_0.CCC_0.GL0_INST                           CLKINT                 41         M2S_MSS_sb_0.M2S_MSS_sb_MSS_0.MSS_ADLIB_INST
+@K:CKID0005       M2S_MSS_sb_0.FABOSC_0.I_RCOSC_25_50MHZ_FAB_CLKINT     CLKINT                 36         M2S_MSS_sb_0.CORERESETP_0.count_sdif0[12]   
+======================================================================================================================================================
+============================================================================================ Gated/Generated Clocks =============================================================================================
+Clock Tree ID     Driving Element                                  Drive Element Type     Fanout     Sample Instance                                  Explanation                                                
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+@K:CKID0001       M2S_MSS_sb_0.M2S_MSS_sb_MSS_0.MSS_ADLIB_INST     MSS_075                110        M2S_MSS_sb_0.M2S_MSS_sb_MSS_0.MSS_ADLIB_INST     No gated clock conversion method for cell cell:work.MSS_075
+=================================================================================================================================================================================================================
+
+
+##### END OF CLOCK OPTIMIZATION REPORT ######]
+

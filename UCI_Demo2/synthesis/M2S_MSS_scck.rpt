@@ -1,0 +1,32 @@
+# Synopsys Constraint Checker(syntax only), version mapact, Build 1659R, built Dec 10 2015
+# Copyright (C) 1994-2015, Synopsys, Inc. This software and the associated documentation are proprietary to Synopsys, Inc. This software may only be used in accordance with the terms and conditions of a written license agreement with Synopsys, Inc.  All other use, reproduction, or distribution of this software is strictly prohibited.
+
+# Written on Thu Feb 02 00:52:05 2017
+
+
+##### DESIGN INFO #######################################################
+
+Top View:                "M2S_MSS"
+Constraint File(s):      (none)
+
+#Run constraint checker to find more issues with constraints.
+#########################################################################
+
+
+
+No issues found in constraint syntax.
+
+
+
+Clock Summary
+*************
+
+Start                                                         Requested     Requested     Clock        Clock              
+Clock                                                         Frequency     Period        Type         Group              
+--------------------------------------------------------------------------------------------------------------------------
+M2S_MSS_sb_CCC_0_FCCC|GL0_net_inferred_clock                  100.0 MHz     10.000        inferred     Inferred_clkgroup_3
+M2S_MSS_sb_FABOSC_0_OSC|RCOSC_25_50MHZ_CCC_inferred_clock     100.0 MHz     10.000        inferred     Inferred_clkgroup_4
+M2S_MSS_sb_MSS|FIC_2_APB_M_PCLK_inferred_clock                100.0 MHz     10.000        inferred     Inferred_clkgroup_2
+M2S_MSS|APB_S_PCLK                                            100.0 MHz     10.000        inferred     Inferred_clkgroup_1
+M2S_MSS|CLK_BASE                                              100.0 MHz     10.000        inferred     Inferred_clkgroup_0
+==========================================================================================================================

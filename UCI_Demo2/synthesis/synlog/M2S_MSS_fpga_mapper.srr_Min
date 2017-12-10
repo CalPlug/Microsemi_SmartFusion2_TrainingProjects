@@ -1,0 +1,296 @@
+
+
+@S |##### START OF TIMING REPORT #####[
+# Timing Report written on Thu Feb 02 00:52:08 2017
+#
+
+
+Top view:               M2S_MSS
+Requested Frequency:    100.0 MHz
+Wire load mode:         top
+Paths requested:        5
+Constraint File(s):    
+@N: MT320 |Timing report estimates place and route data. Please look at the place and route timing report for final timing.
+
+@N: MT322 |Clock constraints cover only FF-to-FF paths associated with the clock.
+
+
+
+Performance Summary 
+*******************
+
+
+Worst slack in design: 0.278
+
+                                                              Requested     Estimated     Requested     Estimated               Clock        Clock              
+Starting Clock                                                Frequency     Frequency     Period        Period        Slack     Type         Group              
+----------------------------------------------------------------------------------------------------------------------------------------------------------------
+M2S_MSS_sb_CCC_0_FCCC|GL0_net_inferred_clock                  100.0 MHz     459.9 MHz     10.000        2.175         7.825     inferred     Inferred_clkgroup_3
+M2S_MSS_sb_FABOSC_0_OSC|RCOSC_25_50MHZ_CCC_inferred_clock     100.0 MHz     428.6 MHz     10.000        2.333         7.667     inferred     Inferred_clkgroup_4
+M2S_MSS_sb_MSS|FIC_2_APB_M_PCLK_inferred_clock                100.0 MHz     144.9 MHz     10.000        6.903         1.615     inferred     Inferred_clkgroup_2
+M2S_MSS|APB_S_PCLK                                            100.0 MHz     NA            10.000        NA            NA        inferred     Inferred_clkgroup_1
+M2S_MSS|CLK_BASE                                              100.0 MHz     NA            10.000        NA            NA        inferred     Inferred_clkgroup_0
+System                                                        100.0 MHz     NA            10.000        NA            NA        system       system_clkgroup    
+================================================================================================================================================================
+@N: MT582 |Estimated period and frequency not reported for given clock unless the clock has at least one timing path which is not a false or a max delay path and that does not have excessive slack
+
+
+
+Clock Relationships
+*******************
+
+Clocks                                                                                                                |    rise  to  rise   |    fall  to  fall   |    rise  to  fall   |    fall  to  rise 
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Starting                                                   Ending                                                     |  constraint  slack  |  constraint  slack  |  constraint  slack  |  constraint  slack
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+M2S_MSS|APB_S_PCLK                                         M2S_MSS_sb_MSS|FIC_2_APB_M_PCLK_inferred_clock             |  Diff grp    -      |  No paths    -      |  No paths    -      |  No paths    -    
+M2S_MSS_sb_MSS|FIC_2_APB_M_PCLK_inferred_clock             M2S_MSS|APB_S_PCLK                                         |  Diff grp    -      |  No paths    -      |  No paths    -      |  Diff grp    -    
+M2S_MSS_sb_MSS|FIC_2_APB_M_PCLK_inferred_clock             M2S_MSS_sb_MSS|FIC_2_APB_M_PCLK_inferred_clock             |  0.000       0.315  |  No paths    -      |  5.000       5.568  |  5.000       5.674
+M2S_MSS_sb_MSS|FIC_2_APB_M_PCLK_inferred_clock             M2S_MSS_sb_CCC_0_FCCC|GL0_net_inferred_clock               |  Diff grp    -      |  No paths    -      |  No paths    -      |  No paths    -    
+M2S_MSS_sb_CCC_0_FCCC|GL0_net_inferred_clock               M2S_MSS_sb_MSS|FIC_2_APB_M_PCLK_inferred_clock             |  Diff grp    -      |  No paths    -      |  No paths    -      |  No paths    -    
+M2S_MSS_sb_CCC_0_FCCC|GL0_net_inferred_clock               M2S_MSS_sb_CCC_0_FCCC|GL0_net_inferred_clock               |  0.000       0.278  |  No paths    -      |  No paths    -      |  No paths    -    
+M2S_MSS_sb_CCC_0_FCCC|GL0_net_inferred_clock               M2S_MSS_sb_FABOSC_0_OSC|RCOSC_25_50MHZ_CCC_inferred_clock  |  Diff grp    -      |  No paths    -      |  No paths    -      |  No paths    -    
+M2S_MSS_sb_FABOSC_0_OSC|RCOSC_25_50MHZ_CCC_inferred_clock  M2S_MSS_sb_CCC_0_FCCC|GL0_net_inferred_clock               |  Diff grp    -      |  No paths    -      |  No paths    -      |  No paths    -    
+M2S_MSS_sb_FABOSC_0_OSC|RCOSC_25_50MHZ_CCC_inferred_clock  M2S_MSS_sb_FABOSC_0_OSC|RCOSC_25_50MHZ_CCC_inferred_clock  |  0.000       0.315  |  No paths    -      |  No paths    -      |  No paths    -    
+============================================================================================================================================================================================================
+ Note: 'No paths' indicates there are no paths in the design for that pair of clock edges.
+       'Diff grp' indicates that paths exist but the starting clock and ending clock are in different clock groups.
+
+
+
+Interface Information 
+*********************
+
+No IO constraint found
+
+
+
+====================================
+Detailed Report for Clock: M2S_MSS_sb_CCC_0_FCCC|GL0_net_inferred_clock
+====================================
+
+
+
+Starting Points with Worst Slack
+********************************
+
+                                                      Starting                                                                                      Arrival          
+Instance                                              Reference                                        Type     Pin     Net                         Time        Slack
+                                                      Clock                                                                                                          
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------
+M2S_MSS_sb_0.CORERESETP_0.sm0_state[6]                M2S_MSS_sb_CCC_0_FCCC|GL0_net_inferred_clock     SLE      Q       sm0_state[6]                0.066       0.278
+M2S_MSS_sb_0.CORERESETP_0.CONFIG1_DONE_q1             M2S_MSS_sb_CCC_0_FCCC|GL0_net_inferred_clock     SLE      Q       CONFIG1_DONE_q1             0.053       0.315
+M2S_MSS_sb_0.CORERESETP_0.CONFIG2_DONE_q1             M2S_MSS_sb_CCC_0_FCCC|GL0_net_inferred_clock     SLE      Q       CONFIG2_DONE_q1             0.053       0.315
+M2S_MSS_sb_0.CORERESETP_0.FIC_2_APB_M_PRESET_N_q1     M2S_MSS_sb_CCC_0_FCCC|GL0_net_inferred_clock     SLE      Q       FIC_2_APB_M_PRESET_N_q1     0.053       0.315
+M2S_MSS_sb_0.CORERESETP_0.POWER_ON_RESET_N_q1         M2S_MSS_sb_CCC_0_FCCC|GL0_net_inferred_clock     SLE      Q       POWER_ON_RESET_N_q1         0.053       0.315
+M2S_MSS_sb_0.CORERESETP_0.RESET_N_M2F_q1              M2S_MSS_sb_CCC_0_FCCC|GL0_net_inferred_clock     SLE      Q       RESET_N_M2F_q1              0.053       0.315
+M2S_MSS_sb_0.CORERESETP_0.ddr_settled_q1              M2S_MSS_sb_CCC_0_FCCC|GL0_net_inferred_clock     SLE      Q       ddr_settled_q1              0.053       0.315
+M2S_MSS_sb_0.CORERESETP_0.release_sdif0_core_q1       M2S_MSS_sb_CCC_0_FCCC|GL0_net_inferred_clock     SLE      Q       release_sdif0_core_q1       0.053       0.315
+M2S_MSS_sb_0.CORERESETP_0.release_sdif1_core_q1       M2S_MSS_sb_CCC_0_FCCC|GL0_net_inferred_clock     SLE      Q       release_sdif3_core_q1       0.053       0.315
+M2S_MSS_sb_0.CORERESETP_0.sdif0_spll_lock_q1          M2S_MSS_sb_CCC_0_FCCC|GL0_net_inferred_clock     SLE      Q       sdif0_spll_lock_q1          0.053       0.315
+=====================================================================================================================================================================
+
+
+Ending Points with Worst Slack
+******************************
+
+                                                            Starting                                                                                      Required          
+Instance                                                    Reference                                        Type     Pin     Net                         Time         Slack
+                                                            Clock                                                                                                           
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+M2S_MSS_sb_0.CORERESETP_0.INIT_DONE_int                     M2S_MSS_sb_CCC_0_FCCC|GL0_net_inferred_clock     SLE      EN      sm0_state[6]                0.205        0.278
+M2S_MSS_sb_0.CORERESETP_0.CONFIG1_DONE_clk_base             M2S_MSS_sb_CCC_0_FCCC|GL0_net_inferred_clock     SLE      D       CONFIG1_DONE_q1             0.155        0.315
+M2S_MSS_sb_0.CORERESETP_0.CONFIG2_DONE_clk_base             M2S_MSS_sb_CCC_0_FCCC|GL0_net_inferred_clock     SLE      D       CONFIG2_DONE_q1             0.155        0.315
+M2S_MSS_sb_0.CORERESETP_0.FIC_2_APB_M_PRESET_N_clk_base     M2S_MSS_sb_CCC_0_FCCC|GL0_net_inferred_clock     SLE      D       FIC_2_APB_M_PRESET_N_q1     0.155        0.315
+M2S_MSS_sb_0.CORERESETP_0.POWER_ON_RESET_N_clk_base         M2S_MSS_sb_CCC_0_FCCC|GL0_net_inferred_clock     SLE      D       POWER_ON_RESET_N_q1         0.155        0.315
+M2S_MSS_sb_0.CORERESETP_0.RESET_N_M2F_clk_base              M2S_MSS_sb_CCC_0_FCCC|GL0_net_inferred_clock     SLE      D       RESET_N_M2F_q1              0.155        0.315
+M2S_MSS_sb_0.CORERESETP_0.ddr_settled_clk_base              M2S_MSS_sb_CCC_0_FCCC|GL0_net_inferred_clock     SLE      D       ddr_settled_q1              0.155        0.315
+M2S_MSS_sb_0.CORERESETP_0.release_sdif0_core_clk_base       M2S_MSS_sb_CCC_0_FCCC|GL0_net_inferred_clock     SLE      D       release_sdif0_core_q1       0.155        0.315
+M2S_MSS_sb_0.CORERESETP_0.release_sdif1_core_clk_base       M2S_MSS_sb_CCC_0_FCCC|GL0_net_inferred_clock     SLE      D       release_sdif3_core_q1       0.155        0.315
+M2S_MSS_sb_0.CORERESETP_0.sdif0_areset_n_clk_base           M2S_MSS_sb_CCC_0_FCCC|GL0_net_inferred_clock     SLE      D       sm0_areset_n_q1             0.155        0.315
+============================================================================================================================================================================
+
+
+
+Worst Path Information
+***********************
+
+
+Path information for path number 1: 
+    Propagation time:                        0.483
+    + Clock delay at starting point:         0.000 (ideal)
+    - Requested Period:                      0.000
+    - Hold time:                             0.205
+    - Clock delay at ending point:           0.000 (ideal)
+    = Slack (critical) :                     0.277
+
+    Number of logic level(s):                0
+    Starting point:                          M2S_MSS_sb_0.CORERESETP_0.sm0_state[6] / Q
+    Ending point:                            M2S_MSS_sb_0.CORERESETP_0.INIT_DONE_int / EN
+    The start point is clocked by            M2S_MSS_sb_CCC_0_FCCC|GL0_net_inferred_clock [rising] on pin CLK
+    The end   point is clocked by            M2S_MSS_sb_CCC_0_FCCC|GL0_net_inferred_clock [rising] on pin CLK
+
+Instance / Net                                       Pin      Pin               Arrival     No. of    
+Name                                        Type     Name     Dir     Delay     Time        Fan Out(s)
+------------------------------------------------------------------------------------------------------
+M2S_MSS_sb_0.CORERESETP_0.sm0_state[6]      SLE      Q        Out     0.066     0.066       -         
+sm0_state[6]                                Net      -        -       0.417     -           1         
+M2S_MSS_sb_0.CORERESETP_0.INIT_DONE_int     SLE      EN       In      -         0.483       -         
+======================================================================================================
+
+
+
+
+====================================
+Detailed Report for Clock: M2S_MSS_sb_FABOSC_0_OSC|RCOSC_25_50MHZ_CCC_inferred_clock
+====================================
+
+
+
+Starting Points with Worst Slack
+********************************
+
+                                                       Starting                                                                                                    Arrival          
+Instance                                               Reference                                                     Type     Pin     Net                          Time        Slack
+                                                       Clock                                                                                                                        
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+M2S_MSS_sb_0.CORERESETP_0.count_ddr_enable_q1          M2S_MSS_sb_FABOSC_0_OSC|RCOSC_25_50MHZ_CCC_inferred_clock     SLE      Q       count_ddr_enable_q1          0.053       0.315
+M2S_MSS_sb_0.CORERESETP_0.count_sdif0_enable_q1        M2S_MSS_sb_FABOSC_0_OSC|RCOSC_25_50MHZ_CCC_inferred_clock     SLE      Q       count_sdif0_enable_q1        0.053       0.315
+M2S_MSS_sb_0.CORERESETP_0.sm0_areset_n_rcosc_q1        M2S_MSS_sb_FABOSC_0_OSC|RCOSC_25_50MHZ_CCC_inferred_clock     SLE      Q       sm0_areset_n_rcosc_q1        0.053       0.315
+M2S_MSS_sb_0.CORERESETP_0.count_sdif0[6]               M2S_MSS_sb_FABOSC_0_OSC|RCOSC_25_50MHZ_CCC_inferred_clock     SLE      Q       count_sdif0[6]               0.066       0.495
+M2S_MSS_sb_0.CORERESETP_0.count_ddr[0]                 M2S_MSS_sb_FABOSC_0_OSC|RCOSC_25_50MHZ_CCC_inferred_clock     SLE      Q       count_ddr[0]                 0.066       0.514
+M2S_MSS_sb_0.CORERESETP_0.count_sdif0[0]               M2S_MSS_sb_FABOSC_0_OSC|RCOSC_25_50MHZ_CCC_inferred_clock     SLE      Q       count_sdif0[0]               0.066       0.514
+M2S_MSS_sb_0.CORERESETP_0.count_sdif0_enable_rcosc     M2S_MSS_sb_FABOSC_0_OSC|RCOSC_25_50MHZ_CCC_inferred_clock     SLE      Q       count_sdif0_enable_rcosc     0.066       0.707
+M2S_MSS_sb_0.CORERESETP_0.count_ddr_enable_rcosc       M2S_MSS_sb_FABOSC_0_OSC|RCOSC_25_50MHZ_CCC_inferred_clock     SLE      Q       count_ddr_enable_rcosc       0.066       0.717
+M2S_MSS_sb_0.CORERESETP_0.count_ddr[11]                M2S_MSS_sb_FABOSC_0_OSC|RCOSC_25_50MHZ_CCC_inferred_clock     SLE      Q       count_ddr[11]                0.053       0.807
+M2S_MSS_sb_0.CORERESETP_0.count_sdif0[11]              M2S_MSS_sb_FABOSC_0_OSC|RCOSC_25_50MHZ_CCC_inferred_clock     SLE      Q       count_sdif0[11]              0.066       0.828
+====================================================================================================================================================================================
+
+
+Ending Points with Worst Slack
+******************************
+
+                                                       Starting                                                                                                    Required          
+Instance                                               Reference                                                     Type     Pin     Net                          Time         Slack
+                                                       Clock                                                                                                                         
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+M2S_MSS_sb_0.CORERESETP_0.count_ddr_enable_rcosc       M2S_MSS_sb_FABOSC_0_OSC|RCOSC_25_50MHZ_CCC_inferred_clock     SLE      D       count_ddr_enable_q1          0.155        0.315
+M2S_MSS_sb_0.CORERESETP_0.count_sdif0_enable_rcosc     M2S_MSS_sb_FABOSC_0_OSC|RCOSC_25_50MHZ_CCC_inferred_clock     SLE      D       count_sdif0_enable_q1        0.155        0.315
+M2S_MSS_sb_0.CORERESETP_0.sdif0_areset_n_rcosc         M2S_MSS_sb_FABOSC_0_OSC|RCOSC_25_50MHZ_CCC_inferred_clock     SLE      D       sm0_areset_n_rcosc_q1        0.155        0.315
+M2S_MSS_sb_0.CORERESETP_0.release_sdif0_core           M2S_MSS_sb_FABOSC_0_OSC|RCOSC_25_50MHZ_CCC_inferred_clock     SLE      EN      release_sdif0_core4          0.205        0.495
+M2S_MSS_sb_0.CORERESETP_0.count_ddr[0]                 M2S_MSS_sb_FABOSC_0_OSC|RCOSC_25_50MHZ_CCC_inferred_clock     SLE      D       count_ddr_s[0]               0.155        0.514
+M2S_MSS_sb_0.CORERESETP_0.count_sdif0[0]               M2S_MSS_sb_FABOSC_0_OSC|RCOSC_25_50MHZ_CCC_inferred_clock     SLE      D       count_sdif0_s[0]             0.155        0.514
+M2S_MSS_sb_0.CORERESETP_0.count_sdif0[0]               M2S_MSS_sb_FABOSC_0_OSC|RCOSC_25_50MHZ_CCC_inferred_clock     SLE      EN      count_sdif0_enable_rcosc     0.205        0.707
+M2S_MSS_sb_0.CORERESETP_0.count_sdif0[1]               M2S_MSS_sb_FABOSC_0_OSC|RCOSC_25_50MHZ_CCC_inferred_clock     SLE      EN      count_sdif0_enable_rcosc     0.205        0.707
+M2S_MSS_sb_0.CORERESETP_0.count_sdif0[2]               M2S_MSS_sb_FABOSC_0_OSC|RCOSC_25_50MHZ_CCC_inferred_clock     SLE      EN      count_sdif0_enable_rcosc     0.205        0.707
+M2S_MSS_sb_0.CORERESETP_0.count_sdif0[3]               M2S_MSS_sb_FABOSC_0_OSC|RCOSC_25_50MHZ_CCC_inferred_clock     SLE      EN      count_sdif0_enable_rcosc     0.205        0.707
+=====================================================================================================================================================================================
+
+
+
+Worst Path Information
+***********************
+
+
+Path information for path number 1: 
+    Propagation time:                        0.470
+    + Clock delay at starting point:         0.000 (ideal)
+    - Requested Period:                      0.000
+    - Hold time:                             0.155
+    - Clock delay at ending point:           0.000 (ideal)
+    = Slack (non-critical) :                 0.315
+
+    Number of logic level(s):                0
+    Starting point:                          M2S_MSS_sb_0.CORERESETP_0.count_ddr_enable_q1 / Q
+    Ending point:                            M2S_MSS_sb_0.CORERESETP_0.count_ddr_enable_rcosc / D
+    The start point is clocked by            M2S_MSS_sb_FABOSC_0_OSC|RCOSC_25_50MHZ_CCC_inferred_clock [rising] on pin CLK
+    The end   point is clocked by            M2S_MSS_sb_FABOSC_0_OSC|RCOSC_25_50MHZ_CCC_inferred_clock [rising] on pin CLK
+
+Instance / Net                                                Pin      Pin               Arrival     No. of    
+Name                                                 Type     Name     Dir     Delay     Time        Fan Out(s)
+---------------------------------------------------------------------------------------------------------------
+M2S_MSS_sb_0.CORERESETP_0.count_ddr_enable_q1        SLE      Q        Out     0.053     0.053       -         
+count_ddr_enable_q1                                  Net      -        -       0.417     -           1         
+M2S_MSS_sb_0.CORERESETP_0.count_ddr_enable_rcosc     SLE      D        In      -         0.470       -         
+===============================================================================================================
+
+
+
+
+====================================
+Detailed Report for Clock: M2S_MSS_sb_MSS|FIC_2_APB_M_PCLK_inferred_clock
+====================================
+
+
+
+Starting Points with Worst Slack
+********************************
+
+                                                 Starting                                                                                                      Arrival          
+Instance                                         Reference                                          Type     Pin     Net                                       Time        Slack
+                                                 Clock                                                                                                                          
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+M2S_MSS_sb_0.CORECONFIGP_0.INIT_DONE_q1          M2S_MSS_sb_MSS|FIC_2_APB_M_PCLK_inferred_clock     SLE      Q       INIT_DONE_q1                              0.053       0.315
+M2S_MSS_sb_0.CORECONFIGP_0.SDIF_RELEASED_q1      M2S_MSS_sb_MSS|FIC_2_APB_M_PCLK_inferred_clock     SLE      Q       SDIF_RELEASED_q1                          0.053       0.315
+M2S_MSS_sb_0.CORECONFIGP_0.soft_reset_reg[5]     M2S_MSS_sb_MSS|FIC_2_APB_M_PCLK_inferred_clock     SLE      Q       soft_reset_reg[5]                         0.053       0.398
+M2S_MSS_sb_0.CORECONFIGP_0.soft_reset_reg[8]     M2S_MSS_sb_MSS|FIC_2_APB_M_PCLK_inferred_clock     SLE      Q       soft_reset_reg[8]                         0.053       0.474
+M2S_MSS_sb_0.CORECONFIGP_0.state[0]              M2S_MSS_sb_MSS|FIC_2_APB_M_PCLK_inferred_clock     SLE      Q       state[0]                                  0.053       0.515
+M2S_MSS_sb_0.CORECONFIGP_0.paddr[15]             M2S_MSS_sb_MSS|FIC_2_APB_M_PCLK_inferred_clock     SLE      Q       M2S_MSS_sb_0_SDIF0_INIT_APB_PADDR[15]     0.053       0.788
+M2S_MSS_sb_0.CORECONFIGP_0.state[1]              M2S_MSS_sb_MSS|FIC_2_APB_M_PCLK_inferred_clock     SLE      Q       state[1]                                  0.066       0.866
+M2S_MSS_sb_0.CORECONFIGP_0.soft_reset_reg[3]     M2S_MSS_sb_MSS|FIC_2_APB_M_PCLK_inferred_clock     SLE      Q       soft_reset_reg[3]                         0.053       0.912
+M2S_MSS_sb_0.CORECONFIGP_0.soft_reset_reg[4]     M2S_MSS_sb_MSS|FIC_2_APB_M_PCLK_inferred_clock     SLE      Q       soft_reset_reg[4]                         0.053       0.912
+M2S_MSS_sb_0.CORECONFIGP_0.soft_reset_reg[6]     M2S_MSS_sb_MSS|FIC_2_APB_M_PCLK_inferred_clock     SLE      Q       soft_reset_reg[6]                         0.053       0.912
+================================================================================================================================================================================
+
+
+Ending Points with Worst Slack
+******************************
+
+                                                     Starting                                                                                 Required          
+Instance                                             Reference                                          Type     Pin     Net                  Time         Slack
+                                                     Clock                                                                                                      
+----------------------------------------------------------------------------------------------------------------------------------------------------------------
+M2S_MSS_sb_0.CORECONFIGP_0.INIT_DONE_q2              M2S_MSS_sb_MSS|FIC_2_APB_M_PCLK_inferred_clock     SLE      D       INIT_DONE_q1         0.155        0.315
+M2S_MSS_sb_0.CORECONFIGP_0.SDIF_RELEASED_q2          M2S_MSS_sb_MSS|FIC_2_APB_M_PCLK_inferred_clock     SLE      D       SDIF_RELEASED_q1     0.155        0.315
+M2S_MSS_sb_0.CORECONFIGP_0.FIC_2_APB_M_PRDATA[5]     M2S_MSS_sb_MSS|FIC_2_APB_M_PCLK_inferred_clock     SLE      D       prdata[5]            0.155        0.398
+M2S_MSS_sb_0.CORECONFIGP_0.FIC_2_APB_M_PRDATA[8]     M2S_MSS_sb_MSS|FIC_2_APB_M_PCLK_inferred_clock     SLE      D       prdata[8]            0.155        0.474
+M2S_MSS_sb_0.CORECONFIGP_0.state[1]                  M2S_MSS_sb_MSS|FIC_2_APB_M_PCLK_inferred_clock     SLE      D       state_ns[1]          0.155        0.515
+M2S_MSS_sb_0.CORECONFIGP_0.control_reg_1[0]          M2S_MSS_sb_MSS|FIC_2_APB_M_PCLK_inferred_clock     SLE      EN      control_reg_15       0.205        0.788
+M2S_MSS_sb_0.CORECONFIGP_0.control_reg_1[1]          M2S_MSS_sb_MSS|FIC_2_APB_M_PCLK_inferred_clock     SLE      EN      control_reg_15       0.205        0.788
+M2S_MSS_sb_0.CORECONFIGP_0.FIC_2_APB_M_PRDATA[0]     M2S_MSS_sb_MSS|FIC_2_APB_M_PCLK_inferred_clock     SLE      EN      state[1]             0.205        0.866
+M2S_MSS_sb_0.CORECONFIGP_0.FIC_2_APB_M_PRDATA[1]     M2S_MSS_sb_MSS|FIC_2_APB_M_PCLK_inferred_clock     SLE      EN      state[1]             0.205        0.866
+M2S_MSS_sb_0.CORECONFIGP_0.FIC_2_APB_M_PRDATA[2]     M2S_MSS_sb_MSS|FIC_2_APB_M_PCLK_inferred_clock     SLE      EN      state[1]             0.205        0.866
+================================================================================================================================================================
+
+
+
+Worst Path Information
+***********************
+
+
+Path information for path number 1: 
+    Propagation time:                        0.470
+    + Clock delay at starting point:         0.000 (ideal)
+    - Requested Period:                      0.000
+    - Hold time:                             0.155
+    - Clock delay at ending point:           0.000 (ideal)
+    = Slack (non-critical) :                 0.315
+
+    Number of logic level(s):                0
+    Starting point:                          M2S_MSS_sb_0.CORECONFIGP_0.INIT_DONE_q1 / Q
+    Ending point:                            M2S_MSS_sb_0.CORECONFIGP_0.INIT_DONE_q2 / D
+    The start point is clocked by            M2S_MSS_sb_MSS|FIC_2_APB_M_PCLK_inferred_clock [rising] on pin CLK
+    The end   point is clocked by            M2S_MSS_sb_MSS|FIC_2_APB_M_PCLK_inferred_clock [rising] on pin CLK
+
+Instance / Net                                       Pin      Pin               Arrival     No. of    
+Name                                        Type     Name     Dir     Delay     Time        Fan Out(s)
+------------------------------------------------------------------------------------------------------
+M2S_MSS_sb_0.CORECONFIGP_0.INIT_DONE_q1     SLE      Q        Out     0.053     0.053       -         
+INIT_DONE_q1                                Net      -        -       0.417     -           1         
+M2S_MSS_sb_0.CORECONFIGP_0.INIT_DONE_q2     SLE      D        In      -         0.470       -         
+======================================================================================================
+
+
+
+##### END OF TIMING REPORT #####]
+

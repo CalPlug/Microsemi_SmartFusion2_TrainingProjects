@@ -1,0 +1,27 @@
+# Microsemi Physical design constraints file
+
+# Version: v11.7 11.7.0.119
+
+# Design Name: M2S_MSS 
+
+# Input Netlist Format: EDIF 
+
+# Family: SmartFusion2 , Die: M2S090TS , Package: 484 FBGA , Speed grade: STD 
+
+# Date generated: Thu Feb 02 01:02:33 2017 
+
+
+#
+# Local clock constraints
+#
+
+
+#
+# Region constraints
+#
+
+
+#
+# Core cell constraints
+#
+

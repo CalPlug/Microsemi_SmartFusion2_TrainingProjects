@@ -1,0 +1,19 @@
+Microsemi Corporation - Microsemi Libero Software Release v11.7 (Version 11.7.0.119)
+
+Date      :  Wed Feb 01 03:21:05 2017
+Project   :  C:\Users\Hiperwall\Desktop\microsemilab\box
+Component :  Top
+Family    :  SmartFusion2
+
+
+HDL source files for all Synthesis and Simulation tools:
+    C:/Users/Hiperwall/Desktop/microsemilab/box/component/work/Top/FCCC_0/Top_FCCC_0_FCCC.v
+    C:/Users/Hiperwall/Desktop/microsemilab/box/component/work/Top/OSC_0/Top_OSC_0_OSC.v
+    C:/Users/Hiperwall/Desktop/microsemilab/box/component/work/Top/Top.v
+
+HDL source files for Synopsys SynplifyPro Synthesis tool:
+    C:/Users/Hiperwall/Desktop/microsemilab/box/component/Actel/SgCore/OSC/2.0.101/osc_comps.v
+
+HDL source files for Mentor Precision Synthesis tool:
+    C:/Users/Hiperwall/Desktop/microsemilab/box/component/Actel/SgCore/OSC/2.0.101/osc_comps_pre.v
+

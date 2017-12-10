@@ -1,0 +1,29 @@
+
+===============================================================================.
+
+Info: Global design data: 
+      Total globals:                       3 
+      Globals that cannot be demoted:      1 
+      Globals considered for demotion:     2 
+
+
+Info: List of globals that cannot be demoted: 
+    CLK    ASYN   DATA   Instance Name 
+    ---    ----   ----   ------------- 
+    21     0      0      'FCCC_0/GL0_INST' 
+
+Info: List of globals considered for demotion: 
+    CLK    ASYN   DATA   Instance Name 
+    ---    ----   ----   ------------- 
+    2      0      1      'LED_ctrl_0/counter_inferred_clock_RNIVA6D[17]' 
+    0      23     2      'AND2_0_RNIKOS1' 
+
+Info: Demotion information: 
+      Disconnected 1 data pins from global 'LED_ctrl_0/counter_inferred_clock_RNIVA6D[17]'. 
+      Disconnected 2 data pins from global 'AND2_0_RNIKOS1'. 
+Info: CMPG4-302: Added 0 row global instances.
+Info: CMPG4-303: Deleted 0 global instances.
+
+===============================================================================.
+
+INFO: Reading User PDC file C:/Users/Hiperwall/Desktop/microsemilab/box/constraint/io/Fabric_Top.pdc. 0 error(s) and 0 warning(s)

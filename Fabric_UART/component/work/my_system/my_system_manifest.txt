@@ -1,0 +1,14 @@
+Microsemi Corporation - Microsemi Libero Software Release v11.7 (Version 11.7.0.119)
+
+Date      :  Fri Feb 03 17:07:25 2017
+Project   :  C:\Users\Hiperwall\Desktop\microsemilab\Fabric_UART
+Component :  my_system
+Family    :  SmartFusion2
+
+
+HDL source files for all Synthesis and Simulation tools:
+    C:/Users/Hiperwall/Desktop/microsemilab/Fabric_UART/component/work/my_system/my_system.v
+
+Stimulus files for all Simulation tools:
+    C:/Users/Hiperwall/Desktop/microsemilab/Fabric_UART/component/work/my_system/subsystem.bfm
+

@@ -1,0 +1,270 @@
+Synopsys HDL Compiler, version comp201503sp1p1, Build 240R, built Dec  1 2015
+@N|Running in 64-bit mode
+Copyright (C) 1994-2015 Synopsys, Inc. This software and the associated documentation are proprietary to Synopsys, Inc. This software may only be used in accordance with the terms and conditions of a written license agreement with Synopsys, Inc.  All other use, reproduction, or distribution of this software is strictly prohibited.
+
+Synopsys Verilog Compiler, version comp201503sp1p1, Build 240R, built Dec  1 2015
+@N|Running in 64-bit mode
+Copyright (C) 1994-2015 Synopsys, Inc. This software and the associated documentation are proprietary to Synopsys, Inc. This software may only be used in accordance with the terms and conditions of a written license agreement with Synopsys, Inc.  All other use, reproduction, or distribution of this software is strictly prohibited.
+
+@I::"C:\Microsemi\Libero_SoC_v11.7\Synplify\lib\generic\smartfusion2.v"
+@I::"C:\Microsemi\Libero_SoC_v11.7\Synplify\lib\vlog\hypermods.v"
+@I::"C:\Microsemi\Libero_SoC_v11.7\Synplify\lib\vlog\umr_capim.v"
+@I::"C:\Microsemi\Libero_SoC_v11.7\Synplify\lib\vlog\scemi_objects.v"
+@I::"C:\Microsemi\Libero_SoC_v11.7\Synplify\lib\vlog\scemi_pipes.svh"
+@I::"C:\Users\Hiperwall\Desktop\microsemilab\UCI_Demo2\component\work\M2S_MSS\SERDES_IF2_0\M2S_MSS_SERDES_IF2_0_SERDES_IF2_syn.v"
+@I::"C:\Users\Hiperwall\Desktop\microsemilab\UCI_Demo2\component\work\M2S_MSS\SERDES_IF2_0\M2S_MSS_SERDES_IF2_0_SERDES_IF2.v"
+@I::"C:\Users\Hiperwall\Desktop\microsemilab\UCI_Demo2\component\Actel\DirectCore\CoreConfigP\7.0.105\rtl\vlog\core\coreconfigp.v"
+@I::"C:\Users\Hiperwall\Desktop\microsemilab\UCI_Demo2\component\Actel\DirectCore\CoreResetP\7.0.104\rtl\vlog\core\coreresetp_pcie_hotreset.v"
+@I::"C:\Users\Hiperwall\Desktop\microsemilab\UCI_Demo2\component\Actel\DirectCore\CoreResetP\7.0.104\rtl\vlog\core\coreresetp.v"
+@I::"C:\Users\Hiperwall\Desktop\microsemilab\UCI_Demo2\component\work\M2S_MSS_sb\CCC_0\M2S_MSS_sb_CCC_0_FCCC.v"
+@I::"C:\Users\Hiperwall\Desktop\microsemilab\UCI_Demo2\component\Actel\SgCore\OSC\2.0.101\osc_comps.v"
+@I::"C:\Users\Hiperwall\Desktop\microsemilab\UCI_Demo2\component\work\M2S_MSS_sb\FABOSC_0\M2S_MSS_sb_FABOSC_0_OSC.v"
+@I::"C:\Users\Hiperwall\Desktop\microsemilab\UCI_Demo2\component\work\M2S_MSS_sb_MSS\M2S_MSS_sb_MSS_syn.v"
+@I::"C:\Users\Hiperwall\Desktop\microsemilab\UCI_Demo2\component\work\M2S_MSS_sb_MSS\M2S_MSS_sb_MSS.v"
+@I::"C:\Users\Hiperwall\Desktop\microsemilab\UCI_Demo2\component\work\M2S_MSS_sb\M2S_MSS_sb.v"
+@I::"C:\Users\Hiperwall\Desktop\microsemilab\UCI_Demo2\component\work\M2S_MSS\M2S_MSS.v"
+Verilog syntax check successful!
+Selecting top level module M2S_MSS
+@N: CG364 :"C:\Microsemi\Libero_SoC_v11.7\Synplify\lib\generic\smartfusion2.v":376:7:376:9|Synthesizing module VCC
+
+@N: CG364 :"C:\Microsemi\Libero_SoC_v11.7\Synplify\lib\generic\smartfusion2.v":372:7:372:9|Synthesizing module GND
+
+@N: CG364 :"C:\Microsemi\Libero_SoC_v11.7\Synplify\lib\generic\smartfusion2.v":362:7:362:12|Synthesizing module CLKINT
+
+@N: CG364 :"C:\Microsemi\Libero_SoC_v11.7\Synplify\lib\generic\smartfusion2.v":727:7:727:9|Synthesizing module CCC
+
+@N: CG364 :"C:\Users\Hiperwall\Desktop\microsemilab\UCI_Demo2\component\work\M2S_MSS_sb\CCC_0\M2S_MSS_sb_CCC_0_FCCC.v":5:7:5:27|Synthesizing module M2S_MSS_sb_CCC_0_FCCC
+
+@N: CG364 :"C:\Users\Hiperwall\Desktop\microsemilab\UCI_Demo2\component\Actel\DirectCore\CoreConfigP\7.0.105\rtl\vlog\core\coreconfigp.v":22:7:22:17|Synthesizing module CoreConfigP
+
+	FAMILY=32'b00000000000000000000000000010011
+	MDDR_IN_USE=32'b00000000000000000000000000000001
+	FDDR_IN_USE=32'b00000000000000000000000000000000
+	SDIF0_IN_USE=32'b00000000000000000000000000000001
+	SDIF1_IN_USE=32'b00000000000000000000000000000000
+	SDIF2_IN_USE=32'b00000000000000000000000000000000
+	SDIF3_IN_USE=32'b00000000000000000000000000000000
+	SDIF0_PCIE=32'b00000000000000000000000000000000
+	SDIF1_PCIE=32'b00000000000000000000000000000000
+	SDIF2_PCIE=32'b00000000000000000000000000000000
+	SDIF3_PCIE=32'b00000000000000000000000000000000
+	ENABLE_SOFT_RESETS=32'b00000000000000000000000000000001
+	DEVICE_090=32'b00000000000000000000000000000001
+	VERSION_MAJOR=32'b00000000000000000000000000000111
+	VERSION_MINOR=32'b00000000000000000000000000000000
+	VERSION_MAJOR_VECTOR=16'b0000000000000111
+	VERSION_MINOR_VECTOR=16'b0000000000000000
+	S0=2'b00
+	S1=2'b01
+	S2=2'b10
+   Generated name = CoreConfigP_Z1
+
+@W: CL207 :"C:\Users\Hiperwall\Desktop\microsemilab\UCI_Demo2\component\Actel\DirectCore\CoreConfigP\7.0.105\rtl\vlog\core\coreconfigp.v":461:4:461:9|All reachable assignments to SDIF1_PENABLE assign 0, register removed by optimization.
+@N: CG364 :"C:\Users\Hiperwall\Desktop\microsemilab\UCI_Demo2\component\Actel\DirectCore\CoreResetP\7.0.104\rtl\vlog\core\coreresetp.v":23:7:23:16|Synthesizing module CoreResetP
+
+	FAMILY=32'b00000000000000000000000000010011
+	EXT_RESET_CFG=32'b00000000000000000000000000000000
+	DEVICE_VOLTAGE=32'b00000000000000000000000000000010
+	MDDR_IN_USE=32'b00000000000000000000000000000001
+	FDDR_IN_USE=32'b00000000000000000000000000000000
+	SDIF0_IN_USE=32'b00000000000000000000000000000001
+	SDIF1_IN_USE=32'b00000000000000000000000000000000
+	SDIF2_IN_USE=32'b00000000000000000000000000000000
+	SDIF3_IN_USE=32'b00000000000000000000000000000000
+	SDIF0_PCIE=32'b00000000000000000000000000000000
+	SDIF1_PCIE=32'b00000000000000000000000000000000
+	SDIF2_PCIE=32'b00000000000000000000000000000000
+	SDIF3_PCIE=32'b00000000000000000000000000000000
+	SDIF0_PCIE_HOTRESET=32'b00000000000000000000000000000001
+	SDIF1_PCIE_HOTRESET=32'b00000000000000000000000000000001
+	SDIF2_PCIE_HOTRESET=32'b00000000000000000000000000000001
+	SDIF3_PCIE_HOTRESET=32'b00000000000000000000000000000001
+	SDIF0_PCIE_L2P2=32'b00000000000000000000000000000001
+	SDIF1_PCIE_L2P2=32'b00000000000000000000000000000001
+	SDIF2_PCIE_L2P2=32'b00000000000000000000000000000001
+	SDIF3_PCIE_L2P2=32'b00000000000000000000000000000001
+	ENABLE_SOFT_RESETS=32'b00000000000000000000000000000001
+	DEVICE_090=32'b00000000000000000000000000000001
+	DDR_WAIT=32'b00000000000000000000000011001000
+	RCOSC_MEGAHERTZ=32'b00000000000000000000000000110010
+	SDIF_INTERVAL=32'b00000000000000000001100101100100
+	DDR_INTERVAL=32'b00000000000000000010011100010000
+	COUNT_WIDTH_SDIF=32'b00000000000000000000000000001101
+	COUNT_WIDTH_DDR=32'b00000000000000000000000000001110
+	S0=32'b00000000000000000000000000000000
+	S1=32'b00000000000000000000000000000001
+	S2=32'b00000000000000000000000000000010
+	S3=32'b00000000000000000000000000000011
+	S4=32'b00000000000000000000000000000100
+	S5=32'b00000000000000000000000000000101
+	S6=32'b00000000000000000000000000000110
+   Generated name = CoreResetP_Z2
+
+@W: CL169 :"C:\Users\Hiperwall\Desktop\microsemilab\UCI_Demo2\component\Actel\DirectCore\CoreResetP\7.0.104\rtl\vlog\core\coreresetp.v":1581:4:1581:9|Pruning register count_sdif3[12:0] 
+
+@W: CL169 :"C:\Users\Hiperwall\Desktop\microsemilab\UCI_Demo2\component\Actel\DirectCore\CoreResetP\7.0.104\rtl\vlog\core\coreresetp.v":1549:4:1549:9|Pruning register count_sdif2[12:0] 
+
+@W: CL169 :"C:\Users\Hiperwall\Desktop\microsemilab\UCI_Demo2\component\Actel\DirectCore\CoreResetP\7.0.104\rtl\vlog\core\coreresetp.v":1517:4:1517:9|Pruning register count_sdif1[12:0] 
+
+@W: CL169 :"C:\Users\Hiperwall\Desktop\microsemilab\UCI_Demo2\component\Actel\DirectCore\CoreResetP\7.0.104\rtl\vlog\core\coreresetp.v":1455:4:1455:9|Pruning register count_sdif1_enable_q1 
+
+@W: CL169 :"C:\Users\Hiperwall\Desktop\microsemilab\UCI_Demo2\component\Actel\DirectCore\CoreResetP\7.0.104\rtl\vlog\core\coreresetp.v":1455:4:1455:9|Pruning register count_sdif2_enable_q1 
+
+@W: CL169 :"C:\Users\Hiperwall\Desktop\microsemilab\UCI_Demo2\component\Actel\DirectCore\CoreResetP\7.0.104\rtl\vlog\core\coreresetp.v":1455:4:1455:9|Pruning register count_sdif3_enable_q1 
+
+@W: CL169 :"C:\Users\Hiperwall\Desktop\microsemilab\UCI_Demo2\component\Actel\DirectCore\CoreResetP\7.0.104\rtl\vlog\core\coreresetp.v":1455:4:1455:9|Pruning register count_sdif1_enable_rcosc 
+
+@W: CL169 :"C:\Users\Hiperwall\Desktop\microsemilab\UCI_Demo2\component\Actel\DirectCore\CoreResetP\7.0.104\rtl\vlog\core\coreresetp.v":1455:4:1455:9|Pruning register count_sdif2_enable_rcosc 
+
+@W: CL169 :"C:\Users\Hiperwall\Desktop\microsemilab\UCI_Demo2\component\Actel\DirectCore\CoreResetP\7.0.104\rtl\vlog\core\coreresetp.v":1455:4:1455:9|Pruning register count_sdif3_enable_rcosc 
+
+@W: CL169 :"C:\Users\Hiperwall\Desktop\microsemilab\UCI_Demo2\component\Actel\DirectCore\CoreResetP\7.0.104\rtl\vlog\core\coreresetp.v":1365:4:1365:9|Pruning register count_sdif3_enable 
+
+@W: CL169 :"C:\Users\Hiperwall\Desktop\microsemilab\UCI_Demo2\component\Actel\DirectCore\CoreResetP\7.0.104\rtl\vlog\core\coreresetp.v":1300:4:1300:9|Pruning register count_sdif2_enable 
+
+@W: CL169 :"C:\Users\Hiperwall\Desktop\microsemilab\UCI_Demo2\component\Actel\DirectCore\CoreResetP\7.0.104\rtl\vlog\core\coreresetp.v":1235:4:1235:9|Pruning register count_sdif1_enable 
+
+@N: CL177 :"C:\Users\Hiperwall\Desktop\microsemilab\UCI_Demo2\component\Actel\DirectCore\CoreResetP\7.0.104\rtl\vlog\core\coreresetp.v":1388:4:1388:9|Sharing sequential element M3_RESET_N_int.
+@N: CL177 :"C:\Users\Hiperwall\Desktop\microsemilab\UCI_Demo2\component\Actel\DirectCore\CoreResetP\7.0.104\rtl\vlog\core\coreresetp.v":963:4:963:9|Sharing sequential element sdif2_spll_lock_q1.
+@N: CL177 :"C:\Users\Hiperwall\Desktop\microsemilab\UCI_Demo2\component\Actel\DirectCore\CoreResetP\7.0.104\rtl\vlog\core\coreresetp.v":963:4:963:9|Sharing sequential element sdif1_spll_lock_q1.
+@N: CL177 :"C:\Users\Hiperwall\Desktop\microsemilab\UCI_Demo2\component\Actel\DirectCore\CoreResetP\7.0.104\rtl\vlog\core\coreresetp.v":963:4:963:9|Sharing sequential element fpll_lock_q1.
+@W: CL190 :"C:\Users\Hiperwall\Desktop\microsemilab\UCI_Demo2\component\Actel\DirectCore\CoreResetP\7.0.104\rtl\vlog\core\coreresetp.v":1433:4:1433:9|Optimizing register bit EXT_RESET_OUT_int to a constant 0
+@W: CL169 :"C:\Users\Hiperwall\Desktop\microsemilab\UCI_Demo2\component\Actel\DirectCore\CoreResetP\7.0.104\rtl\vlog\core\coreresetp.v":1089:4:1089:9|Pruning register release_ext_reset 
+
+@W: CL169 :"C:\Users\Hiperwall\Desktop\microsemilab\UCI_Demo2\component\Actel\DirectCore\CoreResetP\7.0.104\rtl\vlog\core\coreresetp.v":1433:4:1433:9|Pruning register EXT_RESET_OUT_int 
+
+@W: CL169 :"C:\Users\Hiperwall\Desktop\microsemilab\UCI_Demo2\component\Actel\DirectCore\CoreResetP\7.0.104\rtl\vlog\core\coreresetp.v":1433:4:1433:9|Pruning register sm2_state[2:0] 
+
+@W: CL169 :"C:\Users\Hiperwall\Desktop\microsemilab\UCI_Demo2\component\Actel\DirectCore\CoreResetP\7.0.104\rtl\vlog\core\coreresetp.v":783:4:783:9|Pruning register sm2_areset_n_q1 
+
+@W: CL169 :"C:\Users\Hiperwall\Desktop\microsemilab\UCI_Demo2\component\Actel\DirectCore\CoreResetP\7.0.104\rtl\vlog\core\coreresetp.v":783:4:783:9|Pruning register sm2_areset_n_clk_base 
+
+@N: CG364 :"C:\Users\Hiperwall\Desktop\microsemilab\UCI_Demo2\component\Actel\SgCore\OSC\2.0.101\osc_comps.v":51:7:51:24|Synthesizing module RCOSC_25_50MHZ_FAB
+
+@N: CG364 :"C:\Users\Hiperwall\Desktop\microsemilab\UCI_Demo2\component\Actel\SgCore\OSC\2.0.101\osc_comps.v":11:7:11:20|Synthesizing module RCOSC_25_50MHZ
+
+@N: CG364 :"C:\Users\Hiperwall\Desktop\microsemilab\UCI_Demo2\component\work\M2S_MSS_sb\FABOSC_0\M2S_MSS_sb_FABOSC_0_OSC.v":5:7:5:29|Synthesizing module M2S_MSS_sb_FABOSC_0_OSC
+
+@N: CG364 :"C:\Microsemi\Libero_SoC_v11.7\Synplify\lib\generic\smartfusion2.v":286:7:286:11|Synthesizing module BIBUF
+
+@N: CG364 :"C:\Microsemi\Libero_SoC_v11.7\Synplify\lib\generic\smartfusion2.v":274:7:274:12|Synthesizing module OUTBUF
+
+@N: CG364 :"C:\Microsemi\Libero_SoC_v11.7\Synplify\lib\generic\smartfusion2.v":326:7:326:17|Synthesizing module OUTBUF_DIFF
+
+@N: CG364 :"C:\Microsemi\Libero_SoC_v11.7\Synplify\lib\generic\smartfusion2.v":338:7:338:16|Synthesizing module BIBUF_DIFF
+
+@N: CG364 :"C:\Microsemi\Libero_SoC_v11.7\Synplify\lib\generic\smartfusion2.v":268:7:268:11|Synthesizing module INBUF
+
+@N: CG364 :"C:\Microsemi\Libero_SoC_v11.7\Synplify\lib\generic\smartfusion2.v":280:7:280:13|Synthesizing module TRIBUFF
+
+@N: CG364 :"C:\Users\Hiperwall\Desktop\microsemilab\UCI_Demo2\component\work\M2S_MSS_sb_MSS\M2S_MSS_sb_MSS_syn.v":5:7:5:13|Synthesizing module MSS_075
+
+@N: CG364 :"C:\Users\Hiperwall\Desktop\microsemilab\UCI_Demo2\component\work\M2S_MSS_sb_MSS\M2S_MSS_sb_MSS.v":9:7:9:20|Synthesizing module M2S_MSS_sb_MSS
+
+@N: CG364 :"C:\Microsemi\Libero_SoC_v11.7\Synplify\lib\generic\smartfusion2.v":718:7:718:14|Synthesizing module SYSRESET
+
+@N: CG364 :"C:\Users\Hiperwall\Desktop\microsemilab\UCI_Demo2\component\work\M2S_MSS_sb\M2S_MSS_sb.v":9:7:9:16|Synthesizing module M2S_MSS_sb
+
+@N: CG364 :"C:\Microsemi\Libero_SoC_v11.7\Synplify\lib\generic\smartfusion2.v":320:7:320:16|Synthesizing module INBUF_DIFF
+
+@N: CG364 :"C:\Users\Hiperwall\Desktop\microsemilab\UCI_Demo2\component\work\M2S_MSS\SERDES_IF2_0\M2S_MSS_SERDES_IF2_0_SERDES_IF2_syn.v":5:7:5:18|Synthesizing module SERDESIF_075
+
+@N: CG364 :"C:\Users\Hiperwall\Desktop\microsemilab\UCI_Demo2\component\work\M2S_MSS\SERDES_IF2_0\M2S_MSS_SERDES_IF2_0_SERDES_IF2.v":5:7:5:37|Synthesizing module M2S_MSS_SERDES_IF2_0_SERDES_IF2
+
+@N: CG364 :"C:\Users\Hiperwall\Desktop\microsemilab\UCI_Demo2\component\work\M2S_MSS\M2S_MSS.v":9:7:9:13|Synthesizing module M2S_MSS
+
+@W: CL157 :"C:\Users\Hiperwall\Desktop\microsemilab\UCI_Demo2\component\work\M2S_MSS_sb\FABOSC_0\M2S_MSS_sb_FABOSC_0_OSC.v":17:7:17:20|*Output RCOSC_1MHZ_CCC has undriven bits -- simulation mismatch possible.
+@W: CL157 :"C:\Users\Hiperwall\Desktop\microsemilab\UCI_Demo2\component\work\M2S_MSS_sb\FABOSC_0\M2S_MSS_sb_FABOSC_0_OSC.v":18:7:18:20|*Output RCOSC_1MHZ_O2F has undriven bits -- simulation mismatch possible.
+@W: CL157 :"C:\Users\Hiperwall\Desktop\microsemilab\UCI_Demo2\component\work\M2S_MSS_sb\FABOSC_0\M2S_MSS_sb_FABOSC_0_OSC.v":19:7:19:16|*Output XTLOSC_CCC has undriven bits -- simulation mismatch possible.
+@W: CL157 :"C:\Users\Hiperwall\Desktop\microsemilab\UCI_Demo2\component\work\M2S_MSS_sb\FABOSC_0\M2S_MSS_sb_FABOSC_0_OSC.v":20:7:20:16|*Output XTLOSC_O2F has undriven bits -- simulation mismatch possible.
+@W: CL159 :"C:\Users\Hiperwall\Desktop\microsemilab\UCI_Demo2\component\work\M2S_MSS_sb\FABOSC_0\M2S_MSS_sb_FABOSC_0_OSC.v":14:7:14:9|Input XTL is unused
+@N: CL177 :"C:\Users\Hiperwall\Desktop\microsemilab\UCI_Demo2\component\Actel\DirectCore\CoreResetP\7.0.104\rtl\vlog\core\coreresetp.v":963:4:963:9|Sharing sequential element sdif1_spll_lock_q2.
+@N: CL177 :"C:\Users\Hiperwall\Desktop\microsemilab\UCI_Demo2\component\Actel\DirectCore\CoreResetP\7.0.104\rtl\vlog\core\coreresetp.v":963:4:963:9|Sharing sequential element sdif2_spll_lock_q2.
+@N: CL177 :"C:\Users\Hiperwall\Desktop\microsemilab\UCI_Demo2\component\Actel\DirectCore\CoreResetP\7.0.104\rtl\vlog\core\coreresetp.v":963:4:963:9|Sharing sequential element fpll_lock_q2.
+@N: CL201 :"C:\Users\Hiperwall\Desktop\microsemilab\UCI_Demo2\component\Actel\DirectCore\CoreResetP\7.0.104\rtl\vlog\core\coreresetp.v":1365:4:1365:9|Trying to extract state machine for register sdif3_state
+Extracted state machine for register sdif3_state
+State machine has 4 reachable states with original encodings of:
+   000
+   001
+   010
+   011
+@N: CL201 :"C:\Users\Hiperwall\Desktop\microsemilab\UCI_Demo2\component\Actel\DirectCore\CoreResetP\7.0.104\rtl\vlog\core\coreresetp.v":1300:4:1300:9|Trying to extract state machine for register sdif2_state
+Extracted state machine for register sdif2_state
+State machine has 4 reachable states with original encodings of:
+   000
+   001
+   010
+   011
+@N: CL201 :"C:\Users\Hiperwall\Desktop\microsemilab\UCI_Demo2\component\Actel\DirectCore\CoreResetP\7.0.104\rtl\vlog\core\coreresetp.v":1235:4:1235:9|Trying to extract state machine for register sdif1_state
+Extracted state machine for register sdif1_state
+State machine has 4 reachable states with original encodings of:
+   000
+   001
+   010
+   011
+@N: CL201 :"C:\Users\Hiperwall\Desktop\microsemilab\UCI_Demo2\component\Actel\DirectCore\CoreResetP\7.0.104\rtl\vlog\core\coreresetp.v":1170:4:1170:9|Trying to extract state machine for register sdif0_state
+Extracted state machine for register sdif0_state
+State machine has 4 reachable states with original encodings of:
+   000
+   001
+   010
+   011
+@N: CL201 :"C:\Users\Hiperwall\Desktop\microsemilab\UCI_Demo2\component\Actel\DirectCore\CoreResetP\7.0.104\rtl\vlog\core\coreresetp.v":1089:4:1089:9|Trying to extract state machine for register sm0_state
+Extracted state machine for register sm0_state
+State machine has 7 reachable states with original encodings of:
+   000
+   001
+   010
+   011
+   100
+   101
+   110
+@W: CL159 :"C:\Users\Hiperwall\Desktop\microsemilab\UCI_Demo2\component\Actel\DirectCore\CoreResetP\7.0.104\rtl\vlog\core\coreresetp.v":29:20:29:28|Input CLK_LTSSM is unused
+@W: CL159 :"C:\Users\Hiperwall\Desktop\microsemilab\UCI_Demo2\component\Actel\DirectCore\CoreResetP\7.0.104\rtl\vlog\core\coreresetp.v":56:20:56:28|Input FPLL_LOCK is unused
+@W: CL159 :"C:\Users\Hiperwall\Desktop\microsemilab\UCI_Demo2\component\Actel\DirectCore\CoreResetP\7.0.104\rtl\vlog\core\coreresetp.v":68:20:68:34|Input SDIF1_SPLL_LOCK is unused
+@W: CL159 :"C:\Users\Hiperwall\Desktop\microsemilab\UCI_Demo2\component\Actel\DirectCore\CoreResetP\7.0.104\rtl\vlog\core\coreresetp.v":72:20:72:34|Input SDIF2_SPLL_LOCK is unused
+@W: CL159 :"C:\Users\Hiperwall\Desktop\microsemilab\UCI_Demo2\component\Actel\DirectCore\CoreResetP\7.0.104\rtl\vlog\core\coreresetp.v":76:20:76:34|Input SDIF3_SPLL_LOCK is unused
+@W: CL159 :"C:\Users\Hiperwall\Desktop\microsemilab\UCI_Demo2\component\Actel\DirectCore\CoreResetP\7.0.104\rtl\vlog\core\coreresetp.v":90:20:90:29|Input SDIF0_PSEL is unused
+@W: CL159 :"C:\Users\Hiperwall\Desktop\microsemilab\UCI_Demo2\component\Actel\DirectCore\CoreResetP\7.0.104\rtl\vlog\core\coreresetp.v":91:20:91:31|Input SDIF0_PWRITE is unused
+@W: CL159 :"C:\Users\Hiperwall\Desktop\microsemilab\UCI_Demo2\component\Actel\DirectCore\CoreResetP\7.0.104\rtl\vlog\core\coreresetp.v":92:20:92:31|Input SDIF0_PRDATA is unused
+@W: CL159 :"C:\Users\Hiperwall\Desktop\microsemilab\UCI_Demo2\component\Actel\DirectCore\CoreResetP\7.0.104\rtl\vlog\core\coreresetp.v":93:20:93:29|Input SDIF1_PSEL is unused
+@W: CL159 :"C:\Users\Hiperwall\Desktop\microsemilab\UCI_Demo2\component\Actel\DirectCore\CoreResetP\7.0.104\rtl\vlog\core\coreresetp.v":94:20:94:31|Input SDIF1_PWRITE is unused
+@W: CL159 :"C:\Users\Hiperwall\Desktop\microsemilab\UCI_Demo2\component\Actel\DirectCore\CoreResetP\7.0.104\rtl\vlog\core\coreresetp.v":95:20:95:31|Input SDIF1_PRDATA is unused
+@W: CL159 :"C:\Users\Hiperwall\Desktop\microsemilab\UCI_Demo2\component\Actel\DirectCore\CoreResetP\7.0.104\rtl\vlog\core\coreresetp.v":96:20:96:29|Input SDIF2_PSEL is unused
+@W: CL159 :"C:\Users\Hiperwall\Desktop\microsemilab\UCI_Demo2\component\Actel\DirectCore\CoreResetP\7.0.104\rtl\vlog\core\coreresetp.v":97:20:97:31|Input SDIF2_PWRITE is unused
+@W: CL159 :"C:\Users\Hiperwall\Desktop\microsemilab\UCI_Demo2\component\Actel\DirectCore\CoreResetP\7.0.104\rtl\vlog\core\coreresetp.v":98:20:98:31|Input SDIF2_PRDATA is unused
+@W: CL159 :"C:\Users\Hiperwall\Desktop\microsemilab\UCI_Demo2\component\Actel\DirectCore\CoreResetP\7.0.104\rtl\vlog\core\coreresetp.v":99:20:99:29|Input SDIF3_PSEL is unused
+@W: CL159 :"C:\Users\Hiperwall\Desktop\microsemilab\UCI_Demo2\component\Actel\DirectCore\CoreResetP\7.0.104\rtl\vlog\core\coreresetp.v":100:20:100:31|Input SDIF3_PWRITE is unused
+@W: CL159 :"C:\Users\Hiperwall\Desktop\microsemilab\UCI_Demo2\component\Actel\DirectCore\CoreResetP\7.0.104\rtl\vlog\core\coreresetp.v":101:20:101:31|Input SDIF3_PRDATA is unused
+@N: CL201 :"C:\Users\Hiperwall\Desktop\microsemilab\UCI_Demo2\component\Actel\DirectCore\CoreConfigP\7.0.105\rtl\vlog\core\coreconfigp.v":447:4:447:9|Trying to extract state machine for register state
+Extracted state machine for register state
+State machine has 3 reachable states with original encodings of:
+   00
+   01
+   10
+@W: CL159 :"C:\Users\Hiperwall\Desktop\microsemilab\UCI_Demo2\component\Actel\DirectCore\CoreConfigP\7.0.105\rtl\vlog\core\coreconfigp.v":71:24:71:35|Input SDIF1_PREADY is unused
+@W: CL159 :"C:\Users\Hiperwall\Desktop\microsemilab\UCI_Demo2\component\Actel\DirectCore\CoreConfigP\7.0.105\rtl\vlog\core\coreconfigp.v":72:24:72:36|Input SDIF1_PSLVERR is unused
+
+At c_ver Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 76MB peak: 87MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+# Thu Feb 02 00:52:01 2017
+
+###########################################################]
+Synopsys Netlist Linker, version comp201503sp1p1, Build 240R, built Dec  1 2015
+@N|Running in 64-bit mode
+
+At syn_nfilter Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 72MB peak: 72MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+# Thu Feb 02 00:52:02 2017
+
+###########################################################]
+@END
+
+At c_hdl Exit (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:00s; Memory used current: 3MB peak: 4MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+# Thu Feb 02 00:52:02 2017
+
+###########################################################]

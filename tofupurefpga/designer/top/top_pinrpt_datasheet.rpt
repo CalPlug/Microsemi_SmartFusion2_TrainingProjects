@@ -1,0 +1,15 @@
+*****************************************************************
+Pin Report - Date: Tue Oct 31 18:40:48 2017 Pinchecksum: NOT-AVAILABLE
+Product: Designer
+Release: Libero SoC v11.8 SP1
+Version: 11.8.1.12
+Design Name: top
+Family: SmartFusion2
+Die: M2S010
+Package: 144 TQ
+*****************************************************************
+
+Port |Pin |Fixed |Function   |Bank     |I/O Std   |Direction                      |I/O state in Flash*Freeze mode |Resistor Pull                      |I/O available in Flash*Freeze mode |Schmitt Trigger |Odt_Static    |Odt Imp (Ohm)  |Low Power Exit |Input Delay |Slew         |Pre-Emphasis      |Output Drive (mA) |Output Load (pF) |
+-----|----|------|-----------|---------|----------|-------------------------------|-------------------------------|-----------------------------------|-----------------------------------|----------------|--------------|---------------|---------------|------------|-------------|------------------|------------------|-----------------|
+led1  117  Yes    DDRIO37NB0  Bank0     LVCMOS25   Output                          TRISTATE                        None                                No                                  ---              ---            ---             ---             ---          SLOW          ---                4                  5                 
+led2  118  Yes    DDRIO37PB0  Bank0     LVCMOS25   Output                          TRISTATE                        None                                No                                  ---              ---            ---             ---             ---          SLOW          ---                4                  5                 

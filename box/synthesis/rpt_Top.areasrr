@@ -1,0 +1,106 @@
+#### START OF AREA REPORT #####[
+
+Part:			M2S090FBGA484-1 (Microsemi)
+
+-------------------------------------------------------------------
+########   Utilization report for  Top level view:   Top   ########
+===================================================================
+
+SEQUENTIAL ELEMENTS
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+SLE      23                 100 %                
+=================================================
+Total SEQUENTIAL ELEMENTS in the block Top:	23 (28.05 % Utilization)
+
+
+COMBINATIONAL LOGIC
+Name          Total elements     Utilization     Notes
+------------------------------------------------------
+CFG           3                  100 %                
+ARI1          36                 100 %                
+BLACK BOX     6                  100 %                
+======================================================
+Total COMBINATIONAL LOGIC in the block Top:	45 (54.88 % Utilization)
+
+
+GLOBAL BUFFERS
+Name       Total elements     Utilization     Notes
+---------------------------------------------------
+GLOBAL     3                  100 %                
+===================================================
+Total GLOBAL BUFFERS in the block Top:	3 (3.66 % Utilization)
+
+
+IO PADS
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+IO       3                  100 %                
+=================================================
+Total IO PADS in the block Top:	3 (3.66 % Utilization)
+
+--------------------------------------------------------------
+########   Utilization report for  cell:   LED_ctrl   ########
+Instance path:   Top.LED_ctrl                                 
+==============================================================
+
+SEQUENTIAL ELEMENTS
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+SLE      23                 100 %                
+=================================================
+Total SEQUENTIAL ELEMENTS in the block Top.LED_ctrl:	23 (28.05 % Utilization)
+
+
+COMBINATIONAL LOGIC
+Name          Total elements     Utilization     Notes
+------------------------------------------------------
+CFG           3                  100 %                
+ARI1          36                 100 %                
+BLACK BOX     1                  16.7 %               
+======================================================
+Total COMBINATIONAL LOGIC in the block Top.LED_ctrl:	40 (48.78 % Utilization)
+
+
+GLOBAL BUFFERS
+Name       Total elements     Utilization     Notes
+---------------------------------------------------
+GLOBAL     1                  33.3 %               
+===================================================
+Total GLOBAL BUFFERS in the block Top.LED_ctrl:	1 (1.22 % Utilization)
+
+---------------------------------------------------------------------
+########   Utilization report for  cell:   Top_FCCC_0_FCCC   ########
+Instance path:   Top.Top_FCCC_0_FCCC                                 
+=====================================================================
+
+COMBINATIONAL LOGIC
+Name          Total elements     Utilization     Notes
+------------------------------------------------------
+BLACK BOX     2                  33.3 %               
+======================================================
+Total COMBINATIONAL LOGIC in the block Top.Top_FCCC_0_FCCC:	2 (2.44 % Utilization)
+
+
+GLOBAL BUFFERS
+Name       Total elements     Utilization     Notes
+---------------------------------------------------
+GLOBAL     1                  33.3 %               
+===================================================
+Total GLOBAL BUFFERS in the block Top.Top_FCCC_0_FCCC:	1 (1.22 % Utilization)
+
+-------------------------------------------------------------------
+########   Utilization report for  cell:   Top_OSC_0_OSC   ########
+Instance path:   Top.Top_OSC_0_OSC                                 
+===================================================================
+
+COMBINATIONAL LOGIC
+Name          Total elements     Utilization     Notes
+------------------------------------------------------
+BLACK BOX     1                  16.7 %               
+======================================================
+Total COMBINATIONAL LOGIC in the block Top.Top_OSC_0_OSC:	1 (1.22 % Utilization)
+
+
+##### END OF AREA REPORT #####]
+

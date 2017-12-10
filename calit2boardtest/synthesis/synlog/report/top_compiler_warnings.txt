@@ -1,0 +1,5 @@
+@W: CG296 :"C:\Users\Hiperwall\Desktop\microsemilab\calit2boardtest\hdl\top.v":32:9:32:27|Incomplete sensitivity list; assuming completeness. Make sure all referenced variables in message CG290 are included in the sensitivity list.
+@W: CG290 :"C:\Users\Hiperwall\Desktop\microsemilab\calit2boardtest\hdl\top.v":33:8:33:11|Referenced variable led1 is not in sensitivity list.
+@W: CL169 :"C:\Users\Hiperwall\Desktop\microsemilab\calit2boardtest\hdl\top.v":28:0:28:5|Pruning unused register counter[31:0]. Make sure that there are no unused intermediate registers.
+@W: CL179 :"C:\Users\Hiperwall\Desktop\microsemilab\calit2boardtest\hdl\top.v":33:4:33:5|Found combinational loop at led1[0]
+
